@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/schema/modpack.schema.json",
+  "title": "Modpack de Mochos Studio",
+  "type": "object",
+  "required": ["id", "name", "summary", "version", "minecraft", "loader", "source"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "Identificador único. Debe coincidir con el nombre de la carpeta." },
+    "name": { "type": "string" },
+    "summary": { "type": "string", "description": "Descripción corta (una o dos frases)." },
+    "description": { "type": "string", "description": "Ruta a un .md dentro de la carpeta o texto markdown directo." },
+    "changelog": { "type": "string", "description": "Ruta a un .md con el historial de cambios." },
+    "version": { "type": "string", "description": "Versión del modpack. Cambiarla hace que el launcher muestre 'Actualizar'." },
+    "minecraft": { "type": "string" },
+    "loader": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "enum": ["vanilla", "fabric", "quilt", "forge", "neoforge"] },
+        "version": { "type": "string" }
+      }
+    },
+    "icon": { "type": "string" },
+    "banner": { "type": "string" },
+    "gallery": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "featured": { "type": "boolean" },
+    "hidden": { "type": "boolean", "description": "Oculta el modpack del launcher sin borrarlo." },
+    "authors": { "type": "array", "items": { "type": "string" } },
+    "recommendedRamMb": { "type": "integer", "minimum": 1024 },
+    "source": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["type", "url"],
+          "properties": {
+            "type": { "const": "mrpack" },
+            "url": { "type": "string", "description": "URL absoluta o ruta relativa a la carpeta del modpack." },
+            "sha1": { "type": "string" },
+            "size": { "type": "integer" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "url"],
+          "properties": {
+            "type": { "const": "curseforge-zip" },
+            "url": { "type": "string" },
+            "sha1": { "type": "string" },
+            "size": { "type": "integer" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "project"],
+          "properties": {
+            "type": { "const": "modrinth" },
+            "project": { "type": "string", "description": "Slug o ID del proyecto en Modrinth." },
+            "version": { "type": "string", "description": "ID de versión concreta. Si se omite se usa la última." }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "projectId"],
+          "properties": {
+            "type": { "const": "curseforge" },
+            "projectId": { "type": "integer" },
+            "fileId": { "type": "integer", "description": "Si se omite se usa el último archivo." }
+          }
+        }
+      ]
+    },
+    "server": {
+      "type": "object",
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "address": { "type": "string", "description": "Servidor oficial (opcional) para mostrar en el launcher." },
+        "recommendedRamMb": { "type": "integer" },
+        "excludeMods": { "type": "array", "items": { "type": "string" }, "description": "Nombres de archivo (o prefijos) de mods que no deben instalarse en el servidor." }
+      }
+    },
+    "links": { "type": "object", "additionalProperties": { "type": "string" } },
+    "updatedAt": { "type": "string" }
+  }
+}

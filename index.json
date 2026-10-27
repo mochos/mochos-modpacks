@@ -1,0 +1,49 @@
+{
+  "formatVersion": 1,
+  "modpacks": [
+    {
+      "id": "vanilla-mochos",
+      "name": "Vanilla Mochos",
+      "summary": "Minecraft como lo conoces, pero más bonito, más fluido y con chat de voz para jugar entre amigos.",
+      "description": "**Vanilla Mochos** es el Minecraft de siempre con los retoques que usamos en Mochos Studio para jugar entre amigos: más FPS, mejores animaciones y algunos detalles de calidad de vida que no rompen la experiencia vanilla.\n\n### ¿Qué incluye?\n\n- **Rendimiento:** Sodium, Lithium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y más Culling para que el juego vaya fluido incluso en equipos modestos.\n- **Visuales:** Iris + shaders Complementary Reimagined, Fresh Animations, texturas conectadas (Continuity), capas de skin en 3D y hojas que caen.\n- **Chat de voz por proximidad** con Simple Voice Chat.\n- **Mapas:** minimapa y mapa del mundo de Xaero.\n- **Calidad de vida:** Zoomify, Freecam, cajas de shulker fáciles, notificaciones al recoger objetos, cosecha con clic derecho, estadísticas mejoradas y mucho más.\n- **Construcción:** Litematica para quienes quieran planificar sus construcciones.\n\n### Requisitos recomendados\n\n- 4 GB de RAM asignados (el launcher lo configura solo).\n- Los shaders son opcionales: actívalos o desactívalos desde *Opciones → Calidad de vídeo → Shaders*.\n\n¡Nos vemos en el servidor! 🦉\n",
+      "changelog": "## 1.5\n\n- Actualización a Minecraft 1.21.4 con Fabric 0.16.10.\n- 73 mods, 18 paquetes de recursos y shaders Complementary Reimagined.\n",
+      "version": "1.5",
+      "minecraft": "1.21.4",
+      "loader": {
+        "type": "fabric",
+        "version": "0.16.10"
+      },
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/vanilla-mochos/icon.png",
+      "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/vanilla-mochos/images/banner.png",
+      "gallery": [],
+      "tags": [
+        "Survival",
+        "Optimizado",
+        "Shaders",
+        "Chat de voz"
+      ],
+      "featured": true,
+      "authors": [
+        "Mochos Studio"
+      ],
+      "recommendedRamMb": 4096,
+      "source": {
+        "type": "mrpack",
+        "url": "https://github.com/mochos/mochos-modpacks/releases/download/vanilla-mochos-1.5/Vanilla-Mochos-1.21.4-v1.5.mrpack",
+        "sha1": "7f482248e95e1e28c86af027df06f191449fee88",
+        "size": 1624387
+      },
+      "server": {
+        "enabled": true,
+        "address": "mc.mochos.xyz",
+        "recommendedRamMb": 4096,
+        "excludeMods": []
+      },
+      "links": {
+        "website": "https://mochos.xyz",
+        "discord": "https://discord.mochos.xyz"
+      },
+      "updatedAt": "2026-10-27"
+    }
+  ]
+}

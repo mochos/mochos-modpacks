@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/modpack.schema.json",
+  "id": "vanilla-mochos",
+  "name": "Vanilla Mochos",
+  "summary": "Minecraft como lo conoces, pero más bonito, más fluido y con chat de voz para jugar entre amigos.",
+  "description": "description.md",
+  "changelog": "CHANGELOG.md",
+  "version": "1.5",
+  "minecraft": "1.21.4",
+  "loader": { "type": "fabric", "version": "0.16.10" },
+  "icon": "icon.png",
+  "banner": "images/banner.png",
+  "gallery": [],
+  "tags": ["Survival", "Optimizado", "Shaders", "Chat de voz"],
+  "featured": true,
+  "authors": ["Mochos Studio"],
+  "recommendedRamMb": 4096,
+  "source": {
+    "type": "mrpack",
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/vanilla-mochos-1.5/Vanilla-Mochos-1.21.4-v1.5.mrpack",
+    "sha1": "7f482248e95e1e28c86af027df06f191449fee88",
+    "size": 1624387
+  },
+  "server": {
+    "enabled": true,
+    "address": "mc.mochos.xyz",
+    "recommendedRamMb": 4096,
+    "excludeMods": []
+  },
+  "links": {
+    "website": "https://mochos.xyz",
+    "discord": "https://discord.mochos.xyz"
+  },
+  "updatedAt": "2026-10-27"
+}

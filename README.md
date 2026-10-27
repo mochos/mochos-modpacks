@@ -1,0 +1,95 @@
+# Mochos Modpacks
+
+Repositorio público con los modpacks oficiales de **Mochos Studio** que aparecen en el [Mochos Launcher](https://mochos.xyz).
+El launcher lee el archivo [`index.json`](index.json), que se genera automáticamente a partir de la carpeta `modpacks/`.
+
+## Estructura
+
+```
+mochos-modpacks/
+├── index.json                  ← generado (no editar a mano)
+├── schema/modpack.schema.json  ← esquema de validación de modpack.json
+├── scripts/build-index.mjs     ← genera y valida index.json
+└── modpacks/
+    └── vanilla-mochos/         ← una carpeta por modpack (el nombre = id)
+        ├── modpack.json        ← metadatos (obligatorio)
+        ├── description.md      ← descripción larga en markdown
+        ├── CHANGELOG.md        ← historial de cambios
+        ├── icon.png            ← icono cuadrado (recomendado 256×256)
+        └── images/
+            ├── banner.png      ← imagen de cabecera (recomendado 1600×600)
+            └── captura-1.png   ← capturas para la galería
+```
+
+> Los archivos pesados (`.mrpack` / `.zip`) **no se suben al repositorio**: se publican como *assets* de una
+> [Release de GitHub](https://github.com/mochos/mochos-modpacks/releases) (hasta 2 GB por archivo, gratis).
+> Así el repositorio se mantiene ligero y cada versión queda archivada.
+
+## `modpack.json`
+
+```jsonc
+{
+  "$schema": "../../schema/modpack.schema.json",
+  "id": "vanilla-mochos",                 // = nombre de la carpeta
+  "name": "Vanilla Mochos",
+  "summary": "Frase corta para las tarjetas.",
+  "description": "description.md",        // archivo .md o texto directo
+  "changelog": "CHANGELOG.md",
+  "version": "1.5",                       // cambiarla → el launcher muestra «Actualizar»
+  "minecraft": "1.21.4",
+  "loader": { "type": "fabric", "version": "0.16.10" },  // vanilla | fabric | quilt | forge | neoforge
+  "icon": "icon.png",
+  "banner": "images/banner.png",
+  "gallery": ["images/captura-1.png"],
+  "tags": ["Survival", "Optimizado"],
+  "featured": true,                       // aparece destacado en la portada
+  "hidden": false,                        // true = oculto en el launcher
+  "recommendedRamMb": 4096,
+  "source": { ... },                      // ver abajo
+  "server": {
+    "enabled": true,                      // permite «Crear servidor» desde el launcher
+    "address": "mc.mochos.xyz",           // servidor oficial (opcional)
+    "recommendedRamMb": 4096,
+    "excludeMods": ["iris-", "sodium-"]   // mods que NO se instalan en el servidor (prefijos)
+  },
+  "links": { "website": "https://mochos.xyz", "discord": "https://discord.mochos.xyz" }
+}
+```
+
+### Tipos de `source`
+
+| Tipo | Ejemplo | Notas |
+|------|---------|-------|
+| `mrpack` | `{ "type": "mrpack", "url": "https://github.com/mochos/mochos-modpacks/releases/download/vanilla-mochos-1.5/Vanilla-Mochos-1.21.4-v1.5.mrpack", "sha1": "…" }` | Exportado desde Modrinth App, Prism, etc. **Recomendado.** |
+| `curseforge-zip` | `{ "type": "curseforge-zip", "url": "https://github.com/…/pack.zip" }` | Exportado desde CurseForge. Requiere que el launcher tenga API key de CurseForge. |
+| `modrinth` | `{ "type": "modrinth", "project": "fabulously-optimized", "version": "abc123" }` | Enlace a un modpack publicado en Modrinth. Sin `version` = siempre la última. |
+| `curseforge` | `{ "type": "curseforge", "projectId": 123456, "fileId": 789012 }` | Enlace a un modpack de CurseForge. Sin `fileId` = siempre el último. |
+
+`url` puede ser absoluta o relativa a la carpeta del modpack (p. ej. `"packs/mi-pack.mrpack"`), aunque se recomienda usar Releases.
+
+## Publicar una nueva versión de un modpack
+
+1. Exporta el modpack como `.mrpack` (Modrinth App / Prism Launcher → *Exportar → Modrinth*).
+2. Crea una release con el archivo:
+   ```bash
+   gh release create vanilla-mochos-1.6 Vanilla-Mochos-1.21.4-v1.6.mrpack \
+     --repo mochos/mochos-modpacks --title "Vanilla Mochos 1.6" --notes "Cambios…"
+   ```
+3. En `modpacks/vanilla-mochos/modpack.json` actualiza `version`, `source.url`, `source.sha1`
+   (`sha1sum archivo.mrpack`) y `source.size`. Añade los cambios a `CHANGELOG.md`.
+4. Haz commit y push a `main`. La GitHub Action regenera `index.json` y en unos minutos
+   todos los launchers mostrarán **Actualizar** en ese modpack.
+
+### Cómo actualiza el launcher
+
+Al actualizar, el launcher **solo toca mods, resource packs y shaders** que vienen del modpack:
+borra los que ya no están, descarga los nuevos y reemplaza los que cambiaron.
+Las configuraciones (`config/`, `options.txt`, `servers.dat`, mundos, capturas…) del jugador
+**no se sobrescriben**: los archivos de `overrides/` fuera de `mods/`, `resourcepacks/` y `shaderpacks/`
+solo se copian si el jugador todavía no los tiene.
+
+## Añadir un modpack nuevo
+
+1. Crea `modpacks/<id>/` con `modpack.json`, `icon.png` y (opcional) `description.md`, `images/`.
+2. Ejecuta `node scripts/build-index.mjs` para validar (la Action lo hará igualmente).
+3. Commit + push.
