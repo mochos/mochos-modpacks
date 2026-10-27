@@ -12,7 +12,7 @@
   "banner": "images/banner.png",
   "gallery": [],
   "tags": ["Survival", "Optimizado", "Shaders", "Chat de voz"],
-  "featured": true,
+  "featured": false,
   "authors": ["Mochos Studio"],
   "recommendedRamMb": 4096,
   "source": {
