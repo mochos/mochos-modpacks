@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schema/modpack.schema.json",
+  "id": "la-linea-rota",
+  "name": "La Línea Rota",
+  "summary": "Survival casi vanilla con Create, aviones y dirigibles, mundos de Terralith y shaders, para jugar entre amigos.",
+  "description": "description.md",
+  "changelog": "CHANGELOG.md",
+  "version": "1.11.1",
+  "minecraft": "1.21.1",
+  "loader": { "type": "neoforge", "version": "21.1.248" },
+  "icon": "icon.png",
+  "banner": "images/banner.png",
+  "gallery": [],
+  "tags": ["Survival", "Create", "Aviación", "Shaders", "Chat de voz"],
+  "featured": false,
+  "authors": ["Mochos Studio"],
+  "recommendedRamMb": 8192,
+  "source": {
+    "type": "mrpack",
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/la-linea-rota-1.11.1/La-Linea-Rota-1.21.1-v1.11.1.mrpack",
+    "sha1": "4cec87646c76321562afb5fcab0ff47596389cbf",
+    "size": 13499812
+  },
+  "server": {
+    "enabled": true,
+    "recommendedRamMb": 8192,
+    "excludeMods": []
+  },
+  "links": {
+    "website": "https://mochos.xyz",
+    "discord": "https://discord.mochos.xyz"
+  },
+  "updatedAt": "2026-10-27"
+}
