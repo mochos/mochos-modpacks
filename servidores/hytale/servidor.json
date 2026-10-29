@@ -5,6 +5,7 @@
   "summary": "El servidor de Hytale de la comunidad Mochos.",
   "game": "hytale",
   "address": "hytale.mochos.xyz",
+  "icon": "icon.png",
   "query": "hyquery",
   "links": {
     "discord": "https://discord.mochos.xyz"
