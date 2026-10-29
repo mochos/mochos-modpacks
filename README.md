@@ -3,6 +3,9 @@
 Repositorio público con los modpacks oficiales de **Mochos Studio** que aparecen en el [Mochos Launcher](https://mochos.xyz).
 El launcher lee el archivo [`index.json`](index.json), que se genera automáticamente a partir de la carpeta `modpacks/`.
 
+> **Guías paso a paso:** [cargar o actualizar un modpack](modpacks/README.md) ·
+> [publicar un servidor de la comunidad](servidores/README.md).
+
 ## Estructura
 
 ```
