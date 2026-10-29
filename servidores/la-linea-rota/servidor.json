@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schema/servidor.schema.json",
+  "id": "la-linea-rota",
+  "name": "La Línea Rota",
+  "summary": "Survival entre amigos con Create, aviones y dirigibles. Se entra con el modpack La Línea Rota.",
+  "game": "minecraft",
+  "address": "linearota.mochos.xyz",
+  "modpack": "la-linea-rota",
+  "tags": ["Survival", "Create", "Chat de voz"],
+  "featured": true,
+  "links": {
+    "discord": "https://discord.mochos.xyz"
+  }
+}

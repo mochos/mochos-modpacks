@@ -9,7 +9,11 @@ El launcher lee el archivo [`index.json`](index.json), que se genera automática
 mochos-modpacks/
 ├── index.json                  ← generado (no editar a mano)
 ├── schema/modpack.schema.json  ← esquema de validación de modpack.json
+├── schema/servidor.schema.json ← esquema de validación de servidor.json
 ├── scripts/build-index.mjs     ← genera y valida index.json
+├── servidores/                 ← servidores de la comunidad (ver más abajo)
+│   └── la-linea-rota/
+│       └── servidor.json
 └── modpacks/
     └── vanilla-mochos/         ← una carpeta por modpack (el nombre = id)
         ├── modpack.json        ← metadatos (obligatorio)
@@ -93,3 +97,41 @@ solo se copian si el jugador todavía no los tiene.
 1. Crea `modpacks/<id>/` con `modpack.json`, `icon.png` y (opcional) `description.md`, `images/`.
 2. Ejecuta `node scripts/build-index.mjs` para validar (la Action lo hará igualmente).
 3. Commit + push.
+
+## Servidores de la comunidad
+
+La pestaña **Servidores → Comunidad** del launcher muestra los servidores de la carpeta `servidores/`
+(una carpeta por servidor, el nombre = id). Para cada uno enseña si está en línea, los jugadores
+conectados, la IP para copiar y un botón para jugar.
+
+```jsonc
+{
+  "$schema": "../../schema/servidor.schema.json",
+  "id": "la-linea-rota",                  // = nombre de la carpeta
+  "name": "La Línea Rota",
+  "summary": "Frase corta para la tarjeta.",
+  "game": "minecraft",                    // minecraft | hytale
+  "address": "linearota.mochos.xyz",      // se puede añadir el puerto: "mc.mochos.xyz:25566"
+  "modpack": "la-linea-rota",             // opcional: modpack de Mochos necesario para entrar
+  "query": "minecraft",                   // opcional: minecraft | hyquery | none (ver abajo)
+  "queryPort": 25565,                     // opcional: puerto de la consulta si es otro
+  "icon": "icon.png",                     // opcional: si falta se usa el del modpack
+  "banner": "banner.png",                 // opcional: si falta se usa el del modpack
+  "tags": ["Survival"],
+  "featured": true,                       // aparece primero
+  "hidden": false,                        // true = oculto en el launcher
+  "links": { "discord": "https://discord.mochos.xyz" }
+}
+```
+
+- **Minecraft**: el estado y los jugadores se consultan con el ping estándar de Minecraft (el mismo de
+  la lista de servidores del juego). Si el servidor tiene `modpack`, el botón **Jugar** abre ese modpack
+  y entra directamente al servidor; si el jugador no lo tiene, el botón lleva a instalarlo.
+- **Hytale**: el launcher detecta si el *Hytale Launcher* está instalado; si lo está, **Jugar** lo abre
+  y copia la IP; si no, **Descargar** lleva a hytale.com. Hytale no tiene una consulta de estado
+  propia: el servidor necesita el plugin [HyQuery](https://github.com/Hyvote/hyquery) (UDP en el mismo
+  puerto del juego) y `"query": "hyquery"`. Sin plugin (`"query": "none"`, el valor por defecto) no
+  se muestran el estado ni los jugadores. Para ver los nombres de los conectados, activa
+  `showPlayerList` en `mods/HyQuery/config.json`.
+
+Después de añadir o cambiar un servidor, ejecuta `node scripts/build-index.mjs` (o deja que lo haga la Action).

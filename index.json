@@ -239,5 +239,38 @@
       },
       "updatedAt": "2026-10-27"
     }
+  ],
+  "servers": [
+    {
+      "id": "la-linea-rota",
+      "name": "La Línea Rota",
+      "summary": "Survival entre amigos con Create, aviones y dirigibles. Se entra con el modpack La Línea Rota.",
+      "game": "minecraft",
+      "address": "linearota.mochos.xyz",
+      "modpack": "la-linea-rota",
+      "tags": [
+        "Survival",
+        "Create",
+        "Chat de voz"
+      ],
+      "featured": true,
+      "links": {
+        "discord": "https://discord.mochos.xyz"
+      },
+      "query": "minecraft",
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/la-linea-rota/icon.png",
+      "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/la-linea-rota/images/banner.png"
+    },
+    {
+      "id": "hytale",
+      "name": "Mochos Hytale",
+      "summary": "El servidor de Hytale de la comunidad Mochos.",
+      "game": "hytale",
+      "address": "hytale.mochos.xyz",
+      "query": "hyquery",
+      "links": {
+        "discord": "https://discord.mochos.xyz"
+      }
+    }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/servidor.schema.json",
+  "id": "hytale",
+  "name": "Mochos Hytale",
+  "summary": "El servidor de Hytale de la comunidad Mochos.",
+  "game": "hytale",
+  "address": "hytale.mochos.xyz",
+  "query": "hyquery",
+  "links": {
+    "discord": "https://discord.mochos.xyz"
+  }
+}

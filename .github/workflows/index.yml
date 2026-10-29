@@ -3,9 +3,9 @@ name: Generar índice
 on:
   push:
     branches: [main]
-    paths: ["modpacks/**", "scripts/**"]
+    paths: ["modpacks/**", "servidores/**", "scripts/**"]
   pull_request:
-    paths: ["modpacks/**", "scripts/**"]
+    paths: ["modpacks/**", "servidores/**", "scripts/**"]
   workflow_dispatch:
 
 permissions:

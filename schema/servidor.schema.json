@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/schema/servidor.schema.json",
+  "title": "Servidor de la comunidad Mochos",
+  "type": "object",
+  "required": ["id", "name", "game", "address"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "Identificador único. Debe coincidir con el nombre de la carpeta." },
+    "name": { "type": "string" },
+    "summary": { "type": "string", "description": "Descripción corta (una o dos frases)." },
+    "game": { "enum": ["minecraft", "hytale"], "description": "Juego del servidor." },
+    "address": { "type": "string", "description": "IP o dominio que se copia para entrar. Puede llevar puerto (\"mc.mochos.xyz:25566\")." },
+    "modpack": { "type": "string", "description": "id del modpack de Mochos necesario para entrar (opcional, solo Minecraft)." },
+    "query": {
+      "enum": ["minecraft", "hyquery", "none"],
+      "description": "Cómo consulta el launcher el estado y los jugadores conectados: \"minecraft\" (ping de la lista de servidores), \"hyquery\" (plugin HyQuery de Hytale) o \"none\". Por defecto \"minecraft\" en Minecraft y \"none\" en Hytale."
+    },
+    "queryPort": { "type": "integer", "minimum": 1, "maximum": 65535, "description": "Puerto de la consulta si no es el de la dirección." },
+    "icon": { "type": "string", "description": "Icono cuadrado. Si se omite se usa el del modpack." },
+    "banner": { "type": "string", "description": "Imagen de cabecera. Si se omite se usa la del modpack." },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "featured": { "type": "boolean", "description": "Aparece primero en la lista." },
+    "hidden": { "type": "boolean", "description": "Oculta el servidor del launcher sin borrarlo." },
+    "links": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "description": "Enlaces (website, discord, mapa…)."
+    }
+  },
+  "additionalProperties": false
+}

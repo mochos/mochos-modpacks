@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Genera index.json a partir de modpacks/*/modpack.json.
+// Genera index.json a partir de modpacks/*/modpack.json y servidores/*/servidor.json.
 // Uso: node scripts/build-index.mjs [--check]
 //   --check  falla si index.json no está actualizado (útil en CI).
 import { readFileSync, writeFileSync, readdirSync, existsSync, statSync } from "node:fs";
@@ -12,15 +12,17 @@ const BRANCH = process.env.MODPACKS_BRANCH ?? "main";
 const RAW = `https://raw.githubusercontent.com/${REPO}/${BRANCH}`;
 const LOADERS = ["vanilla", "fabric", "quilt", "forge", "neoforge"];
 const SOURCES = ["mrpack", "curseforge-zip", "modrinth", "curseforge"];
+const GAMES = ["minecraft", "hytale"];
+const QUERIES = ["minecraft", "hyquery", "none"];
 
 const errors = [];
 const isUrl = (s) => /^https?:\/\//.test(s);
 
-function asset(dir, id, value, field) {
+function asset(dir, id, value, field, folder = "modpacks") {
   if (!value) return undefined;
   if (isUrl(value)) return value;
   if (!existsSync(join(dir, value))) errors.push(`${id}: ${field} "${value}" no existe`);
-  return `${RAW}/modpacks/${id}/${value.split("/").map(encodeURIComponent).join("/")}`;
+  return `${RAW}/${folder}/${id}/${value.split("/").map(encodeURIComponent).join("/")}`;
 }
 
 function markdown(dir, id, value, field) {
@@ -28,7 +30,8 @@ function markdown(dir, id, value, field) {
   if (value.endsWith(".md")) {
     const p = join(dir, value);
     if (!existsSync(p)) { errors.push(`${id}: ${field} "${value}" no existe`); return undefined; }
-    return readFileSync(p, "utf8");
+    // Saltos de línea de Unix: el índice sale igual en Windows (autocrlf) que en la Action.
+    return readFileSync(p, "utf8").replace(/\r\n/g, "\n");
   }
   return value;
 }
@@ -68,13 +71,46 @@ for (const id of readdirSync(packsDir).sort()) {
   });
 }
 
+// Servidores de la comunidad (pestaña «Comunidad» del launcher).
+const serversDir = join(ROOT, "servidores");
+const servers = [];
+for (const id of existsSync(serversDir) ? readdirSync(serversDir).sort() : []) {
+  const dir = join(serversDir, id);
+  if (!statSync(dir).isDirectory()) continue;
+  const file = join(dir, "servidor.json");
+  if (!existsSync(file)) { errors.push(`servidores/${id}: falta servidor.json`); continue; }
+  let s;
+  try { s = JSON.parse(readFileSync(file, "utf8")); }
+  catch (e) { errors.push(`servidores/${id}: JSON inválido (${e.message})`); continue; }
+
+  for (const k of ["id", "name", "game", "address"]) {
+    if (s[k] === undefined) errors.push(`servidores/${id}: falta el campo "${k}"`);
+  }
+  if (s.id !== id) errors.push(`servidores/${id}: "id" (${s.id}) debe coincidir con el nombre de la carpeta`);
+  if (s.game && !GAMES.includes(s.game)) errors.push(`servidores/${id}: game inválido "${s.game}"`);
+  if (s.query && !QUERIES.includes(s.query)) errors.push(`servidores/${id}: query inválido "${s.query}"`);
+  const pack = s.modpack ? modpacks.find((m) => m.id === s.modpack) : undefined;
+  if (s.modpack && !pack) errors.push(`servidores/${id}: el modpack "${s.modpack}" no existe (o está oculto)`);
+  if (s.hidden) continue;
+
+  const { $schema, hidden, ...rest } = s;
+  servers.push({
+    ...rest,
+    summary: s.summary ?? "",
+    query: s.query ?? (s.game === "minecraft" ? "minecraft" : "none"),
+    icon: asset(dir, id, s.icon, "icon", "servidores") ?? pack?.icon,
+    banner: asset(dir, id, s.banner, "banner", "servidores") ?? pack?.banner,
+  });
+}
+
 if (errors.length) {
   console.error("Errores:\n - " + errors.join("\n - "));
   process.exit(1);
 }
 
 modpacks.sort((a, b) => Number(!!b.featured) - Number(!!a.featured) || a.name.localeCompare(b.name));
-const index = { formatVersion: 1, modpacks };
+servers.sort((a, b) => Number(!!b.featured) - Number(!!a.featured) || a.name.localeCompare(b.name));
+const index = { formatVersion: 1, modpacks, servers };
 const out = JSON.stringify(index, null, 2) + "\n";
 const target = join(ROOT, "index.json");
 
@@ -84,8 +120,8 @@ if (process.argv.includes("--check")) {
     console.error("index.json no está actualizado. Ejecuta: node scripts/build-index.mjs");
     process.exit(1);
   }
-  console.log(`index.json OK (${modpacks.length} modpacks)`);
+  console.log(`index.json OK (${modpacks.length} modpacks, ${servers.length} servidores)`);
 } else {
   writeFileSync(target, out);
-  console.log(`index.json generado con ${modpacks.length} modpack(s)`);
+  console.log(`index.json generado con ${modpacks.length} modpack(s) y ${servers.length} servidor(es)`);
 }
