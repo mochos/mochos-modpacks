@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schema/modpack.schema.json",
+  "id": "ecos-del-fin",
+  "name": "Ecos del Fin",
+  "summary": "Survival postapocalíptico con ciudades en ruinas, hordas de zombis, armas tácticas, parkour y combate brutal.",
+  "description": "description.md",
+  "changelog": "CHANGELOG.md",
+  "version": "1.2",
+  "minecraft": "1.20.1",
+  "loader": { "type": "forge", "version": "47.4.0" },
+  "icon": "icon.png",
+  "banner": "images/banner.jpg",
+  "gallery": [
+    "images/last-passage.jpg",
+    "images/parkour.jpg",
+    "images/fallen-world.jpg",
+    "images/sky-spire.jpg",
+    "images/lonely-road.jpg",
+    "images/silent-shelter.jpg",
+    "images/ash-walker.jpg"
+  ],
+  "tags": ["Survival", "Apocalipsis zombi", "Armas", "Parkour", "Shaders", "Chat de voz"],
+  "featured": false,
+  "authors": ["lorspi"],
+  "recommendedRamMb": 8192,
+  "source": {
+    "type": "curseforge-zip",
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/ecos-del-fin-1.2/Ecos-del-Fin-1.20.1-v1.2.zip",
+    "sha1": "8ebb10540a226954fef269884ac4f16aa4b21e0f",
+    "size": 107693440
+  },
+  "server": {
+    "enabled": true,
+    "recommendedRamMb": 8192,
+    "excludeMods": []
+  },
+  "links": {
+    "website": "https://mochos.xyz",
+    "discord": "https://discord.mochos.xyz",
+    "curseforge": "https://www.curseforge.com/minecraft/modpacks/ecos-del-fin"
+  },
+  "updatedAt": "2026-10-29"
+}

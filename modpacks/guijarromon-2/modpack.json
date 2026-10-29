@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schema/modpack.schema.json",
+  "id": "guijarromon-2",
+  "name": "Guijarromon 2: Mirage",
+  "summary": "La segunda edición del servidor de Cobblemon Guijarromon: captura Pokémon, reta gimnasios y explora un mundo lleno de estructuras con tus amigos.",
+  "description": "description.md",
+  "changelog": "CHANGELOG.md",
+  "version": "1.02",
+  "minecraft": "1.21.1",
+  "loader": { "type": "neoforge", "version": "21.1.231" },
+  "icon": "icon.png",
+  "banner": "images/banner.png",
+  "gallery": [
+    "images/captura-1.png",
+    "images/captura-2.png",
+    "images/captura-3.png",
+    "images/captura-4.png",
+    "images/captura-5.png"
+  ],
+  "tags": ["Survival", "Cobblemon", "Exploración", "Misiones", "Chat de voz"],
+  "featured": false,
+  "authors": ["Composedfish", "lorspi"],
+  "recommendedRamMb": 8192,
+  "source": {
+    "type": "curseforge-zip",
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/guijarromon-2-1.02/Guijarromon-2-1.21.1-v1.02.zip",
+    "sha1": "3a658bba399a5a6c7f376ac20fc5297ba9181294",
+    "size": 12536911
+  },
+  "server": {
+    "enabled": true,
+    "recommendedRamMb": 8192,
+    "excludeMods": []
+  },
+  "links": {
+    "website": "https://mochos.xyz",
+    "discord": "https://discord.mochos.xyz",
+    "curseforge": "https://www.curseforge.com/minecraft/modpacks/guijarromon-2-mirage"
+  },
+  "updatedAt": "2026-10-29"
+}

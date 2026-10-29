@@ -46,11 +46,117 @@
       "updatedAt": "2026-10-27"
     },
     {
+      "id": "ecos-del-fin",
+      "name": "Ecos del Fin",
+      "summary": "Survival postapocalíptico con ciudades en ruinas, hordas de zombis, armas tácticas, parkour y combate brutal.",
+      "description": "**Ecos del Fin** es un survival postapocalíptico para jugar entre amigos: ciudades en ruinas, hordas de zombis y un mundo oscuro donde cada expedición puede ser la última. Busca recursos, lucha y sobrevive.\n\n### ¿Qué incluye?\n\n- **Mundo en ruinas:** ciudades abandonadas de The Lost Cities con ChaosZPack, estructuras abandonadas, torres de vigilancia, decoración apocalíptica (Doomsday Decoration) y biomas sin luz (True Darkness).\n- **Amenazas:** hordas de zombis (Apocalypse Zombies, Enhanced Hordes, Zombie Awareness), armas biológicas de Outbreak, mutantes, bandidos armados y criaturas SCP.\n- **Armas y combate:** armas de fuego tácticas de TaCZ con equipamiento táctico, Epic Fight con árbol de habilidades, Spartan Weaponry, trampas y explosiones mejoradas.\n- **Movimiento:** parkour con ParCool (integrado con Epic Fight), garfio, planeadores (Paragliders) y vehículos.\n- **Supervivencia:** árbol de habilidades pasivas, calidad del equipo, mochilas de viaje, almacenamiento de Tom's Storage, muebles de MrCrayfish, Create y tumbas al morir (Corpse).\n- **Visuales y ambiente:** Oculus + shaders Complementary Reimagined, BSL, Photon, Bliss e Insanity, Fresh Animations, sangre (Bloody Bits), sonido ambiental y realista, y Distant Horizons.\n- **Chat de voz por proximidad** con Simple Voice Chat, radios (Simple Voice Radio) y emotes con Emotecraft.\n- **Mapas:** minimapa y mapa del mundo de Xaero, y Waystones para viajar.\n- **Rendimiento:** Embeddium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y otras optimizaciones.\n\n### Requisitos recomendados\n\n- 8 GB de RAM asignados (el launcher lo configura solo).\n- Los shaders y Distant Horizons son exigentes: si notas tirones, desactívalos desde *Opciones → Calidad de vídeo*.\n",
+      "changelog": "## 1.2\n\n- Primera versión publicada en el Mochos Launcher.\n- Minecraft 1.20.1 con Forge 47.4.0.\n- 181 mods, paquetes de recursos y shaders (Complementary Reimagined, BSL, Photon, Bliss, Insanity y más).\n",
+      "version": "1.2",
+      "minecraft": "1.20.1",
+      "loader": {
+        "type": "forge",
+        "version": "47.4.0"
+      },
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/ecos-del-fin/icon.png",
+      "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/ecos-del-fin/images/banner.jpg",
+      "gallery": [
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/ecos-del-fin/images/last-passage.jpg",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/ecos-del-fin/images/parkour.jpg",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/ecos-del-fin/images/fallen-world.jpg",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/ecos-del-fin/images/sky-spire.jpg",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/ecos-del-fin/images/lonely-road.jpg",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/ecos-del-fin/images/silent-shelter.jpg",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/ecos-del-fin/images/ash-walker.jpg"
+      ],
+      "tags": [
+        "Survival",
+        "Apocalipsis zombi",
+        "Armas",
+        "Parkour",
+        "Shaders",
+        "Chat de voz"
+      ],
+      "featured": false,
+      "authors": [
+        "lorspi"
+      ],
+      "recommendedRamMb": 8192,
+      "source": {
+        "type": "curseforge-zip",
+        "url": "https://github.com/mochos/mochos-modpacks/releases/download/ecos-del-fin-1.2/Ecos-del-Fin-1.20.1-v1.2.zip",
+        "sha1": "8ebb10540a226954fef269884ac4f16aa4b21e0f",
+        "size": 107693440
+      },
+      "server": {
+        "enabled": true,
+        "recommendedRamMb": 8192,
+        "excludeMods": []
+      },
+      "links": {
+        "website": "https://mochos.xyz",
+        "discord": "https://discord.mochos.xyz",
+        "curseforge": "https://www.curseforge.com/minecraft/modpacks/ecos-del-fin"
+      },
+      "updatedAt": "2026-10-29"
+    },
+    {
+      "id": "guijarromon-2",
+      "name": "Guijarromon 2: Mirage",
+      "summary": "La segunda edición del servidor de Cobblemon Guijarromon: captura Pokémon, reta gimnasios y explora un mundo lleno de estructuras con tus amigos.",
+      "description": "**Guijarromon 2: Mirage** es la segunda edición de Guijarromon, el servidor de Cobblemon hecho por amigos, con amigos y para amigos. Captura y entrena Pokémon, reta gimnasios y entrenadores, y explora un mundo enorme lleno de estructuras.\n\n### ¿Qué incluye?\n\n- **Cobblemon:** Pokémon en Minecraft con Mega Showdown, Fakemon (Lively 'Mons, Alatia, Fableworks), Pokémon alfa, variaciones de tamaño, brotes masivos, Pokérus, incursiones (Raid Dens) y Pokémon legendarios (Myths and Legends).\n- **Retos:** gimnasios, medallas, torre de batalla, entrenadores rivales (Radical Cobblemon Trainers), jefes (CobbleBoss) y límite de nivel para que la aventura vaya por etapas.\n- **Misiones:** FTB Quests con Cobblemon Quests y equipos de FTB Teams.\n- **Mundo:** Terralith, Oh The Biomes We've Gone, Regions Unexplored y Nullscape, con estaciones (Serene Seasons) y estructuras de YUNG's, Moog's, Towns and Towers, Dungeon Crawl y Explorify.\n- **Vida diaria:** Farmer's Delight, Cooking for Blockheads, muebles Cobblemon, Supplementaries, Chipped y Rechiseled, puertas y vallas de Macaw's y almacenamiento con Sophisticated Backpacks y Storage.\n- **Chat de voz por proximidad** con Plasmo Voice (con física de sonido) y emotes con Emotecraft.\n- **Mapas:** JourneyMap con iconos de Cobblemon, Waystones para viajar y brújulas de biomas y estructuras.\n- **Calidad de vida:** JEI con Just Enough Cobblemon, Jade, AppleSkin, tumbas al morir, copias de seguridad automáticas y mucho más.\n- **Rendimiento:** FerriteCore, Entity Culling, MoreCulling, Dynamic FPS y otras optimizaciones.\n\n### Requisitos recomendados\n\n- 8 GB de RAM asignados (el launcher lo configura solo).\n",
+      "changelog": "## 1.02\n\n- Primera versión publicada en el Mochos Launcher.\n- Minecraft 1.21.1 con NeoForge 21.1.231.\n- 233 mods con Cobblemon y sus complementos.\n",
+      "version": "1.02",
+      "minecraft": "1.21.1",
+      "loader": {
+        "type": "neoforge",
+        "version": "21.1.231"
+      },
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/guijarromon-2/icon.png",
+      "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/guijarromon-2/images/banner.png",
+      "gallery": [
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/guijarromon-2/images/captura-1.png",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/guijarromon-2/images/captura-2.png",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/guijarromon-2/images/captura-3.png",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/guijarromon-2/images/captura-4.png",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/guijarromon-2/images/captura-5.png"
+      ],
+      "tags": [
+        "Survival",
+        "Cobblemon",
+        "Exploración",
+        "Misiones",
+        "Chat de voz"
+      ],
+      "featured": false,
+      "authors": [
+        "Composedfish",
+        "lorspi"
+      ],
+      "recommendedRamMb": 8192,
+      "source": {
+        "type": "curseforge-zip",
+        "url": "https://github.com/mochos/mochos-modpacks/releases/download/guijarromon-2-1.02/Guijarromon-2-1.21.1-v1.02.zip",
+        "sha1": "3a658bba399a5a6c7f376ac20fc5297ba9181294",
+        "size": 12536911
+      },
+      "server": {
+        "enabled": true,
+        "recommendedRamMb": 8192,
+        "excludeMods": []
+      },
+      "links": {
+        "website": "https://mochos.xyz",
+        "discord": "https://discord.mochos.xyz",
+        "curseforge": "https://www.curseforge.com/minecraft/modpacks/guijarromon-2-mirage"
+      },
+      "updatedAt": "2026-10-29"
+    },
+    {
       "id": "new-horizons",
       "name": "New Horizons",
       "summary": "Survival de exploración con mundos de Terralith, aviones, el Aether, granjas y viñedos de Let's Do, y shaders para jugar entre amigos.",
-      "description": "**New Horizons** es un survival de exploración para jugar entre amigos: mundos enormes, aventuras en el cielo y una vida tranquila de granja, viñedo y acampada cuando vuelves a casa.\n\n### ¿Qué incluye?\n\n- **Mundo:** generación de terreno de Terralith y Distant Horizons para ver el horizonte a kilómetros de distancia.\n- **Aventura:** la dimensión del Aether, Ribbits, Ghosts, cofres de botín por jugador (Lootr) y encargos con recompensa (Bountiful).\n- **Aviación y viajes:** Immersive Aircraft (con estructuras), Man of Many Planes, planeadores (Gliders), mochilas de viaje, ascensores y Tempad.\n- **Vida en el campo:** la colección Let's Do (Farm & Charm, Vinery, HerbalBrews, Beachparty y Camping), muebles de Another Furniture y Block Pack, y decoración de Supplementaries y Beautify.\n- **Visuales:** Iris + shaders Complementary Reimagined con Euphoria Patches, Fresh Animations, texturas conectadas, luces dinámicas, estelas en el agua, caminos conectados y animaciones en primera persona.\n- **Chat de voz por proximidad** con Simple Voice Chat, radios (Simple Voice Radio) y emotes con Emotecraft.\n- **Mapas:** minimapa y mapa del mundo de Xaero, y mapas en 3D.\n- **Calidad de vida:** JEI, Jade, AppleSkin, almacenamiento de Tom's Storage, armadura cosmética, zoom, talado de árboles por partes y sonido realista (Sound Physics Remastered).\n- **Rendimiento:** Sodium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y Dynamic FPS.\n\n### Requisitos recomendados\n\n- 8 GB de RAM asignados (el launcher lo configura solo).\n- Los shaders y Distant Horizons son exigentes: si notas tirones, desactívalos desde *Opciones → Calidad de vídeo*.\n",
-      "changelog": "## 0.6\n\n- Primera versión publicada en el Mochos Launcher.\n- Minecraft 1.21.1 con NeoForge 21.1.252.\n- 99 mods y paquetes de recursos, y shaders Complementary Reimagined + Euphoria Patches.\n",
+      "description": "**New Horizons** es un survival de exploración para jugar entre amigos: mundos enormes, aventuras en el cielo y una vida tranquila de granja, viñedo y acampada cuando vuelves a casa.\r\n\r\n### ¿Qué incluye?\r\n\r\n- **Mundo:** generación de terreno de Terralith y Distant Horizons para ver el horizonte a kilómetros de distancia.\r\n- **Aventura:** la dimensión del Aether, Ribbits, Ghosts, cofres de botín por jugador (Lootr) y encargos con recompensa (Bountiful).\r\n- **Aviación y viajes:** Immersive Aircraft (con estructuras), Man of Many Planes, planeadores (Gliders), mochilas de viaje, ascensores y Tempad.\r\n- **Vida en el campo:** la colección Let's Do (Farm & Charm, Vinery, HerbalBrews, Beachparty y Camping), muebles de Another Furniture y Block Pack, y decoración de Supplementaries y Beautify.\r\n- **Visuales:** Iris + shaders Complementary Reimagined con Euphoria Patches, Fresh Animations, texturas conectadas, luces dinámicas, estelas en el agua, caminos conectados y animaciones en primera persona.\r\n- **Chat de voz por proximidad** con Simple Voice Chat, radios (Simple Voice Radio) y emotes con Emotecraft.\r\n- **Mapas:** minimapa y mapa del mundo de Xaero, y mapas en 3D.\r\n- **Calidad de vida:** JEI, Jade, AppleSkin, almacenamiento de Tom's Storage, armadura cosmética, zoom, talado de árboles por partes y sonido realista (Sound Physics Remastered).\r\n- **Rendimiento:** Sodium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y Dynamic FPS.\r\n\r\n### Requisitos recomendados\r\n\r\n- 8 GB de RAM asignados (el launcher lo configura solo).\r\n- Los shaders y Distant Horizons son exigentes: si notas tirones, desactívalos desde *Opciones → Calidad de vídeo*.\r\n",
+      "changelog": "## 0.6\r\n\r\n- Primera versión publicada en el Mochos Launcher.\r\n- Minecraft 1.21.1 con NeoForge 21.1.252.\r\n- 99 mods y paquetes de recursos, y shaders Complementary Reimagined + Euphoria Patches.\r\n",
       "version": "0.6",
       "minecraft": "1.21.1",
       "loader": {
@@ -93,8 +199,8 @@
       "id": "vanilla-mochos",
       "name": "Vanilla Mochos",
       "summary": "Minecraft como lo conoces, pero más bonito, más fluido y con chat de voz para jugar entre amigos.",
-      "description": "**Vanilla Mochos** es el Minecraft de siempre con los retoques que usamos en Mochos Studio para jugar entre amigos: más FPS, mejores animaciones y algunos detalles de calidad de vida que no rompen la experiencia vanilla.\n\n### ¿Qué incluye?\n\n- **Rendimiento:** Sodium, Lithium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y más Culling para que el juego vaya fluido incluso en equipos modestos.\n- **Visuales:** Iris + shaders Complementary Reimagined, Fresh Animations, texturas conectadas (Continuity), capas de skin en 3D y hojas que caen.\n- **Chat de voz por proximidad** con Simple Voice Chat.\n- **Mapas:** minimapa y mapa del mundo de Xaero.\n- **Calidad de vida:** Zoomify, Freecam, cajas de shulker fáciles, notificaciones al recoger objetos, cosecha con clic derecho, estadísticas mejoradas y mucho más.\n- **Construcción:** Litematica para quienes quieran planificar sus construcciones.\n\n### Requisitos recomendados\n\n- 4 GB de RAM asignados (el launcher lo configura solo).\n- Los shaders son opcionales: actívalos o desactívalos desde *Opciones → Calidad de vídeo → Shaders*.\n\n¡Nos vemos en el servidor! 🦉\n",
-      "changelog": "## 1.5\n\n- Actualización a Minecraft 1.21.4 con Fabric 0.16.10.\n- 73 mods, 18 paquetes de recursos y shaders Complementary Reimagined.\n",
+      "description": "**Vanilla Mochos** es el Minecraft de siempre con los retoques que usamos en Mochos Studio para jugar entre amigos: más FPS, mejores animaciones y algunos detalles de calidad de vida que no rompen la experiencia vanilla.\r\n\r\n### ¿Qué incluye?\r\n\r\n- **Rendimiento:** Sodium, Lithium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y más Culling para que el juego vaya fluido incluso en equipos modestos.\r\n- **Visuales:** Iris + shaders Complementary Reimagined, Fresh Animations, texturas conectadas (Continuity), capas de skin en 3D y hojas que caen.\r\n- **Chat de voz por proximidad** con Simple Voice Chat.\r\n- **Mapas:** minimapa y mapa del mundo de Xaero.\r\n- **Calidad de vida:** Zoomify, Freecam, cajas de shulker fáciles, notificaciones al recoger objetos, cosecha con clic derecho, estadísticas mejoradas y mucho más.\r\n- **Construcción:** Litematica para quienes quieran planificar sus construcciones.\r\n\r\n### Requisitos recomendados\r\n\r\n- 4 GB de RAM asignados (el launcher lo configura solo).\r\n- Los shaders son opcionales: actívalos o desactívalos desde *Opciones → Calidad de vídeo → Shaders*.\r\n\r\n¡Nos vemos en el servidor! 🦉\r\n",
+      "changelog": "## 1.5\r\n\r\n- Actualización a Minecraft 1.21.4 con Fabric 0.16.10.\r\n- 73 mods, 18 paquetes de recursos y shaders Complementary Reimagined.\r\n",
       "version": "1.5",
       "minecraft": "1.21.4",
       "loader": {
