@@ -5,342 +5,399 @@
       "name": "[EMF] Entity Model Features [Fabric & Forge]",
       "author": "Traben",
       "url": "https://www.curseforge.com/minecraft/mc-mods/entity-model-features",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/983/284/256/256/638491564386011875.png",
       "platform": "curseforge"
     },
     {
       "name": "[ETF] Entity Texture Features - [Fabric & Forge]",
       "author": "Traben",
       "url": "https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/983/279/256/256/638491557830728907.png",
       "platform": "curseforge"
     },
     {
       "name": "[FORGE] Epic Fight X Parcool",
       "author": "pbjsandwhich123",
       "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-x-parcool",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1039/676/256/256/638565335225492355.png",
       "platform": "curseforge"
     },
     {
       "name": "[Official] Epic ParCool",
       "author": "maninthe_home",
       "url": "https://www.curseforge.com/minecraft/mc-mods/official-epic-fight-x-parcool",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1260/969/256/256/638820954101993505.png",
       "platform": "curseforge"
     },
     {
       "name": "[TACZ] LesRaisins Tactical Equipements",
       "author": "xjqshm",
       "url": "https://www.curseforge.com/minecraft/mc-mods/tacz-lesraisins-tactical-equipements",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1288/107/256/256/638837633740557792.png",
       "platform": "curseforge"
     },
     {
       "name": "[TaCZ] Timeless and Classics Zero Guns",
       "author": "nekocrane",
       "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1005/666/256/256/638527114344804635.png",
       "platform": "curseforge"
     },
     {
       "name": "AllTheLeaks (Memory Leak Fix)",
       "author": "Uncandango",
       "url": "https://www.curseforge.com/minecraft/mc-mods/alltheleaks",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1068/365/256/256/638602852129913496.png",
       "platform": "curseforge"
     },
     {
       "name": "Almanac Lib",
       "author": "frikinjay",
       "url": "https://www.curseforge.com/minecraft/mc-mods/almanac-lib",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1092/511/256/256/638636927832908640.png",
       "platform": "curseforge"
     },
     {
       "name": "AmbientSounds 6",
       "author": "CreativeMD",
       "url": "https://www.curseforge.com/minecraft/mc-mods/ambientsounds",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/65/45/256/256/636158453613581226.png",
       "platform": "curseforge"
     },
     {
       "name": "Apocalypse Zombies",
       "author": "That1LilGuy",
       "url": "https://www.curseforge.com/minecraft/mc-mods/apocalyse-zombies",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1084/110/256/256/638625202350710692.png",
       "platform": "curseforge"
     },
     {
       "name": "AppleSkin",
       "author": "squeek502",
       "url": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/47/527/256/256/636066936394500688.png",
       "platform": "curseforge"
     },
     {
       "name": "Architectury API",
       "author": "shedaniel",
       "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/313/420/256/256/637408811378175814.png",
       "platform": "curseforge"
     },
     {
       "name": "AttributeFix",
       "author": "DarkhaxDev",
       "url": "https://www.curseforge.com/minecraft/mc-mods/attributefix",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/981/435/256/256/638488257660151687.png",
       "platform": "curseforge"
     },
     {
       "name": "Bad Mobs",
       "author": "DarkhaxDev",
       "url": "https://www.curseforge.com/minecraft/mc-mods/bad-mobs",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/22/41/256/256/635736304597964219.png",
       "platform": "curseforge"
     },
     {
       "name": "BadOptimizations",
       "author": "thosea",
       "url": "https://www.curseforge.com/minecraft/mc-mods/badoptimizations",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/918/720/256/256/638380210681797905.png",
       "platform": "curseforge"
     },
     {
       "name": "Balm",
       "author": "BlayTheNinth",
       "url": "https://www.curseforge.com/minecraft/mc-mods/balm",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1107/117/256/256/638657111836546584.png",
       "platform": "curseforge"
     },
     {
       "name": "Berezka's library",
       "author": "Berezka",
       "url": "https://www.curseforge.com/minecraft/mc-mods/berezka-library",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1137/548/256/256/638699696281720689.png",
       "platform": "curseforge"
     },
     {
       "name": "Better Third Person",
       "author": "Socolio",
       "url": "https://www.curseforge.com/minecraft/mc-mods/better-third-person",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/392/806/256/256/637587416534783614.png",
       "platform": "curseforge"
     },
     {
       "name": "Boat Item View (Forge/Neoforge)",
       "author": "50ap5ud5",
       "url": "https://www.curseforge.com/minecraft/mc-mods/boat-item-view-forge",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/382/355/256/256/637566508836659725.png",
       "platform": "curseforge"
     },
     {
       "name": "Brute force Rendering Culling",
       "author": "RogoShum",
       "url": "https://www.curseforge.com/minecraft/mc-mods/brute-force-rendering-culling",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/973/360/256/256/638475886394115134.png",
       "platform": "curseforge"
     },
     {
       "name": "CameraOverhaul",
       "author": "Mirsario",
       "url": "https://www.curseforge.com/minecraft/mc-mods/cameraoverhaul",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1166/19/256/256/638735972518730163.png",
       "platform": "curseforge"
     },
     {
       "name": "ChaosZPack [Lost Cities] Better Cities / Zombie Apocalypse /  Abandoned Structures / TacZ",
       "author": "ChaosCraft_HD",
       "url": "https://www.curseforge.com/minecraft/mc-mods/chaoszpack-lostcities",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1291/518/256/256/638839581592255596.png",
       "platform": "curseforge"
     },
     {
       "name": "ChaosZPack Remastered: Structures ! [Watchtowers]",
       "author": "ChaosCraft_HD",
       "url": "https://www.curseforge.com/minecraft/mc-mods/chaoszpack-remastered-structures",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1458/891/256/256/638946820099096688.png",
       "platform": "curseforge"
     },
     {
       "name": "ChaosZProject: Bandits! - Pillager's Gun Addon",
       "author": "ChaosCraft_HD",
       "url": "https://www.curseforge.com/minecraft/mc-mods/chaoszproject-bandits",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1287/253/256/256/638837077631436839.png",
       "platform": "curseforge"
     },
     {
       "name": "Clickable advancements[Forge/Fabric]",
       "author": "someaddon",
       "url": "https://www.curseforge.com/minecraft/mc-mods/clickable-advancements",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/531/807/256/256/637854458573666877.png",
       "platform": "curseforge"
     },
     {
       "name": "Cloth Config API (Fabric/Forge/NeoForge)",
       "author": "shedaniel",
       "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/282/467/256/256/637289313020452406.png",
       "platform": "curseforge"
     },
     {
       "name": "Clumps",
       "author": "Jaredlll08",
       "url": "https://www.curseforge.com/minecraft/mc-mods/clumps",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1289/817/256/256/638838549850518521_animated.gif",
       "platform": "curseforge"
     },
     {
       "name": "Comforts",
       "author": "TheIllusiveC4",
       "url": "https://www.curseforge.com/minecraft/mc-mods/comforts",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/203/105/256/256/636930549407382137.png",
       "platform": "curseforge"
     },
     {
       "name": "Command Keys",
       "author": "NotRyken",
       "url": "https://www.curseforge.com/minecraft/mc-mods/commandkeys",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/910/741/256/256/638364949011648102.png",
       "platform": "curseforge"
     },
     {
       "name": "Connectivity",
       "author": "someaddon",
       "url": "https://www.curseforge.com/minecraft/mc-mods/connectivity",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/532/325/256/256/637855720922086407.png",
       "platform": "curseforge"
     },
     {
       "name": "CoroUtil",
       "author": "Corosus",
       "url": "https://www.curseforge.com/minecraft/mc-mods/coroutil",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/52/497/256/256/636115233396260155.png",
       "platform": "curseforge"
     },
     {
       "name": "Corpse",
       "author": "henkelmax",
       "url": "https://www.curseforge.com/minecraft/mc-mods/corpse",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/194/489/256/256/636873305017840968.png",
       "platform": "curseforge"
     },
     {
       "name": "Corpse x Cosmetic Armor Reworked Compat",
       "author": "Project8gbDeRam",
       "url": "https://www.curseforge.com/minecraft/mc-mods/corpse-x-cosmetic-armor-reworked-compat",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1186/991/256/256/638761225749034147.png",
       "platform": "curseforge"
     },
     {
       "name": "Cosmetic Armor Reworked",
       "author": "LainMI",
       "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/27/600/256/256/635812915333870435.png",
       "platform": "curseforge"
     },
     {
       "name": "Crash Assistant",
       "author": "KostromDan",
       "url": "https://www.curseforge.com/minecraft/mc-mods/crash-assistant",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1482/227/256/256/638963404721998907.png",
       "platform": "curseforge"
     },
     {
       "name": "CravenCraft's Bloody Bits",
       "author": "CravenCraft",
       "url": "https://www.curseforge.com/minecraft/mc-mods/cravencrafts-bloody-bits",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1968/434/256/256/639216457896874456.png",
       "platform": "curseforge"
     },
     {
       "name": "Create",
       "author": "simibubi",
       "url": "https://www.curseforge.com/minecraft/mc-mods/create",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1065/184/256/256/638598725500886388.png",
       "platform": "curseforge"
     },
     {
       "name": "Create Deco",
       "author": "talrey",
       "url": "https://www.curseforge.com/minecraft/mc-mods/create-deco",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1065/338/256/256/638598933457608969.png",
       "platform": "curseforge"
     },
     {
       "name": "CreativeCore",
       "author": "CreativeMD",
       "url": "https://www.curseforge.com/minecraft/mc-mods/creativecore",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/86/225/256/256/636207446427836220.png",
       "platform": "curseforge"
     },
     {
       "name": "Cull Leaves",
       "author": "Motschen",
       "url": "https://www.curseforge.com/minecraft/mc-mods/cull-leaves",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/317/425/256/256/637421841207570214.png",
       "platform": "curseforge"
     },
     {
       "name": "CullLessLeaves Reforged (Unofficial)",
       "author": "ccr4ft3r",
       "url": "https://www.curseforge.com/minecraft/mc-mods/culllessleaves-reforged",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/795/245/256/256/638154484430429313.png",
       "platform": "curseforge"
     },
     {
       "name": "Cupboard",
       "author": "someaddon",
       "url": "https://www.curseforge.com/minecraft/mc-mods/cupboard",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/852/567/256/256/638255508280634753.png",
       "platform": "curseforge"
     },
     {
       "name": "Curios API (Forge/NeoForge)",
       "author": "TheIllusiveC4",
       "url": "https://www.curseforge.com/minecraft/mc-mods/curios",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/195/772/256/256/636881112930494939.png",
       "platform": "curseforge"
     },
     {
       "name": "DarkSleep - RPG Sleep Percentage",
       "author": "GamerPotion",
       "url": "https://www.curseforge.com/minecraft/mc-mods/darksleep",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1589/423/256/256/639028274934161503.png",
       "platform": "curseforge"
     },
     {
       "name": "Distant Horizons: A Level of Detail mod",
       "author": "James_Seibel",
       "url": "https://www.curseforge.com/minecraft/mc-mods/distant-horizons",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1189/514/256/256/638764417521176751.png",
       "platform": "curseforge"
     },
     {
       "name": "DoesPotatoTick?",
       "author": "_nArUTo_",
       "url": "https://www.curseforge.com/minecraft/mc-mods/doespotatotick",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/775/488/256/256/638116867652335989.png",
       "platform": "curseforge"
     },
     {
       "name": "Doomsday Decoration",
       "author": "Huzai",
       "url": "https://www.curseforge.com/minecraft/mc-mods/doomsday-decoration",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1304/281/256/256/638848107693720192.png",
       "platform": "curseforge"
     },
     {
       "name": "Doomsday translation",
       "author": "Berezka",
       "url": "https://www.curseforge.com/minecraft/mc-mods/doomsday-translation",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1480/200/256/256/638962136439558924.png",
       "platform": "curseforge"
     },
     {
       "name": "DreamCasLib",
       "author": "angrymutantendermanz",
       "url": "https://www.curseforge.com/minecraft/mc-mods/dreamcaslib",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1567/739/256/256/639016420356137457.jpeg",
       "platform": "curseforge"
     },
     {
       "name": "Duplicationless",
       "author": "_nArUTo_",
       "url": "https://www.curseforge.com/minecraft/mc-mods/duplicationless",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1510/197/256/256/638980874477778341.png",
       "platform": "curseforge"
     },
     {
       "name": "Embeddium",
       "author": "FiniteReality",
       "url": "https://www.curseforge.com/minecraft/mc-mods/embeddium",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/893/778/256/256/638336829931216743.png",
       "platform": "curseforge"
     },
     {
       "name": "Embeddium (Rubidium) Extra",
       "author": "dima_dencep",
       "url": "https://www.curseforge.com/minecraft/mc-mods/rubidium-extra",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/587/602/256/256/637956775773435327.png",
       "platform": "curseforge"
     },
     {
       "name": "Emotecraft (Forge)",
       "author": "KosmX",
       "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/294/964/256/256/637335210850751725.png",
       "platform": "curseforge"
     },
     {
       "name": "Enhanced Hordes",
       "author": "nojustgavin",
       "url": "https://www.curseforge.com/minecraft/mc-mods/enhanced-hordes",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1047/776/256/256/638576211873194979.png",
       "platform": "curseforge"
     },
     {
       "name": "EnhancedVisuals",
       "author": "CreativeMD",
       "url": "https://www.curseforge.com/minecraft/mc-mods/enhancedvisuals",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/79/24/256/256/636176569095925637.png",
       "platform": "curseforge"
     },
     {
       "name": "Entity Culling Fabric/Forge",
       "author": "tr7zw",
       "url": "https://www.curseforge.com/minecraft/mc-mods/entityculling",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/345/318/256/256/637492631463701682.png",
       "platform": "curseforge"
     },
     {
       "name": "Epic Compat: ParCool",
       "author": "hd42",
       "url": "https://www.curseforge.com/minecraft/mc-mods/epic-compat-parcool",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/947/735/256/256/638434363444440218.png",
       "platform": "curseforge"
     },
     {
@@ -353,660 +410,770 @@
       "name": "Epic Fight - Avalon",
       "author": "merlin204",
       "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-avalon",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1279/667/256/256/638832140329395685.png",
       "platform": "curseforge"
     },
     {
       "name": "Epic Fight - EDP (Extended Datapacks)",
       "author": "Sleys",
       "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-edp",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1410/572/256/256/638914077188962909.png",
       "platform": "curseforge"
     },
     {
       "name": "Epic Fight - Invincible Lib",
       "author": "P1nero",
       "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-invincible",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1161/824/256/256/638730712096024241.png",
       "platform": "curseforge"
     },
     {
       "name": "Epic Fight: Skill Tree",
       "author": "maninthe_home",
       "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-skill-tree",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1333/629/256/256/638866920523596302.png",
       "platform": "curseforge"
     },
     {
       "name": "Epic Tactical (Epic Fight Compat)",
       "author": "ptran779",
       "url": "https://www.curseforge.com/minecraft/mc-mods/epic-tactical-epic-fight-compat",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1296/63/256/256/638842430043394557.png",
       "platform": "curseforge"
     },
     {
       "name": "EpicFight : Resurrection",
       "author": "Corrupt_Dog",
       "url": "https://www.curseforge.com/minecraft/mc-mods/epicfight-resurrection",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1164/136/256/256/638733920756676228.png",
       "platform": "curseforge"
     },
     {
       "name": "Explosive Enhancement: Reforged",
       "author": "xylonity",
       "url": "https://www.curseforge.com/minecraft/mc-mods/explosive-enhancement-reforged",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1013/820/256/256/638538865181343780.webp",
       "platform": "curseforge"
     },
     {
       "name": "Fast Item Frames",
       "author": "Fuzs",
       "url": "https://www.curseforge.com/minecraft/mc-mods/fast-item-frames",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1188/831/256/256/638763592064876026.png",
       "platform": "curseforge"
     },
     {
       "name": "FastBoot",
       "author": "dnlayu",
       "url": "https://www.curseforge.com/minecraft/mc-mods/fastboot",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1169/935/256/256/638740968073682062.jpeg",
       "platform": "curseforge"
     },
     {
       "name": "FastChest Reforged",
       "author": "yGlobalista",
       "url": "https://www.curseforge.com/minecraft/mc-mods/fastchest-reforged",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/882/522/256/256/638314399421607392.png",
       "platform": "curseforge"
     },
     {
       "name": "FastFurnace",
       "author": "Shadows_of_Fire",
       "url": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/164/243/256/256/636686097562167838.png",
       "platform": "curseforge"
     },
     {
       "name": "FastWorkbench",
       "author": "Shadows_of_Fire",
       "url": "https://www.curseforge.com/minecraft/mc-mods/fastworkbench",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/164/244/256/256/636686097718417988.png",
       "platform": "curseforge"
     },
     {
       "name": "FerriteCore ((Neo)Forge)",
       "author": "malte0811",
       "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/323/941/256/256/637438748346113688.jpeg",
       "platform": "curseforge"
     },
     {
       "name": "Flerovium",
       "author": "moepus",
       "url": "https://www.curseforge.com/minecraft/mc-mods/flerovium",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1119/897/256/256/638674488265049056.png",
       "platform": "curseforge"
     },
     {
       "name": "Forge CIT",
       "author": "tfarecnim",
       "url": "https://www.curseforge.com/minecraft/mc-mods/forge-cit",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/876/364/256/256/638300003754206677.png",
       "platform": "curseforge"
     },
     {
       "name": "FPS Reducer",
       "author": "bre2el",
       "url": "https://www.curseforge.com/minecraft/mc-mods/fps-reducer",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/127/648/256/256/636440915960912895.png",
       "platform": "curseforge"
     },
     {
       "name": "Framework",
       "author": "MrCrayfish",
       "url": "https://www.curseforge.com/minecraft/mc-mods/framework",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/871/312/256/256/638288810018379517.png",
       "platform": "curseforge"
     },
     {
       "name": "FreeCam by Zergatul",
       "author": "Zergatul",
       "url": "https://www.curseforge.com/minecraft/mc-mods/freecam-by-zergatul",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/541/193/256/256/637868212217443747_animated.gif",
       "platform": "curseforge"
     },
     {
       "name": "Fusion (Connected Textures)",
       "author": "SuperMartijn642",
       "url": "https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/835/860/256/256/638227854854712053.png",
       "platform": "curseforge"
     },
     {
       "name": "Fzzy Config",
       "author": "fzzyhmstrs",
       "url": "https://www.curseforge.com/minecraft/mc-mods/fzzy-config",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/983/198/256/256/638491432276475239.png",
       "platform": "curseforge"
     },
     {
       "name": "Game Menu Mod Option [Forge]",
       "author": "morimori0317",
       "url": "https://www.curseforge.com/minecraft/mc-mods/gamemenumodoption",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/667/419/256/256/638061485254285617.png",
       "platform": "curseforge"
     },
     {
       "name": "GeckoLib",
       "author": "Gecko",
       "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1081/393/256/256/638621132937140582.png",
       "platform": "curseforge"
     },
     {
       "name": "GeckolibBetterFPS",
       "author": "moepus",
       "url": "https://www.curseforge.com/minecraft/mc-mods/geckolibbetterfps",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1665/530/256/256/639060285642809084.png",
       "platform": "curseforge"
     },
     {
       "name": "Grappling Hook - Reforged",
       "author": "Chummycho",
       "url": "https://www.curseforge.com/minecraft/mc-mods/grappling-hook-mod-reforged",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1143/959/256/256/638709296189605259.png",
       "platform": "curseforge"
     },
     {
       "name": "Horror Elements mod",
       "author": "predator97427fr",
       "url": "https://www.curseforge.com/minecraft/mc-mods/horror-elements-mod",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/946/93/256/256/638431669047998559.png",
       "platform": "curseforge"
     },
     {
       "name": "HT's TreeChop",
       "author": "hammertater",
       "url": "https://www.curseforge.com/minecraft/mc-mods/treechop",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/859/0/256/256/638264552121174340.png",
       "platform": "curseforge"
     },
     {
       "name": "Iceberg [Neo/Forge]",
       "author": "Grend_G",
       "url": "https://www.curseforge.com/minecraft/mc-mods/iceberg",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/425/207/256/256/637653794535451378.png",
       "platform": "curseforge"
     },
     {
       "name": "ImmediatelyFast",
       "author": "RaphiMC",
       "url": "https://www.curseforge.com/minecraft/mc-mods/immediatelyfast",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/873/971/256/256/638294478643875692.png",
       "platform": "curseforge"
     },
     {
       "name": "Immersive Paintings [Fabric/Forge]",
       "author": "Conczin",
       "url": "https://www.curseforge.com/minecraft/mc-mods/immersive-paintings",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/566/108/256/256/637924664947203365.png",
       "platform": "curseforge"
     },
     {
       "name": "Immersive Weathering [FORGE]",
       "author": "OrdanaryMods",
       "url": "https://www.curseforge.com/minecraft/mc-mods/immersive-weathering-forge",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/618/908/256/256/638005114319634805.png",
       "platform": "curseforge"
     },
     {
       "name": "Inventory Sorter",
       "author": "cpw",
       "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-sorter",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/32/426/256/256/635880235078234387.jpeg",
       "platform": "curseforge"
     },
     {
       "name": "Item Highlighter [Neo/Forge]",
       "author": "Grend_G",
       "url": "https://www.curseforge.com/minecraft/mc-mods/item-highlighter",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/426/859/256/256/637657810753408357.png",
       "platform": "curseforge"
     },
     {
       "name": "ItemCuller",
       "author": "Leiv436",
       "url": "https://www.curseforge.com/minecraft/mc-mods/itemculler",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1512/88/256/256/638982124410861306.png",
       "platform": "curseforge"
     },
     {
       "name": "Jade 🔍",
       "author": "Snownee",
       "url": "https://www.curseforge.com/minecraft/mc-mods/jade",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/207/323/256/256/636965628804677340.png",
       "platform": "curseforge"
     },
     {
       "name": "Just Enough Items (JEI)",
       "author": "mezz",
       "url": "https://www.curseforge.com/minecraft/mc-mods/jei",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/29/69/256/256/635838945588716414.jpeg",
       "platform": "curseforge"
     },
     {
       "name": "Keerdm's Zombie Apocalypse Essentials",
       "author": "keerdm",
       "url": "https://www.curseforge.com/minecraft/mc-mods/keerdm-zombie-apocalypse-essentials",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1037/262/256/256/638562066445883182.png",
       "platform": "curseforge"
     },
     {
       "name": "Kotlin for Forge",
       "author": "thedarkcolour",
       "url": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/236/269/256/256/637091078382616109.png",
       "platform": "curseforge"
     },
     {
       "name": "Krypton Reforged",
       "author": "Txni",
       "url": "https://www.curseforge.com/minecraft/mc-mods/krypton-reforged",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/458/425/256/256/637732541418956072.png",
       "platform": "curseforge"
     },
     {
       "name": "Lazy Utilities",
       "author": "Sleys",
       "url": "https://www.curseforge.com/minecraft/mc-mods/lazy-utilities",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1174/843/256/256/638746976743325551.png",
       "platform": "curseforge"
     },
     {
       "name": "LC²H [Lost Cities: Multithreaded]",
       "author": "Admany",
       "url": "https://www.curseforge.com/minecraft/mc-mods/lc2h",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1466/45/256/256/638951734866287596_animated.gif",
       "platform": "curseforge"
     },
     {
       "name": "Let Me Despawn",
       "author": "frikinjay",
       "url": "https://www.curseforge.com/minecraft/mc-mods/let-me-despawn",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/594/180/256/256/637967642391557499.png",
       "platform": "curseforge"
     },
     {
       "name": "Lexiconfig",
       "author": "CodinGlitch",
       "url": "https://www.curseforge.com/minecraft/mc-mods/lexiconfig",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1729/749/256/256/639100707648865443.png",
       "platform": "curseforge"
     },
     {
       "name": "Limitless Vehicle",
       "author": "YWZJ_Official",
       "url": "https://www.curseforge.com/minecraft/mc-mods/limitless-vehicle",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/2037/967/256/256/639246256858935560.png",
       "platform": "curseforge"
     },
     {
       "name": "Log Begone",
       "author": "AzureDoomC",
       "url": "https://www.curseforge.com/minecraft/mc-mods/log-begone",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/557/92/256/256/637903174661344067.png",
       "platform": "curseforge"
     },
     {
       "name": "Lootr (Forge & NeoForge)",
       "author": "Noobanidus",
       "url": "https://www.curseforge.com/minecraft/mc-mods/lootr",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1131/830/256/256/638691606432990450.png",
       "platform": "curseforge"
     },
     {
       "name": "Lost Cities Addon: Biome Fixer",
       "author": "Kettle5000",
       "url": "https://www.curseforge.com/minecraft/mc-mods/lost-cities-addon-biome-fixer",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1070/255/256/256/638605475660984559.png",
       "platform": "curseforge"
     },
     {
       "name": "Lost Cities Vines Fix",
       "author": "lllikes",
       "url": "https://www.curseforge.com/minecraft/mc-mods/lost-cities-vines-fix",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1235/764/256/256/638809471928422316.png",
       "platform": "curseforge"
     },
     {
       "name": "McQoy",
       "author": "sisby",
       "url": "https://www.curseforge.com/minecraft/mc-mods/mcqoy",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1558/208/256/256/639011090619302258.png",
       "platform": "curseforge"
     },
     {
       "name": "MidnightLib",
       "author": "Motschen",
       "url": "https://www.curseforge.com/minecraft/mc-mods/midnightlib",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1532/195/256/256/638994994789945459.png",
       "platform": "curseforge"
     },
     {
       "name": "MineTraps",
       "author": "XxRexRaptorxX",
       "url": "https://www.curseforge.com/minecraft/mc-mods/minetraps",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/240/358/256/256/637120345765552869.png",
       "platform": "curseforge"
     },
     {
       "name": "Mob Sunscreen",
       "author": "Kreezxil",
       "url": "https://www.curseforge.com/minecraft/mc-mods/mob-sunscreen",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/469/886/256/256/637756076157485832.png",
       "platform": "curseforge"
     },
     {
       "name": "Mobtimizations - Entity Performance Fixes",
       "author": "Corosus",
       "url": "https://www.curseforge.com/minecraft/mc-mods/mobtimizations",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/947/829/256/256/638434506566781762.png",
       "platform": "curseforge"
     },
     {
       "name": "ModernFix",
       "author": "embeddedt",
       "url": "https://www.curseforge.com/minecraft/mc-mods/modernfix",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/881/436/256/256/638311693460984164.png",
       "platform": "curseforge"
     },
     {
       "name": "Moonlight Lib",
       "author": "MehVahdJukaar",
       "url": "https://www.curseforge.com/minecraft/mc-mods/selene",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/402/662/256/256/637610797055895331.png",
       "platform": "curseforge"
     },
     {
       "name": "Mouse Tweaks",
       "author": "YaLTeR",
       "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/467/691/256/256/637749969243449870.png",
       "platform": "curseforge"
     },
     {
       "name": "MrCrayfish's Furniture Mod: Refurbished",
       "author": "MrCrayfish",
       "url": "https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/934/904/256/256/638411339753659456.png",
       "platform": "curseforge"
     },
     {
       "name": "Music Player",
       "author": "HyCraftHD",
       "url": "https://www.curseforge.com/minecraft/mc-mods/music-player",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/154/699/256/256/636627791026604222.png",
       "platform": "curseforge"
     },
     {
       "name": "Mutant Monsters",
       "author": "Fuzs",
       "url": "https://www.curseforge.com/minecraft/mc-mods/mutant-monsters",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/807/102/256/256/638175844047605886.png",
       "platform": "curseforge"
     },
     {
       "name": "Mutants Plus",
       "author": "angrymutantendermanz",
       "url": "https://www.curseforge.com/minecraft/mc-mods/mutants-buff",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/890/998/256/256/638332153754569364.png",
       "platform": "curseforge"
     },
     {
       "name": "Neruina - Ticking Entity Fixer",
       "author": "bawnorton",
       "url": "https://www.curseforge.com/minecraft/mc-mods/neruina",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/857/489/256/256/638262012283205727.png",
       "platform": "curseforge"
     },
     {
       "name": "Not Enough Animations",
       "author": "tr7zw",
       "url": "https://www.curseforge.com/minecraft/mc-mods/not-enough-animations",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/329/74/256/256/637454010542845990.png",
       "platform": "curseforge"
     },
     {
       "name": "Oculus",
       "author": "Asek3",
       "url": "https://www.curseforge.com/minecraft/mc-mods/oculus",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/495/526/256/256/637808944989585825.jpeg",
       "platform": "curseforge"
     },
     {
       "name": "Ok Zoomer Forge",
       "author": "matyrobbrt",
       "url": "https://www.curseforge.com/minecraft/mc-mods/ok-zoomer-forge",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/556/419/256/256/637901353109341869.png",
       "platform": "curseforge"
     },
     {
       "name": "Outbreak: Apocalyptic Bioweapons | Killing Floor | Left 4 Dead",
       "author": "Fyrrage",
       "url": "https://www.curseforge.com/minecraft/mc-mods/outbreak-apocalyptic-bioweapons",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1547/716/256/256/639004528154004873.png",
       "platform": "curseforge"
     },
     {
       "name": "Paragliders",
       "author": "Tictim",
       "url": "https://www.curseforge.com/minecraft/mc-mods/paragliders",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/144/153/256/256/636553981575772547.png",
       "platform": "curseforge"
     },
     {
       "name": "ParCool! ~ Minecraft Parkour ~",
       "author": "alRex_U",
       "url": "https://www.curseforge.com/minecraft/mc-mods/parcool",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/944/831/256/256/638429142781134750.png",
       "platform": "curseforge"
     },
     {
       "name": "ParCool+ / Compatibility Addon",
       "author": "alRex_U",
       "url": "https://www.curseforge.com/minecraft/mc-mods/parcool-compatibility-addon",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1110/198/256/256/638661444077857636.png",
       "platform": "curseforge"
     },
     {
       "name": "Particle Core",
       "author": "fzzyhmstrs",
       "url": "https://www.curseforge.com/minecraft/mc-mods/particle-core",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/960/885/256/256/638456871337447159.png",
       "platform": "curseforge"
     },
     {
       "name": "PartiCull: Particle Fix",
       "author": "Norevy",
       "url": "https://www.curseforge.com/minecraft/mc-mods/particull",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1750/17/256/256/639113736176582477.png",
       "platform": "curseforge"
     },
     {
       "name": "Passive Skill Tree",
       "author": "Daripher",
       "url": "https://www.curseforge.com/minecraft/mc-mods/passive-skill-tree",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/817/461/256/256/638195458249768499.png",
       "platform": "curseforge"
     },
     {
       "name": "Passive Skill Tree Mob Kill Points",
       "author": "sheepsquadace",
       "url": "https://www.curseforge.com/minecraft/mc-mods/skilltreemkp",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1120/27/256/256/638674623970139604.png",
       "platform": "curseforge"
     },
     {
       "name": "Pehkui",
       "author": "Virtuoel",
       "url": "https://www.curseforge.com/minecraft/mc-mods/pehkui",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/199/987/256/256/636910482436953576.png",
       "platform": "curseforge"
     },
     {
       "name": "Placebo",
       "author": "Shadows_of_Fire",
       "url": "https://www.curseforge.com/minecraft/mc-mods/placebo",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/134/260/256/256/636490526725752670.png",
       "platform": "curseforge"
     },
     {
       "name": "playerAnimator",
       "author": "KosmX",
       "url": "https://www.curseforge.com/minecraft/mc-mods/playeranimator",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/588/418/256/256/637958435315527412.png",
       "platform": "curseforge"
     },
     {
       "name": "Presence Footsteps (Forge)",
       "author": "Paint_Ninja",
       "url": "https://www.curseforge.com/minecraft/mc-mods/presence-footsteps-forge",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/328/277/256/256/637452075605397189.png",
       "platform": "curseforge"
     },
     {
       "name": "Puzzles Lib",
       "author": "Fuzs",
       "url": "https://www.curseforge.com/minecraft/mc-mods/puzzles-lib",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/776/232/256/256/638118144989284933.png",
       "platform": "curseforge"
     },
     {
       "name": "Quality Equipment",
       "author": "PooPmeep",
       "url": "https://www.curseforge.com/minecraft/mc-mods/quality-equipment",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/600/598/256/256/637978901741426714.png",
       "platform": "curseforge"
     },
     {
       "name": "Quantified API",
       "author": "Admany",
       "url": "https://www.curseforge.com/minecraft/mc-mods/quantified-api",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1675/114/256/256/639065170693747024.png",
       "platform": "curseforge"
     },
     {
       "name": "Radium Reforged",
       "author": "Asek3",
       "url": "https://www.curseforge.com/minecraft/mc-mods/radium-reforged",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/482/559/256/256/637781330810941375.png",
       "platform": "curseforge"
     },
     {
       "name": "Remove Reloading Screen",
       "author": "dima_dencep",
       "url": "https://www.curseforge.com/minecraft/mc-mods/rrls",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1179/51/256/256/638752022519805362.png",
       "platform": "curseforge"
     },
     {
       "name": "Saturn",
       "author": "AbdElAziz333",
       "url": "https://www.curseforge.com/minecraft/mc-mods/saturn",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/930/584/256/256/638403456638686065.png",
       "platform": "curseforge"
     },
     {
       "name": "SCP-6096, The Blanket Ghost",
       "author": "Zcoper",
       "url": "https://www.curseforge.com/minecraft/mc-mods/blanket-ghost",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1208/141/256/256/638785425082854705.png",
       "platform": "curseforge"
     },
     {
       "name": "SCP-682, The Hard To Destroy Reptile",
       "author": "Zcoper",
       "url": "https://www.curseforge.com/minecraft/mc-mods/the-hard-to-destroy-reptile",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1208/128/256/256/638785417417868388.png",
       "platform": "curseforge"
     },
     {
       "name": "Searchables",
       "author": "Jaredlll08",
       "url": "https://www.curseforge.com/minecraft/mc-mods/searchables",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/814/175/256/256/638189233295197018.png",
       "platform": "curseforge"
     },
     {
       "name": "Security Craft",
       "author": "Geforce132",
       "url": "https://www.curseforge.com/minecraft/mc-mods/security-craft",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1323/237/256/256/638860292902484652.png",
       "platform": "curseforge"
     },
     {
       "name": "Server Performance - Smooth Chunk Save[Forge/Fabric]",
       "author": "someaddon",
       "url": "https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/536/807/256/256/637859186206116434.png",
       "platform": "curseforge"
     },
     {
       "name": "Simple Voice Chat",
       "author": "henkelmax",
       "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/391/367/256/256/637584172062782791.png",
       "platform": "curseforge"
     },
     {
       "name": "Simple Voice Radio",
       "author": "CodinGlitch",
       "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-radio",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1228/416/256/256/638805632556962162.png",
       "platform": "curseforge"
     },
     {
       "name": "SkinChanger",
       "author": "Edoren",
       "url": "https://www.curseforge.com/minecraft/mc-mods/skinchanger",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/266/829/256/256/637233714503353824.png",
       "platform": "curseforge"
     },
     {
       "name": "Smooth Boot (Reloaded)",
       "author": "AbdElAziz333",
       "url": "https://www.curseforge.com/minecraft/mc-mods/smooth-boot-reloaded",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/621/778/256/256/638013134878831469.png",
       "platform": "curseforge"
     },
     {
       "name": "Sodium/Embeddium Dynamic Lights",
       "author": "Txni",
       "url": "https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1068/309/256/256/638602793082566240.png",
       "platform": "curseforge"
     },
     {
       "name": "Sound Physics Remastered",
       "author": "henkelmax",
       "url": "https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/442/531/256/256/637694502660771592.png",
       "platform": "curseforge"
     },
     {
       "name": "spark",
       "author": "Iucko",
       "url": "https://www.curseforge.com/minecraft/mc-mods/spark",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/495/151/256/256/637808085409071880.png",
       "platform": "curseforge"
     },
     {
       "name": "Spartan Weaponry",
       "author": "ObliviousSpartan",
       "url": "https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/554/549/256/256/637896819294514178.png",
       "platform": "curseforge"
     },
     {
       "name": "Survival Instinct",
       "author": "Tohirogosu",
       "url": "https://www.curseforge.com/minecraft/mc-mods/survival-instinct",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1224/362/256/256/638802389118962728.png",
       "platform": "curseforge"
     },
     {
       "name": "The Flesh That Hates",
       "author": "winvicc",
       "url": "https://www.curseforge.com/minecraft/mc-mods/the-flesh-that-hates",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/927/294/256/256/638397670058871073.png",
       "platform": "curseforge"
     },
     {
       "name": "The Lost Cities",
       "author": "McJty",
       "url": "https://www.curseforge.com/minecraft/mc-mods/the-lost-cities",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/101/102/256/256/636320465430890063.png",
       "platform": "curseforge"
     },
     {
       "name": "Tom's Simple Storage Mod",
       "author": "tom54541",
       "url": "https://www.curseforge.com/minecraft/mc-mods/toms-storage",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/266/898/256/256/637234057062921445.png",
       "platform": "curseforge"
     },
     {
       "name": "Traveler's Backpack",
       "author": "Tiviacz1337",
       "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-backpack",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/623/755/256/256/638018179275684974_animated.gif",
       "platform": "curseforge"
     },
     {
       "name": "True Darkness Biomes [Forge/Neoforge]",
       "author": "Qsmium",
       "url": "https://www.curseforge.com/minecraft/mc-mods/true-darkness-biomes",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1098/20/256/256/638644251874282182.png",
       "platform": "curseforge"
     },
     {
       "name": "U Team Core",
       "author": "HyCraftHD",
       "url": "https://www.curseforge.com/minecraft/mc-mods/u-team-core",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/108/684/256/256/636374315485450120.png",
       "platform": "curseforge"
     },
     {
       "name": "Voiceless Survival",
       "author": "armi",
       "url": "https://www.curseforge.com/minecraft/mc-mods/voiceless-survival",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1588/537/256/256/639027803015075470.png",
       "platform": "curseforge"
     },
     {
       "name": "Waystones",
       "author": "BlayTheNinth",
       "url": "https://www.curseforge.com/minecraft/mc-mods/waystones",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1107/108/256/256/638657104456838765.png",
       "platform": "curseforge"
     },
     {
       "name": "Weapons of Miracles - epic fight",
       "author": "reascer",
       "url": "https://www.curseforge.com/minecraft/mc-mods/weapons-of-miracles-epicfight",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/884/152/256/256/638318074504658168.png",
       "platform": "curseforge"
     },
     {
       "name": "Xaero's Minimap",
       "author": "xaero96",
       "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/92/854/256/256/636258666554688823.png",
       "platform": "curseforge"
     },
     {
       "name": "Xaero's Minimap & World Map - Waystones Compatibility [Forge]",
       "author": "ArcaneAlloy",
       "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-world-map-waystones-compability",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/847/598/256/256/638247062895610203.png",
       "platform": "curseforge"
     },
     {
       "name": "Xaero's World Map",
       "author": "xaero96",
       "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/196/654/256/256/636886857118683130.png",
       "platform": "curseforge"
     },
     {
       "name": "Yeetus Experimentus",
       "author": "Sunekaer",
       "url": "https://www.curseforge.com/minecraft/mc-mods/yeetusexperimentus",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/561/302/256/256/637913385213961485.png",
       "platform": "curseforge"
     },
     {
       "name": "YetAnotherConfigLib",
       "author": "isXander",
       "url": "https://www.curseforge.com/minecraft/mc-mods/yacl",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/598/727/256/256/637977258872864320.png",
       "platform": "curseforge"
     },
     {
       "name": "Zombie Awareness",
       "author": "Corosus",
       "url": "https://www.curseforge.com/minecraft/mc-mods/zombie-awareness",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/52/495/256/256/636115230174450040.png",
       "platform": "curseforge"
     }
   ],
@@ -1015,36 +1182,42 @@
       "name": "Excalibur",
       "author": "Maffhew",
       "url": "https://www.curseforge.com/minecraft/texture-packs/excalibur",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/473/850/256/256/637766076580792794.png",
       "platform": "curseforge"
     },
     {
       "name": "Fresh Animations",
       "author": "FreshLX",
       "url": "https://www.curseforge.com/minecraft/texture-packs/fresh-animations",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1402/911/256/256/638909354589974674.png",
       "platform": "curseforge"
     },
     {
       "name": "Low On Fire",
       "author": "Haikis",
       "url": "https://www.curseforge.com/minecraft/texture-packs/low-on-fire",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/494/548/256/256/637806308919001110.png",
       "platform": "curseforge"
     },
     {
       "name": "OutBreakCraft Menu Music [OBC]",
       "author": "AfterLifeMOD",
       "url": "https://www.curseforge.com/minecraft/texture-packs/outbreakcraft-menu-music",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1053/984/256/256/638584742229171879.png",
       "platform": "curseforge"
     },
     {
       "name": "Slightly Improved Font (32x)",
       "author": "LatvianModder",
       "url": "https://www.curseforge.com/minecraft/texture-packs/slightly-improved-font",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/493/950/256/256/637804470775825461.png",
       "platform": "curseforge"
     },
     {
       "name": "Tissou's Zombie Pack",
       "author": "Tissou",
       "url": "https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-pack-optifine-1-7x-1-20",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1004/750/256/256/638525963061053653.png",
       "platform": "curseforge"
     }
   ],
@@ -1053,12 +1226,14 @@
       "name": "🎃 Insanity Shader",
       "author": "ElocinDev",
       "url": "https://www.curseforge.com/minecraft/shaders/insanity-shader",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/793/487/256/256/638151403748357181.png",
       "platform": "curseforge"
     },
     {
       "name": "Bliss Shaders",
       "author": "Xonk___",
       "url": "https://www.curseforge.com/minecraft/shaders/bliss-shader",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/848/186/256/256/638248048963999686.png",
       "platform": "curseforge"
     },
     {
@@ -1071,6 +1246,7 @@
       "name": "Body Camera Shader",
       "author": "LoLip_p",
       "url": "https://www.curseforge.com/minecraft/shaders/body-camera-shader",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1070/614/256/256/638606037067560255.jpeg",
       "platform": "curseforge"
     },
     {
@@ -1080,6 +1256,7 @@
       "name": "BSL Shaders",
       "author": "capttatsu",
       "url": "https://www.curseforge.com/minecraft/shaders/bsl-shaders",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1130/670/256/256/638689862356749182.png",
       "platform": "curseforge"
     },
     {
@@ -1095,6 +1272,7 @@
       "name": "Complementary Shaders - Reimagined",
       "author": "EminGT",
       "url": "https://www.curseforge.com/minecraft/shaders/complementary-reimagined",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/875/481/256/256/638298072734336144.png",
       "platform": "curseforge"
     },
     {
@@ -1119,6 +1297,7 @@
       "name": "Photon Shader",
       "author": "sixthsurge",
       "url": "https://www.curseforge.com/minecraft/shaders/photon-shader",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/1368/962/256/256/638888885987333684.png",
       "platform": "curseforge"
     },
     {
@@ -1128,6 +1307,7 @@
       "name": "Spooklementary",
       "author": "SpacEagle17",
       "url": "https://www.curseforge.com/minecraft/shaders/spooklementary",
+      "icon": "https://media.forgecdn.net/avatars/thumbnails/887/782/256/256/638325491790729764.png",
       "platform": "curseforge"
     }
   ]

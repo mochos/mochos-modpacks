@@ -126,8 +126,9 @@ node scripts/build-contents.mjs la-linea-rota --file ./La-Linea-Rota-1.21.1-v1.1
 
 - Comprueba que el archivo coincide con el `sha1` de `modpack.json`, así que hazlo **después** del paso 4.
 - **`.mrpack`:** los nombres, iconos y enlaces salen de la API de Modrinth (no pide key).
-- **`.zip` de CurseForge:** salen del `modlist.html` que CurseForge mete en el `.zip` al exportar
-  (no hace falta API key; estos no llevan icono).
+- **`.zip` de CurseForge:** salen del `modlist.html` que CurseForge mete en el `.zip` al exportar.
+  Los iconos se piden a la API de CurseForge, que necesita key: ponla en un `.env` en la raíz del
+  repo (`CURSEFORGE_API_KEY=...`, ya está en `.gitignore`). Sin key la lista sale igual, sin iconos.
 - Lo que va suelto en `overrides/mods`, `overrides/resourcepacks` u `overrides/shaderpacks` aparece
   en la lista **sin enlace**, con el nombre del archivo.
 

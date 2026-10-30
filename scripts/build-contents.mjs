@@ -16,6 +16,10 @@ const CATEGORIES = ["mods", "resourcepacks", "shaders"];
 const FOLDERS = { mods: "mods", resourcepacks: "resourcepacks", shaderpacks: "shaders" };
 const CF_CLASSES = { "mc-mods": "mods", "texture-packs": "resourcepacks", shaders: "shaders" };
 
+// CURSEFORGE_API_KEY (en .env o en el entorno) solo hace falta para los iconos de CurseForge.
+try { process.loadEnvFile(join(ROOT, ".env")); } catch {}
+const CF_KEY = process.env.CURSEFORGE_API_KEY;
+
 // Lector de zip mínimo (sin dependencias): directorio central + deflate.
 function readZip(buf) {
   let eocd = buf.length - 22;
@@ -90,11 +94,27 @@ async function fromMrpack(zip) {
   return [...items, ...overrides(zip.names)];
 }
 
+// Iconos por slug a partir de los projectID de manifest.json. La API de CurseForge pide key: sin ella
+// la lista sale igual, solo que sin iconos.
+async function curseforgeIcons(zip) {
+  if (!CF_KEY) { console.warn("  · sin CURSEFORGE_API_KEY: los elementos de CurseForge salen sin icono"); return new Map(); }
+  const modIds = JSON.parse(zip.read("manifest.json") ?? '{"files":[]}').files.map((f) => f.projectID);
+  if (!modIds.length) return new Map();
+  const res = await fetch("https://api.curseforge.com/v1/mods", {
+    method: "POST",
+    headers: { "x-api-key": CF_KEY, "Content-Type": "application/json", Accept: "application/json" },
+    body: JSON.stringify({ modIds }),
+  });
+  if (!res.ok) throw new Error(`API de CurseForge: HTTP ${res.status}`);
+  const { data } = await res.json();
+  return new Map(data.filter((p) => p.logo?.thumbnailUrl).map((p) => [p.slug, p.logo.thumbnailUrl]));
+}
+
 // modlist.html (lo exporta CurseForge) trae nombre, autor y enlace; la ruta del enlace dice el tipo.
-// Así no hace falta la API de CurseForge, que pide key.
-function fromCurseforgeZip(zip) {
+async function fromCurseforgeZip(zip) {
   const html = zip.read("modlist.html");
   if (!html) throw new Error("el .zip no trae modlist.html");
+  const icons = await curseforgeIcons(zip);
   const items = [];
   for (const [, href, text] of html.matchAll(/<li>\s*<a href="([^"]+)">([\s\S]*?)<\/a>\s*<\/li>/g)) {
     const kind = href.match(/curseforge\.com\/minecraft\/([^/]+)\//)?.[1];
@@ -106,6 +126,7 @@ function fromCurseforgeZip(zip) {
       name: (by ? by[1] : decode(text)).trim(),
       author: by?.[2].trim() || undefined,
       url: href,
+      icon: icons.get(href.match(/curseforge\.com\/minecraft\/[^/]+\/([^/?#]+)/)?.[1]),
       platform: "curseforge",
     });
   }
@@ -150,7 +171,7 @@ for (const id of ids) {
   try {
     console.log(`${id} ${m.version}…`);
     const zip = readZip(await packFile(m, local));
-    const items = m.source.type === "mrpack" ? await fromMrpack(zip) : fromCurseforgeZip(zip);
+    const items = m.source.type === "mrpack" ? await fromMrpack(zip) : await fromCurseforgeZip(zip);
     const contents = { version: m.version };
     for (const c of CATEGORIES) {
       contents[c] = items
