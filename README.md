@@ -148,8 +148,10 @@ Después de añadir o cambiar un servidor, ejecuta `node scripts/build-index.mjs
 
 Un modpack o servidor con `"dev": true` solo aparece en el launcher (1.4 o posterior) de las
 cuentas de [`desarrollo.json`](desarrollo.json), con la etiqueta **«Desarrollo»**. Sirve para ver
-cómo queda antes de publicarlo. No sale en la web ni en launchers anteriores: `build-index.mjs` lo
-pone en la sección `dev` de `index.json`, que solo lee el launcher 1.4+.
+cómo queda antes de publicarlo. No sale en el catálogo de la web ni en launchers anteriores:
+`build-index.mjs` lo pone en la sección `dev` de `index.json`, que solo lee el launcher 1.4+. Su
+página de la web sí se abre con el enlace (`mochos.xyz/launcher/modpacks/<id>`, el botón **Copiar
+enlace** del launcher), con un aviso de que está en desarrollo y sin la descarga del archivo.
 
 `desarrollo.json` no guarda nombres sino un hash de la cuenta (SHA-256 del UUID de Minecraft), así
 que la lista no dice quién tiene acceso. Para añadir a alguien:
@@ -169,6 +171,7 @@ cualquier nombre.
   instaló en desarrollo sigue con la misma instancia.
 - Si **pasas a desarrollo** un modpack que ya era público, quien lo tenga instalado lo conserva y
   sigue recibiendo actualizaciones en el launcher 1.4+, pero deja de verlo en el catálogo. En los
-  launchers anteriores se desvincula (como al retirarlo).
+  launchers anteriores se desvincula (como al retirarlo); al abrir el launcher 1.4+ le aparece
+  **Actualizar** para volver a vincularlo.
 - Un servidor público no puede usar un modpack en desarrollo (`build-index.mjs` da error): pon
   también `"dev": true` en el servidor.
