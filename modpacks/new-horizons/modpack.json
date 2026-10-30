@@ -5,9 +5,9 @@
   "summary": "Survival de exploración con mundos de Terralith, aviones, el Aether, granjas y viñedos de Let's Do, y shaders para jugar entre amigos.",
   "description": "description.md",
   "changelog": "CHANGELOG.md",
-  "version": "0.6",
+  "version": "0.7",
   "minecraft": "1.21.1",
-  "loader": { "type": "neoforge", "version": "21.1.252" },
+  "loader": { "type": "neoforge", "version": "21.1.262" },
   "icon": "icon.png",
   "banner": "images/banner.png",
   "gallery": [],
@@ -17,9 +17,9 @@
   "recommendedRamMb": 8192,
   "source": {
     "type": "curseforge-zip",
-    "url": "https://github.com/mochos/mochos-modpacks/releases/download/new-horizons-0.6/New-Horizons-1.21.1-v0.6.zip",
-    "sha1": "cd85c722047363510b6bde77ee1d0e8245ed0f4c",
-    "size": 2554986
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/new-horizons-0.7/New-Horizons-1.21.1-v0.7.zip",
+    "sha1": "6a9507ef896775d4ed4c553eafb3460e907df3b3",
+    "size": 4744777
   },
   "server": {
     "enabled": true,
@@ -30,5 +30,5 @@
     "website": "https://mochos.xyz",
     "discord": "https://discord.mochos.xyz"
   },
-  "updatedAt": "2026-10-28"
+  "updatedAt": "2026-10-29"
 }
