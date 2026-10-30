@@ -43,7 +43,8 @@
         "website": "https://mochos.xyz",
         "discord": "https://discord.mochos.xyz"
       },
-      "updatedAt": "2026-10-27"
+      "updatedAt": "2026-10-27",
+      "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/la-linea-rota/contents.json"
     },
     {
       "id": "ecos-del-fin",
@@ -97,7 +98,8 @@
         "discord": "https://discord.mochos.xyz",
         "curseforge": "https://www.curseforge.com/minecraft/modpacks/ecos-del-fin"
       },
-      "updatedAt": "2026-10-29"
+      "updatedAt": "2026-10-29",
+      "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/ecos-del-fin/contents.json"
     },
     {
       "id": "guijarromon-2",
@@ -149,7 +151,8 @@
         "discord": "https://discord.mochos.xyz",
         "curseforge": "https://www.curseforge.com/minecraft/modpacks/guijarromon-2-mirage"
       },
-      "updatedAt": "2026-10-29"
+      "updatedAt": "2026-10-29",
+      "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/guijarromon-2/contents.json"
     },
     {
       "id": "new-horizons",
@@ -193,7 +196,8 @@
         "website": "https://mochos.xyz",
         "discord": "https://discord.mochos.xyz"
       },
-      "updatedAt": "2026-10-29"
+      "updatedAt": "2026-10-29",
+      "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/new-horizons/contents.json"
     },
     {
       "id": "vanilla-mochos",
@@ -237,7 +241,8 @@
         "website": "https://mochos.xyz",
         "discord": "https://discord.mochos.xyz"
       },
-      "updatedAt": "2026-10-27"
+      "updatedAt": "2026-10-27",
+      "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/vanilla-mochos/contents.json"
     }
   ],
   "servers": [

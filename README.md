@@ -14,6 +14,7 @@ mochos-modpacks/
 ├── schema/modpack.schema.json  ← esquema de validación de modpack.json
 ├── schema/servidor.schema.json ← esquema de validación de servidor.json
 ├── scripts/build-index.mjs     ← genera y valida index.json
+├── scripts/build-contents.mjs  ← genera contents.json de cada modpack (pestaña «Contenido» de la web)
 ├── servidores/                 ← servidores de la comunidad (ver más abajo)
 │   └── la-linea-rota/
 │       └── servidor.json
@@ -22,6 +23,7 @@ mochos-modpacks/
         ├── modpack.json        ← metadatos (obligatorio)
         ├── description.md      ← descripción larga en markdown
         ├── CHANGELOG.md        ← historial de cambios
+        ├── contents.json       ← generado: mods, resourcepacks y shaders con su enlace
         ├── icon.png            ← icono cuadrado (recomendado 256×256)
         └── images/
             ├── banner.png      ← imagen de cabecera (recomendado 1600×600)

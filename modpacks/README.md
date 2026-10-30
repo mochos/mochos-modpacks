@@ -13,6 +13,7 @@ modpacks/
     ├── modpack.json      ← metadatos (obligatorio)
     ├── description.md    ← descripción larga (markdown)
     ├── CHANGELOG.md      ← historial de cambios
+    ├── contents.json     ← generado: lista de mods, resourcepacks y shaders (no editar a mano)
     ├── icon.png          ← icono cuadrado, 256×256
     └── images/
         ├── banner.png    ← cabecera, 1600×600
@@ -112,7 +113,28 @@ La versión nueva va **arriba**:
 - …
 ```
 
-### 6. Validar, hacer commit y push
+### 6. Generar la lista de contenido
+
+La pestaña **Contenido** de la web ([mochos.xyz/launcher/modpacks/&lt;id&gt;](https://mochos.xyz/launcher))
+muestra cada mod, resourcepack y shader del modpack con su enlace a Modrinth o CurseForge. Esa lista
+sale de `contents.json`, que se genera leyendo el archivo del modpack:
+
+```bash
+node scripts/build-contents.mjs la-linea-rota                                         # descarga el archivo de la Release
+node scripts/build-contents.mjs la-linea-rota --file ./La-Linea-Rota-1.21.1-v1.12.mrpack  # o usa el que ya tienes
+```
+
+- Comprueba que el archivo coincide con el `sha1` de `modpack.json`, así que hazlo **después** del paso 4.
+- **`.mrpack`:** los nombres, iconos y enlaces salen de la API de Modrinth (no pide key).
+- **`.zip` de CurseForge:** salen del `modlist.html` que CurseForge mete en el `.zip` al exportar
+  (no hace falta API key; estos no llevan icono).
+- Lo que va suelto en `overrides/mods`, `overrides/resourcepacks` u `overrides/shaderpacks` aparece
+  en la lista **sin enlace**, con el nombre del archivo.
+
+Sin `contents.json`, la web no muestra la pestaña. Si `version` cambia y no lo regeneras,
+`build-index.mjs` avisa y la web sigue mostrando la lista anterior.
+
+### 7. Validar, hacer commit y push
 
 ```bash
 node scripts/build-index.mjs        # valida y regenera index.json; si hay errores, los lista
@@ -122,7 +144,8 @@ git push
 ```
 
 Si no tienes Node, sube solo la carpeta del modpack: la GitHub Action valida y regenera `index.json`
-sola (revisa en la pestaña **Actions** que salga en verde).
+sola (revisa en la pestaña **Actions** que salga en verde). `contents.json` sí hay que generarlo con
+Node (paso 6).
 
 En unos minutos todos los launchers muestran **Actualizar** en ese modpack.
 
@@ -183,7 +206,8 @@ lista de servidores, los mundos ni lo que haya añadido el jugador.
 }
 ```
 
-6. Valida, haz commit y push (paso **6** de arriba).
+6. Genera `contents.json` (paso **6** de arriba).
+7. Valida, haz commit y push (paso **7** de arriba).
 
 ---
 
@@ -209,3 +233,9 @@ que los jugadores tengan que actualizar nada.
 - **La descarga falla con «hash incorrecto»**: el `sha1` no corresponde al archivo de la Release
   (¿se volvió a exportar después de calcularlo?). Recalcúlalo con el archivo que subiste.
 - **Los jugadores no ven «Actualizar»**: no se cambió `version`, o la Action falló (pestaña Actions).
+- **«contents.json es de otra versión»**: se cambió `version` sin regenerar la lista. Ejecuta
+  `node scripts/build-contents.mjs <id>`.
+- **`build-contents.mjs`: «el sha1 del archivo no coincide»**: el archivo no es el de la Release
+  (o el `sha1` de `modpack.json` está mal).
+- **`build-contents.mjs`: «el .zip no trae modlist.html»**: el `.zip` no se exportó desde CurseForge.
+  Vuelve a exportarlo con *Exportar perfil*.

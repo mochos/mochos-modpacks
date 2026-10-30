@@ -16,6 +16,7 @@ const GAMES = ["minecraft", "hytale"];
 const QUERIES = ["minecraft", "hyquery", "none"];
 
 const errors = [];
+const warnings = [];
 const isUrl = (s) => /^https?:\/\//.test(s);
 
 function asset(dir, id, value, field, folder = "modpacks") {
@@ -60,6 +61,13 @@ for (const id of readdirSync(packsDir).sort()) {
   const source = { ...m.source };
   if (source.url) source.url = asset(dir, id, source.url, "source.url");
 
+  // Lista de mods/resourcepacks/shaders para la web (la genera scripts/build-contents.mjs).
+  const contentsFile = join(dir, "contents.json");
+  const contents = existsSync(contentsFile) ? asset(dir, id, "contents.json", "contents") : undefined;
+  if (contents && JSON.parse(readFileSync(contentsFile, "utf8")).version !== m.version) {
+    warnings.push(`${id}: contents.json es de otra versión. Ejecuta: node scripts/build-contents.mjs ${id}`);
+  }
+
   modpacks.push({
     ...rest,
     description: markdown(dir, id, m.description, "description") ?? "",
@@ -68,6 +76,7 @@ for (const id of readdirSync(packsDir).sort()) {
     banner: asset(dir, id, m.banner, "banner"),
     gallery: (m.gallery ?? []).map((g, i) => asset(dir, id, g, `gallery[${i}]`)),
     source,
+    contents,
   });
 }
 
@@ -103,6 +112,7 @@ for (const id of existsSync(serversDir) ? readdirSync(serversDir).sort() : []) {
   });
 }
 
+if (warnings.length) console.warn("Avisos:\n - " + warnings.join("\n - "));
 if (errors.length) {
   console.error("Errores:\n - " + errors.join("\n - "));
   process.exit(1);

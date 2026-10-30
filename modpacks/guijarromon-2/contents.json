@@ -1,0 +1,1406 @@
+{
+  "version": "1.02",
+  "mods": [
+    {
+      "name": "[NoCube's] Realm RPG: Treasure Balloons",
+      "author": "NoCube",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/realm-rpg-treasure-balloons",
+      "platform": "curseforge"
+    },
+    {
+      "name": "[Simple Version] Extra Eeveelutions for Cobblemon",
+      "author": "Cykosu",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mod-version-extra-eeveelutions-for-cobblemon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Accessories",
+      "author": "Blodhgarm",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/accessories",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Advanced Backups",
+      "author": "HeatherWhite",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/advanced-backups",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Almanac Lib",
+      "author": "frikinjay",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/almanac-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Almost Unified",
+      "author": "AlmostReliable",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/almostunified",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Alternate Current",
+      "author": "SpaceWalkerRS",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/alternate-current",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Amendments",
+      "author": "plantspookable",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/amendments",
+      "platform": "curseforge"
+    },
+    {
+      "name": "AppleSkin",
+      "author": "squeek502",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Architectury API",
+      "author": "shedaniel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Athena",
+      "author": "terrariumearth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/athena",
+      "platform": "curseforge"
+    },
+    {
+      "name": "AttributeFix",
+      "author": "DarkhaxDev",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/attributefix",
+      "platform": "curseforge"
+    },
+    {
+      "name": "BadOptimizations",
+      "author": "thosea",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/badoptimizations",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Balm",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/balm",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Biolith",
+      "author": "Prospector",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/biolith",
+      "platform": "curseforge"
+    },
+    {
+      "name": "BlueMap",
+      "author": "TBlueF",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/bluemap",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Bookshelf",
+      "author": "DarkhaxDev",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Caelus API",
+      "author": "TheIllusiveC4",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/caelus",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Catalogue",
+      "author": "MrCrayfish",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/catalogue",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Chat Heads",
+      "author": "dzwdz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chat-heads",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Chipped",
+      "author": "terrariumearth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chipped",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Chunk Sending[Forge/Fabric]",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chunk-sending-forge-fabric",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Chunky (Forge/NeoForge)",
+      "author": "pop4959",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Chunky Border (Forge/NeoForge)",
+      "author": "pop4959",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chunky-border-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Clavis",
+      "author": "SSKirillSS",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/clavis",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cloth Config API (Fabric/Forge/NeoForge)",
+      "author": "shedaniel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CobbleBoss",
+      "author": "RainApricot",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobbleboss",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CobbleBrain - AI Dialogue System for Cobblemon",
+      "author": "VICdev",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblebrain",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CobbleFurnies",
+      "author": "LunazStudios",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblefurnies",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobbleloots: Loot Balls and More!",
+      "author": "Ripio",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobbleloots",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemarks+ (Cobblemon)",
+      "author": "Ernesto_7ooooo",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemarks-cobblemon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon",
+      "author": "CobbledStudios",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Alatia's Fakemon Pack",
+      "author": "Doctor_XL",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-alatias-fakemon-pack-mod",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Alpha Project",
+      "author": "Cudzer",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-alpha-project",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Battle Tower",
+      "author": "Raguto",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-battle-tower",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Counter",
+      "author": "TimInc",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-counter",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Fakemon: Lively 'Mons",
+      "author": "captain_nautilus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-fakemon-lively-mons",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Fight or Flight Reborn",
+      "author": "Vaniron",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-fight-or-flight-reborn",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Gym Blocks",
+      "author": "Z0netoHD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-gym-blocks",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Integrations",
+      "author": "Arcaryx",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-integrations",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Leaderboards",
+      "author": "LevelsFR",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-leaderboards",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Level Cap",
+      "author": "Floye",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemonlevelcap",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Mass Outbreaks",
+      "author": "scouter567",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-mass-outbreaks",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Party Extras",
+      "author": "Raguto",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-party-extras",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Pokerus",
+      "author": "TimInc",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-pokerus",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Quests Reloaded",
+      "author": "Floye",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-quest-reloaded",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Raid Dens",
+      "author": "NecroSo1",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemonraiddens",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Rustling Spots",
+      "author": "LevelsFR",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/rustling-spots",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Size Variations",
+      "author": "Cudzer",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-size-variations",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Tim Core",
+      "author": "TimInc",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-tim-core",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Trainer Structures",
+      "author": "blorbilon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-trainer-structures",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Trials Edition",
+      "author": "Lemenok",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-trials-edition",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon Unchained",
+      "author": "TimInc",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-unchained",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon: Fableworks",
+      "author": "kirbee",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-fableworks",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon: Mega Showdown",
+      "author": "yajatkaul",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-mega-showdown",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemon: Parting Gifts",
+      "author": "Emperdog",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-release-rewards",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobblemore Lib",
+      "author": "Cobblemore_Studio",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobblemore-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cobweb",
+      "author": "CrystalSpider",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cobweb",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Collective",
+      "author": "Serilum",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/collective",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Comforts",
+      "author": "TheIllusiveC4",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/comforts",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Configured",
+      "author": "MrCrayfish",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/configured",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Connected Glass",
+      "author": "SuperMartijn642",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/connected-glass",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Connectivity",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/connectivity",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Controlling",
+      "author": "Jaredlll08",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Convenient Curios Container",
+      "author": "LeoBeliik",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/convenient-curios-container",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cooking for Blockheads",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Corail Tombstone",
+      "author": "Corail_31",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/corail-tombstone",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CorgiLib",
+      "author": "Corgi_Taco",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/corgilib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cosmetic Armor Reworked",
+      "author": "LainMI",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Crafting Tweaks",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CraftTweaker",
+      "author": "Jaredlll08",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CRD Broadcasts",
+      "author": "NecroSo1",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/crd-broadcasts",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CRD Converters",
+      "author": "NecroSo1",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/crd-converters",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CreativeCore",
+      "author": "CreativeMD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/creativecore",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cristel Lib",
+      "author": "Cristelknight",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cristel-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cupboard",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cupboard",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Curios API (Forge/NeoForge)",
+      "author": "TheIllusiveC4",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/curios",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Death Backup",
+      "author": "Serilum",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/death-backup",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Default Options",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/default-options",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Dimension Expansion",
+      "author": "DarkLotus781",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dimension-expansion",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Don't Claim our Structures ! (FTB Chunks/OPaC)",
+      "author": "Project8gbDeRam",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dont-claim-our-structures",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Draggable Lists",
+      "author": "MrMelon54",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/draggable-lists",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Dungeon Crawl",
+      "author": "xiroc_",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Dynamic FPS",
+      "author": "juliand665",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dynamic-fps",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Easy CraftTweaker",
+      "author": "pydingabsorber",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/easy-craft-tweaker",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Easy Magic",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/easy-magic",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Easy Shulker Boxes",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/easy-shulker-boxes",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Emojiful",
+      "author": "Buuz135",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/emojiful",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Emotecraft (Forge)",
+      "author": "KosmX",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Enchantment Level Language Patch",
+      "author": "teddyxlandlee",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/enchantment-level-language-patch",
+      "platform": "curseforge"
+    },
+    {
+      "name": "EnchantmentLevelBreak",
+      "author": "LirxOwO",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/enchantlevelbrek",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Entity Culling Fabric/Forge",
+      "author": "tr7zw",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/entityculling",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Equipment Compare [Neo/Forge]",
+      "author": "Grend_G",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/equipment-compare",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Explorer's Compass",
+      "author": "Chaosyr",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/explorers-compass",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Explorify – Dungeons & Structures",
+      "author": "bebebea_loste",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/explorify",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Extreme sound muffler - (Neo)Forge",
+      "author": "LeoBeliik",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Fancy Entity Renderer",
+      "author": "CrystalSpider",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fancy-entity-renderer",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Farmer's Delight",
+      "author": "vectorwing",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Fast IP Ping",
+      "author": "Fallen_Breath",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fast-ip-ping",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FastSuite",
+      "author": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fastsuite",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Feature Recycler",
+      "author": "Corgi_Taco",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/feature-recycler",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FerriteCore ((Neo)Forge)",
+      "author": "malte0811",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
+      "platform": "curseforge"
+    },
+    {
+      "name": "fix GPU memory leak[Forge/Fabric]",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fix-gpu-memory-leak",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Forge Config API Port",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Forgified Fabric API",
+      "author": "Su5eD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FramedBlocks",
+      "author": "XFactHD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/framedblocks",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Framework",
+      "author": "MrCrayfish",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/framework",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FTB Essentials (Forge & Fabric)",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-essentials",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FTB Filter System",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-filter-system",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FTB JEI Extras",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-jei-extras",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FTB Library (NeoForge)",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FTB Quests (NeoForge)",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FTB Quests Optimizer",
+      "author": "big_energy",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-optimizer",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FTB Teams (NeoForge)",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FTB XMod Compat",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Fusion (Connected Textures)",
+      "author": "SuperMartijn642",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures",
+      "platform": "curseforge"
+    },
+    {
+      "name": "GeckoLib",
+      "author": "Gecko",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "GlitchCore",
+      "author": "TheAdubbz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/glitchcore",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Iceberg [Neo/Forge]",
+      "author": "Grend_G",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/iceberg",
+      "platform": "curseforge"
+    },
+    {
+      "name": "In Control!",
+      "author": "McJty",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/in-control",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Item Banning",
+      "author": "pitbox46",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/item-banning",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Jade 🔍",
+      "author": "Snownee",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jade",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Jade Addons (Neo/Forge)",
+      "author": "Snownee",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jade-addons",
+      "platform": "curseforge"
+    },
+    {
+      "name": "JourneyMap",
+      "author": "techbrew",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/journeymap",
+      "platform": "curseforge"
+    },
+    {
+      "name": "JourneyMap Integration",
+      "author": "frankV",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/journeymap-integration",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Just Enough Archaeology",
+      "author": "LobsterJonn",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-archaeology",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Just Enough Breeding (JEBr)",
+      "author": "Christofmeg",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/justenoughbreeding",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Just Enough Cobblemon",
+      "author": "Darcosse",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-cobblemon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Just Enough Effect Descriptions (JEED)",
+      "author": "MehVahdJukaar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Just Enough Items (JEI)",
+      "author": "mezz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jei",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Just Enough Resources (JER)",
+      "author": "way2muchnoise",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer",
+      "platform": "curseforge"
+    },
+    {
+      "name": "KeybindsPurger",
+      "author": "ZedDevStuff",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/keybindspurger",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Konkrete",
+      "author": "Keksuccino",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/konkrete",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Kotlin for Forge",
+      "author": "thedarkcolour",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Leaky - Item Lag Fix[Forge/Fabric]",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/leaky",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Leaves Be Gone",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/leaves-be-gone",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Legendary Tooltips [Neo/Forge]",
+      "author": "Grend_G",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Lithostitched",
+      "author": "Apollo",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lithostitched",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Load My F***ing Tags",
+      "author": "Blodhgarm",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lmft",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Loot Integrations",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/loot-integrations",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Loot Integrations: Dungeon Crawl",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/loot-integrations-dungeon-crawl",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Loot Integrations: Randomized Loot Compatibility",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/vanilla-loot-addon-for-loot-integrations",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Loot Integrations: Towns and Towers",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/loot-integrations-towns-and-towers",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Lootr (Forge & NeoForge)",
+      "author": "Noobanidus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lootr",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Lootrmon: Lootr & Cobblemon Gilded Chest Compatibility",
+      "author": "Noobanidus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lootrmon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Macaw's Doors",
+      "author": "sketch_macaw",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-doors",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Macaw's Fences and Walls",
+      "author": "sketch_macaw",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Macaw's Trapdoors",
+      "author": "sketch_macaw",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Melody",
+      "author": "Keksuccino",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/melody",
+      "platform": "curseforge"
+    },
+    {
+      "name": "MemorySweep",
+      "author": "Tki_sor",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/memorysweep",
+      "platform": "curseforge"
+    },
+    {
+      "name": "MES - Moog's End Structures",
+      "author": "finndog_123",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/moogs-end-structures",
+      "platform": "curseforge"
+    },
+    {
+      "name": "MMV - Moog's Missing Villages",
+      "author": "finndog_123",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mmv-moogs-missing-villages",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Moog's Structure Lib (moogs_structures)",
+      "author": "finndog_123",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/moogs-structure-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Moonlight Lib",
+      "author": "MehVahdJukaar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/selene",
+      "platform": "curseforge"
+    },
+    {
+      "name": "MoreCulling",
+      "author": "FX_PR0CESS",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/moreculling",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Mouse Tweaks",
+      "author": "YaLTeR",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+      "platform": "curseforge"
+    },
+    {
+      "name": "MTR - Moog's Temples Reimagined",
+      "author": "finndog_123",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mtr-moogs-temples-reimagined",
+      "platform": "curseforge"
+    },
+    {
+      "name": "MVS - Moog's Voyager Structures",
+      "author": "finndog_123",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/moogs-voyager-structures",
+      "platform": "curseforge"
+    },
+    {
+      "name": "MVSI - Moog's Voyager Structures Integrated",
+      "author": "finndog_123",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mvsi-moogs-voyager-structures-integrated",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Myths and Legends [Cobblemon Sidemod]",
+      "author": "D0ctorleon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/myths-and-legends-cobblemon-addon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Nature's Compass",
+      "author": "Chaosyr",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
+      "platform": "curseforge"
+    },
+    {
+      "name": "NeoCobblefoods",
+      "author": "AzarothYT",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/neocobblefoods",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Nether Trials & Chambers",
+      "author": "Aureljz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/hellish-trials",
+      "platform": "curseforge"
+    },
+    {
+      "name": "NetherPortalFix",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/netherportalfix",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Not Enough Trials",
+      "author": "danmatisk",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/not-enough-trials",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Nullscape",
+      "author": "Starmute",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/nullscape",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Oh The Biomes We've Gone",
+      "author": "AOCAWOL",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Oh The Trees You'll Grow",
+      "author": "Corgi_Taco",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Overloaded Armor Bar",
+      "author": "tfarecnim",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar",
+      "platform": "curseforge"
+    },
+    {
+      "name": "oωo (owo-lib)",
+      "author": "gliscowo",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/owo-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Packet Fixer",
+      "author": "TonimatasDEV",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/packet-fixer",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Paragliders",
+      "author": "Tictim",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/paragliders",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Patchouli",
+      "author": "Vazkii",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/patchouli",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Pehkui",
+      "author": "Virtuoel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/pehkui",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Pet Your Cobblemon",
+      "author": "SwordEnd",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/pet-your-cobblemon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Pick Up Notifier",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Placebo",
+      "author": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/placebo",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Plasmo Voice",
+      "author": "KPidS",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/plasmo-voice",
+      "platform": "curseforge"
+    },
+    {
+      "name": "PokeBadges [Cobblemon & Pixelmon Addon]",
+      "author": "LevelsFR",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/pokebadges",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Polymorph (Fabric/Forge/Quilt)",
+      "author": "TheIllusiveC4",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/polymorph",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Prickle",
+      "author": "DarkhaxDev",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/prickle",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Prism [Neo/Forge]",
+      "author": "Grend_G",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/prism-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Puzzles Lib",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/puzzles-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "pv-addon-soundphysics",
+      "author": "Apehum",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/pv-addon-soundphysics",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Radical Cobblemon Trainers",
+      "author": "hd42",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/rctmod",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Radical Cobblemon Trainers API",
+      "author": "hd42",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/radical-cobblemon-trainers-api",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Radical Gyms & Structures [Cobblemon]",
+      "author": "JayOnline",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/radical-gyms-structures-cobblemon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Rechiseled",
+      "author": "SuperMartijn642",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/rechiseled",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Rechiseled: Chipped",
+      "author": "the_iwolfking",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/rechiseled-chipped",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Rechiseled: Cobblemon",
+      "author": "SuperMartijn642",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/rechiseled-cobblemon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Regions Unexplored",
+      "author": "Apollo",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/regions-unexplored",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Resource Pack Overrides",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/resource-pack-overrides",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Resourceful Lib",
+      "author": "ThatGravyBoat",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/resourceful-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Searchables",
+      "author": "Jaredlll08",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/searchables",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Security Craft",
+      "author": "Geforce132",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/security-craft",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Serene Seasons",
+      "author": "TheAdubbz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/serene-seasons",
+      "platform": "curseforge"
+    },
+    {
+      "name": "ShatterLib | OctoLib",
+      "author": "SSKirillSS",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/byte",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Simple Burnout Torch",
+      "author": "DarkLotus781",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/simple-burnout-torch",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Sinytra Connector",
+      "author": "Su5eD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sinytra-connector",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Sophisticated Backpacks",
+      "author": "P3pp3rF1y",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Sophisticated Core",
+      "author": "P3pp3rF1y",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Sophisticated Storage",
+      "author": "P3pp3rF1y",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Sound Physics Remastered",
+      "author": "henkelmax",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered",
+      "platform": "curseforge"
+    },
+    {
+      "name": "SuperMartijn642's Config Lib",
+      "author": "SuperMartijn642",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "SuperMartijn642's Core Lib",
+      "author": "SuperMartijn642",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Supplementaries",
+      "author": "MehVahdJukaar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/supplementaries",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Talking Heads",
+      "author": "ZipeStudio",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/talkingheads",
+      "platform": "curseforge"
+    },
+    {
+      "name": "TerraBlender (NeoForge)",
+      "author": "TheAdubbz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/terrablender-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Terralith",
+      "author": "Starmute",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/terralith",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Tom's Simple Storage Mod",
+      "author": "tom54541",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/toms-storage",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Torchmaster",
+      "author": "xalcon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/torchmaster",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Towns and Towers",
+      "author": "Biban_Auriu",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/towns-and-towers",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Trade Cycling",
+      "author": "henkelmax",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/trade-cycling",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Trading Post",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/trading-post",
+      "platform": "curseforge"
+    },
+    {
+      "name": "TrashSlot",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/trashslot",
+      "platform": "curseforge"
+    },
+    {
+      "name": "UniLib",
+      "author": "CDAGaming_",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/unilib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Wayfinder",
+      "author": "AOCAWOL",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/wayfinder",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Waystones",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/waystones",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Wild Battle API",
+      "author": "Raguto",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/wild-battle-api",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Yung Structures Addon for Loot Integrations",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yung-structures-addon-for-loot-integrations",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's API (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's Better Desert Temples (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's Better Dungeons (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's Better End Island (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's Better Jungle Temples (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's Better Mineshafts (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's Better Nether Fortresses (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's Better Ocean Monuments (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's Better Strongholds (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's Better Witch Huts (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-neoforge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YUNG's Extras (NeoForge)",
+      "author": "YUNGNICKYOUNG",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-extras-neoforge",
+      "platform": "curseforge"
+    }
+  ],
+  "resourcepacks": [
+    {
+      "name": "Cobblemon Sprites - Integration Journey map",
+      "author": "Epoxidd",
+      "url": "https://www.curseforge.com/minecraft/texture-packs/cobblemon-sprites-integration-journey-map",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Maxi's JourneyMap Cobblemon Minimap Icons",
+      "author": "Maxitotito",
+      "url": "https://www.curseforge.com/minecraft/texture-packs/journeymap-cobblemon-icons",
+      "platform": "curseforge"
+    }
+  ],
+  "shaders": []
+}

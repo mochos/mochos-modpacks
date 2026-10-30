@@ -1,0 +1,1134 @@
+{
+  "version": "1.2",
+  "mods": [
+    {
+      "name": "[EMF] Entity Model Features [Fabric & Forge]",
+      "author": "Traben",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/entity-model-features",
+      "platform": "curseforge"
+    },
+    {
+      "name": "[ETF] Entity Texture Features - [Fabric & Forge]",
+      "author": "Traben",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric",
+      "platform": "curseforge"
+    },
+    {
+      "name": "[FORGE] Epic Fight X Parcool",
+      "author": "pbjsandwhich123",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-x-parcool",
+      "platform": "curseforge"
+    },
+    {
+      "name": "[Official] Epic ParCool",
+      "author": "maninthe_home",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/official-epic-fight-x-parcool",
+      "platform": "curseforge"
+    },
+    {
+      "name": "[TACZ] LesRaisins Tactical Equipements",
+      "author": "xjqshm",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/tacz-lesraisins-tactical-equipements",
+      "platform": "curseforge"
+    },
+    {
+      "name": "[TaCZ] Timeless and Classics Zero Guns",
+      "author": "nekocrane",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+      "platform": "curseforge"
+    },
+    {
+      "name": "AllTheLeaks (Memory Leak Fix)",
+      "author": "Uncandango",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/alltheleaks",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Almanac Lib",
+      "author": "frikinjay",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/almanac-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "AmbientSounds 6",
+      "author": "CreativeMD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ambientsounds",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Apocalypse Zombies",
+      "author": "That1LilGuy",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/apocalyse-zombies",
+      "platform": "curseforge"
+    },
+    {
+      "name": "AppleSkin",
+      "author": "squeek502",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Architectury API",
+      "author": "shedaniel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+      "platform": "curseforge"
+    },
+    {
+      "name": "AttributeFix",
+      "author": "DarkhaxDev",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/attributefix",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Bad Mobs",
+      "author": "DarkhaxDev",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/bad-mobs",
+      "platform": "curseforge"
+    },
+    {
+      "name": "BadOptimizations",
+      "author": "thosea",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/badoptimizations",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Balm",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/balm",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Berezka's library",
+      "author": "Berezka",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/berezka-library",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Better Third Person",
+      "author": "Socolio",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/better-third-person",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Boat Item View (Forge/Neoforge)",
+      "author": "50ap5ud5",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/boat-item-view-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Brute force Rendering Culling",
+      "author": "RogoShum",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/brute-force-rendering-culling",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CameraOverhaul",
+      "author": "Mirsario",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cameraoverhaul",
+      "platform": "curseforge"
+    },
+    {
+      "name": "ChaosZPack [Lost Cities] Better Cities / Zombie Apocalypse /  Abandoned Structures / TacZ",
+      "author": "ChaosCraft_HD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chaoszpack-lostcities",
+      "platform": "curseforge"
+    },
+    {
+      "name": "ChaosZPack Remastered: Structures ! [Watchtowers]",
+      "author": "ChaosCraft_HD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chaoszpack-remastered-structures",
+      "platform": "curseforge"
+    },
+    {
+      "name": "ChaosZProject: Bandits! - Pillager's Gun Addon",
+      "author": "ChaosCraft_HD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chaoszproject-bandits",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Clickable advancements[Forge/Fabric]",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/clickable-advancements",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cloth Config API (Fabric/Forge/NeoForge)",
+      "author": "shedaniel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Clumps",
+      "author": "Jaredlll08",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/clumps",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Comforts",
+      "author": "TheIllusiveC4",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/comforts",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Command Keys",
+      "author": "NotRyken",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/commandkeys",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Connectivity",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/connectivity",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CoroUtil",
+      "author": "Corosus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/coroutil",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Corpse",
+      "author": "henkelmax",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/corpse",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Corpse x Cosmetic Armor Reworked Compat",
+      "author": "Project8gbDeRam",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/corpse-x-cosmetic-armor-reworked-compat",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cosmetic Armor Reworked",
+      "author": "LainMI",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Crash Assistant",
+      "author": "KostromDan",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/crash-assistant",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CravenCraft's Bloody Bits",
+      "author": "CravenCraft",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cravencrafts-bloody-bits",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Create",
+      "author": "simibubi",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/create",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Create Deco",
+      "author": "talrey",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/create-deco",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CreativeCore",
+      "author": "CreativeMD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/creativecore",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cull Leaves",
+      "author": "Motschen",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cull-leaves",
+      "platform": "curseforge"
+    },
+    {
+      "name": "CullLessLeaves Reforged (Unofficial)",
+      "author": "ccr4ft3r",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/culllessleaves-reforged",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Cupboard",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cupboard",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Curios API (Forge/NeoForge)",
+      "author": "TheIllusiveC4",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/curios",
+      "platform": "curseforge"
+    },
+    {
+      "name": "DarkSleep - RPG Sleep Percentage",
+      "author": "GamerPotion",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/darksleep",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Distant Horizons: A Level of Detail mod",
+      "author": "James_Seibel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/distant-horizons",
+      "platform": "curseforge"
+    },
+    {
+      "name": "DoesPotatoTick?",
+      "author": "_nArUTo_",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/doespotatotick",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Doomsday Decoration",
+      "author": "Huzai",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/doomsday-decoration",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Doomsday translation",
+      "author": "Berezka",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/doomsday-translation",
+      "platform": "curseforge"
+    },
+    {
+      "name": "DreamCasLib",
+      "author": "angrymutantendermanz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dreamcaslib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Duplicationless",
+      "author": "_nArUTo_",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/duplicationless",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Embeddium",
+      "author": "FiniteReality",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/embeddium",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Embeddium (Rubidium) Extra",
+      "author": "dima_dencep",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/rubidium-extra",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Emotecraft (Forge)",
+      "author": "KosmX",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Enhanced Hordes",
+      "author": "nojustgavin",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/enhanced-hordes",
+      "platform": "curseforge"
+    },
+    {
+      "name": "EnhancedVisuals",
+      "author": "CreativeMD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/enhancedvisuals",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Entity Culling Fabric/Forge",
+      "author": "tr7zw",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/entityculling",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Epic Compat: ParCool",
+      "author": "hd42",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-compat-parcool",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Epic Fight",
+      "author": "maninthe_home",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Epic Fight - Avalon",
+      "author": "merlin204",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-avalon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Epic Fight - EDP (Extended Datapacks)",
+      "author": "Sleys",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-edp",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Epic Fight - Invincible Lib",
+      "author": "P1nero",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-invincible",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Epic Fight: Skill Tree",
+      "author": "maninthe_home",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-skill-tree",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Epic Tactical (Epic Fight Compat)",
+      "author": "ptran779",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-tactical-epic-fight-compat",
+      "platform": "curseforge"
+    },
+    {
+      "name": "EpicFight : Resurrection",
+      "author": "Corrupt_Dog",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epicfight-resurrection",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Explosive Enhancement: Reforged",
+      "author": "xylonity",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/explosive-enhancement-reforged",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Fast Item Frames",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fast-item-frames",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FastBoot",
+      "author": "dnlayu",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fastboot",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FastChest Reforged",
+      "author": "yGlobalista",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fastchest-reforged",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FastFurnace",
+      "author": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FastWorkbench",
+      "author": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fastworkbench",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FerriteCore ((Neo)Forge)",
+      "author": "malte0811",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Flerovium",
+      "author": "moepus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/flerovium",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Forge CIT",
+      "author": "tfarecnim",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/forge-cit",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FPS Reducer",
+      "author": "bre2el",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fps-reducer",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Framework",
+      "author": "MrCrayfish",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/framework",
+      "platform": "curseforge"
+    },
+    {
+      "name": "FreeCam by Zergatul",
+      "author": "Zergatul",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/freecam-by-zergatul",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Fusion (Connected Textures)",
+      "author": "SuperMartijn642",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Fzzy Config",
+      "author": "fzzyhmstrs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fzzy-config",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Game Menu Mod Option [Forge]",
+      "author": "morimori0317",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/gamemenumodoption",
+      "platform": "curseforge"
+    },
+    {
+      "name": "GeckoLib",
+      "author": "Gecko",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "GeckolibBetterFPS",
+      "author": "moepus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/geckolibbetterfps",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Grappling Hook - Reforged",
+      "author": "Chummycho",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/grappling-hook-mod-reforged",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Horror Elements mod",
+      "author": "predator97427fr",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/horror-elements-mod",
+      "platform": "curseforge"
+    },
+    {
+      "name": "HT's TreeChop",
+      "author": "hammertater",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/treechop",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Iceberg [Neo/Forge]",
+      "author": "Grend_G",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/iceberg",
+      "platform": "curseforge"
+    },
+    {
+      "name": "ImmediatelyFast",
+      "author": "RaphiMC",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/immediatelyfast",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Immersive Paintings [Fabric/Forge]",
+      "author": "Conczin",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/immersive-paintings",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Immersive Weathering [FORGE]",
+      "author": "OrdanaryMods",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/immersive-weathering-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Inventory Sorter",
+      "author": "cpw",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-sorter",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Item Highlighter [Neo/Forge]",
+      "author": "Grend_G",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/item-highlighter",
+      "platform": "curseforge"
+    },
+    {
+      "name": "ItemCuller",
+      "author": "Leiv436",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/itemculler",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Jade 🔍",
+      "author": "Snownee",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jade",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Just Enough Items (JEI)",
+      "author": "mezz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jei",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Keerdm's Zombie Apocalypse Essentials",
+      "author": "keerdm",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/keerdm-zombie-apocalypse-essentials",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Kotlin for Forge",
+      "author": "thedarkcolour",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Krypton Reforged",
+      "author": "Txni",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/krypton-reforged",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Lazy Utilities",
+      "author": "Sleys",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lazy-utilities",
+      "platform": "curseforge"
+    },
+    {
+      "name": "LC²H [Lost Cities: Multithreaded]",
+      "author": "Admany",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lc2h",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Let Me Despawn",
+      "author": "frikinjay",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/let-me-despawn",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Lexiconfig",
+      "author": "CodinGlitch",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lexiconfig",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Limitless Vehicle",
+      "author": "YWZJ_Official",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/limitless-vehicle",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Log Begone",
+      "author": "AzureDoomC",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/log-begone",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Lootr (Forge & NeoForge)",
+      "author": "Noobanidus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lootr",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Lost Cities Addon: Biome Fixer",
+      "author": "Kettle5000",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lost-cities-addon-biome-fixer",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Lost Cities Vines Fix",
+      "author": "lllikes",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lost-cities-vines-fix",
+      "platform": "curseforge"
+    },
+    {
+      "name": "McQoy",
+      "author": "sisby",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mcqoy",
+      "platform": "curseforge"
+    },
+    {
+      "name": "MidnightLib",
+      "author": "Motschen",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/midnightlib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "MineTraps",
+      "author": "XxRexRaptorxX",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/minetraps",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Mob Sunscreen",
+      "author": "Kreezxil",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mob-sunscreen",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Mobtimizations - Entity Performance Fixes",
+      "author": "Corosus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mobtimizations",
+      "platform": "curseforge"
+    },
+    {
+      "name": "ModernFix",
+      "author": "embeddedt",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/modernfix",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Moonlight Lib",
+      "author": "MehVahdJukaar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/selene",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Mouse Tweaks",
+      "author": "YaLTeR",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+      "platform": "curseforge"
+    },
+    {
+      "name": "MrCrayfish's Furniture Mod: Refurbished",
+      "author": "MrCrayfish",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Music Player",
+      "author": "HyCraftHD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/music-player",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Mutant Monsters",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mutant-monsters",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Mutants Plus",
+      "author": "angrymutantendermanz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mutants-buff",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Neruina - Ticking Entity Fixer",
+      "author": "bawnorton",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/neruina",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Not Enough Animations",
+      "author": "tr7zw",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/not-enough-animations",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Oculus",
+      "author": "Asek3",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/oculus",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Ok Zoomer Forge",
+      "author": "matyrobbrt",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ok-zoomer-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Outbreak: Apocalyptic Bioweapons | Killing Floor | Left 4 Dead",
+      "author": "Fyrrage",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/outbreak-apocalyptic-bioweapons",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Paragliders",
+      "author": "Tictim",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/paragliders",
+      "platform": "curseforge"
+    },
+    {
+      "name": "ParCool! ~ Minecraft Parkour ~",
+      "author": "alRex_U",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/parcool",
+      "platform": "curseforge"
+    },
+    {
+      "name": "ParCool+ / Compatibility Addon",
+      "author": "alRex_U",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/parcool-compatibility-addon",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Particle Core",
+      "author": "fzzyhmstrs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/particle-core",
+      "platform": "curseforge"
+    },
+    {
+      "name": "PartiCull: Particle Fix",
+      "author": "Norevy",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/particull",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Passive Skill Tree",
+      "author": "Daripher",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/passive-skill-tree",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Passive Skill Tree Mob Kill Points",
+      "author": "sheepsquadace",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/skilltreemkp",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Pehkui",
+      "author": "Virtuoel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/pehkui",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Placebo",
+      "author": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/placebo",
+      "platform": "curseforge"
+    },
+    {
+      "name": "playerAnimator",
+      "author": "KosmX",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/playeranimator",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Presence Footsteps (Forge)",
+      "author": "Paint_Ninja",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/presence-footsteps-forge",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Puzzles Lib",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/puzzles-lib",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Quality Equipment",
+      "author": "PooPmeep",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/quality-equipment",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Quantified API",
+      "author": "Admany",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/quantified-api",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Radium Reforged",
+      "author": "Asek3",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/radium-reforged",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Remove Reloading Screen",
+      "author": "dima_dencep",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/rrls",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Saturn",
+      "author": "AbdElAziz333",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/saturn",
+      "platform": "curseforge"
+    },
+    {
+      "name": "SCP-6096, The Blanket Ghost",
+      "author": "Zcoper",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/blanket-ghost",
+      "platform": "curseforge"
+    },
+    {
+      "name": "SCP-682, The Hard To Destroy Reptile",
+      "author": "Zcoper",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/the-hard-to-destroy-reptile",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Searchables",
+      "author": "Jaredlll08",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/searchables",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Security Craft",
+      "author": "Geforce132",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/security-craft",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Server Performance - Smooth Chunk Save[Forge/Fabric]",
+      "author": "someaddon",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Simple Voice Chat",
+      "author": "henkelmax",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Simple Voice Radio",
+      "author": "CodinGlitch",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-radio",
+      "platform": "curseforge"
+    },
+    {
+      "name": "SkinChanger",
+      "author": "Edoren",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/skinchanger",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Smooth Boot (Reloaded)",
+      "author": "AbdElAziz333",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/smooth-boot-reloaded",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Sodium/Embeddium Dynamic Lights",
+      "author": "Txni",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Sound Physics Remastered",
+      "author": "henkelmax",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered",
+      "platform": "curseforge"
+    },
+    {
+      "name": "spark",
+      "author": "Iucko",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/spark",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Spartan Weaponry",
+      "author": "ObliviousSpartan",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Survival Instinct",
+      "author": "Tohirogosu",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/survival-instinct",
+      "platform": "curseforge"
+    },
+    {
+      "name": "The Flesh That Hates",
+      "author": "winvicc",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/the-flesh-that-hates",
+      "platform": "curseforge"
+    },
+    {
+      "name": "The Lost Cities",
+      "author": "McJty",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/the-lost-cities",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Tom's Simple Storage Mod",
+      "author": "tom54541",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/toms-storage",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Traveler's Backpack",
+      "author": "Tiviacz1337",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-backpack",
+      "platform": "curseforge"
+    },
+    {
+      "name": "True Darkness Biomes [Forge/Neoforge]",
+      "author": "Qsmium",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/true-darkness-biomes",
+      "platform": "curseforge"
+    },
+    {
+      "name": "U Team Core",
+      "author": "HyCraftHD",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/u-team-core",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Voiceless Survival",
+      "author": "armi",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/voiceless-survival",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Waystones",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/waystones",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Weapons of Miracles - epic fight",
+      "author": "reascer",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/weapons-of-miracles-epicfight",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Xaero's Minimap",
+      "author": "xaero96",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Xaero's Minimap & World Map - Waystones Compatibility [Forge]",
+      "author": "ArcaneAlloy",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-world-map-waystones-compability",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Xaero's World Map",
+      "author": "xaero96",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Yeetus Experimentus",
+      "author": "Sunekaer",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yeetusexperimentus",
+      "platform": "curseforge"
+    },
+    {
+      "name": "YetAnotherConfigLib",
+      "author": "isXander",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yacl",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Zombie Awareness",
+      "author": "Corosus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/zombie-awareness",
+      "platform": "curseforge"
+    }
+  ],
+  "resourcepacks": [
+    {
+      "name": "Excalibur",
+      "author": "Maffhew",
+      "url": "https://www.curseforge.com/minecraft/texture-packs/excalibur",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Fresh Animations",
+      "author": "FreshLX",
+      "url": "https://www.curseforge.com/minecraft/texture-packs/fresh-animations",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Low On Fire",
+      "author": "Haikis",
+      "url": "https://www.curseforge.com/minecraft/texture-packs/low-on-fire",
+      "platform": "curseforge"
+    },
+    {
+      "name": "OutBreakCraft Menu Music [OBC]",
+      "author": "AfterLifeMOD",
+      "url": "https://www.curseforge.com/minecraft/texture-packs/outbreakcraft-menu-music",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Slightly Improved Font (32x)",
+      "author": "LatvianModder",
+      "url": "https://www.curseforge.com/minecraft/texture-packs/slightly-improved-font",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Tissou's Zombie Pack",
+      "author": "Tissou",
+      "url": "https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-pack-optifine-1-7x-1-20",
+      "platform": "curseforge"
+    }
+  ],
+  "shaders": [
+    {
+      "name": "🎃 Insanity Shader",
+      "author": "ElocinDev",
+      "url": "https://www.curseforge.com/minecraft/shaders/insanity-shader",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Bliss Shaders",
+      "author": "Xonk___",
+      "url": "https://www.curseforge.com/minecraft/shaders/bliss-shader",
+      "platform": "curseforge"
+    },
+    {
+      "name": "Bliss Shaders"
+    },
+    {
+      "name": "Bloop"
+    },
+    {
+      "name": "Body Camera Shader",
+      "author": "LoLip_p",
+      "url": "https://www.curseforge.com/minecraft/shaders/body-camera-shader",
+      "platform": "curseforge"
+    },
+    {
+      "name": "BrighterAccessibility"
+    },
+    {
+      "name": "BSL Shaders",
+      "author": "capttatsu",
+      "url": "https://www.curseforge.com/minecraft/shaders/bsl-shaders",
+      "platform": "curseforge"
+    },
+    {
+      "name": "BVS - Best Vanilla Shader"
+    },
+    {
+      "name": "Chocapic13 V7.1.1 Toaster Edition"
+    },
+    {
+      "name": "Chocapic13_V9_Low"
+    },
+    {
+      "name": "Complementary Shaders - Reimagined",
+      "author": "EminGT",
+      "url": "https://www.curseforge.com/minecraft/shaders/complementary-reimagined",
+      "platform": "curseforge"
+    },
+    {
+      "name": "ComplementaryReimagined_r5.6.1 + EuphoriaPatches_1.7.8"
+    },
+    {
+      "name": "Derivative Main d24.4.4"
+    },
+    {
+      "name": "iterationT 3.0.0"
+    },
+    {
+      "name": "iterationT 3.0.0-20260201T030201Z-3-001"
+    },
+    {
+      "name": "MC_VHS version 0.6"
+    },
+    {
+      "name": "MC_VHS version 0.9"
+    },
+    {
+      "name": "Photon Shader",
+      "author": "sixthsurge",
+      "url": "https://www.curseforge.com/minecraft/shaders/photon-shader",
+      "platform": "curseforge"
+    },
+    {
+      "name": "SEUS-Renewed-v1.0.1"
+    },
+    {
+      "name": "Spooklementary",
+      "author": "SpacEagle17",
+      "url": "https://www.curseforge.com/minecraft/shaders/spooklementary",
+      "platform": "curseforge"
+    }
+  ]
+}

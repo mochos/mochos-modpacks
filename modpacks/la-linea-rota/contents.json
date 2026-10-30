@@ -1,0 +1,486 @@
+{
+  "version": "1.11.1",
+  "mods": [
+    {
+      "name": "[EMF] Entity Model Features",
+      "url": "https://modrinth.com/mod/entity-model-features",
+      "icon": "https://cdn.modrinth.com/data/4I1XuqiY/6e5bbd0d06b1741bfdab6c0cfab6de8fdaf0064c_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "[ETF] Entity Texture Features",
+      "url": "https://modrinth.com/mod/entitytexturefeatures",
+      "icon": "https://cdn.modrinth.com/data/BVzZfTc1/af683d206d50b05258d865b0d6e4aa2f2cee12f2_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Amendments",
+      "url": "https://modrinth.com/mod/amendments",
+      "icon": "https://cdn.modrinth.com/data/6iTJugQR/46e156f1c798bfc3c18bd2a55567af1086674f02_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "AppleSkin",
+      "url": "https://modrinth.com/mod/appleskin",
+      "icon": "https://cdn.modrinth.com/data/EsAfCjCV/icon.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Architectury API",
+      "url": "https://modrinth.com/mod/architectury-api",
+      "icon": "https://cdn.modrinth.com/data/lhGA9TYQ/05fe3a61c28faaccaec3533b92e1b321edde7bf6_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "BaguetteLib",
+      "url": "https://modrinth.com/mod/baguettelib",
+      "icon": "https://cdn.modrinth.com/data/OfKzpbRU/d007c3afd229b8e796f41174ceacd7c8f0f436cc_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Caged and Boxed",
+      "url": "https://modrinth.com/mod/caged-and-boxed",
+      "icon": "https://cdn.modrinth.com/data/qnP3gLeb/c6427ad9468b8232bafaa93b8999ee8b1f6837ef_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Cloth Config API",
+      "url": "https://modrinth.com/mod/cloth-config",
+      "icon": "https://cdn.modrinth.com/data/9s6osm5g/ed8a2316cbb6f4fc5f510e8e13a59a85cbbbff4d_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Compressed Fuel",
+      "url": "https://modrinth.com/mod/densefuel",
+      "icon": "https://cdn.modrinth.com/data/MtxycBD6/405c8e2755ec68a58286ca047578db5b997b2442.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Continuity",
+      "url": "https://modrinth.com/mod/continuity",
+      "icon": "https://cdn.modrinth.com/data/1IjD5062/icon.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Corpse",
+      "url": "https://modrinth.com/mod/corpse",
+      "icon": "https://cdn.modrinth.com/data/WrpuIfhw/032925a79197e9e23be2c6a07d994b17e3363912.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Cosmetic Armor Reworked Forked",
+      "url": "https://modrinth.com/mod/cosmetic-armor-reworked-forked",
+      "icon": "https://cdn.modrinth.com/data/6cpT8CUC/7a253e2bd3626c531cdac7585f7f247afe31220e.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Create",
+      "url": "https://modrinth.com/mod/create",
+      "icon": "https://cdn.modrinth.com/data/LNytGWDc/61d716699bcf1ec42ed4926a9e1c7311be6087e2_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Create Aeronautics",
+      "url": "https://modrinth.com/mod/create-aeronautics",
+      "icon": "https://cdn.modrinth.com/data/oWaK0Q19/f66b5589924884ffd81acb27f3ccb775867a962e_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Create Deco",
+      "url": "https://modrinth.com/mod/create-deco",
+      "icon": "https://cdn.modrinth.com/data/sMvUb4Rb/b60e1330b10bd1d7b1f2c0b7337a25f73b0eb555_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Create: Connected",
+      "url": "https://modrinth.com/mod/create-connected",
+      "icon": "https://cdn.modrinth.com/data/Vg5TIO6d/2e69151b9664c7f03f0568c5fdf1d44aa98db452_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Curios API",
+      "url": "https://modrinth.com/mod/curios",
+      "icon": "https://cdn.modrinth.com/data/vvuO3ImH/2a7323ca80849de0bcb50299e18acdf8bf394682.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Custom Glow Enchantment Outline",
+      "url": "https://modrinth.com/mod/custom-glow-enchantment-outline",
+      "icon": "https://cdn.modrinth.com/data/Q2rI8IqW/9985bae09d087512dc64fa52a31e11ef85d2751e_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Distant Horizons",
+      "url": "https://modrinth.com/mod/distanthorizons",
+      "icon": "https://cdn.modrinth.com/data/uCdwusMi/e716cda9bb568b5373ff76e363fb4c6d7278fba6_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Dynamic FPS",
+      "url": "https://modrinth.com/mod/dynamic-fps",
+      "icon": "https://cdn.modrinth.com/data/LQ3K71Q1/5056368d0d87c1a9f3efead0cb48ab39a4ea87bf_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "EMF Compat: Core",
+      "url": "https://modrinth.com/mod/emf-compat-core",
+      "icon": "https://cdn.modrinth.com/data/hbGct5uU/e7956dddcb266c091c03b04435edd8f9bd80581f_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "EMF Compat: Gliders",
+      "url": "https://modrinth.com/mod/emf-compat-gliders",
+      "icon": "https://cdn.modrinth.com/data/PsGWhwc8/eba101b0b8dd56f3b2c36d6f1de3baf9ac48fe72_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Emotecraft",
+      "url": "https://modrinth.com/mod/emotecraft",
+      "icon": "https://cdn.modrinth.com/data/pZ2wrerK/eed7e2c9851392e5879c7d7cb763f142f124e6d2_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Entity Culling",
+      "url": "https://modrinth.com/mod/entityculling",
+      "icon": "https://cdn.modrinth.com/data/NNAgCjsB/7873452d6cede4daed12da3d7d8c193ab88b4fd6_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Euphoria Patches",
+      "url": "https://modrinth.com/mod/euphoria-patches",
+      "icon": "https://cdn.modrinth.com/data/4H6sumDB/437130f3f10997f720ff0b788cb24cde3b3b8541.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Explosive Enhancement: Reforged",
+      "url": "https://modrinth.com/mod/explosive-enhancement-forge",
+      "icon": "https://cdn.modrinth.com/data/r0camchr/4ad6a7eba6619aeb3eee69e137a2e2d84fe34857.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Extreme sound muffler",
+      "url": "https://modrinth.com/mod/extreme_sound_muffler",
+      "icon": "https://cdn.modrinth.com/data/5IIKsxiL/16e3fd2ee3296e4fc9503df05b73b42011f5505c_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "FerriteCore",
+      "url": "https://modrinth.com/mod/ferrite-core",
+      "icon": "https://cdn.modrinth.com/data/uXXizFIs/222a126f26f8f9ae1eb339f3b767677f18bff31f_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Forgified Fabric API",
+      "url": "https://modrinth.com/mod/forgified-fabric-api",
+      "icon": "https://cdn.modrinth.com/data/Aqlf1Shp/bcdcfed483b0365807f75181eea89b7960cd3b1b_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Fusion (Connected Textures)",
+      "url": "https://modrinth.com/mod/fusion-connected-textures",
+      "icon": "https://cdn.modrinth.com/data/p19vrgc2/8a9940a468bb536f7402b389d583e7f070ee14fb_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Gliders",
+      "url": "https://modrinth.com/mod/gliders",
+      "icon": "https://cdn.modrinth.com/data/XiC6HzoU/e1c137213a7b5eca41ca15b368f6422db0ed46dd_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "HT's TreeChop",
+      "url": "https://modrinth.com/mod/treechop",
+      "icon": "https://cdn.modrinth.com/data/gHoB7SHO/58692ff7dc6cc327291e8aac195cf44545b87f23_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "ImmediatelyFast",
+      "url": "https://modrinth.com/mod/immediatelyfast",
+      "icon": "https://cdn.modrinth.com/data/5ZwdcRci/e57b6b451425692ac17ad322d5e14bea686a383a_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Immersive Aircraft",
+      "url": "https://modrinth.com/mod/immersive-aircraft",
+      "icon": "https://cdn.modrinth.com/data/x3HZvrj6/08205d73c1e3e28eae9c4c6e272eaae34326e4b0_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Immersive Aircraft: Better Engines",
+      "url": "https://modrinth.com/mod/ia_engines",
+      "icon": "https://cdn.modrinth.com/data/kNsl999k/2868268c6912457d177b3e7a41195b4c163ed261_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Interactive Foliage",
+      "url": "https://modrinth.com/mod/mc2-interactive-foliage",
+      "icon": "https://cdn.modrinth.com/data/ba5MV2CF/9dff3c6ca175352131ea747b4e606aa57a8fd11d_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Iris Shaders",
+      "url": "https://modrinth.com/mod/iris",
+      "icon": "https://cdn.modrinth.com/data/YL57xq9U/18d0e7f076d3d6ed5bedd472b853909aac5da202_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Jade 🔍",
+      "url": "https://modrinth.com/mod/jade",
+      "icon": "https://cdn.modrinth.com/data/nvQzSEkH/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Just Zoom",
+      "url": "https://modrinth.com/mod/just-zoom",
+      "icon": "https://cdn.modrinth.com/data/iAiqcykM/1ea49f93020b6bd030f73dd39efc52b396d4dc8b.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Konkrete",
+      "url": "https://modrinth.com/mod/konkrete",
+      "icon": "https://cdn.modrinth.com/data/J81TRJWm/f27c753fd9ec7944b49f4fe2d7cfd32527340183_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Kotlin for Forge",
+      "url": "https://modrinth.com/mod/kotlin-for-forge",
+      "icon": "https://cdn.modrinth.com/data/ordsPcFz/064b8f129b776eb303f7f8b1a610e21d153c74b9_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "LambDynamicLights - Dynamic Lights",
+      "url": "https://modrinth.com/mod/lambdynamiclights",
+      "icon": "https://cdn.modrinth.com/data/yBW8D80W/d4f5c3ff8df7caf024178b04eca6d69f95979cfe_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Lithium",
+      "url": "https://modrinth.com/mod/lithium",
+      "icon": "https://cdn.modrinth.com/data/gvQqBUqZ/bcc8686c13af0143adf4285d741256af824f70b7_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Lithostitched",
+      "url": "https://modrinth.com/mod/lithostitched",
+      "icon": "https://cdn.modrinth.com/data/XaDC71GB/bc3425bcb318176adc7da99b6eec48787eed98d3.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Lodged",
+      "url": "https://modrinth.com/mod/lodged",
+      "icon": "https://cdn.modrinth.com/data/mlaUPhrZ/0becaa5f2d9846871ca36668f2a9f9215b9518d3_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Man of Many Planes",
+      "url": "https://modrinth.com/mod/man-of-many-planes",
+      "icon": "https://cdn.modrinth.com/data/9qdTHi0q/dc523a4cdc5e74c0346c499b88011d0a2fb3e3f2_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "ModernFix",
+      "url": "https://modrinth.com/mod/modernfix",
+      "icon": "https://cdn.modrinth.com/data/nmDcB62a/2af94de5e08ae54567ee86b968fc7ce076d9fee5_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Moonlight Lib",
+      "url": "https://modrinth.com/mod/moonlight",
+      "icon": "https://cdn.modrinth.com/data/twkfQtEc/icon.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "oωo (owo-lib)",
+      "url": "https://modrinth.com/mod/owo-lib",
+      "icon": "https://cdn.modrinth.com/data/ccKDOlHs/42c9fe358c72dd5afda078271c574c325e963d19_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Platform",
+      "url": "https://modrinth.com/mod/platform",
+      "icon": "https://cdn.modrinth.com/data/i6fiqm5y/845fd627768b2d473416066a024c2c86bb3d9942_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Punchy!",
+      "url": "https://modrinth.com/mod/punchy-fpa",
+      "icon": "https://cdn.modrinth.com/data/8aoMKplv/a9171ec026d659ccad5c3dff6fdfc80259d63e09.gif",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Resourceful Config",
+      "url": "https://modrinth.com/mod/resourceful-config",
+      "icon": "https://cdn.modrinth.com/data/M1953qlQ/cadcab644905f7e9ee92220d29f5c27113eb167b_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Resourceful Lib",
+      "url": "https://modrinth.com/mod/resourceful-lib",
+      "icon": "https://cdn.modrinth.com/data/G1hIVOrD/52130f41d05162ce6d7d1832a47d3c238d102632_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Roughly Enough Items (REI)",
+      "url": "https://modrinth.com/mod/rei",
+      "icon": "https://cdn.modrinth.com/data/nfn13YXA/54ac5daa4166011bae713448e84413987316433a_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Sable",
+      "url": "https://modrinth.com/mod/sable",
+      "icon": "https://cdn.modrinth.com/data/T9PomCSv/8c0a8c64c9a5a8d446d0aa23d244cb9b52314a1d.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Searchables",
+      "url": "https://modrinth.com/mod/searchables",
+      "icon": "https://cdn.modrinth.com/data/fuuu3xnx/206971d54b37b30a2e728b1c194f7f096963d05a_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Simple Voice Chat",
+      "url": "https://modrinth.com/mod/simple-voice-chat",
+      "icon": "https://cdn.modrinth.com/data/9eGKb6K1/icon.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Sinytra Connector",
+      "url": "https://modrinth.com/mod/connector",
+      "icon": "https://cdn.modrinth.com/data/u58R1TMW/cc0775e1d038b26b7c91144fe4c5ee3b21d3a6a3_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "SkinChanger",
+      "url": "https://modrinth.com/mod/skinchanger",
+      "icon": "https://cdn.modrinth.com/data/5jVtTQGY/276cb0b1d5f8e18d7a9e98321f60ecf15c142b29.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Sodium",
+      "url": "https://modrinth.com/mod/sodium",
+      "icon": "https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Sodium Extra",
+      "url": "https://modrinth.com/mod/sodium-extra",
+      "icon": "https://cdn.modrinth.com/data/PtjYWJkn/0df4fb22a11e1dcb5e83cb0aadd275b571aca7a9_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Sound Physics Remastered",
+      "url": "https://modrinth.com/mod/sound-physics-remastered",
+      "icon": "https://cdn.modrinth.com/data/qyVF9oeo/798fbfae58ec95ad51f3e1d522b43227306c326c.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "SWAY API",
+      "url": "https://modrinth.com/mod/sway",
+      "icon": "https://cdn.modrinth.com/data/Gj6Yce3v/7e303b8fe41a607e41fe9f525d8851b069a910f0_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Tempad",
+      "url": "https://modrinth.com/mod/tempad",
+      "icon": "https://cdn.modrinth.com/data/gKNwt7xu/e432887182e7aae2bca00df4b940d142d74caf9e_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Terralith",
+      "url": "https://modrinth.com/mod/terralith",
+      "icon": "https://cdn.modrinth.com/data/8oi3bsk5/1959d924a1088944bbf07a06ba523726112d7e7a_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Tom's Simple Storage Mod",
+      "url": "https://modrinth.com/mod/toms-storage",
+      "icon": "https://cdn.modrinth.com/data/XZNI4Cpy/1949d7adbf962ac86912608edfb93fa5342bffd6_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Traveler's Backpack",
+      "url": "https://modrinth.com/mod/travelersbackpack",
+      "icon": "https://cdn.modrinth.com/data/rlloIFEV/271b2133a315ee3d864ea5a429472f0e71591fe3_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Vanilla Backport",
+      "url": "https://modrinth.com/mod/vanillabackport",
+      "icon": "https://cdn.modrinth.com/data/6xwxDTgf/9b2a6826b723d74570e293ab6b96dbe28f4fd993_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Wakes Reforged",
+      "url": "https://modrinth.com/mod/wakes-reforged",
+      "icon": "https://cdn.modrinth.com/data/E0SdeAoH/f655ca1093b28f2c02cafd1577160513d121a8fa_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "WorldEdit",
+      "url": "https://modrinth.com/mod/worldedit",
+      "icon": "https://cdn.modrinth.com/data/1u6JkXh5/30698991048ced77e60c4e8284007d3782f2e6a3_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "WorldEdit CUI (Unofficial Forge Port)",
+      "url": "https://modrinth.com/mod/worldeditcui-forge",
+      "icon": "https://cdn.modrinth.com/data/lOELapP1/167a04724f813168ece7016212f90833f6fe7de3_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Xaero's Maps: Multiplayer+",
+      "url": "https://modrinth.com/mod/xaeros-maps-multiplayer-plus",
+      "icon": "https://cdn.modrinth.com/data/stTaMuWa/6b8193504f0cdcdca775bcc897866afb99efa6ad_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Xaero's Minimap",
+      "url": "https://modrinth.com/mod/xaeros-minimap",
+      "icon": "https://cdn.modrinth.com/data/1bokaNcj/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Xaero's World Map",
+      "url": "https://modrinth.com/mod/xaeros-world-map",
+      "icon": "https://cdn.modrinth.com/data/NcUtCpym/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YetAnotherConfigLib (YACL)",
+      "url": "https://modrinth.com/mod/yacl",
+      "icon": "https://cdn.modrinth.com/data/1eAoo2KR/08c0cd32515e260f4bb20bbc0696510041523f9a_96.webp",
+      "platform": "modrinth"
+    }
+  ],
+  "resourcepacks": [
+    {
+      "name": "Connected Paths",
+      "url": "https://modrinth.com/resourcepack/connected-paths",
+      "icon": "https://cdn.modrinth.com/data/Nyfj98b5/95e484f46c21dfa112bd9801cba99cf73d64d0c0.gif",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Default Dark Mode",
+      "url": "https://modrinth.com/resourcepack/default-dark-mode",
+      "icon": "https://cdn.modrinth.com/data/6SLU7tS5/f90001e4ebed860e7ae913f34c85d745f516a89b.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Fresh Animations",
+      "url": "https://modrinth.com/resourcepack/fresh-animations",
+      "icon": "https://cdn.modrinth.com/data/50dA9Sha/3132c10e9e3c73fde9799720fd3da5561071708c_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Fresh Animations: Player Extension",
+      "url": "https://modrinth.com/resourcepack/fa-player-extension",
+      "icon": "https://cdn.modrinth.com/data/TAIMVZCL/b3918b1dcedad8987cac3715ec95d00aaadc3a49_96.webp",
+      "platform": "modrinth"
+    }
+  ],
+  "shaders": [
+    {
+      "name": "ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3"
+    }
+  ]
+}
