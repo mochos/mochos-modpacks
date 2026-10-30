@@ -13,6 +13,7 @@
   "gallery": [],
   "tags": ["Survival", "Exploración", "Aviación", "Shaders", "Chat de voz"],
   "featured": false,
+  "dev": true,
   "authors": ["Mochos Studio"],
   "recommendedRamMb": 8192,
   "source": {

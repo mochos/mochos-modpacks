@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/servidor.schema.json",
+  "id": "sukage",
+  "name": "Sukage (pruebas)",
+  "summary": "Servidor de pruebas: solo lo ven las cuentas de desarrollo.",
+  "game": "minecraft",
+  "address": "sukage.net",
+  "tags": ["Pruebas"],
+  "dev": true
+}

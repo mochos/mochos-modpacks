@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Genera index.json a partir de modpacks/*/modpack.json y servidores/*/servidor.json.
+// Genera index.json a partir de modpacks/*/modpack.json, servidores/*/servidor.json y desarrollo.json.
 // Uso: node scripts/build-index.mjs [--check]
 //   --check  falla si index.json no está actualizado (útil en CI).
 import { readFileSync, writeFileSync, readdirSync, existsSync, statSync } from "node:fs";
@@ -56,6 +56,7 @@ for (const id of readdirSync(packsDir).sort()) {
   if (m.loader && m.loader.type !== "vanilla" && !m.loader.version) errors.push(`${id}: falta loader.version`);
   if (m.source && !SOURCES.includes(m.source.type)) errors.push(`${id}: source.type inválido "${m.source?.type}"`);
   if (m.hidden) continue;
+  if (m.dev !== undefined && typeof m.dev !== "boolean") errors.push(`${id}: "dev" debe ser true o false`);
 
   const { $schema, ...rest } = m;
   const source = { ...m.source };
@@ -100,6 +101,7 @@ for (const id of existsSync(serversDir) ? readdirSync(serversDir).sort() : []) {
   if (s.query && !QUERIES.includes(s.query)) errors.push(`servidores/${id}: query inválido "${s.query}"`);
   const pack = s.modpack ? modpacks.find((m) => m.id === s.modpack) : undefined;
   if (s.modpack && !pack) errors.push(`servidores/${id}: el modpack "${s.modpack}" no existe (o está oculto)`);
+  if (pack?.dev && !s.dev) errors.push(`servidores/${id}: el modpack "${s.modpack}" está en desarrollo; pon también "dev": true en el servidor`);
   if (s.hidden) continue;
 
   const { $schema, hidden, ...rest } = s;
@@ -112,15 +114,31 @@ for (const id of existsSync(serversDir) ? readdirSync(serversDir).sort() : []) {
   });
 }
 
+// Acceso a lo que está en desarrollo: hashes de cuentas (ver scripts/tester-hash.mjs).
+const devFile = join(ROOT, "desarrollo.json");
+let testers = [];
+if (existsSync(devFile)) {
+  try { testers = JSON.parse(readFileSync(devFile, "utf8")).testers ?? []; }
+  catch (e) { errors.push(`desarrollo.json: JSON inválido (${e.message})`); }
+  for (const t of testers) {
+    if (!/^[0-9a-f]{64}$/.test(t)) errors.push(`desarrollo.json: "${t}" no es un hash válido (usa node scripts/tester-hash.mjs <nombre>)`);
+  }
+}
 if (warnings.length) console.warn("Avisos:\n - " + warnings.join("\n - "));
 if (errors.length) {
   console.error("Errores:\n - " + errors.join("\n - "));
   process.exit(1);
 }
 
-modpacks.sort((a, b) => Number(!!b.featured) - Number(!!a.featured) || a.name.localeCompare(b.name));
-servers.sort((a, b) => Number(!!b.featured) - Number(!!a.featured) || a.name.localeCompare(b.name));
-const index = { formatVersion: 1, modpacks, servers };
+const byFeatured = (a, b) => Number(!!b.featured) - Number(!!a.featured) || a.name.localeCompare(b.name);
+// Lo que está en desarrollo va aparte: la web y los launchers anteriores a la 1.4 solo leen
+// "modpacks" y "servers", así que no lo muestran.
+const index = {
+  formatVersion: 1,
+  modpacks: modpacks.filter((m) => !m.dev).sort(byFeatured),
+  servers: servers.filter((s) => !s.dev).sort(byFeatured),
+  dev: { testers, modpacks: modpacks.filter((m) => m.dev).sort(byFeatured), servers: servers.filter((s) => s.dev).sort(byFeatured) },
+};
 const out = JSON.stringify(index, null, 2) + "\n";
 const target = join(ROOT, "index.json");
 
@@ -130,8 +148,8 @@ if (process.argv.includes("--check")) {
     console.error("index.json no está actualizado. Ejecuta: node scripts/build-index.mjs");
     process.exit(1);
   }
-  console.log(`index.json OK (${modpacks.length} modpacks, ${servers.length} servidores)`);
+  console.log(`index.json OK (${index.modpacks.length} modpacks, ${index.servers.length} servidores, ${modpacks.length - index.modpacks.length + servers.length - index.servers.length} en desarrollo)`);
 } else {
   writeFileSync(target, out);
-  console.log(`index.json generado con ${modpacks.length} modpack(s) y ${servers.length} servidor(es)`);
+  console.log(`index.json generado con ${index.modpacks.length} modpack(s), ${index.servers.length} servidor(es) y ${index.dev.modpacks.length + index.dev.servers.length} en desarrollo`);
 }

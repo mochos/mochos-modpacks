@@ -116,7 +116,7 @@ La versión nueva va **arriba**:
 ### 6. Generar la lista de contenido
 
 La pestaña **Contenido** de la web ([mochos.xyz/launcher/modpacks/&lt;id&gt;](https://mochos.xyz/launcher))
-muestra cada mod, resourcepack y shader del modpack con su enlace a Modrinth o CurseForge. Esa lista
+y del launcher muestra cada mod, resourcepack y shader del modpack con su enlace a Modrinth o CurseForge. Esa lista
 sale de `contents.json`, que se genera leyendo el archivo del modpack:
 
 ```bash
@@ -132,7 +132,7 @@ node scripts/build-contents.mjs la-linea-rota --file ./La-Linea-Rota-1.21.1-v1.1
 - Lo que va suelto en `overrides/mods`, `overrides/resourcepacks` u `overrides/shaderpacks` aparece
   en la lista **sin enlace**, con el nombre del archivo.
 
-Sin `contents.json`, la web no muestra la pestaña. Si `version` cambia y no lo regeneras,
+Sin `contents.json`, ni la web ni el launcher muestran la pestaña. Si `version` cambia y no lo regeneras,
 `build-index.mjs` avisa y la web sigue mostrando la lista anterior.
 
 ### 7. Validar, hacer commit y push
@@ -217,6 +217,7 @@ lista de servidores, los mundos ni lo que haya añadido el jugador.
 | Quiero… | Qué cambiar en `modpack.json` |
 |---------|-------------------------------|
 | Ocultar un modpack sin borrarlo | `"hidden": true` |
+| Probarlo en el launcher sin publicarlo | `"dev": true` (ver [Modo desarrollo](../README.md#modo-desarrollo)) |
 | Destacarlo en la portada | `"featured": true` |
 | Cambiar icono o portada | Reemplaza `icon.png` / `images/banner.png` (mismo nombre) |
 | Cambiar solo la descripción | Edita `description.md` (no hace falta cambiar `version`) |

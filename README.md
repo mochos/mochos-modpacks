@@ -14,7 +14,9 @@ mochos-modpacks/
 ├── schema/modpack.schema.json  ← esquema de validación de modpack.json
 ├── schema/servidor.schema.json ← esquema de validación de servidor.json
 ├── scripts/build-index.mjs     ← genera y valida index.json
-├── scripts/build-contents.mjs  ← genera contents.json de cada modpack (pestaña «Contenido» de la web)
+├── scripts/build-contents.mjs  ← genera contents.json de cada modpack (pestaña «Contenido»)
+├── scripts/tester-hash.mjs     ← hash de una cuenta para desarrollo.json
+├── desarrollo.json             ← cuentas que ven lo que está en desarrollo (hashes)
 ├── servidores/                 ← servidores de la comunidad (ver más abajo)
 │   └── la-linea-rota/
 │       └── servidor.json
@@ -53,6 +55,7 @@ mochos-modpacks/
   "tags": ["Survival", "Optimizado"],
   "featured": true,                       // aparece destacado en la portada
   "hidden": false,                        // true = oculto en el launcher
+  "dev": false,                           // true = en desarrollo (ver «Modo desarrollo»)
   "recommendedRamMb": 4096,
   "source": { ... },                      // ver abajo
   "server": {
@@ -140,3 +143,32 @@ conectados, la IP para copiar y un botón para jugar.
   `showPlayerList` en `mods/HyQuery/config.json`.
 
 Después de añadir o cambiar un servidor, ejecuta `node scripts/build-index.mjs` (o deja que lo haga la Action).
+
+## Modo desarrollo
+
+Un modpack o servidor con `"dev": true` solo aparece en el launcher (1.4 o posterior) de las
+cuentas de [`desarrollo.json`](desarrollo.json), con la etiqueta **«Desarrollo»**. Sirve para ver
+cómo queda antes de publicarlo. No sale en la web ni en launchers anteriores: `build-index.mjs` lo
+pone en la sección `dev` de `index.json`, que solo lee el launcher 1.4+.
+
+`desarrollo.json` no guarda nombres sino un hash de la cuenta (SHA-256 del UUID de Minecraft), así
+que la lista no dice quién tiene acceso. Para añadir a alguien:
+
+```bash
+node scripts/tester-hash.mjs lorspi      # busca el UUID de la cuenta y escribe su hash
+```
+
+y pega el hash en `testers`. Solo valen **cuentas de Microsoft**: una cuenta offline puede ponerse
+cualquier nombre.
+
+> **Ojo:** el repositorio es público. El modpack en desarrollo (su `modpack.json`, imágenes y
+> Release) se puede leer aquí; el modo desarrollo solo evita que aparezca en el launcher y en la
+> web. Y quien sospeche de una cuenta concreta puede calcular su hash y ver si está en la lista.
+
+- Para **publicarlo**, quita `"dev": true` (o ponlo en `false`). El id no cambia, así que quien lo
+  instaló en desarrollo sigue con la misma instancia.
+- Si **pasas a desarrollo** un modpack que ya era público, quien lo tenga instalado lo conserva y
+  sigue recibiendo actualizaciones en el launcher 1.4+, pero deja de verlo en el catálogo. En los
+  launchers anteriores se desvincula (como al retirarlo).
+- Un servidor público no puede usar un modpack en desarrollo (`build-index.mjs` da error): pon
+  también `"dev": true` en el servidor.

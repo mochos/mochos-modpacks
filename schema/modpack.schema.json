@@ -27,6 +27,7 @@
     "tags": { "type": "array", "items": { "type": "string" } },
     "featured": { "type": "boolean" },
     "hidden": { "type": "boolean", "description": "Oculta el modpack del launcher sin borrarlo." },
+    "dev": { "type": "boolean", "description": "Modo desarrollo: solo lo ven en el launcher las cuentas de desarrollo.json. No sale en la web." },
     "authors": { "type": "array", "items": { "type": "string" } },
     "recommendedRamMb": { "type": "integer", "minimum": 1024 },
     "source": {

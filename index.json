@@ -155,51 +155,6 @@
       "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/guijarromon-2/contents.json"
     },
     {
-      "id": "new-horizons",
-      "name": "New Horizons",
-      "summary": "Survival de exploración con mundos de Terralith, aviones, el Aether, granjas y viñedos de Let's Do, y shaders para jugar entre amigos.",
-      "description": "**New Horizons** es un survival de exploración para jugar entre amigos: mundos enormes, aventuras en el cielo y una vida tranquila de granja, viñedo y acampada cuando vuelves a casa.\n\n### ¿Qué incluye?\n\n- **Mundo:** generación de terreno de Terralith y Distant Horizons para ver el horizonte a kilómetros de distancia.\n- **Aventura:** la dimensión del Aether, Ribbits, Ghosts, cofres de botín por jugador (Lootr) y encargos con recompensa (Bountiful).\n- **Aviación y viajes:** Immersive Aircraft (con estructuras), Man of Many Planes, planeadores (Gliders), mochilas de viaje, ascensores y Tempad.\n- **Vida en el campo:** la colección Let's Do (Farm & Charm, Vinery, HerbalBrews, Beachparty y Camping), muebles de Another Furniture y Block Pack, y decoración de Supplementaries y Beautify.\n- **Visuales:** Iris + shaders Complementary Reimagined con Euphoria Patches, Fresh Animations, texturas conectadas, luces dinámicas, estelas en el agua, caminos conectados y animaciones en primera persona.\n- **Chat de voz por proximidad** con Simple Voice Chat, radios (Simple Voice Radio) y emotes con Emotecraft.\n- **Mapas:** minimapa y mapa del mundo de Xaero, y mapas en 3D.\n- **Calidad de vida:** JEI, Jade, AppleSkin, almacenamiento de Tom's Storage, armadura cosmética, zoom, talado de árboles por partes y sonido realista (Sound Physics Remastered).\n- **Rendimiento:** Sodium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y Dynamic FPS.\n\n### Requisitos recomendados\n\n- 8 GB de RAM asignados (el launcher lo configura solo).\n- Los shaders y Distant Horizons son exigentes: si notas tirones, desactívalos desde *Opciones → Calidad de vídeo*.\n",
-      "changelog": "## 0.7\n\n- NeoForge actualizado a 21.1.262.\n- Añadidos Legendary Shrines, Luki's Grand Capitals, Streams Reflowing y Touch'n Motion.\n- Añadidas las librerías EMF Compat: Core, MezzConfig y toucanLib.\n- Complementary Shaders - Reimagined ahora se descarga como parte del modpack.\n\n## 0.6\n\n- Primera versión publicada en el Mochos Launcher.\n- Minecraft 1.21.1 con NeoForge 21.1.252.\n- 99 mods y paquetes de recursos, y shaders Complementary Reimagined + Euphoria Patches.\n",
-      "version": "0.7",
-      "minecraft": "1.21.1",
-      "loader": {
-        "type": "neoforge",
-        "version": "21.1.262"
-      },
-      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/new-horizons/icon.png",
-      "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/new-horizons/images/banner.png",
-      "gallery": [],
-      "tags": [
-        "Survival",
-        "Exploración",
-        "Aviación",
-        "Shaders",
-        "Chat de voz"
-      ],
-      "featured": false,
-      "authors": [
-        "Mochos Studio"
-      ],
-      "recommendedRamMb": 8192,
-      "source": {
-        "type": "curseforge-zip",
-        "url": "https://github.com/mochos/mochos-modpacks/releases/download/new-horizons-0.7/New-Horizons-1.21.1-v0.7.zip",
-        "sha1": "6a9507ef896775d4ed4c553eafb3460e907df3b3",
-        "size": 4744777
-      },
-      "server": {
-        "enabled": true,
-        "recommendedRamMb": 8192,
-        "excludeMods": []
-      },
-      "links": {
-        "website": "https://mochos.xyz",
-        "discord": "https://discord.mochos.xyz"
-      },
-      "updatedAt": "2026-10-29",
-      "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/new-horizons/contents.json"
-    },
-    {
       "id": "vanilla-mochos",
       "name": "Vanilla Mochos",
       "summary": "Minecraft como lo conoces, pero más bonito, más fluido y con chat de voz para jugar entre amigos.",
@@ -278,5 +233,72 @@
         "discord": "https://discord.mochos.xyz"
       }
     }
-  ]
+  ],
+  "dev": {
+    "testers": [
+      "fe830b509285e46fa0de727571940e71c83bd4b7b273ba252d707727c5af164f"
+    ],
+    "modpacks": [
+      {
+        "id": "new-horizons",
+        "name": "New Horizons",
+        "summary": "Survival de exploración con mundos de Terralith, aviones, el Aether, granjas y viñedos de Let's Do, y shaders para jugar entre amigos.",
+        "description": "**New Horizons** es un survival de exploración para jugar entre amigos: mundos enormes, aventuras en el cielo y una vida tranquila de granja, viñedo y acampada cuando vuelves a casa.\n\n### ¿Qué incluye?\n\n- **Mundo:** generación de terreno de Terralith y Distant Horizons para ver el horizonte a kilómetros de distancia.\n- **Aventura:** la dimensión del Aether, Ribbits, Ghosts, cofres de botín por jugador (Lootr) y encargos con recompensa (Bountiful).\n- **Aviación y viajes:** Immersive Aircraft (con estructuras), Man of Many Planes, planeadores (Gliders), mochilas de viaje, ascensores y Tempad.\n- **Vida en el campo:** la colección Let's Do (Farm & Charm, Vinery, HerbalBrews, Beachparty y Camping), muebles de Another Furniture y Block Pack, y decoración de Supplementaries y Beautify.\n- **Visuales:** Iris + shaders Complementary Reimagined con Euphoria Patches, Fresh Animations, texturas conectadas, luces dinámicas, estelas en el agua, caminos conectados y animaciones en primera persona.\n- **Chat de voz por proximidad** con Simple Voice Chat, radios (Simple Voice Radio) y emotes con Emotecraft.\n- **Mapas:** minimapa y mapa del mundo de Xaero, y mapas en 3D.\n- **Calidad de vida:** JEI, Jade, AppleSkin, almacenamiento de Tom's Storage, armadura cosmética, zoom, talado de árboles por partes y sonido realista (Sound Physics Remastered).\n- **Rendimiento:** Sodium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y Dynamic FPS.\n\n### Requisitos recomendados\n\n- 8 GB de RAM asignados (el launcher lo configura solo).\n- Los shaders y Distant Horizons son exigentes: si notas tirones, desactívalos desde *Opciones → Calidad de vídeo*.\n",
+        "changelog": "## 0.7\n\n- NeoForge actualizado a 21.1.262.\n- Añadidos Legendary Shrines, Luki's Grand Capitals, Streams Reflowing y Touch'n Motion.\n- Añadidas las librerías EMF Compat: Core, MezzConfig y toucanLib.\n- Complementary Shaders - Reimagined ahora se descarga como parte del modpack.\n\n## 0.6\n\n- Primera versión publicada en el Mochos Launcher.\n- Minecraft 1.21.1 con NeoForge 21.1.252.\n- 99 mods y paquetes de recursos, y shaders Complementary Reimagined + Euphoria Patches.\n",
+        "version": "0.7",
+        "minecraft": "1.21.1",
+        "loader": {
+          "type": "neoforge",
+          "version": "21.1.262"
+        },
+        "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/new-horizons/icon.png",
+        "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/new-horizons/images/banner.png",
+        "gallery": [],
+        "tags": [
+          "Survival",
+          "Exploración",
+          "Aviación",
+          "Shaders",
+          "Chat de voz"
+        ],
+        "featured": false,
+        "dev": true,
+        "authors": [
+          "Mochos Studio"
+        ],
+        "recommendedRamMb": 8192,
+        "source": {
+          "type": "curseforge-zip",
+          "url": "https://github.com/mochos/mochos-modpacks/releases/download/new-horizons-0.7/New-Horizons-1.21.1-v0.7.zip",
+          "sha1": "6a9507ef896775d4ed4c553eafb3460e907df3b3",
+          "size": 4744777
+        },
+        "server": {
+          "enabled": true,
+          "recommendedRamMb": 8192,
+          "excludeMods": []
+        },
+        "links": {
+          "website": "https://mochos.xyz",
+          "discord": "https://discord.mochos.xyz"
+        },
+        "updatedAt": "2026-10-29",
+        "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/new-horizons/contents.json"
+      }
+    ],
+    "servers": [
+      {
+        "id": "sukage",
+        "name": "Sukage (pruebas)",
+        "summary": "Servidor de pruebas: solo lo ven las cuentas de desarrollo.",
+        "game": "minecraft",
+        "address": "sukage.net",
+        "tags": [
+          "Pruebas"
+        ],
+        "dev": true,
+        "query": "minecraft"
+      }
+    ]
+  }
 }

@@ -100,6 +100,7 @@ sola (revisa en la pestaña **Actions** que salga en verde).
 | `tags` | | Etiquetas: `["Survival", "PvP"]`. |
 | `featured` | | `true` = aparece primero en la lista. |
 | `hidden` | | `true` = se oculta del launcher sin borrarlo. |
+| `dev` | | `true` = en desarrollo: solo lo ven las cuentas de [`desarrollo.json`](../desarrollo.json) (ver [Modo desarrollo](../README.md#modo-desarrollo)). |
 | `links` | | Enlaces: `discord`, `website`, o cualquier otro (`"mapa": "https://…"`). |
 
 Puertos por defecto: **Minecraft 25565**, **Hytale 5520**.
@@ -132,6 +133,7 @@ Para que en Hytale aparezcan los **nombres** de los conectados (al pasar el rat�
 | Cambiar la IP | Edita `address`. |
 | Cambiar el modpack del servidor | Edita `modpack` (el modpack tiene que existir y no estar oculto). |
 | Quitar un servidor temporalmente | `"hidden": true` |
+| Probarlo sin que lo vean todos | `"dev": true` |
 | Borrar un servidor | Borra su carpeta. |
 | Ponerlo el primero | `"featured": true` |
 

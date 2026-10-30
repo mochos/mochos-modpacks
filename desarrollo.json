@@ -1,0 +1,6 @@
+{
+  "$comment": "Cuentas que ven en el launcher los modpacks y servidores con \"dev\": true. Cada valor es el hash de una cuenta de Microsoft: node scripts/tester-hash.mjs <nombre>",
+  "testers": [
+    "fe830b509285e46fa0de727571940e71c83bd4b7b273ba252d707727c5af164f"
+  ]
+}
