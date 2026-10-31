@@ -289,6 +289,16 @@
     ],
     "servers": [
       {
+        "id": "horizonte-extremo",
+        "name": "Horizonte Extremo",
+        "summary": "Servidor en desarrollo: solo lo ven las cuentas de desarrollo.",
+        "game": "minecraft",
+        "address": "mc.horizongames.es:25577",
+        "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/servidores/horizonte-extremo/icon.png",
+        "dev": true,
+        "query": "minecraft"
+      },
+      {
         "id": "sukage",
         "name": "Sukage (pruebas)",
         "summary": "Servidor de pruebas: solo lo ven las cuentas de desarrollo.",

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/servidor.schema.json",
+  "id": "horizonte-extremo",
+  "name": "Horizonte Extremo",
+  "summary": "Servidor en desarrollo: solo lo ven las cuentas de desarrollo.",
+  "game": "minecraft",
+  "address": "mc.horizongames.es:25577",
+  "icon": "icon.png",
+  "dev": true
+}
