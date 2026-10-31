@@ -13,10 +13,15 @@ mochos-modpacks/
 ├── index.json                  ← generado (no editar a mano)
 ├── schema/modpack.schema.json  ← esquema de validación de modpack.json
 ├── schema/servidor.schema.json ← esquema de validación de servidor.json
+├── schema/mod.schema.json      ← esquema de validación de mod.json
 ├── scripts/build-index.mjs     ← genera y valida index.json
 ├── scripts/build-contents.mjs  ← genera contents.json de cada modpack (pestaña «Contenido»)
 ├── scripts/tester-hash.mjs     ← hash de una cuenta para desarrollo.json
 ├── desarrollo.json             ← cuentas que ven lo que está en desarrollo (hashes)
+├── mods/                       ← mods propios que el launcher ofrece instalar (ver más abajo)
+│   └── mochoscedula/
+│       ├── mod.json
+│       └── builds/mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar
 ├── servidores/                 ← servidores de la comunidad (ver más abajo)
 │   └── la-linea-rota/
 │       └── servidor.json
@@ -143,6 +148,42 @@ conectados, la IP para copiar y un botón para jugar.
   `showPlayerList` en `mods/HyQuery/config.json`.
 
 Después de añadir o cambiar un servidor, ejecuta `node scripts/build-index.mjs` (o deja que lo haga la Action).
+
+## Mods propios
+
+La carpeta `mods/` tiene los mods de Mochos Studio que no se publican en Modrinth ni en CurseForge,
+como **Mochos Cédula**. En la pestaña **Contenido** de un modpack sin el mod, el launcher (1.5.2 o
+posterior) muestra un aviso para instalarlo si hay un jar compatible con su Minecraft, su loader y la
+versión del loader. Lo instala como contenido añadido por el jugador.
+
+Cada jar se llama `<id>-<versión>-MC<Minecraft>-<loader><versión mínima del loader>.jar`
+(`mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar`) y va en `mods/<id>/builds/`. En `mod.json`,
+una entrada por jar:
+
+```jsonc
+{
+  "$schema": "../../schema/mod.schema.json",
+  "id": "mochoscedula",                   // = nombre de la carpeta
+  "name": "Mochos Cédula",
+  "summary": "Frase corta para el aviso del launcher.",
+  "builds": [
+    {
+      "file": "builds/mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar",
+      "version": "1.0.1",
+      "minecraft": ["1.21.1"],            // versiones de Minecraft compatibles
+      "loader": { "type": "neoforge", "minVersion": "21.1.248" }  // fabric | quilt | forge | neoforge
+    }
+  ]
+}
+```
+
+`build-index.mjs` añade la URL, el `sha1` y el tamaño de cada jar a la sección `mods` de
+`index.json`, y avisa si el nombre del jar no sigue el formato. Si varios jars son compatibles con
+un modpack, el launcher ofrece el de versión más alta. Los modpacks de Quilt también aceptan los
+jars de Fabric.
+
+> **Ojo:** el repositorio es público, así que cualquiera puede descargar estos jars desde aquí.
+> No salen en Modrinth ni en CurseForge, pero no son privados.
 
 ## Modo desarrollo
 

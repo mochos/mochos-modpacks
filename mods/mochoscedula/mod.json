@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schema/mod.schema.json",
+  "id": "mochoscedula",
+  "name": "Mochos Cédula",
+  "summary": "Skins de Mochos (también HD) para todos los jugadores, cambio de cuenta sin salir del juego y verificación con tu cuenta del launcher en los servidores.",
+  "icon": "icon.png",
+  "builds": [
+    {
+      "file": "builds/mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar",
+      "version": "1.0.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.248" }
+    }
+  ]
+}

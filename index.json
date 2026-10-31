@@ -234,6 +234,30 @@
       }
     }
   ],
+  "mods": [
+    {
+      "id": "mochoscedula",
+      "name": "Mochos Cédula",
+      "summary": "Skins de Mochos (también HD) para todos los jugadores, cambio de cuenta sin salir del juego y verificación con tu cuenta del launcher en los servidores.",
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochoscedula/icon.png",
+      "builds": [
+        {
+          "version": "1.0.1",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.248"
+          },
+          "fileName": "mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochoscedula/builds/mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar",
+          "sha1": "5500bbef91123662dfe3152576740f556d24d6fd",
+          "size": 94435
+        }
+      ]
+    }
+  ],
   "dev": {
     "testers": [
       "fe830b509285e46fa0de727571940e71c83bd4b7b273ba252d707727c5af164f",

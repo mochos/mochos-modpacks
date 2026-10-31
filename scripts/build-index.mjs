@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-// Genera index.json a partir de modpacks/*/modpack.json, servidores/*/servidor.json y desarrollo.json.
+// Genera index.json a partir de modpacks/*/modpack.json, servidores/*/servidor.json, mods/*/mod.json y desarrollo.json.
 // Uso: node scripts/build-index.mjs [--check]
 //   --check  falla si index.json no está actualizado (útil en CI).
 import { readFileSync, writeFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import { join, dirname } from "node:path";
+import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -114,6 +115,52 @@ for (const id of existsSync(serversDir) ? readdirSync(serversDir).sort() : []) {
   });
 }
 
+// Mods propios (mods/<id>/mod.json + jars en builds/): el launcher los ofrece en los modpacks compatibles.
+const modsDir = join(ROOT, "mods");
+const mods = [];
+for (const id of existsSync(modsDir) ? readdirSync(modsDir).sort() : []) {
+  const dir = join(modsDir, id);
+  if (!statSync(dir).isDirectory()) continue;
+  const file = join(dir, "mod.json");
+  if (!existsSync(file)) { errors.push(`mods/${id}: falta mod.json`); continue; }
+  let m;
+  try { m = JSON.parse(readFileSync(file, "utf8")); }
+  catch (e) { errors.push(`mods/${id}: JSON inválido (${e.message})`); continue; }
+
+  for (const k of ["id", "name", "summary", "builds"]) {
+    if (m[k] === undefined) errors.push(`mods/${id}: falta el campo "${k}"`);
+  }
+  if (m.id !== id) errors.push(`mods/${id}: "id" (${m.id}) debe coincidir con el nombre de la carpeta`);
+  if (m.hidden) continue;
+
+  const builds = [];
+  for (const [i, b] of (m.builds ?? []).entries()) {
+    const where = `mods/${id}: builds[${i}]`;
+    for (const k of ["file", "version", "minecraft", "loader"]) {
+      if (b[k] === undefined) errors.push(`${where}: falta el campo "${k}"`);
+    }
+    if (b.loader && (!LOADERS.includes(b.loader.type) || b.loader.type === "vanilla")) errors.push(`${where}: loader.type inválido "${b.loader.type}"`);
+    if (!b.file || !b.loader || !Array.isArray(b.minecraft)) continue;
+    const jar = join(dir, b.file);
+    if (!existsSync(jar)) { errors.push(`${where}: "${b.file}" no existe`); continue; }
+    // mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar
+    const expected = `${id}-${b.version}-MC${b.minecraft[0]}-${b.loader.type}${b.loader.minVersion ?? ""}.jar`;
+    if (b.file.split("/").pop() !== expected) warnings.push(`${where}: el jar debería llamarse ${expected}`);
+    const data = readFileSync(jar);
+    builds.push({
+      version: b.version,
+      minecraft: b.minecraft,
+      loader: b.loader,
+      fileName: b.file.split("/").pop(),
+      url: asset(dir, id, b.file, `builds[${i}].file`, "mods"),
+      sha1: createHash("sha1").update(data).digest("hex"),
+      size: data.length,
+    });
+  }
+  const { $schema, hidden, builds: _, ...rest } = m;
+  mods.push({ ...rest, icon: asset(dir, id, m.icon, "icon", "mods"), builds });
+}
+
 // Acceso a lo que está en desarrollo: hashes de cuentas (ver scripts/tester-hash.mjs).
 const devFile = join(ROOT, "desarrollo.json");
 let testers = [];
@@ -137,6 +184,7 @@ const index = {
   formatVersion: 1,
   modpacks: modpacks.filter((m) => !m.dev).sort(byFeatured),
   servers: servers.filter((s) => !s.dev).sort(byFeatured),
+  mods,
   dev: { testers, modpacks: modpacks.filter((m) => m.dev).sort(byFeatured), servers: servers.filter((s) => s.dev).sort(byFeatured) },
 };
 const out = JSON.stringify(index, null, 2) + "\n";
