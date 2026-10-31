@@ -153,15 +153,20 @@ cómo queda antes de publicarlo. No sale en el catálogo de la web ni en launche
 página de la web sí se abre con el enlace (`mochos.xyz/launcher/modpacks/<id>`, el botón **Copiar
 enlace** del launcher), con un aviso de que está en desarrollo y sin la descarga del archivo.
 
-`desarrollo.json` no guarda nombres sino un hash de la cuenta (SHA-256 del UUID de Minecraft), así
-que la lista no dice quién tiene acceso. Para añadir a alguien:
+`desarrollo.json` no guarda nombres sino un hash de la cuenta (SHA-256 del UUID de Minecraft, o
+del nombre en las cuentas de Discord), así que la lista no dice quién tiene acceso. Para añadir a
+alguien:
 
 ```bash
-node scripts/tester-hash.mjs lorspi      # busca el UUID de la cuenta y escribe su hash
+node scripts/tester-hash.mjs lorspi             # cuenta de Microsoft: busca su UUID y escribe el hash
+node scripts/tester-hash.mjs --discord lorspi   # cuenta de Discord: el nombre que reclamó en mochos.xyz
 ```
 
-y pega el hash en `testers`. Solo valen **cuentas de Microsoft**: una cuenta offline puede ponerse
-cualquier nombre.
+y pega el hash en `testers`. Valen **cuentas de Microsoft** y **de Discord** (launcher 1.5 o
+posterior). Con Discord, el launcher comprueba con la sesión de mochos.xyz de esa cuenta que el
+nombre lo reclamó esa cuenta de Discord: si otra persona se queda con el nombre, pasa a tener el
+acceso, así que quita el hash si alguien suelta su nombre. Una cuenta offline nunca vale: puede
+ponerse cualquier nombre.
 
 > **Ojo:** el repositorio es público. El modpack en desarrollo (su `modpack.json`, imágenes y
 > Release) se puede leer aquí; el modo desarrollo solo evita que aparezca en el launcher y en la

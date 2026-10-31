@@ -236,7 +236,8 @@
   ],
   "dev": {
     "testers": [
-      "fe830b509285e46fa0de727571940e71c83bd4b7b273ba252d707727c5af164f"
+      "fe830b509285e46fa0de727571940e71c83bd4b7b273ba252d707727c5af164f",
+      "dd3e1e854cba0f4501163b5035e00353bfbccc65042b65bbf713c540bb19c9e6"
     ],
     "modpacks": [
       {
