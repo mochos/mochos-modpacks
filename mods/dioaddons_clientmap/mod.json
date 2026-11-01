@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "dioaddons_clientmap",
+  "name": "Diorama Addons: Client Map",
+  "summary": "Funciones multijugador para el mapa de Diorama: claims, mapa explorado compartido, waypoints compartidos y posiciones de jugadores con privacidad.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "gallery": ["images/diorama-claims-waypoints.png", "images/diorama-shared-explored.png"],
+  "tags": ["Mapas", "Multijugador", "Servidores"],
+  "authors": ["lorspi"],
+  "links": {
+    "source": "https://github.com/lorspi/diorama-addons",
+    "issues": "https://github.com/lorspi/diorama-addons/issues",
+    "wiki": "https://github.com/lorspi/diorama-addons/blob/main/docs/clientmap-research.md"
+  },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/dioaddons_clientmap-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-01",
+      "changelog": "Primera versión.\n\n- Integración con Diorama 0.6.0 (NeoForge 1.21.1): claims en el mapa y el minimapa, reclamar o liberar desde el menú de clic derecho.\n- Mapa explorado compartido, enviado por lotes con límite de tasa.\n- Waypoints compartidos con propietario; posiciones de jugadores con privacidad por jugador (`/maplocation`).\n- Modos de compartir por servidor, por separado para exploración y ubicaciones: desactivado, global o por grupos (`/mapgroup`).\n- Comandos: `/mapgroup`, `/sharedwaypoint`, `/maplocation`, y en el cliente `/clientmap status|resync`.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "y4CUZz0J", "name": "Diorama 0.6.0" }
+      ]
+    }
+  ]
+}

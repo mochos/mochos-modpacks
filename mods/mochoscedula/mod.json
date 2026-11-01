@@ -6,7 +6,7 @@
   "description": "description.md",
   "icon": "icon.png",
   "tags": ["Skins", "Cuentas", "Servidores"],
-  "authors": ["Mochos Studio"],
+  "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "builds": [
     {

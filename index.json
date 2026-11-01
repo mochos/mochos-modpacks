@@ -273,6 +273,154 @@
   ],
   "content": [
     {
+      "id": "dioaddons_claims",
+      "kind": "mod",
+      "name": "Diorama Addons: Claims",
+      "summary": "Protege tu terreno chunk por chunk. Invita a tus amigos, dale a cada uno sus propios permisos y gestiona todo desde una pantalla en el juego o con comandos.",
+      "description": "**Diorama Addons: Claims** protege tu terreno chunk por chunk, te deja compartirlo con tus amigos y decidir exactamente qué puede hacer cada uno, desde una pantalla de verdad dentro del juego.\n\nLos jugadores reclaman los chunks donde viven, invitan a sus amigos y configuran los permisos uno por uno o con plantillas listas. Todo funciona desde una pantalla gráfica cuando el mod está en el cliente, y con comandos cuando no, así que **los jugadores sin el mod también pueden entrar y jugar**.\n\n### Características\n\n- **Claims por chunk:** reclama columnas completas de 16×16. Los chunks de un mismo claim quedan unidos.\n- **Pantalla con estilo de mapa:** pulsa **G** (o `/claims menu`) para ver el terreno real a tu alrededor, dibujado al estilo del mapa de Diorama, con el color y el borde de cada claim encima. Haz clic o arrastra para reclamar o liberar.\n- **Amigos con sus propios permisos:** añade un amigo y elige una plantilla (*Visitante*, *Miembro*, *Confiable*), o activa cada permiso por separado.\n- **Permisos públicos:** elige qué puede hacer cualquier otro jugador en tu claim.\n- **Ajustes del claim:** PvP, explosiones, propagación del fuego y destrozos de mobs, por claim.\n- **Límites por jugador:** máximo de chunks y de claims por jugador. Ser amigo en el claim de otro nunca cuenta para tus propios límites.\n- **Protección completa:** romper y colocar bloques, puertas y redstone, contenedores (vanilla y de mods), uso de objetos, entidades, animales, pisoteo de cultivos, explosiones, fuego, fluidos y pistones que cruzan el borde, y destrozos de mobs.\n- **Herramientas para operadores:** ignorar la protección y listar, editar o borrar cualquier claim.\n- **Inglés y español**, traducidos en el servidor para que también los lean los jugadores sin el mod.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | Opcional: solo para la pantalla de claims. Sin él, usa los comandos. |\n\nRequiere **Minecraft 1.21.1** y **NeoForge 21.1.265 o superior**. No necesita otros mods.\n\n### Comandos\n\n| Comando | Qué hace |\n|---|---|\n| `/claim [nombre]` · `/unclaim` | Reclama o libera el chunk donde estás |\n| `/claims menu` | Abre la pantalla de claims (mod en el cliente) |\n| `/claims list` · `/claims info` | Tus claims y límites · el claim donde estás |\n| `/claims rename <nombre>` · `/claims delete` | Edita el claim donde estás |\n| `/claims trust <jugador> [visitor\\|member\\|trusted]` · `/claims untrust <jugador>` | Gestiona amigos |\n| `/claims permission public <permiso> <true\\|false>` | Lo que puede hacer cualquiera, y ajustes del claim |\n| `/claims permission member <jugador> <permiso> <true\\|false>` | Un permiso de un amigo |\n| `/claims permission template <jugador> <plantilla>` | Aplica una plantilla a un amigo |\n| `/claims admin bypass\\|list [jugador]\\|delete\\|unclaim` | Herramientas de operador |\n\nConfiguración del servidor: `serverconfig/dioaddons_claims-server.toml` dentro de la carpeta del mundo. Referencia completa: [permisos y comandos](https://github.com/lorspi/diorama-addons/blob/main/docs/claims-permissions.md).\n\n### Combina muy bien con\n\n- **Diorama Addons: Web Map:** tus claims pintados en un mapa web en vivo.\n- **Diorama Addons: Client Map:** tus claims en el mapa de Diorama, y reclamar o liberar desde el mapa.\n\nCada mod funciona solo; juntos comparten los claims automáticamente.\n\n### Acerca de\n\nDiorama Addons es un conjunto de addons no oficial, hecho por la comunidad e inspirado en el mod de mapa [Diorama](https://modrinth.com/mod/diorama-map). No está afiliado ni respaldado por los autores de Diorama. Código abierto con licencia MIT.\n",
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_claims/icon.png",
+      "gallery": [
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_claims/images/claims-gui.png",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_claims/images/webmap-claims.png",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_claims/images/diorama-claims-waypoints.png"
+      ],
+      "tags": [
+        "Protección",
+        "Servidores",
+        "Multijugador"
+      ],
+      "authors": [
+        "lorspi"
+      ],
+      "links": {
+        "source": "https://github.com/lorspi/diorama-addons",
+        "issues": "https://github.com/lorspi/diorama-addons/issues",
+        "wiki": "https://github.com/lorspi/diorama-addons/blob/main/docs/claims-permissions.md"
+      },
+      "featured": false,
+      "dev": false,
+      "updatedAt": "2026-11-01",
+      "offer": false,
+      "builds": [
+        {
+          "version": "0.1.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "dioaddons_claims-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_claims/builds/dioaddons_claims-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "10a541d024251490f2da1f282bbc1d77f6435eb0",
+          "size": 178813,
+          "date": "2026-11-01",
+          "changelog": "Primera versión.\n\n- Claims por chunk con límites por jugador (chunks y claims), chunks unidos y distancia mínima al spawn opcional.\n- Amigos con sus propios permisos y plantillas (Visitante, Miembro, Confiable); permisos públicos y ajustes del claim (PvP, explosiones, propagación del fuego, destrozos de mobs).\n- Pantalla de claims con el terreno real a tu alrededor al estilo del mapa de Diorama, selección arrastrando, lista de claims, pestañas de miembros y público (tecla **G** o `/claims menu`).\n- Comandos para jugadores sin el mod en el cliente: `/claim`, `/unclaim`, `/claims ...`, `/claims admin ...`.\n- Protección de bloques, contenedores, objetos, entidades, animales, cultivos, explosiones, fuego, fluidos, pistones y destrozos de mobs.\n- Inglés y español, traducidos en el servidor."
+        }
+      ]
+    },
+    {
+      "id": "dioaddons_clientmap",
+      "kind": "mod",
+      "name": "Diorama Addons: Client Map",
+      "summary": "Funciones multijugador para el mapa de Diorama: claims, mapa explorado compartido, waypoints compartidos y posiciones de jugadores con privacidad.",
+      "description": "**Diorama Addons: Client Map** convierte el mapa de [Diorama](https://modrinth.com/mod/diorama-map) en un mapa multijugador: ve los claims, comparte lo que exploraste, comparte waypoints y ve a tus amigos, todo dentro de Diorama.\n\nConecta tu servidor NeoForge 1.21.1 con el mapa de Diorama en el cliente de cada jugador. El servidor guarda los datos compartidos y los envía en segundo plano; Diorama los muestra. **Al instalarlo desde el launcher también se instala Diorama 0.6.0.**\n\n### Características\n\n- **Claims en el mapa:** los claims de Diorama Addons: Claims aparecen en el mapa y el minimapa de Diorama, con color por propietario y \"claim · dueño\" al pasar el ratón.\n- **Reclamar desde el mapa:** con Claims también en el cliente, haz clic derecho en cualquier chunk del mapa para **reclamarlo o liberarlo**. El servidor valida cada acción.\n- **Mapa explorado compartido:** los lugares que exploraron otros jugadores aparecen en tu mapa, enviados en segundo plano en lotes pequeños.\n- **Waypoints compartidos:** clic derecho → *Add shared waypoint here*. Todo tu grupo lo ve; solo su dueño, el dueño del grupo o un operador pueden renombrarlo o borrarlo.\n- **Posiciones con privacidad:** ve a tu grupo en el mapa y el radar. Ocúltate cuando quieras con `/maplocation hide`.\n- **Grupos de amigos:** el servidor elige, por separado para la exploración y para las ubicaciones: **desactivado**, **compartido con todos** o **por grupos** (`/mapgroup`).\n- **Seguro de instalar:** los jugadores sin el mod (o sin Diorama) pueden entrar igual; sin Diorama el mod simplemente no hace nada.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio**: guarda y comparte los datos |\n| Cliente | Opcional: instálalo junto con **Diorama 0.6.0** para verlo todo en el mapa |\n\nRequiere **Minecraft 1.21.1**, **NeoForge 21.1.265 o superior** y, en el cliente, **Diorama `0.6.0+neoforge-1.21.1`**. Otras versiones de Diorama se detectan y se dejan tal cual.\n\nOpcional: Diorama Addons: Claims en el servidor para los claims, y en el cliente para reclamar desde el mapa.\n\n### Comandos\n\n| Comando | Qué hace |\n|---|---|\n| `/mapgroup create <nombre>` · `invite <jugador>` · `join <nombre>` · `leave` · `kick <jugador>` · `info` | Grupos de amigos |\n| `/sharedwaypoint add <nombre>` · `list` · `rename <viejo> <nuevo>` · `remove <nombre>` | Waypoints compartidos |\n| `/maplocation show\\|hide` | Comparte u oculta tu posición |\n| `/clientmap status` · `/clientmap resync` (cliente) | Estado de la sincronización · reenvía el mapa explorado |\n\nConfiguración del servidor: `config/dioaddons_clientmap-common.toml`.\n\n### Limitaciones conocidas\n\n- Por ahora solo soporta **Diorama 0.6.0**; cada nueva versión de Diorama hay que comprobarla.\n- Los waypoints compartidos aparecen en la carpeta *Waystones* de Diorama.\n- Los chunks explorados compartidos muestran solo la superficie (sin cuevas).\n\n### Combina muy bien con\n\n- **Diorama Addons: Claims:** protección de terreno con amigos y permisos.\n- **Diorama Addons: Web Map:** el mismo mundo, en el navegador.\n\n### Acerca de\n\nDiorama Addons es un conjunto de addons no oficial, hecho por la comunidad, para el mod de mapa [Diorama](https://modrinth.com/mod/diorama-map). No está afiliado ni respaldado por los autores de Diorama, y Diorama no está incluido en el jar. Código abierto con licencia MIT.\n",
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_clientmap/icon.png",
+      "gallery": [
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_clientmap/images/diorama-claims-waypoints.png",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_clientmap/images/diorama-shared-explored.png"
+      ],
+      "tags": [
+        "Mapas",
+        "Multijugador",
+        "Servidores"
+      ],
+      "authors": [
+        "lorspi"
+      ],
+      "links": {
+        "source": "https://github.com/lorspi/diorama-addons",
+        "issues": "https://github.com/lorspi/diorama-addons/issues",
+        "wiki": "https://github.com/lorspi/diorama-addons/blob/main/docs/clientmap-research.md"
+      },
+      "featured": false,
+      "dev": false,
+      "updatedAt": "2026-11-01",
+      "offer": false,
+      "builds": [
+        {
+          "version": "0.1.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "dioaddons_clientmap-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_clientmap/builds/dioaddons_clientmap-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "1e21fffc5ea1db85e80048725ebddff8c605f354",
+          "size": 117731,
+          "date": "2026-11-01",
+          "changelog": "Primera versión.\n\n- Integración con Diorama 0.6.0 (NeoForge 1.21.1): claims en el mapa y el minimapa, reclamar o liberar desde el menú de clic derecho.\n- Mapa explorado compartido, enviado por lotes con límite de tasa.\n- Waypoints compartidos con propietario; posiciones de jugadores con privacidad por jugador (`/maplocation`).\n- Modos de compartir por servidor, por separado para exploración y ubicaciones: desactivado, global o por grupos (`/mapgroup`).\n- Comandos: `/mapgroup`, `/sharedwaypoint`, `/maplocation`, y en el cliente `/clientmap status|resync`.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "y4CUZz0J",
+              "name": "Diorama 0.6.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dioaddons_webmap",
+      "kind": "mod",
+      "name": "Diorama Addons: Web Map",
+      "summary": "Un mapa en vivo de tu servidor en el navegador, dibujado al estilo Diorama con texturas reales, sol y sombras. Solo servidor: los jugadores no instalan nada.",
+      "description": "**Diorama Addons: Web Map** pone todo tu mundo en el navegador, dibujado en ángulo al estilo del mapa de Diorama, con texturas reales de bloques, sol y sombras.\n\nCorre dentro de tu servidor NeoForge 1.21.1 y sirve un mapa en vivo en `http://<tu-servidor>:8123/`. Los jugadores no instalan nada: solo abren un enlace. Es un mod **de servidor**; en una instancia del launcher solo sirve el mapa de tus mundos de un jugador.\n\n### Características\n\n- **Estilo Diorama:** el mundo se dibuja en ángulo a partir de las texturas reales de los bloques, con sol, sombras y contornos. Los árboles y acantilados sobresalen del mapa.\n- **Bloques de mods bien dibujados:** usan las texturas de sus propios jars.\n- **Ligero para el servidor:** los tiles se generan en segundo plano, con baja prioridad y un límite de chunks por segundo. Solo se redibujan las zonas que cambiaron.\n- **Zoom y dimensiones:** niveles de zoom y un selector para cada dimensión que actives en la configuración.\n- **Claims de terreno:** con Diorama Addons: Claims instalado, los claims se pintan sobre el terreno con un color por propietario y una etiqueta con el nombre del claim y su dueño. Los miembros y permisos nunca se publican.\n- **Privado por defecto:** las posiciones de los jugadores están **desactivadas** salvo que las actives, porque el mapa puede estar expuesto a internet.\n- **Nunca tumba el servidor:** si el puerto está ocupado, registra un error claro y el juego sigue funcionando.\n- **API JSON:** `/api/info`, `/api/claims` y `/api/players` para tus propias herramientas.\n- **Opción de mapa plano:** usa `render.style = \"TOP_DOWN\"` para un mapa cenital clásico.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | No hace falta |\n\nRequiere **Minecraft 1.21.1** y **NeoForge 21.1.265 o superior**.\n\n1. Pon el jar en la carpeta `mods` del servidor y arráncalo.\n2. Abre `http://<dirección-del-servidor>:8123/` en un navegador.\n3. Cambia el puerto, la dirección de enlace, la velocidad de renderizado, las dimensiones y las capas en `config/dioaddons_webmap-common.toml`.\n\n> **Primer arranque:** el estilo Diorama usa las texturas vanilla del jar oficial del cliente de Minecraft, que se descarga una vez desde Mojang (unos 27 MB, verificado con el SHA-1 de Mojang). El estilo `TOP_DOWN` no necesita descarga.\n\n### Comandos (operadores)\n\n| Comando | Qué hace |\n|---|---|\n| `/webmap status` | Servidor web, cola de renderizado y capas |\n| `/webmap render [dimensión]` | Vuelve a renderizar todo |\n| `/webmap clearcache` | Borra todos los tiles y empieza de nuevo |\n\nReferencia de la API HTTP: [docs/webmap-api.md](https://github.com/lorspi/diorama-addons/blob/main/docs/webmap-api.md).\n\n### Combina muy bien con\n\n- **Diorama Addons: Claims:** protección de terreno; sus claims aparecen en el mapa web.\n- **Diorama Addons: Client Map:** claims, exploración compartida y waypoints dentro del mapa de Diorama.\n\nCada mod funciona solo; juntos comparten los claims automáticamente.\n\n### Acerca de\n\nDiorama Addons es un conjunto de addons no oficial, hecho por la comunidad e inspirado en el mod de mapa [Diorama](https://modrinth.com/mod/diorama-map). No está afiliado ni respaldado por los autores de Diorama. La interfaz web usa [Leaflet](https://leafletjs.com) (BSD-2-Clause). Código abierto con licencia MIT.\n",
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_webmap/icon.png",
+      "gallery": [
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_webmap/images/webmap-claims.png"
+      ],
+      "tags": [
+        "Mapas",
+        "Servidores"
+      ],
+      "authors": [
+        "lorspi"
+      ],
+      "links": {
+        "source": "https://github.com/lorspi/diorama-addons",
+        "issues": "https://github.com/lorspi/diorama-addons/issues",
+        "wiki": "https://github.com/lorspi/diorama-addons/blob/main/docs/webmap-api.md"
+      },
+      "featured": false,
+      "dev": false,
+      "updatedAt": "2026-11-01",
+      "offer": false,
+      "builds": [
+        {
+          "version": "0.1.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "dioaddons_webmap-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_webmap/builds/dioaddons_webmap-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "088a1178be36292e75144513a5111066ba655c05",
+          "size": 193114,
+          "date": "2026-11-01",
+          "changelog": "Primera versión.\n\n- Mapa web servido por el servidor del juego (puerto 8123 por defecto), con niveles de zoom y selector de dimensión.\n- Estilo Diorama: el mundo dibujado en ángulo a partir de las texturas de los bloques, con sol, sombras y contornos. Los bloques de mods usan sus propias texturas. Estilo `TOP_DOWN` disponible.\n- Renderizado en segundo plano con prioridad mínima y límite de chunks por segundo; solo se redibujan las zonas que cambiaron.\n- Claims pintados sobre el terreno (color por propietario, etiqueta con nombre y dueño) cuando Diorama Addons: Claims está instalado.\n- Posiciones de jugadores opcionales (desactivadas por defecto).\n- `/webmap status|render|clearcache`; endpoints JSON `/api/info`, `/api/claims`, `/api/players`."
+        }
+      ]
+    },
+    {
       "id": "mochoscedula",
       "kind": "mod",
       "name": "Mochos Cédula",

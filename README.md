@@ -20,6 +20,7 @@ mochos-modpacks/
 ├── desarrollo.json             ← cuentas que ven lo que está en desarrollo (hashes)
 ├── archivo/                    ← modpacks retirados (copia de seguridad, no salen en el índice)
 ├── mods/                       ← contenido propio: mods (ver «Contenido propio»)
+│   ├── dioaddons_claims/       ← Diorama Addons (Claims, Client Map y Web Map)
 │   └── mochoscedula/
 │       ├── mod.json
 │       ├── description.md
@@ -183,6 +184,7 @@ entrada por archivo, la versión más nueva arriba (se conservan las anteriores)
   "featured": false,                      // aparece primero
   "hidden": false,                        // true = no sale en el índice
   "dev": false,                           // true = solo para las cuentas de desarrollo.json
+  "offer": true,                          // solo mods: false = no sale en el aviso de la pestaña «Contenido»
   "builds": [
     {
       "file": "builds/mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248.jar",
@@ -190,7 +192,10 @@ entrada por archivo, la versión más nueva arriba (se conservan las anteriores)
       "minecraft": ["1.21.1"],            // versiones de Minecraft compatibles
       "loader": { "type": "neoforge", "minVersion": "21.1.248" },  // solo mods: fabric | quilt | forge | neoforge
       "date": "2026-11-01",
-      "changelog": "- Cambios de esta versión (markdown)."
+      "changelog": "- Cambios de esta versión (markdown).",
+      "dependencies": [                   // solo mods, opcional: ver «Dependencias»
+        { "source": "modrinth", "project": "diorama-map", "version": "y4CUZz0J", "name": "Diorama 0.6.0" }
+      ]
     }
   ]
 }
@@ -210,6 +215,27 @@ sigue el formato. En `index.json` salen en dos sitios:
 
 Si varios archivos son compatibles con una instancia, el launcher ofrece el de versión más alta.
 Los modpacks de Quilt también aceptan los jars de Fabric.
+
+El aviso de la pestaña **Contenido** ofrece un mod compatible que el modpack no tenga. Para mods
+que no tiene sentido sugerir en cualquier modpack (como los **Diorama Addons**), pon `"offer": false`:
+siguen en la pestaña **Mochos**, pero no salen en el aviso ni en la sección `mods` del índice.
+
+### Dependencias
+
+Cada build puede pedir mods de Modrinth o CurseForge en `dependencies`. Al instalarlo desde el
+launcher (1.5.6 o posterior), también se instalan los que el jugador no tenga, igual que las
+dependencias de Modrinth y CurseForge. Con el juego abierto no se instalan.
+
+| Campo | Valor |
+|---|---|
+| `source` | `modrinth` o `curseforge` |
+| `project` | Slug o id en Modrinth (`diorama-map`); id numérico en CurseForge |
+| `version` | Opcional. Versión fija: id de la versión en Modrinth (el de la URL `…/version/<id>`) o del archivo en CurseForge. Sin ella, la última compatible con la instancia |
+| `name` | Opcional. Nombre que muestra el launcher |
+
+Fija la versión cuando el mod solo funciona con una concreta (Client Map solo con Diorama 0.6.0) y
+cámbiala en el build que la actualice. Si el jugador ya tiene la dependencia en otra versión, no se
+toca.
 
 ### Publicar una versión nueva de un mod propio
 

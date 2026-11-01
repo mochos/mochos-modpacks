@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "dioaddons_claims",
+  "name": "Diorama Addons: Claims",
+  "summary": "Protege tu terreno chunk por chunk. Invita a tus amigos, dale a cada uno sus propios permisos y gestiona todo desde una pantalla en el juego o con comandos.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "gallery": ["images/claims-gui.png", "images/webmap-claims.png", "images/diorama-claims-waypoints.png"],
+  "tags": ["Protección", "Servidores", "Multijugador"],
+  "authors": ["lorspi"],
+  "links": {
+    "source": "https://github.com/lorspi/diorama-addons",
+    "issues": "https://github.com/lorspi/diorama-addons/issues",
+    "wiki": "https://github.com/lorspi/diorama-addons/blob/main/docs/claims-permissions.md"
+  },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/dioaddons_claims-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-01",
+      "changelog": "Primera versión.\n\n- Claims por chunk con límites por jugador (chunks y claims), chunks unidos y distancia mínima al spawn opcional.\n- Amigos con sus propios permisos y plantillas (Visitante, Miembro, Confiable); permisos públicos y ajustes del claim (PvP, explosiones, propagación del fuego, destrozos de mobs).\n- Pantalla de claims con el terreno real a tu alrededor al estilo del mapa de Diorama, selección arrastrando, lista de claims, pestañas de miembros y público (tecla **G** o `/claims menu`).\n- Comandos para jugadores sin el mod en el cliente: `/claim`, `/unclaim`, `/claims ...`, `/claims admin ...`.\n- Protección de bloques, contenedores, objetos, entidades, animales, cultivos, explosiones, fuego, fluidos, pistones y destrozos de mobs.\n- Inglés y español, traducidos en el servidor."
+    }
+  ]
+}

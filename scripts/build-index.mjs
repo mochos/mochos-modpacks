@@ -168,6 +168,11 @@ for (const { kind, folder, json, ext } of KINDS) {
       if (kind === "mod" && !b.loader) errors.push(`${where}: falta el campo "loader"`);
       if (b.loader && (!LOADERS.includes(b.loader.type) || b.loader.type === "vanilla")) errors.push(`${where}: loader.type inválido "${b.loader.type}"`);
       if (b.date !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(b.date)) errors.push(`${where}: "date" debe ser AAAA-MM-DD`);
+      for (const [j, d] of (b.dependencies ?? []).entries()) {
+        if (!["modrinth", "curseforge"].includes(d.source)) errors.push(`${where}.dependencies[${j}]: "source" debe ser modrinth o curseforge`);
+        if (typeof d.project !== "string" || !d.project) errors.push(`${where}.dependencies[${j}]: falta "project"`);
+        if (d.source === "curseforge" && !/^\d+$/.test(String(d.project))) errors.push(`${where}.dependencies[${j}]: en CurseForge "project" es el id numérico`);
+      }
       if (!b.file || !Array.isArray(b.minecraft) || (kind === "mod" && !b.loader)) continue;
       const path = join(dir, b.file);
       if (!existsSync(path)) { errors.push(`${where}: "${b.file}" no existe`); continue; }
@@ -187,6 +192,8 @@ for (const { kind, folder, json, ext } of KINDS) {
         size: data.length,
         date: b.date,
         changelog: b.changelog,
+        // Mods de Modrinth o CurseForge que el launcher instala con este archivo.
+        ...(b.dependencies?.length ? { dependencies: b.dependencies.map(({ source, project, version, name }) => ({ source, project, version, name })) } : {}),
       });
     }
     builds.sort((x, y) => versionCmp(y.version, x.version));
@@ -205,10 +212,13 @@ for (const { kind, folder, json, ext } of KINDS) {
       featured: !!m.featured,
       dev: !!m.dev,
       updatedAt: builds.map((b) => b.date).filter(Boolean).sort().pop(),
+      // Sin "offer": false, los mods se ofrecen en el aviso de la pestaña «Contenido».
+      ...(m.offer === false ? { offer: false } : {}),
       builds,
     });
-    // Los launchers 1.5.2+ leen "mods": solo los campos de siempre y nada en desarrollo.
-    if (kind === "mod" && !m.dev) {
+    // Los launchers 1.5.2+ leen "mods": solo los campos de siempre y nada en desarrollo. Lo que
+    // no se ofrece en el aviso tampoco va aquí (esos launchers ofrecen todo lo de "mods").
+    if (kind === "mod" && !m.dev && m.offer !== false) {
       mods.push({
         id,
         name: m.name,

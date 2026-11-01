@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "dioaddons_webmap",
+  "name": "Diorama Addons: Web Map",
+  "summary": "Un mapa en vivo de tu servidor en el navegador, dibujado al estilo Diorama con texturas reales, sol y sombras. Solo servidor: los jugadores no instalan nada.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "gallery": ["images/webmap-claims.png"],
+  "tags": ["Mapas", "Servidores"],
+  "authors": ["lorspi"],
+  "links": {
+    "source": "https://github.com/lorspi/diorama-addons",
+    "issues": "https://github.com/lorspi/diorama-addons/issues",
+    "wiki": "https://github.com/lorspi/diorama-addons/blob/main/docs/webmap-api.md"
+  },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/dioaddons_webmap-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-01",
+      "changelog": "Primera versión.\n\n- Mapa web servido por el servidor del juego (puerto 8123 por defecto), con niveles de zoom y selector de dimensión.\n- Estilo Diorama: el mundo dibujado en ángulo a partir de las texturas de los bloques, con sol, sombras y contornos. Los bloques de mods usan sus propias texturas. Estilo `TOP_DOWN` disponible.\n- Renderizado en segundo plano con prioridad mínima y límite de chunks por segundo; solo se redibujan las zonas que cambiaron.\n- Claims pintados sobre el terreno (color por propietario, etiqueta con nombre y dueño) cuando Diorama Addons: Claims está instalado.\n- Posiciones de jugadores opcionales (desactivadas por defecto).\n- `/webmap status|render|clearcache`; endpoints JSON `/api/info`, `/api/claims`, `/api/players`."
+    }
+  ]
+}
