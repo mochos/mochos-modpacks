@@ -1,15 +1,29 @@
 {
-  "$schema": "../../schema/mod.schema.json",
+  "$schema": "../../schema/contenido.schema.json",
   "id": "mochoscedula",
   "name": "Mochos Cédula",
   "summary": "Skins de Mochos (también HD) para todos los jugadores, cambio de cuenta sin salir del juego y verificación con tu cuenta del launcher en los servidores.",
+  "description": "description.md",
   "icon": "icon.png",
+  "tags": ["Skins", "Cuentas", "Servidores"],
+  "authors": ["Mochos Studio"],
+  "links": { "website": "https://mochos.xyz", "source": "https://github.com/mochos/mochos-mod" },
   "builds": [
+    {
+      "file": "builds/mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248.jar",
+      "version": "1.0.2",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.248" },
+      "date": "2026-11-01",
+      "changelog": "- Al cambiar de skin, los demás jugadores siguen viendo la anterior hasta que la nueva está cargada (antes se veía un instante la de Minecraft).\n- Las skins se guardan en disco y no se vuelven a descargar.\n- Arreglados los movimientos raros del personaje en el selector de skins con Fresh Animations.\n- La sección del launcher para gestionar skins ahora se llama «Apariencia»."
+    },
     {
       "file": "builds/mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar",
       "version": "1.0.1",
       "minecraft": ["1.21.1"],
-      "loader": { "type": "neoforge", "minVersion": "21.1.248" }
+      "loader": { "type": "neoforge", "minVersion": "21.1.248" },
+      "date": "2026-10-31",
+      "changelog": "- Comandos y pantalla para permitir o denegar jugadores offline."
     }
   ]
 }

@@ -51,8 +51,8 @@
       "name": "Casi Vanilla",
       "summary": "El Minecraft de siempre, más bonito y fluido, con aviones, mochilas, recompensas y chat de voz para jugar entre amigos.",
       "description": "**Casi Vanilla** es el Minecraft de siempre, con lo justo para que sea más bonito, más fluido y más divertido entre amigos. Sin tecnología pesada ni nuevas dimensiones: el survival de toda la vida con mejoras de calidad.\n\n### ¿Qué incluye?\n\n- **Mundo:** generación de terreno de Terralith, ríos que fluyen de verdad (Streams Reflowing), Luki's Grand Capitals y santuarios legendarios para explorar.\n- **Aventura:** tablón de encargos con recompensas (Bountiful) y Tempad para viajar entre puntos guardados.\n- **Aviación:** Immersive Aircraft y Man of Many Planes.\n- **Calidad de vida:** mochilas de viaje, almacenamiento de Tom's Storage, tumbas al morir (Corpse), talado de árboles por partes (TreeChop), Jade, Roughly Enough Items, zoom y armadura cosmética.\n- **Visuales:** Fresh Animations, texturas conectadas (Continuity y Fusion), objetos en 3D, estelas en el agua, brillos y Distant Horizons para ver el horizonte a kilómetros.\n- **Sonido:** Sound Physics Remastered y chat de voz por proximidad con Simple Voice Chat.\n- **Rendimiento:** Sodium, Lithium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y Dynamic FPS.\n- **Mochos Cédula** incluido y el logo de Casi Vanilla en el menú principal.\n\n### Requisitos recomendados\n\n- 6 GB de RAM asignados (el launcher lo configura solo).\n- Distant Horizons es exigente: si notas tirones, baja su distancia desde sus opciones.\n",
-      "changelog": "## 1.0.0\n\n- Primera versión publicada en el Mochos Launcher.\n- Minecraft 1.21.1 con NeoForge 21.1.265.\n- 57 mods (incluido Mochos Cédula) y 8 paquetes de recursos.\n",
-      "version": "1.0.0",
+      "changelog": "## 1.0.1\n\n- Mochos Cédula actualizado a 1.0.2: al cambiar de skin, los demás jugadores ya no ven un instante la skin de Minecraft; las skins se guardan en disco; y se arreglan los movimientos raros del personaje en el selector de skins.\n\n## 1.0.0\n\n- Primera versión publicada en el Mochos Launcher.\n- Minecraft 1.21.1 con NeoForge 21.1.265.\n- 57 mods (incluido Mochos Cédula) y 8 paquetes de recursos.\n",
+      "version": "1.0.1",
       "minecraft": "1.21.1",
       "loader": {
         "type": "neoforge",
@@ -74,9 +74,9 @@
       "recommendedRamMb": 6144,
       "source": {
         "type": "mrpack",
-        "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.0.0/Casi-Vanilla-1.21.1-v1.0.0.mrpack",
-        "sha1": "a96b73023a48c21ae974990bc26da41caed63d9b",
-        "size": 254755
+        "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.0.1/Casi-Vanilla-1.21.1-v1.0.1.mrpack",
+        "sha1": "3b981b42e0a99015f9142dc0a4bd4f4ed2366a3c",
+        "size": 259140
       },
       "server": {
         "enabled": true,
@@ -87,7 +87,7 @@
         "website": "https://mochos.xyz",
         "discord": "https://discord.mochos.xyz"
       },
-      "updatedAt": "2026-10-31",
+      "updatedAt": "2026-11-01",
       "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/casi-vanilla/contents.json"
     },
     {
@@ -241,6 +241,20 @@
       "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochoscedula/icon.png",
       "builds": [
         {
+          "version": "1.0.2",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.248"
+          },
+          "fileName": "mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochoscedula/builds/mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248.jar",
+          "sha1": "807f1faf395199371392d96ad36ebf68801c2dad",
+          "size": 98908
+        },
+        {
           "version": "1.0.1",
           "minecraft": [
             "1.21.1"
@@ -253,6 +267,66 @@
           "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochoscedula/builds/mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar",
           "sha1": "5500bbef91123662dfe3152576740f556d24d6fd",
           "size": 94435
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "mochoscedula",
+      "kind": "mod",
+      "name": "Mochos Cédula",
+      "summary": "Skins de Mochos (también HD) para todos los jugadores, cambio de cuenta sin salir del juego y verificación con tu cuenta del launcher en los servidores.",
+      "description": "**Mochos Cédula** lleva al juego las skins de [mochos.xyz](https://mochos.xyz) y las cuentas del Mochos Launcher. Va en el cliente y en el servidor.\n\n### ¿Qué hace?\n\n- **Skins de Mochos para todos:** cada jugador ve las skins de los demás según su nombre, tengan cuenta en Mochos o vengan de la galería de la comunidad. Las skins HD (hasta 1024×1024) se ven en el mundo y en la lista de jugadores.\n- **Selector de skins:** con la tecla **K** o el botón **Skins** de la pantalla de título. La skin elegida la ven todos los jugadores del servidor. Tus skins se gestionan en la sección **Apariencia** del launcher.\n- **Cambio de cuenta en el juego:** el botón **Cuentas** cambia a otra cuenta del launcher sin cerrar el juego.\n- **Servidores verificados:** el servidor puede admitir a cualquiera o solo a jugadores verificados con su cuenta de **Microsoft** o **Discord** en el launcher.\n- **`/skin <nombre|URL>`** para los jugadores sin cuenta verificada.\n",
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochoscedula/icon.png",
+      "gallery": [],
+      "tags": [
+        "Skins",
+        "Cuentas",
+        "Servidores"
+      ],
+      "authors": [
+        "Mochos Studio"
+      ],
+      "links": {
+        "website": "https://mochos.xyz",
+        "source": "https://github.com/mochos/mochos-mod"
+      },
+      "featured": false,
+      "dev": false,
+      "updatedAt": "2026-11-01",
+      "builds": [
+        {
+          "version": "1.0.2",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.248"
+          },
+          "fileName": "mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochoscedula/builds/mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248.jar",
+          "sha1": "807f1faf395199371392d96ad36ebf68801c2dad",
+          "size": 98908,
+          "date": "2026-11-01",
+          "changelog": "- Al cambiar de skin, los demás jugadores siguen viendo la anterior hasta que la nueva está cargada (antes se veía un instante la de Minecraft).\n- Las skins se guardan en disco y no se vuelven a descargar.\n- Arreglados los movimientos raros del personaje en el selector de skins con Fresh Animations.\n- La sección del launcher para gestionar skins ahora se llama «Apariencia»."
+        },
+        {
+          "version": "1.0.1",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.248"
+          },
+          "fileName": "mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochoscedula/builds/mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar",
+          "sha1": "5500bbef91123662dfe3152576740f556d24d6fd",
+          "size": 94435,
+          "date": "2026-10-31",
+          "changelog": "- Comandos y pantalla para permitir o denegar jugadores offline."
         }
       ]
     }
@@ -333,6 +407,7 @@
         "dev": true,
         "query": "minecraft"
       }
-    ]
+    ],
+    "content": []
   }
 }

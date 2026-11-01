@@ -13,16 +13,20 @@ mochos-modpacks/
 ├── index.json                  ← generado (no editar a mano)
 ├── schema/modpack.schema.json  ← esquema de validación de modpack.json
 ├── schema/servidor.schema.json ← esquema de validación de servidor.json
-├── schema/mod.schema.json      ← esquema de validación de mod.json
+├── schema/contenido.schema.json ← esquema de mod.json, resourcepack.json y shaderpack.json
 ├── scripts/build-index.mjs     ← genera y valida index.json
 ├── scripts/build-contents.mjs  ← genera contents.json de cada modpack (pestaña «Contenido»)
 ├── scripts/tester-hash.mjs     ← hash de una cuenta para desarrollo.json
 ├── desarrollo.json             ← cuentas que ven lo que está en desarrollo (hashes)
 ├── archivo/                    ← modpacks retirados (copia de seguridad, no salen en el índice)
-├── mods/                       ← mods propios que el launcher ofrece instalar (ver más abajo)
+├── mods/                       ← contenido propio: mods (ver «Contenido propio»)
 │   └── mochoscedula/
 │       ├── mod.json
-│       └── builds/mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar
+│       ├── description.md
+│       ├── icon.png
+│       └── builds/mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248.jar
+├── resourcepacks/              ← contenido propio: resourcepacks (<id>/resourcepack.json)
+├── shaderpacks/                ← contenido propio: shaders (<id>/shaderpack.json)
 ├── servidores/                 ← servidores de la comunidad (ver más abajo)
 │   └── la-linea-rota/
 │       └── servidor.json
@@ -150,40 +154,72 @@ conectados, la IP para copiar y un botón para jugar.
 
 Después de añadir o cambiar un servidor, ejecuta `node scripts/build-index.mjs` (o deja que lo haga la Action).
 
-## Mods propios
+## Contenido propio
 
-La carpeta `mods/` tiene los mods de Mochos Studio que no se publican en Modrinth ni en CurseForge,
-como **Mochos Cédula**. En la pestaña **Contenido** de un modpack sin el mod, el launcher (1.5.2 o
-posterior) muestra un aviso para instalarlo si hay un jar compatible con su Minecraft, su loader y la
-versión del loader. Lo instala como contenido añadido por el jugador.
+Mods, resourcepacks y shaders de Mochos Studio que no se publican en Modrinth ni en CurseForge,
+como **Mochos Cédula**. Cada uno va en su carpeta según el tipo:
 
-Cada jar se llama `<id>-<versión>-MC<Minecraft>-<loader><versión mínima del loader>.jar`
-(`mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar`) y va en `mods/<id>/builds/`. En `mod.json`,
-una entrada por jar:
+| Tipo | Carpeta | Metadatos | Archivos |
+|------|---------|-----------|----------|
+| Mod | `mods/<id>/` | `mod.json` | `builds/<id>-<versión>-MC<Minecraft>-<loader><versión mínima del loader>.jar` |
+| Resourcepack | `resourcepacks/<id>/` | `resourcepack.json` | `builds/<id>-<versión>.zip` |
+| Shader | `shaderpacks/<id>/` | `shaderpack.json` | `builds/<id>-<versión>.zip` |
+
+Los tres usan el esquema [`contenido.schema.json`](schema/contenido.schema.json). En `builds`, una
+entrada por archivo, la versión más nueva arriba (se conservan las anteriores):
 
 ```jsonc
 {
-  "$schema": "../../schema/mod.schema.json",
-  "id": "mochoscedula",                   // = nombre de la carpeta
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochoscedula",                   // = nombre de la carpeta (en los mods, el modId)
   "name": "Mochos Cédula",
-  "summary": "Frase corta para el aviso del launcher.",
+  "summary": "Frase corta para las tarjetas y el aviso del launcher.",
+  "description": "description.md",        // ficha de la pestaña «Mochos» (archivo .md o texto)
+  "icon": "icon.png",
+  "gallery": ["images/captura-1.png"],    // opcional
+  "tags": ["Skins", "Servidores"],
+  "authors": ["Mochos Studio"],
+  "links": { "website": "https://mochos.xyz", "source": "https://github.com/mochos/mochos-mod" },
+  "featured": false,                      // aparece primero
+  "hidden": false,                        // true = no sale en el índice
+  "dev": false,                           // true = solo para las cuentas de desarrollo.json
   "builds": [
     {
-      "file": "builds/mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar",
-      "version": "1.0.1",
+      "file": "builds/mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248.jar",
+      "version": "1.0.2",
       "minecraft": ["1.21.1"],            // versiones de Minecraft compatibles
-      "loader": { "type": "neoforge", "minVersion": "21.1.248" }  // fabric | quilt | forge | neoforge
+      "loader": { "type": "neoforge", "minVersion": "21.1.248" },  // solo mods: fabric | quilt | forge | neoforge
+      "date": "2026-11-01",
+      "changelog": "- Cambios de esta versión (markdown)."
     }
   ]
 }
 ```
 
-`build-index.mjs` añade la URL, el `sha1` y el tamaño de cada jar a la sección `mods` de
-`index.json`, y avisa si el nombre del jar no sigue el formato. Si varios jars son compatibles con
-un modpack, el launcher ofrece el de versión más alta. Los modpacks de Quilt también aceptan los
-jars de Fabric.
+`build-index.mjs` añade la URL, el `sha1` y el tamaño de cada archivo, y avisa si el nombre no
+sigue el formato. En `index.json` salen en dos sitios:
 
-> **Ojo:** el repositorio es público, así que cualquiera puede descargar estos jars desde aquí.
+- **`content`**: todo el contenido propio, con `kind` (`mod`, `resourcepack` o `shaderpack`), la
+  descripción, la galería, las etiquetas, los enlaces, `updatedAt` (la fecha del build más nuevo) y
+  cada build con su `date` y su `changelog`. Es lo que leerá la pestaña **Mochos** de *Agregar
+  contenido* del launcher. Lo que está en desarrollo va en `dev.content`.
+- **`mods`**: solo los mods publicados, con los campos de siempre. El launcher 1.5.2 o posterior
+  muestra en la pestaña **Contenido** de un modpack sin el mod un aviso para instalarlo, si hay un
+  jar compatible con su Minecraft, su loader y la versión del loader. No añadas campos aquí: los
+  launchers ya instalados leen esta sección.
+
+Si varios archivos son compatibles con una instancia, el launcher ofrece el de versión más alta.
+Los modpacks de Quilt también aceptan los jars de Fabric.
+
+### Publicar una versión nueva de un mod propio
+
+1. Copia el jar a `mods/<id>/builds/` y añade su entrada arriba de `builds` en `mod.json`.
+2. `node scripts/build-index.mjs`, commit y push.
+3. Los modpacks que **incluyen** el mod (Casi Vanilla trae Mochos Cédula en
+   `overrides/mods/`) no se actualizan solos: saca una versión nueva del modpack con el jar nuevo
+   (ver [la guía](modpacks/README.md)).
+
+> **Ojo:** el repositorio es público, así que cualquiera puede descargar estos archivos desde aquí.
 > No salen en Modrinth ni en CurseForge, pero no son privados.
 
 ## Modo desarrollo

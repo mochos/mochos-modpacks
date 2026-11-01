@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Genera index.json a partir de modpacks/*/modpack.json, servidores/*/servidor.json, mods/*/mod.json y desarrollo.json.
+// Genera index.json a partir de modpacks/*/modpack.json, servidores/*/servidor.json, el contenido propio
+// (mods/*/mod.json, resourcepacks/*/resourcepack.json, shaderpacks/*/shaderpack.json) y desarrollo.json.
 // Uso: node scripts/build-index.mjs [--check]
 //   --check  falla si index.json no está actualizado (útil en CI).
 import { readFileSync, writeFileSync, readdirSync, existsSync, statSync } from "node:fs";
@@ -36,6 +37,19 @@ function markdown(dir, id, value, field) {
     return readFileSync(p, "utf8").replace(/\r\n/g, "\n");
   }
   return value;
+}
+
+/** Compara versiones por partes ("1.0.10" > "1.0.9"), como el launcher. */
+function versionCmp(a, b) {
+  const pa = a.split(/[.+-]/), pb = b.split(/[.+-]/);
+  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+    if (pa[i] === undefined) return -1;
+    if (pb[i] === undefined) return 1;
+    const na = Number(pa[i]), nb = Number(pb[i]);
+    const o = Number.isInteger(na) && Number.isInteger(nb) ? na - nb : pa[i].localeCompare(pb[i]);
+    if (o) return Math.sign(o);
+  }
+  return 0;
 }
 
 const packsDir = join(ROOT, "modpacks");
@@ -115,50 +129,95 @@ for (const id of existsSync(serversDir) ? readdirSync(serversDir).sort() : []) {
   });
 }
 
-// Mods propios (mods/<id>/mod.json + jars en builds/): el launcher los ofrece en los modpacks compatibles.
-const modsDir = join(ROOT, "mods");
+// Contenido propio: mods/<id>/mod.json, resourcepacks/<id>/resourcepack.json y
+// shaderpacks/<id>/shaderpack.json, con sus archivos en builds/. Todo sale en "content"
+// (pestaña «Mochos» de «Agregar contenido»); los mods, además, en "mods" con el formato de
+// siempre (aviso de la pestaña «Contenido» del launcher 1.5.2+).
+const KINDS = [
+  { kind: "mod", folder: "mods", json: "mod.json", ext: ".jar" },
+  { kind: "resourcepack", folder: "resourcepacks", json: "resourcepack.json", ext: ".zip" },
+  { kind: "shaderpack", folder: "shaderpacks", json: "shaderpack.json", ext: ".zip" },
+];
+const content = [];
 const mods = [];
-for (const id of existsSync(modsDir) ? readdirSync(modsDir).sort() : []) {
-  const dir = join(modsDir, id);
-  if (!statSync(dir).isDirectory()) continue;
-  const file = join(dir, "mod.json");
-  if (!existsSync(file)) { errors.push(`mods/${id}: falta mod.json`); continue; }
-  let m;
-  try { m = JSON.parse(readFileSync(file, "utf8")); }
-  catch (e) { errors.push(`mods/${id}: JSON inválido (${e.message})`); continue; }
+for (const { kind, folder, json, ext } of KINDS) {
+  const kindDir = join(ROOT, folder);
+  for (const id of existsSync(kindDir) ? readdirSync(kindDir).sort() : []) {
+    const dir = join(kindDir, id);
+    if (!statSync(dir).isDirectory()) continue;
+    const at = `${folder}/${id}`;
+    const file = join(dir, json);
+    if (!existsSync(file)) { errors.push(`${at}: falta ${json}`); continue; }
+    let m;
+    try { m = JSON.parse(readFileSync(file, "utf8")); }
+    catch (e) { errors.push(`${at}: JSON inválido (${e.message})`); continue; }
 
-  for (const k of ["id", "name", "summary", "builds"]) {
-    if (m[k] === undefined) errors.push(`mods/${id}: falta el campo "${k}"`);
-  }
-  if (m.id !== id) errors.push(`mods/${id}: "id" (${m.id}) debe coincidir con el nombre de la carpeta`);
-  if (m.hidden) continue;
-
-  const builds = [];
-  for (const [i, b] of (m.builds ?? []).entries()) {
-    const where = `mods/${id}: builds[${i}]`;
-    for (const k of ["file", "version", "minecraft", "loader"]) {
-      if (b[k] === undefined) errors.push(`${where}: falta el campo "${k}"`);
+    for (const k of ["id", "name", "summary", "builds"]) {
+      if (m[k] === undefined) errors.push(`${at}: falta el campo "${k}"`);
     }
-    if (b.loader && (!LOADERS.includes(b.loader.type) || b.loader.type === "vanilla")) errors.push(`${where}: loader.type inválido "${b.loader.type}"`);
-    if (!b.file || !b.loader || !Array.isArray(b.minecraft)) continue;
-    const jar = join(dir, b.file);
-    if (!existsSync(jar)) { errors.push(`${where}: "${b.file}" no existe`); continue; }
-    // mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar
-    const expected = `${id}-${b.version}-MC${b.minecraft[0]}-${b.loader.type}${b.loader.minVersion ?? ""}.jar`;
-    if (b.file.split("/").pop() !== expected) warnings.push(`${where}: el jar debería llamarse ${expected}`);
-    const data = readFileSync(jar);
-    builds.push({
-      version: b.version,
-      minecraft: b.minecraft,
-      loader: b.loader,
-      fileName: b.file.split("/").pop(),
-      url: asset(dir, id, b.file, `builds[${i}].file`, "mods"),
-      sha1: createHash("sha1").update(data).digest("hex"),
-      size: data.length,
+    if (m.id !== id) errors.push(`${at}: "id" (${m.id}) debe coincidir con el nombre de la carpeta`);
+    if (m.dev !== undefined && typeof m.dev !== "boolean") errors.push(`${at}: "dev" debe ser true o false`);
+    if (m.hidden) continue;
+
+    const builds = [];
+    for (const [i, b] of (m.builds ?? []).entries()) {
+      const where = `${at}: builds[${i}]`;
+      for (const k of ["file", "version", "minecraft"]) {
+        if (b[k] === undefined) errors.push(`${where}: falta el campo "${k}"`);
+      }
+      if (kind === "mod" && !b.loader) errors.push(`${where}: falta el campo "loader"`);
+      if (b.loader && (!LOADERS.includes(b.loader.type) || b.loader.type === "vanilla")) errors.push(`${where}: loader.type inválido "${b.loader.type}"`);
+      if (b.date !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(b.date)) errors.push(`${where}: "date" debe ser AAAA-MM-DD`);
+      if (!b.file || !Array.isArray(b.minecraft) || (kind === "mod" && !b.loader)) continue;
+      const path = join(dir, b.file);
+      if (!existsSync(path)) { errors.push(`${where}: "${b.file}" no existe`); continue; }
+      // mochoscedula-1.0.1-MC1.21.1-neoforge21.1.248.jar · casivanilla-1.0.0.zip
+      const expected = kind === "mod"
+        ? `${id}-${b.version}-MC${b.minecraft[0]}-${b.loader.type}${b.loader.minVersion ?? ""}${ext}`
+        : `${id}-${b.version}${ext}`;
+      if (b.file.split("/").pop() !== expected) warnings.push(`${where}: el archivo debería llamarse ${expected}`);
+      const data = readFileSync(path);
+      builds.push({
+        version: b.version,
+        minecraft: b.minecraft,
+        ...(b.loader ? { loader: b.loader } : {}),
+        fileName: b.file.split("/").pop(),
+        url: asset(dir, id, b.file, `builds[${i}].file`, folder),
+        sha1: createHash("sha1").update(data).digest("hex"),
+        size: data.length,
+        date: b.date,
+        changelog: b.changelog,
+      });
+    }
+    builds.sort((x, y) => versionCmp(y.version, x.version));
+    const icon = asset(dir, id, m.icon, "icon", folder);
+    content.push({
+      id,
+      kind,
+      name: m.name,
+      summary: m.summary,
+      description: markdown(dir, at, m.description, "description") ?? "",
+      icon,
+      gallery: (m.gallery ?? []).map((g, i) => asset(dir, id, g, `gallery[${i}]`, folder)),
+      tags: m.tags ?? [],
+      authors: m.authors ?? [],
+      links: m.links ?? {},
+      featured: !!m.featured,
+      dev: !!m.dev,
+      updatedAt: builds.map((b) => b.date).filter(Boolean).sort().pop(),
+      builds,
     });
+    // Los launchers 1.5.2+ leen "mods": solo los campos de siempre y nada en desarrollo.
+    if (kind === "mod" && !m.dev) {
+      mods.push({
+        id,
+        name: m.name,
+        summary: m.summary,
+        icon,
+        builds: builds.map(({ version, minecraft, loader, fileName, url, sha1, size }) => ({ version, minecraft, loader, fileName, url, sha1, size })),
+      });
+    }
   }
-  const { $schema, hidden, builds: _, ...rest } = m;
-  mods.push({ ...rest, icon: asset(dir, id, m.icon, "icon", "mods"), builds });
 }
 
 // Acceso a lo que está en desarrollo: hashes de cuentas (ver scripts/tester-hash.mjs).
@@ -185,7 +244,13 @@ const index = {
   modpacks: modpacks.filter((m) => !m.dev).sort(byFeatured),
   servers: servers.filter((s) => !s.dev).sort(byFeatured),
   mods,
-  dev: { testers, modpacks: modpacks.filter((m) => m.dev).sort(byFeatured), servers: servers.filter((s) => s.dev).sort(byFeatured) },
+  content: content.filter((c) => !c.dev).sort(byFeatured),
+  dev: {
+    testers,
+    modpacks: modpacks.filter((m) => m.dev).sort(byFeatured),
+    servers: servers.filter((s) => s.dev).sort(byFeatured),
+    content: content.filter((c) => c.dev).sort(byFeatured),
+  },
 };
 const out = JSON.stringify(index, null, 2) + "\n";
 const target = join(ROOT, "index.json");
