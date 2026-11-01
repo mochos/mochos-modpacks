@@ -18,6 +18,7 @@ mochos-modpacks/
 ├── scripts/build-contents.mjs  ← genera contents.json de cada modpack (pestaña «Contenido»)
 ├── scripts/tester-hash.mjs     ← hash de una cuenta para desarrollo.json
 ├── desarrollo.json             ← cuentas que ven lo que está en desarrollo (hashes)
+├── archivo/                    ← modpacks retirados (copia de seguridad, no salen en el índice)
 ├── mods/                       ← mods propios que el launcher ofrece instalar (ver más abajo)
 │   └── mochoscedula/
 │       ├── mod.json
