@@ -7,7 +7,7 @@
   "icon": "icon.png",
   "tags": ["Skins", "Cuentas", "Servidores"],
   "authors": ["Mochos Studio"],
-  "links": { "website": "https://mochos.xyz", "source": "https://github.com/mochos/mochos-mod" },
+  "links": { "website": "https://mochos.xyz" },
   "builds": [
     {
       "file": "builds/mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248.jar",

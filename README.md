@@ -179,7 +179,7 @@ entrada por archivo, la versión más nueva arriba (se conservan las anteriores)
   "gallery": ["images/captura-1.png"],    // opcional
   "tags": ["Skins", "Servidores"],
   "authors": ["Mochos Studio"],
-  "links": { "website": "https://mochos.xyz", "source": "https://github.com/mochos/mochos-mod" },
+  "links": { "website": "https://mochos.xyz", "discord": "https://discord.mochos.xyz" },
   "featured": false,                      // aparece primero
   "hidden": false,                        // true = no sale en el índice
   "dev": false,                           // true = solo para las cuentas de desarrollo.json
