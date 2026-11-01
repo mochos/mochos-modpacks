@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/modpack.schema.json",
+  "id": "casi-vanilla",
+  "name": "Casi Vanilla",
+  "summary": "El Minecraft de siempre, más bonito y fluido, con aviones, mochilas, recompensas y chat de voz para jugar entre amigos.",
+  "description": "description.md",
+  "changelog": "CHANGELOG.md",
+  "version": "1.0.0",
+  "minecraft": "1.21.1",
+  "loader": { "type": "neoforge", "version": "21.1.265" },
+  "icon": "icon.gif",
+  "banner": "images/banner.webp",
+  "gallery": [],
+  "tags": ["Survival", "Optimizado", "Aviación", "Chat de voz"],
+  "featured": false,
+  "dev": true,
+  "authors": ["Mochos Studio"],
+  "recommendedRamMb": 6144,
+  "source": {
+    "type": "mrpack",
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.0.0/Casi-Vanilla-1.21.1-v1.0.0.mrpack",
+    "sha1": "a96b73023a48c21ae974990bc26da41caed63d9b",
+    "size": 254755
+  },
+  "server": {
+    "enabled": true,
+    "recommendedRamMb": 6144,
+    "excludeMods": []
+  },
+  "links": {
+    "website": "https://mochos.xyz",
+    "discord": "https://discord.mochos.xyz"
+  },
+  "updatedAt": "2026-10-31"
+}
