@@ -47,6 +47,50 @@
       "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/la-linea-rota/contents.json"
     },
     {
+      "id": "casi-vanilla",
+      "name": "Casi Vanilla",
+      "summary": "El Minecraft de siempre, más bonito y fluido, con aviones, mochilas, recompensas y chat de voz para jugar entre amigos.",
+      "description": "**Casi Vanilla** es el Minecraft de siempre, con lo justo para que sea más bonito, más fluido y más divertido entre amigos. Sin tecnología pesada ni nuevas dimensiones: el survival de toda la vida con mejoras de calidad.\n\n### ¿Qué incluye?\n\n- **Mundo:** generación de terreno de Terralith, ríos que fluyen de verdad (Streams Reflowing), Luki's Grand Capitals y santuarios legendarios para explorar.\n- **Aventura:** tablón de encargos con recompensas (Bountiful) y Tempad para viajar entre puntos guardados.\n- **Aviación:** Immersive Aircraft y Man of Many Planes.\n- **Calidad de vida:** mochilas de viaje, almacenamiento de Tom's Storage, tumbas al morir (Corpse), talado de árboles por partes (TreeChop), Jade, Roughly Enough Items, zoom y armadura cosmética.\n- **Visuales:** Fresh Animations, texturas conectadas (Continuity y Fusion), objetos en 3D, estelas en el agua, brillos y Distant Horizons para ver el horizonte a kilómetros.\n- **Sonido:** Sound Physics Remastered y chat de voz por proximidad con Simple Voice Chat.\n- **Rendimiento:** Sodium, Lithium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y Dynamic FPS.\n- **Mochos Cédula** incluido y el logo de Casi Vanilla en el menú principal.\n\n### Requisitos recomendados\n\n- 6 GB de RAM asignados (el launcher lo configura solo).\n- Distant Horizons es exigente: si notas tirones, baja su distancia desde sus opciones.\n",
+      "changelog": "## 1.0.0\n\n- Primera versión publicada en el Mochos Launcher.\n- Minecraft 1.21.1 con NeoForge 21.1.265.\n- 57 mods (incluido Mochos Cédula) y 8 paquetes de recursos.\n",
+      "version": "1.0.0",
+      "minecraft": "1.21.1",
+      "loader": {
+        "type": "neoforge",
+        "version": "21.1.265"
+      },
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/casi-vanilla/icon.gif",
+      "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/casi-vanilla/images/banner.webp",
+      "gallery": [],
+      "tags": [
+        "Survival",
+        "Optimizado",
+        "Aviación",
+        "Chat de voz"
+      ],
+      "featured": false,
+      "authors": [
+        "Mochos Studio"
+      ],
+      "recommendedRamMb": 6144,
+      "source": {
+        "type": "mrpack",
+        "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.0.0/Casi-Vanilla-1.21.1-v1.0.0.mrpack",
+        "sha1": "a96b73023a48c21ae974990bc26da41caed63d9b",
+        "size": 254755
+      },
+      "server": {
+        "enabled": true,
+        "recommendedRamMb": 6144,
+        "excludeMods": []
+      },
+      "links": {
+        "website": "https://mochos.xyz",
+        "discord": "https://discord.mochos.xyz"
+      },
+      "updatedAt": "2026-10-31",
+      "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/casi-vanilla/contents.json"
+    },
+    {
       "id": "ecos-del-fin",
       "name": "Ecos del Fin",
       "summary": "Survival postapocalíptico con ciudades en ruinas, hordas de zombis, armas tácticas, parkour y combate brutal.",
@@ -264,51 +308,6 @@
       "dd3e1e854cba0f4501163b5035e00353bfbccc65042b65bbf713c540bb19c9e6"
     ],
     "modpacks": [
-      {
-        "id": "casi-vanilla",
-        "name": "Casi Vanilla",
-        "summary": "El Minecraft de siempre, más bonito y fluido, con aviones, mochilas, recompensas y chat de voz para jugar entre amigos.",
-        "description": "**Casi Vanilla** es el Minecraft de siempre, con lo justo para que sea más bonito, más fluido y más divertido entre amigos. Sin tecnología pesada ni nuevas dimensiones: el survival de toda la vida con mejoras de calidad.\n\n### ¿Qué incluye?\n\n- **Mundo:** generación de terreno de Terralith, ríos que fluyen de verdad (Streams Reflowing), Luki's Grand Capitals y santuarios legendarios para explorar.\n- **Aventura:** tablón de encargos con recompensas (Bountiful) y Tempad para viajar entre puntos guardados.\n- **Aviación:** Immersive Aircraft y Man of Many Planes.\n- **Calidad de vida:** mochilas de viaje, almacenamiento de Tom's Storage, tumbas al morir (Corpse), talado de árboles por partes (TreeChop), Jade, Roughly Enough Items, zoom y armadura cosmética.\n- **Visuales:** Fresh Animations, texturas conectadas (Continuity y Fusion), objetos en 3D, estelas en el agua, brillos y Distant Horizons para ver el horizonte a kilómetros.\n- **Sonido:** Sound Physics Remastered y chat de voz por proximidad con Simple Voice Chat.\n- **Rendimiento:** Sodium, Lithium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y Dynamic FPS.\n- **Mochos Cédula** incluido y el logo de Casi Vanilla en el menú principal.\n\n### Requisitos recomendados\n\n- 6 GB de RAM asignados (el launcher lo configura solo).\n- Distant Horizons es exigente: si notas tirones, baja su distancia desde sus opciones.\n",
-        "changelog": "## 1.0.0\n\n- Primera versión publicada en el Mochos Launcher.\n- Minecraft 1.21.1 con NeoForge 21.1.265.\n- 57 mods (incluido Mochos Cédula) y 8 paquetes de recursos.\n",
-        "version": "1.0.0",
-        "minecraft": "1.21.1",
-        "loader": {
-          "type": "neoforge",
-          "version": "21.1.265"
-        },
-        "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/casi-vanilla/icon.gif",
-        "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/casi-vanilla/images/banner.webp",
-        "gallery": [],
-        "tags": [
-          "Survival",
-          "Optimizado",
-          "Aviación",
-          "Chat de voz"
-        ],
-        "featured": false,
-        "dev": true,
-        "authors": [
-          "Mochos Studio"
-        ],
-        "recommendedRamMb": 6144,
-        "source": {
-          "type": "mrpack",
-          "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.0.0/Casi-Vanilla-1.21.1-v1.0.0.mrpack",
-          "sha1": "a96b73023a48c21ae974990bc26da41caed63d9b",
-          "size": 254755
-        },
-        "server": {
-          "enabled": true,
-          "recommendedRamMb": 6144,
-          "excludeMods": []
-        },
-        "links": {
-          "website": "https://mochos.xyz",
-          "discord": "https://discord.mochos.xyz"
-        },
-        "updatedAt": "2026-10-31",
-        "contents": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/casi-vanilla/contents.json"
-      },
       {
         "id": "new-horizons",
         "name": "New Horizons",
