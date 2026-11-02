@@ -78,6 +78,11 @@
         "sha1": "1db4a5d9a962114983d6a94cbf802fd0488e9da5",
         "size": 785070
       },
+      "chuspa": {
+        "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.0.3/Casi-Vanilla-1.21.1-v1.0.3.chuspa",
+        "sha1": "f02a79a89fec5bb3aaa63af468ed94d48bd8a5be",
+        "size": 1070727
+      },
       "server": {
         "enabled": true,
         "recommendedRamMb": 6144,

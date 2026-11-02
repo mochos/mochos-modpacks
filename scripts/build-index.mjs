@@ -76,6 +76,9 @@ for (const id of readdirSync(packsDir).sort()) {
   const { $schema, ...rest } = m;
   const source = { ...m.source };
   if (source.url) source.url = asset(dir, id, source.url, "source.url");
+  // .chuspa que la web ofrece para descargar (el launcher instala desde source).
+  if (m.chuspa !== undefined && !m.chuspa?.url) errors.push(`${id}: falta chuspa.url`);
+  const chuspa = m.chuspa?.url ? { ...m.chuspa, url: asset(dir, id, m.chuspa.url, "chuspa.url") } : undefined;
 
   // Lista de mods/resourcepacks/shaders para la web (la genera scripts/build-contents.mjs).
   const contentsFile = join(dir, "contents.json");
@@ -93,6 +96,7 @@ for (const id of readdirSync(packsDir).sort()) {
     ogImage: asset(dir, id, m.ogImage, "ogImage"),
     gallery: (m.gallery ?? []).map((g, i) => asset(dir, id, g, `gallery[${i}]`)),
     source,
+    chuspa,
     contents,
   });
 }

@@ -73,6 +73,16 @@
         }
       ]
     },
+    "chuspa": {
+      "type": "object",
+      "description": "Opcional. .chuspa de esta versión (exportado desde Mochos Launcher) que la web ofrece para descargar en vez del archivo de source.",
+      "required": ["url"],
+      "properties": {
+        "url": { "type": "string", "description": "URL absoluta (Release) o ruta relativa a la carpeta del modpack." },
+        "sha1": { "type": "string" },
+        "size": { "type": "integer" }
+      }
+    },
     "server": {
       "type": "object",
       "properties": {

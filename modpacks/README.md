@@ -94,9 +94,19 @@ Cambia estos campos:
     "sha1": "…",                           // ← el SHA-1 del paso 2
     "size": 13600000                       // ← el tamaño del paso 2
   },
+  "chuspa": {                              // ← opcional: ver abajo
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/la-linea-rota-1.12/La-Linea-Rota-1.21.1-v1.12.chuspa",
+    "sha1": "…",
+    "size": 1070000
+  },
   "updatedAt": "2026-11-02"                // ← fecha de hoy (AAAA-MM-DD)
 }
 ```
+
+**`chuspa` (opcional):** si exportaste el modpack desde Mochos Launcher como `.chuspa`, súbelo a la
+misma Release (con su SHA-1 y tamaño, como en el paso 2) y ponlo aquí. La web ofrece entonces el
+`.chuspa` en «Descargar» en lugar del archivo de `source`. El launcher sigue instalando y
+actualizando desde `source` (el `.mrpack`), así que ese hay que subirlo igual.
 
 ### 5. Añadir los cambios a `CHANGELOG.md`
 
