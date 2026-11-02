@@ -5,7 +5,7 @@
   "summary": "El Minecraft de siempre, más bonito y fluido, con aviones, mochilas, recompensas y chat de voz para jugar entre amigos.",
   "description": "description.md",
   "changelog": "CHANGELOG.md",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minecraft": "1.21.1",
   "loader": { "type": "neoforge", "version": "21.1.265" },
   "icon": "icon.gif",
@@ -17,9 +17,9 @@
   "recommendedRamMb": 6144,
   "source": {
     "type": "mrpack",
-    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.0.1/Casi-Vanilla-1.21.1-v1.0.1.mrpack",
-    "sha1": "3b981b42e0a99015f9142dc0a4bd4f4ed2366a3c",
-    "size": 259140
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.0.2/Casi-Vanilla-1.21.1-v1.0.2.mrpack",
+    "sha1": "4c28400fd1872381662ad61ef2851b28832cff2f",
+    "size": 784774
   },
   "server": {
     "enabled": true,

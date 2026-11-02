@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -74,6 +74,15 @@
       "platform": "modrinth"
     },
     {
+      "name": "dioaddons_claims-0.1.0-MC1.21.1-neoforge21.1.265"
+    },
+    {
+      "name": "dioaddons_clientmap-0.1.0-MC1.21.1-neoforge21.1.265"
+    },
+    {
+      "name": "dioaddons_webmap-0.1.0-MC1.21.1-neoforge21.1.265"
+    },
+    {
       "name": "Diorama",
       "url": "https://modrinth.com/mod/diorama-map",
       "icon": "https://cdn.modrinth.com/data/kwpTgbCk/878184495f64705ac4d69e9ee62b7a0eac2a5139_96.webp",
@@ -146,6 +155,12 @@
       "platform": "modrinth"
     },
     {
+      "name": "Iris Shaders",
+      "url": "https://modrinth.com/mod/iris",
+      "icon": "https://cdn.modrinth.com/data/YL57xq9U/18d0e7f076d3d6ed5bedd472b853909aac5da202_96.webp",
+      "platform": "modrinth"
+    },
+    {
       "name": "Jade 🔍",
       "url": "https://modrinth.com/mod/jade",
       "icon": "https://cdn.modrinth.com/data/nvQzSEkH/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
@@ -207,6 +222,9 @@
       "url": "https://modrinth.com/mod/man-of-many-planes",
       "icon": "https://cdn.modrinth.com/data/9qdTHi0q/dc523a4cdc5e74c0346c499b88011d0a2fb3e3f2_96.webp",
       "platform": "modrinth"
+    },
+    {
+      "name": "mochos_esenciales-0.2.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248"
