@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.1.0",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -74,13 +74,7 @@
       "platform": "modrinth"
     },
     {
-      "name": "dioaddons_claims-0.1.0-MC1.21.1-neoforge21.1.265"
-    },
-    {
-      "name": "dioaddons_clientmap-0.1.0-MC1.21.1-neoforge21.1.265"
-    },
-    {
-      "name": "dioaddons_webmap-0.1.0-MC1.21.1-neoforge21.1.265"
+      "name": "dioaddons_webmap-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "Diorama",
@@ -224,7 +218,7 @@
       "platform": "modrinth"
     },
     {
-      "name": "mochos_esenciales-0.2.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_esenciales-0.4.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248"
@@ -353,6 +347,9 @@
     },
     {
       "name": "CasiVanilla 1.21.1"
+    },
+    {
+      "name": "diorama-es-pack"
     },
     {
       "name": "Fresh Animations",

@@ -1,3 +1,11 @@
+## 1.1.0
+
+- Actualizado **Mochos Esenciales** a 0.4.0: los terrenos y el mapa ahora vienen incluidos en el mod, con modo admin global, configuración propia por jugador (viajes y límites de terrenos), comandos en el chat nuevo y el dinero total junto a la barra rápida.
+- Quitados **Diorama Addons: Claims** y **Client Map**: Mochos Esenciales los sustituye y no se pueden usar juntos. Los terrenos se conservan y la tecla **G** sigue abriendo la pantalla de terrenos.
+- Actualizados **Diorama** 0.7.0 y **Diorama Addons: Web Map** 0.3.0 (terreno en vivo, chat y jugadores conectados, botón de spawn y configuración en el juego).
+- Añadido el paquete de recursos **diorama-es-pack**, con Diorama en español.
+- Ahora son 59 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.0.3
 
 - Añadidos tres shaders: **Amethyst Shaders**, **Blocky** e **I Like Vanilla** (tecla **K** para activarlos, **O** para elegirlos). Quien instala el modpack por primera vez empieza con Amethyst Shaders activado.
