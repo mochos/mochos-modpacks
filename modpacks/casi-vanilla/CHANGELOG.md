@@ -4,6 +4,7 @@
 - Quitado **Tempad**.
 - Actualizados **More Culling** 1.0.11, **Traveler's Backpack** 10.1.41 y **Fresh Animations** 1.11.2.
 - La tecla **G** abre la pantalla de terrenos y se quitan las teclas de Tempad en `options.txt` (solo para quien instala el modpack por primera vez).
+- Ya no se añade el servidor «Vanilla Mochos 2» a la lista de servidores.
 - Ahora son 61 mods, 8 paquetes de recursos y 3 shaders.
 
 ## 1.0.2
