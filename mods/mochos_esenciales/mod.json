@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_esenciales",
+  "name": "Mochos Esenciales",
+  "summary": "Esenciales con pantallas de verdad en vez de comandos: jugadores y grupos de amigos, lugares y warps, economía con el Ceitil (banco y tienda), un chat nuevo, páginas de ayuda en Markdown, ajustes personales y panel de administración.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "gallery": [
+    "images/01-inventario-pestanas.webp",
+    "images/03-jugadores-y-grupos.webp",
+    "images/05-chat-global.webp",
+    "images/07-chat-directo-solicitud-viaje.webp",
+    "images/09-viajes-warps-y-lugares.webp",
+    "images/11-economia-tienda.webp",
+    "images/12-economia-banco.webp",
+    "images/16-monedas-ceitil.webp",
+    "images/18-ayuda-reglas-tabla.webp",
+    "images/20-ayuda-editor-markdown.webp",
+    "images/21-configuracion.webp",
+    "images/23-admin-precios-y-esperas-de-viajes.webp",
+    "images/25-terrenos-mapa.webp",
+    "images/26-terrenos-miembros.webp"
+  ],
+  "tags": ["Utilidad", "Economía", "Social", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-01",
+      "changelog": "Primera versión pública.\n\n- Pestañas laterales en el inventario, el mapa de Diorama (opcional) y todas las pantallas del mod.\n- Jugadores: lista con buscador y orden, chat directo, solicitudes de viaje, grupos de amigos y herramientas de administración (estadísticas con dinero, inventario, cofre de ender, ir / traer, curar, modo de juego, silenciar, expulsar, banear, dinero y límite de lugares).\n- Viajes: warps con icono y descripción, lugares del jugador, precio, espera y tiempo quieto por tipo de viaje.\n- Economía con el Ceitil (ceitil, pila y bolsa): banco, transferencias, tienda de jugadores y del servidor con stock infinito y compra por el servidor.\n- Ayuda en Markdown con imágenes desde URL, enlaces, tablas y editor con vista previa.\n- Configuración personal (privacidad, sonidos, aspecto del chat) y Administración (módulos, valores, servidor, reglas, baneos, lista blanca).\n- Chat nuevo: global, grupos y directos, notificaciones, no leídos y solicitudes con Aceptar / Rechazar.\n- Compatibilidad con Diorama Addons: Claims: pestaña «Terrenos» bajo el Mapa con una pantalla de claims al estilo de Mochos (mapa con terreno, reclamar y liberar, claims, miembros, plantillas, permisos públicos). La tecla G del mod de claims abre esta versión; la original se puede recuperar en Configuración.\n- Español e inglés."
+    }
+  ]
+}
