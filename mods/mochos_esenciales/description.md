@@ -59,4 +59,4 @@ Idiomas: **español** e **inglés**.
 
 ### Acerca de
 
-Código abierto con licencia MIT. No está afiliado ni respaldado por los autores de Diorama.
+No está afiliado ni respaldado por los autores de Diorama.
