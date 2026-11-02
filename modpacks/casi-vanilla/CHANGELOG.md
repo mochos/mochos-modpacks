@@ -1,3 +1,11 @@
+## 1.0.3
+
+- Añadidos tres shaders: **Amethyst Shaders**, **Blocky** e **I Like Vanilla** (tecla **K** para activarlos, **O** para elegirlos). Quien instala el modpack por primera vez empieza con Amethyst Shaders activado.
+- Quitado **Tempad**.
+- Actualizados **More Culling** 1.0.11, **Traveler's Backpack** 10.1.41 y **Fresh Animations** 1.11.2.
+- La tecla **G** abre la pantalla de terrenos y se quitan las teclas de Tempad en `options.txt` (solo para quien instala el modpack por primera vez).
+- Ahora son 61 mods, 8 paquetes de recursos y 3 shaders.
+
 ## 1.0.2
 
 - Añadido **Mochos Esenciales 0.2.0**: pestañas en el inventario con jugadores y grupos de amigos, viajes (warps y lugares), economía con el Ceitil (banco y tienda), un chat nuevo, páginas de ayuda y panel de administración.

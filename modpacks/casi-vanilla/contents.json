@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -314,12 +314,6 @@
       "platform": "modrinth"
     },
     {
-      "name": "Tempad",
-      "url": "https://modrinth.com/mod/tempad",
-      "icon": "https://cdn.modrinth.com/data/gKNwt7xu/e432887182e7aae2bca00df4b940d142d74caf9e_96.webp",
-      "platform": "modrinth"
-    },
-    {
       "name": "Terralith",
       "url": "https://modrinth.com/mod/terralith",
       "icon": "https://cdn.modrinth.com/data/8oi3bsk5/1959d924a1088944bbf07a06ba523726112d7e7a_96.webp",
@@ -397,5 +391,24 @@
       "platform": "modrinth"
     }
   ],
-  "shaders": []
+  "shaders": [
+    {
+      "name": "Amethyst Shaders",
+      "url": "https://modrinth.com/shader/amethyst-shaders",
+      "icon": "https://cdn.modrinth.com/data/LypdYQ63/8955c9d0d4886f5006ad25465705489e9f286ed0_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Blocky Shader",
+      "url": "https://modrinth.com/shader/blocky-shader",
+      "icon": "https://cdn.modrinth.com/data/MVFwE4xD/32b21d0f0910c85e2848781dd83de13fc00f80a0.png",
+      "platform": "modrinth"
+    },
+    {
+      "name": "I Like Vanilla",
+      "url": "https://modrinth.com/shader/i-like-vanilla",
+      "icon": "https://cdn.modrinth.com/data/DoODk4HD/5b4af5f29752b405d5e2244d3757551ef323cdbd_96.webp",
+      "platform": "modrinth"
+    }
+  ]
 }
