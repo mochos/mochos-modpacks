@@ -13,6 +13,7 @@
     "description": { "type": "string", "description": "Ruta a un .md dentro de la carpeta o texto markdown directo. Se muestra en la ficha de la pestaña «Mochos»." },
     "icon": { "type": "string", "description": "Icono cuadrado (recomendado 256×256)." },
     "gallery": { "type": "array", "items": { "type": "string" }, "description": "Capturas para la ficha." },
+    "ogImage": { "type": "string", "description": "Imagen para compartir la página en redes (Open Graph), 1200×630. Sin ella se usa el icono." },
     "tags": { "type": "array", "items": { "type": "string" }, "description": "Categorías para filtrar." },
     "authors": { "type": "array", "items": { "type": "string" } },
     "links": {

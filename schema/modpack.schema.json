@@ -23,6 +23,7 @@
     },
     "icon": { "type": "string" },
     "banner": { "type": "string" },
+    "ogImage": { "type": "string", "description": "Imagen para compartir la página del modpack en redes (Open Graph), 1200×630. Sin ella se usa el banner." },
     "gallery": { "type": "array", "items": { "type": "string" } },
     "tags": { "type": "array", "items": { "type": "string" } },
     "featured": { "type": "boolean" },

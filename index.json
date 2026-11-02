@@ -284,6 +284,7 @@
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_claims/images/webmap-claims.png",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_claims/images/diorama-claims-waypoints.png"
       ],
+      "ogImage": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_claims/og-image.jpg",
       "tags": [
         "Protección",
         "Servidores",
@@ -331,6 +332,7 @@
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_clientmap/images/diorama-claims-waypoints.png",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_clientmap/images/diorama-shared-explored.png"
       ],
+      "ogImage": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_clientmap/og-image.jpg",
       "tags": [
         "Mapas",
         "Multijugador",
@@ -385,6 +387,7 @@
       "gallery": [
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_webmap/images/webmap-claims.png"
       ],
+      "ogImage": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/dioaddons_webmap/og-image.jpg",
       "tags": [
         "Mapas",
         "Servidores"
@@ -500,6 +503,7 @@
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/25-terrenos-mapa.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/26-terrenos-miembros.webp"
       ],
+      "ogImage": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/og-image.jpg",
       "tags": [
         "Utilidad",
         "Economía",

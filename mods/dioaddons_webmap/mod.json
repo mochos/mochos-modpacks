@@ -5,6 +5,7 @@
   "summary": "Un mapa en vivo de tu servidor en el navegador, dibujado al estilo Diorama con texturas reales, sol y sombras. Solo servidor: los jugadores no instalan nada.",
   "description": "description.md",
   "icon": "icon.png",
+  "ogImage": "og-image.jpg",
   "gallery": ["images/webmap-claims.png"],
   "tags": ["Mapas", "Servidores"],
   "authors": ["lorspi"],

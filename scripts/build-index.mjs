@@ -90,6 +90,7 @@ for (const id of readdirSync(packsDir).sort()) {
     changelog: markdown(dir, id, m.changelog, "changelog"),
     icon: asset(dir, id, m.icon, "icon"),
     banner: asset(dir, id, m.banner, "banner"),
+    ogImage: asset(dir, id, m.ogImage, "ogImage"),
     gallery: (m.gallery ?? []).map((g, i) => asset(dir, id, g, `gallery[${i}]`)),
     source,
     contents,
@@ -206,6 +207,8 @@ for (const { kind, folder, json, ext } of KINDS) {
       description: markdown(dir, at, m.description, "description") ?? "",
       icon,
       gallery: (m.gallery ?? []).map((g, i) => asset(dir, id, g, `gallery[${i}]`, folder)),
+      // Imagen para compartir la página de la web (Open Graph); sin ella la web usa el icono.
+      ogImage: asset(dir, id, m.ogImage, "ogImage", folder),
       tags: m.tags ?? [],
       authors: m.authors ?? [],
       links: m.links ?? {},

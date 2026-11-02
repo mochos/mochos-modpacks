@@ -5,6 +5,7 @@
   "summary": "Protege tu terreno chunk por chunk. Invita a tus amigos, dale a cada uno sus propios permisos y gestiona todo desde una pantalla en el juego o con comandos.",
   "description": "description.md",
   "icon": "icon.png",
+  "ogImage": "og-image.jpg",
   "gallery": ["images/claims-gui.png", "images/webmap-claims.png", "images/diorama-claims-waypoints.png"],
   "tags": ["Protección", "Servidores", "Multijugador"],
   "authors": ["lorspi"],

@@ -5,6 +5,7 @@
   "summary": "Esenciales con pantallas de verdad en vez de comandos: jugadores y grupos de amigos, lugares y warps, economía con el Ceitil (banco y tienda), un chat nuevo, páginas de ayuda en Markdown, ajustes personales y panel de administración.",
   "description": "description.md",
   "icon": "icon.png",
+  "ogImage": "og-image.jpg",
   "gallery": [
     "images/01-inventario-pestanas.webp",
     "images/03-jugadores-y-grupos.webp",

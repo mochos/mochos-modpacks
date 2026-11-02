@@ -62,6 +62,7 @@ mochos-modpacks/
   "loader": { "type": "fabric", "version": "0.16.10" },  // vanilla | fabric | quilt | forge | neoforge
   "icon": "icon.png",
   "banner": "images/banner.png",
+  "ogImage": "images/og-image.jpg",       // opcional: imagen al compartir en redes (1200×630); si falta, el banner
   "gallery": ["images/captura-1.png"],
   "tags": ["Survival", "Optimizado"],
   "featured": true,                       // aparece destacado en la portada
@@ -178,6 +179,7 @@ entrada por archivo, la versión más nueva arriba (se conservan las anteriores)
   "description": "description.md",        // ficha de la pestaña «Mochos» (archivo .md o texto)
   "icon": "icon.png",
   "gallery": ["images/captura-1.png"],    // opcional
+  "ogImage": "og-image.jpg",              // opcional: imagen al compartir en redes (1200×630); si falta, el icono
   "tags": ["Skins", "Servidores"],
   "authors": ["Mochos Studio"],
   "links": { "website": "https://mochos.xyz", "discord": "https://discord.mochos.xyz" },
