@@ -2,6 +2,8 @@
   "$comment": "Cuentas que ven en el launcher los modpacks y servidores con \"dev\": true. Cada valor es el hash de una cuenta de Microsoft (node scripts/tester-hash.mjs <nombre>) o de Discord (node scripts/tester-hash.mjs --discord <nombre en mochos.xyz>)",
   "testers": [
     "fe830b509285e46fa0de727571940e71c83bd4b7b273ba252d707727c5af164f",
-    "dd3e1e854cba0f4501163b5035e00353bfbccc65042b65bbf713c540bb19c9e6"
+    "dd3e1e854cba0f4501163b5035e00353bfbccc65042b65bbf713c540bb19c9e6",
+    "18c350115c1a9409df96cfb0000657847a6972bac859628e253afd472e190e8a",
+    "9ddcf1631a598f1615b87617c822e25c02191c0f1f80fc00c77b81301026e2c0"
   ]
 }
