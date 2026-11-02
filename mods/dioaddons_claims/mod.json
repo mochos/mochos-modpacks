@@ -17,6 +17,14 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/dioaddons_claims-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-02",
+      "changelog": "- **Modo admin en la pantalla de claims** (operadores): un botón lo enciende y apaga (igual que `/claims admin bypass`). Lista todos los claims del servidor, con buscador por nombre del claim o del dueño, y permite renombrar, borrar, editar miembros y permisos públicos, añadir o liberar chunks, ir al claim (**Ir**) y transferirlo a otro jugador. Los claims de otros se dibujan en naranja, con marco naranja y el aviso «⚠ Editando el claim de X».\n- Nuevo `/claims admin transfer <jugador>`; `/claims help` muestra los comandos de admin a los operadores.\n- El resultado de cada acción se queda unos segundos en la pantalla.\n- Protocolo de red versión 2: cliente y servidor deben usar los dos la 0.2.x para usar la pantalla."
+    },
+    {
       "file": "builds/dioaddons_claims-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",
       "minecraft": ["1.21.1"],

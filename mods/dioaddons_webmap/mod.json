@@ -2,7 +2,7 @@
   "$schema": "../../schema/contenido.schema.json",
   "id": "dioaddons_webmap",
   "name": "Diorama Addons: Web Map",
-  "summary": "Un mapa en vivo de tu servidor en el navegador, dibujado al estilo Diorama con texturas reales, sol y sombras. Solo servidor: los jugadores no instalan nada.",
+  "summary": "Un mapa en vivo de tu servidor en el navegador, dibujado al estilo Diorama con texturas reales, sol y sombras. Solo servidor: los jugadores no instalan nada. Muestra terrenos, jugadores y chat.",
   "description": "description.md",
   "icon": "icon.png",
   "ogImage": "og-image.jpg",
@@ -16,6 +16,14 @@
   },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/dioaddons_webmap-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-02",
+      "changelog": "Incluye los cambios de la 0.2.0.\n\n- **Terreno en vivo:** las zonas recién exploradas o modificadas aparecen en el mapa en segundos, sin esperar al autoguardado. Las páginas abiertas solo recargan los tiles que cambiaron.\n- **Se acabó el negro al alejarse:** los niveles alejados se actualizan mientras los jugadores exploran.\n- **Chat y conectados:** chat público opcional de solo lectura (con entradas y salidas, desactivado por defecto) y lista de jugadores conectados. Clic en un jugador visible centra el mapa en él.\n- **Botón y marcador de spawn**, y casillas para mostrar u ocultar terrenos, jugadores y chat (el navegador las recuerda).\n- **Título, icono e idioma de la página** (`web.title`, `web.favicon`, `web.language`). Los archivos de `web.favicon` deben estar dentro de la carpeta del servidor.\n- **Pantalla de configuración en el juego** para operadores (lista de mods → Config, o `/webmap config`): título, icono y capas. Los jugadores sin el mod pueden entrar igual.\n- Los ajustes se aplican sin reiniciar: al guardar el archivo de configuración o con `/webmap reload`; `/webmap restart` reinicia solo el servidor web.\n- **Soporte para Mochos Esenciales:** sus terrenos y su chat público se muestran en el mapa (los mensajes de grupo y directos nunca se publican).\n- Sin errores 404 en la consola del navegador."
+    },
     {
       "file": "builds/dioaddons_webmap-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",

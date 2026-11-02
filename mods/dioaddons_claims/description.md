@@ -11,7 +11,7 @@ Los jugadores reclaman los chunks donde viven, invitan a sus amigos y configuran
 - **Ajustes del claim:** PvP, explosiones, propagación del fuego y destrozos de mobs, por claim.
 - **Límites por jugador:** máximo de chunks y de claims por jugador. Ser amigo en el claim de otro nunca cuenta para tus propios límites.
 - **Protección completa:** romper y colocar bloques, puertas y redstone, contenedores (vanilla y de mods), uso de objetos, entidades, animales, pisoteo de cultivos, explosiones, fuego, fluidos y pistones que cruzan el borde, y destrozos de mobs.
-- **Herramientas para operadores:** ignorar la protección y listar, editar o borrar cualquier claim.
+- **Modo admin para operadores:** un botón en la pantalla lista todos los claims del servidor (con buscador por claim o dueño) y permite renombrarlos, borrarlos, editar miembros y permisos, añadir o liberar chunks, ir al claim y transferirlo a otro jugador. También con comandos.
 - **Inglés y español**, traducidos en el servidor para que también los lean los jugadores sin el mod.
 
 ### Instalación
@@ -35,7 +35,7 @@ Requiere **Minecraft 1.21.1** y **NeoForge 21.1.265 o superior**. No necesita ot
 | `/claims permission public <permiso> <true\|false>` | Lo que puede hacer cualquiera, y ajustes del claim |
 | `/claims permission member <jugador> <permiso> <true\|false>` | Un permiso de un amigo |
 | `/claims permission template <jugador> <plantilla>` | Aplica una plantilla a un amigo |
-| `/claims admin bypass\|list [jugador]\|delete\|unclaim` | Herramientas de operador |
+| `/claims admin bypass\|list [jugador]\|delete\|unclaim\|transfer <jugador>` | Herramientas de operador |
 
 Configuración del servidor: `serverconfig/dioaddons_claims-server.toml` dentro de la carpeta del mundo. Referencia completa: [permisos y comandos](https://github.com/lorspi/diorama-addons/blob/main/docs/claims-permissions.md).
 
@@ -45,6 +45,8 @@ Configuración del servidor: `serverconfig/dioaddons_claims-server.toml` dentro 
 - **Diorama Addons: Client Map:** tus claims en el mapa de Diorama, y reclamar o liberar desde el mapa.
 
 Cada mod funciona solo; juntos comparten los claims automáticamente.
+
+> **Mochos Esenciales** ya trae sus propios terrenos y no se puede usar junto con este mod.
 
 ### Acerca de
 

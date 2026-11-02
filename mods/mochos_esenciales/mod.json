@@ -2,7 +2,7 @@
   "$schema": "../../schema/contenido.schema.json",
   "id": "mochos_esenciales",
   "name": "Mochos Esenciales",
-  "summary": "Esenciales con pantallas de verdad en vez de comandos: jugadores y grupos de amigos, lugares y warps, economía con el Ceitil (banco y tienda), un chat nuevo, páginas de ayuda en Markdown, ajustes personales y panel de administración.",
+  "summary": "Esenciales con pantallas de verdad en vez de comandos: jugadores y grupos de amigos, lugares y warps, terrenos protegidos, economía con el Ceitil (banco y tienda), un chat nuevo con comandos, páginas de ayuda en Markdown y panel de administración.",
   "description": "description.md",
   "icon": "icon.png",
   "ogImage": "og-image.jpg",
@@ -27,6 +27,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.4.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.4.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-02",
+      "changelog": "Incluye los cambios de la 0.3.0.\n\n- **Terrenos y mapa incluidos en el mod:** ya no hacen falta Diorama Addons: Claims ni Client Map, y **no se pueden usar junto con ellos**: quítalos (los terrenos y la configuración de esos mods se conservan). La única dependencia externa es Diorama (opcional, cliente).\n- Terrenos y Mapa son módulos que se pueden desactivar desde Administración, al momento. Administración → Terrenos: chunks, terrenos y amigos por jugador, chunks unidos y distancia al spawn.\n- **Configuración propia por jugador** (desde sus estadísticas): precios, esperas, tiempo quieto y lugares de los viajes, y límites de terrenos. Sustituye al antiguo límite de lugares por jugador, que se migra solo.\n- **Modo admin global:** un switch al principio de Administración enciende o apaga las herramientas de administrador en todo el mod (Jugadores, Viajes, Economía, Ayuda, Terrenos, puntos compartidos del mapa, `/eco` y `/claims admin ...`). Apagado, un operador ve y usa el mod como un jugador normal. Se guarda por jugador y viene encendido.\n- **Chat:** los comandos se escriben y ejecutan en el chat nuevo, con autocompletado; la tecla `/` también lo abre. El texto normal se envía como mensaje; solo es comando lo que empieza por `/`.\n- Dinero total (banco + monedas) junto a la barra rápida, abreviado (5.5k).\n- Ayuda: ancho de imagen con `{width=N}` o `{width=N%}`.\n- Compatible con Diorama 0.7.0.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",

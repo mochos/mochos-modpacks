@@ -17,6 +17,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/dioaddons_clientmap-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-02",
+      "changelog": "- Compatible con Diorama 0.7.0 (NeoForge 1.21.1), que cambió el menú de clic derecho del mapa. Diorama 0.6.0 y 0.6.1 siguen funcionando.\n- Al ver el mapa de otra dimensión en Diorama 0.7.0, «Add shared waypoint» lo añade en la dimensión que se muestra; reclamar y liberar solo se ofrecen en la dimensión donde está el jugador.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
+    {
       "file": "builds/dioaddons_clientmap-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",
       "minecraft": ["1.21.1"],
