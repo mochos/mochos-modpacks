@@ -2,10 +2,14 @@
 
 Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las pantallas se adaptan a cualquier tamaño de ventana y escala de GUI. Pensado para servidores, pero también funciona en un jugador.
 
+### Requisitos
+
+- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 (cliente), para la pestaña **Mapa**. El launcher de Mochos lo instala junto con el mod.
+
 ### Pestañas
 
 - **Inventario:** el inventario de siempre, ahora con las pestañas al lado.
-- **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima (si Diorama está instalado).
+- **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima.
 - **Jugadores:** conectados, buscador y orden por cercanía o alfabético. Chat directo, solicitudes de viaje e invitaciones a grupos. **Grupos de amigos**: crear, invitar, expulsar, renombrar, elegir color y salir.
 - **Viajes:** warps del servidor (con nombre, icono y descripción opcionales) y tus lugares (nombre, mundo y coordenadas). Clic para viajar. Precio y espera por tipo de viaje.
 - **Economía:** banco (consignar, retirar, transferir, agrupar monedas y una ranura para soltarlas), tienda con buscador por objeto o vendedor, vender tus objetos y gestionar tus ventas con su propio inventario de stock. El admin lleva una **tienda del servidor** con stock infinito que también puede comprar a los jugadores.
@@ -54,7 +58,6 @@ Idiomas: **español** e **inglés**.
 
 ### Combina muy bien con
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima.
 - **Diorama Addons: Claims** (opcional, servidor y cliente): añade la pestaña **Terrenos** con una pantalla de claims al estilo de Mochos: mapa de chunks sobre el terreno real, clic o arrastrar para reclamar, miembros con plantillas y permisos por jugador y públicos. La tecla **G** abre esta versión; la original se puede recuperar en Configuración.
 
 ### Acerca de
