@@ -1,3 +1,10 @@
+## 1.1.1
+
+- Actualizado **Mochos Esenciales** a 0.6.0: chat rediseñado con pestañas Global, Grupos y Directos; tus estadísticas junto al inventario; anuncios, textos del servidor y orden de las pestañas en Administración; historial de ventas en «Mi tienda» y conversor de monedas en el banco; bienvenida, despedida y alarma de visitantes en los terrenos; y opciones del mapa con waypoints compartidos por grupo desde Diorama.
+- Actualizados **Almanac** 1.26.11.1, **Entity Texture Features** 7.2.7 y **Let Me Despawn** 1.26.11.1.
+- Ajustes de **Amethyst Shaders** (sombras de nubes, nubes dobles y estilo de lluvia) y nuevas opciones de Mochos Esenciales en la configuración inicial (solo para quien instala el modpack por primera vez).
+- Siguen siendo 59 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.1.0
 
 - Actualizado **Mochos Esenciales** a 0.4.0: los terrenos y el mapa ahora vienen incluidos en el mod, con modo admin global, configuración propia por jugador (viajes y límites de terrenos), comandos en el chat nuevo y el dinero total junto a la barra rápida.
