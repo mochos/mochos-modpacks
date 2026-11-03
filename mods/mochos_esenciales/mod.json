@@ -10,23 +10,44 @@
     "images/01-inventario-pestanas.webp",
     "images/03-jugadores-y-grupos.webp",
     "images/05-chat-global.webp",
-    "images/07-chat-directo-solicitud-viaje.webp",
+    "images/06-chat-grupo.webp",
+    "images/07-chat-directos.webp",
     "images/09-viajes-warps-y-lugares.webp",
     "images/11-economia-tienda.webp",
     "images/12-economia-banco.webp",
+    "images/27-economia-historial-de-ventas.webp",
     "images/16-monedas-ceitil.webp",
     "images/18-ayuda-reglas-tabla.webp",
     "images/20-ayuda-editor-markdown.webp",
     "images/21-configuracion.webp",
     "images/23-admin-precios-y-esperas-de-viajes.webp",
     "images/25-terrenos-mapa.webp",
-    "images/26-terrenos-miembros.webp"
+    "images/26-terrenos-miembros.webp",
+    "images/35-terrenos-configuracion.webp",
+    "images/28-admin-difusion.webp",
+    "images/33-anuncio-titulo-y-notificacion.webp",
+    "images/30-admin-textos.webp",
+    "images/39-mapa-jugador-lejano.webp",
+    "images/40-waypoint-compartir-grupo.webp",
+    "images/41-mapa-waypoint-compartido.webp",
+    "images/38-configuracion-mapa.webp"
   ],
   "tags": ["Utilidad", "Economía", "Social", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.6.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.6.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-03",
+      "changelog": "Incluye los cambios de la 0.5.0.\n\n- **Configuración → Mapa** (con Diorama): ver terrenos en el mapa, ver terrenos en el minimapa, compartir mi ubicación y compartir mis mapas explorados. Todo activo por defecto.\n- **Waypoints compartidos desde Diorama:** botón «Compartir: Privado / Público / Grupo» en la pantalla de cada waypoint; nombre, posición, color y borrado se actualizan para los demás.\n- El mapa usa los **grupos de amigos** de Mochos (también varios a la vez). Los grupos de `/mapgroup` se convierten en grupos de amigos; se quitan `/mapgroup`, `/sharedwaypoint` y «Añadir waypoint compartido aquí» del mapa.\n- **Chat rediseñado:** abajo a la izquierda y menos invasivo, con pestañas Global / Grupos / Directos y sus no leídos; al pasar el ratón cada pestaña despliega sus conversaciones. Los directos se pueden quitar de la lista y su historial lo guarda el servidor. Tab cambia de conversación.\n- **Mis estadísticas** junto al inventario (dinero, tiempo de juego, muertes, lugares, terrenos…).\n- Configuración: cerrar el chat al enviar un mensaje o al ejecutar un comando.\n- **Administración → Difusión:** anuncios en el chat, como título y/o como notificación, para todos o jugadores elegidos, al momento o cada N minutos, con colores (`&a`, `&#FF8800`) y Markdown.\n- **Administración → Textos:** mensajes de entrada, primera entrada, salida y bienvenida privada, y nombre de la moneda. **Administración → Pestañas:** orden de las pestañas laterales.\n- **Economía:** «Mi tienda» con historial de ventas; el banco cambia «Agrupar monedas» por un conversor de casillas; sugerencias de jugadores al transferir.\n- **Terrenos:** notificación de bienvenida y despedida y alarma de visitantes para el dueño y/o los miembros.\n- Mis lugares: acciones en un desplegable y botón de viajar junto a la flecha.\n- Jugadores: silenciar solo afecta al chat global; cada jugador puede bloquear los mensajes directos y las solicitudes de viaje de otro.\n- Protocolo del mapa 2: servidor y clientes deben actualizarse juntos.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.4.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.4.0",

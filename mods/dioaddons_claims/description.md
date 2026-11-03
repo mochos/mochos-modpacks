@@ -9,7 +9,8 @@ Los jugadores reclaman los chunks donde viven, invitan a sus amigos y configuran
 - **Amigos con sus propios permisos:** añade un amigo y elige una plantilla (*Visitante*, *Miembro*, *Confiable*), o activa cada permiso por separado.
 - **Permisos públicos:** elige qué puede hacer cualquier otro jugador en tu claim.
 - **Ajustes del claim:** PvP, explosiones, propagación del fuego y destrozos de mobs, por claim.
-- **Límites por jugador:** máximo de chunks y de claims por jugador. Ser amigo en el claim de otro nunca cuenta para tus propios límites.
+- **Bienvenida, despedida y alarma:** en la pestaña Configuración de cada claim, una notificación (título y mensaje, con `{player}`, `{claim}`, `{owner}` y colores como `&a`) para quien entra o sale, y una **alarma de visitantes** que avisa al dueño y/o a los miembros cuando entra alguien de fuera. Los jugadores sin el mod también las ven.
+- **Límites por jugador:** máximo de chunks, de claims y de miembros por claim. Los operadores pueden dar a un jugador sus propios límites (`/claims admin limits`). Ser amigo en el claim de otro nunca cuenta para tus propios límites.
 - **Protección completa:** romper y colocar bloques, puertas y redstone, contenedores (vanilla y de mods), uso de objetos, entidades, animales, pisoteo de cultivos, explosiones, fuego, fluidos y pistones que cruzan el borde, y destrozos de mobs.
 - **Modo admin para operadores:** un botón en la pantalla lista todos los claims del servidor (con buscador por claim o dueño) y permite renombrarlos, borrarlos, editar miembros y permisos, añadir o liberar chunks, ir al claim y transferirlo a otro jugador. También con comandos.
 - **Inglés y español**, traducidos en el servidor para que también los lean los jugadores sin el mod.
@@ -35,7 +36,10 @@ Requiere **Minecraft 1.21.1** y **NeoForge 21.1.265 o superior**. No necesita ot
 | `/claims permission public <permiso> <true\|false>` | Lo que puede hacer cualquiera, y ajustes del claim |
 | `/claims permission member <jugador> <permiso> <true\|false>` | Un permiso de un amigo |
 | `/claims permission template <jugador> <plantilla>` | Aplica una plantilla a un amigo |
+| `/claims settings welcome\|farewell title\|text <texto>` · `clear` | Notificación de bienvenida / despedida |
+| `/claims settings alarm owner\|members <true\|false>` | Alarma de visitantes |
 | `/claims admin bypass\|list [jugador]\|delete\|unclaim\|transfer <jugador>` | Herramientas de operador |
+| `/claims admin limits <jugador> [chunks\|claims\|members <n\|default>\|reset]` | Límites propios de un jugador (operadores) |
 
 Configuración del servidor: `serverconfig/dioaddons_claims-server.toml` dentro de la carpeta del mundo. Referencia completa: [permisos y comandos](https://github.com/lorspi/diorama-addons/blob/main/docs/claims-permissions.md).
 

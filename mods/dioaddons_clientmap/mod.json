@@ -6,7 +6,7 @@
   "description": "description.md",
   "icon": "icon.png",
   "ogImage": "og-image.jpg",
-  "gallery": ["images/diorama-claims-waypoints.png", "images/diorama-shared-explored.png"],
+  "gallery": ["images/diorama-claims-waypoints.png", "images/diorama-shared-explored.png", "images/diorama-waypoint-share.png", "images/diorama-map-menu.png", "images/diorama-map-settings.png"],
   "tags": ["Mapas", "Multijugador", "Servidores"],
   "authors": ["lorspi"],
   "links": {
@@ -16,6 +16,17 @@
   },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/dioaddons_clientmap-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-03",
+      "changelog": "- **Comparte tus propios waypoints desde la pantalla de waypoints de Diorama:** botón «Share: Private / Public / Group» bajo «Show on maps». Renombrar, mover, cambiar de color o borrar el waypoint en Diorama lo actualiza (o lo retira) para los demás. Sustituye a «Add shared waypoint here» del menú del mapa y a `/sharedwaypoint add|rename`; `/sharedwaypoint list|remove` se mantienen.\n- En pantallas bajas (escala de GUI grande) el botón de compartir se coloca entre Guardar y Cancelar en vez de sacarlos de la pantalla.\n- **Ajustes del mapa** (clic derecho en el mapa → «Map settings…», `/clientmap settings` o la lista de mods): ver claims en el mapa, ver claims en el minimapa, compartir mi ubicación y compartir mi mapa explorado, todo activado por defecto. `/mapexplored share|keep` cambia lo último sin el mod en el cliente.\n- Lo que explora cada jugador se guarda también siempre en su propio registro, así que al activar el compartir, o al unirse a un grupo, se entrega lo que había explorado antes. Se pueden sincronizar varios registros a la vez.\n- Al salir o ser expulsado de un grupo de mapa se retiran los waypoints compartidos con ese grupo.\n- Protocolo del mapa 2 y formato de guardado 2: servidor y clientes deben actualizarse juntos.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
     {
       "file": "builds/dioaddons_clientmap-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",

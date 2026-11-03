@@ -6,7 +6,7 @@
   "description": "description.md",
   "icon": "icon.png",
   "ogImage": "og-image.jpg",
-  "gallery": ["images/claims-gui.png", "images/webmap-claims.png", "images/diorama-claims-waypoints.png"],
+  "gallery": ["images/claims-gui.png", "images/claims-settings.png", "images/claims-welcome.png", "images/webmap-claims.png", "images/diorama-claims-waypoints.png"],
   "tags": ["Protección", "Servidores", "Multijugador"],
   "authors": ["lorspi"],
   "links": {
@@ -16,6 +16,14 @@
   },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/dioaddons_claims-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-03",
+      "changelog": "- **Pestaña Configuración del claim** en la pantalla de claims: notificación de bienvenida y de despedida para quien entra o sale del claim (título y mensaje, con `{player}`, `{claim}`, `{owner}` y colores como `&a` o `&#FF8800`; sin título se usa el nombre del claim) y **alarma de visitantes** que avisa al dueño y/o a los miembros cuando entra alguien que no es ninguno de ellos (mensaje en el chat y campana, como mucho una vez por visitante cada `greetings.alarmCooldownSeconds`). Se envían con paquetes vanilla, así que los jugadores sin el mod también las ven; como título, barra de acción o chat (`greetings.display`). También con comandos: `/claims settings ...`.\n- **Límites propios por jugador:** los operadores pueden dar a un jugador más o menos chunks, claims o miembros por claim que los límites del servidor con `/claims admin limits <jugador> <chunks|claims|members> <n|default>` (o `reset`). La pantalla y `/claims list` muestran los límites de cada jugador.\n- El panel lateral es un poco más ancho y sus cuatro pestañas se ajustan a su texto, para que ninguna se corte en español.\n- Los textos largos de las casillas de configuración muestran su principio, no su final.\n- Formato de guardado 2 (los datos de la versión 1 se cargan tal cual). Protocolo de red 3: cliente y servidor deben usar los dos la 0.3.x para usar la pantalla."
+    },
     {
       "file": "builds/dioaddons_claims-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",

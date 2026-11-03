@@ -7,8 +7,9 @@ Conecta tu servidor NeoForge 1.21.1 con el mapa de Diorama en el cliente de cada
 - **Claims en el mapa:** los claims de Diorama Addons: Claims aparecen en el mapa y el minimapa de Diorama, con color por propietario y "claim · dueño" al pasar el ratón.
 - **Reclamar desde el mapa:** con Claims también en el cliente, haz clic derecho en cualquier chunk del mapa para **reclamarlo o liberarlo**. El servidor valida cada acción.
 - **Mapa explorado compartido:** los lugares que exploraron otros jugadores aparecen en tu mapa, enviados en segundo plano en lotes pequeños.
-- **Waypoints compartidos:** clic derecho → *Add shared waypoint here*. Todo tu grupo lo ve; solo su dueño, el dueño del grupo o un operador pueden renombrarlo o borrarlo.
+- **Waypoints compartidos:** en la pantalla de waypoints de Diorama, botón **Share: Private / Public / Group**. Renombrarlo, moverlo, cambiarle el color o borrarlo en Diorama lo actualiza para los demás.
 - **Posiciones con privacidad:** ve a tu grupo en el mapa y el radar. Ocúltate cuando quieras con `/maplocation hide`.
+- **Ajustes del mapa** (clic derecho en el mapa → *Map settings…*, `/clientmap settings` o la lista de mods): ver claims en el mapa, ver claims en el minimapa, compartir tu ubicación y compartir tu mapa explorado.
 - **Grupos de amigos:** el servidor elige, por separado para la exploración y para las ubicaciones: **desactivado**, **compartido con todos** o **por grupos** (`/mapgroup`).
 - **Seguro de instalar:** los jugadores sin el mod (o sin Diorama) pueden entrar igual; sin Diorama el mod simplemente no hace nada.
 
@@ -28,9 +29,10 @@ Opcional: Diorama Addons: Claims en el servidor para los claims, y en el cliente
 | Comando | Qué hace |
 |---|---|
 | `/mapgroup create <nombre>` · `invite <jugador>` · `join <nombre>` · `leave` · `kick <jugador>` · `info` | Grupos de amigos |
-| `/sharedwaypoint add <nombre>` · `list` · `rename <viejo> <nuevo>` · `remove <nombre>` | Waypoints compartidos |
+| `/sharedwaypoint list` · `remove <nombre>` | Waypoints compartidos que ves |
 | `/maplocation show\|hide` | Comparte u oculta tu posición |
-| `/clientmap status` · `/clientmap resync` (cliente) | Estado de la sincronización · reenvía el mapa explorado |
+| `/mapexplored share\|keep` | Comparte lo que exploras o guárdalo solo para ti |
+| `/clientmap settings` · `status` · `resync` (cliente) | Ajustes del mapa · estado de la sincronización · reenvía el mapa explorado |
 
 Configuración del servidor: `config/dioaddons_clientmap-common.toml`.
 

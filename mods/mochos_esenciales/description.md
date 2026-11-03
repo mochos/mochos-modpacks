@@ -6,23 +6,23 @@ Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las 
 
 - **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.7.0 junto con el mod.
 
-> **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan.
+> **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan, y los grupos de mapa pasan a ser grupos de amigos.
 
 ### Pestañas
 
-- **Inventario:** el inventario de siempre, ahora con las pestañas al lado.
-- **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima. El mapa muestra los terrenos, el mapa explorado compartido, ubicaciones compartidas y los jugadores de tu grupo.
-- **Terrenos:** reclama y protege chunks desde un mapa del terreno real: clic o arrastrar para reclamar o liberar, varios terrenos con nombre, amigos con plantillas y permisos uno a uno, y permisos públicos. Tecla **G** o `/claims menu`.
-- **Jugadores:** conectados, buscador y orden por cercanía o alfabético. Chat directo, solicitudes de viaje e invitaciones a grupos. **Grupos de amigos**: crear, invitar, expulsar, renombrar, elegir color y salir.
-- **Viajes:** warps del servidor (con nombre, icono y descripción opcionales) y tus lugares (nombre, mundo y coordenadas). Clic para viajar. Precio y espera por tipo de viaje.
-- **Economía:** banco (consignar, retirar, transferir, agrupar monedas y una ranura para soltarlas), tienda con buscador por objeto o vendedor, vender tus objetos y gestionar tus ventas con su propio inventario de stock. El admin lleva una **tienda del servidor** con stock infinito que también puede comprar a los jugadores.
+- **Inventario:** el inventario de siempre, con las pestañas al lado y **tus estadísticas** a la izquierda (dinero, tiempo de juego, muertes, lugares, terrenos…).
+- **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima. El mapa muestra los terrenos, lo que exploraron los demás, los **waypoints compartidos** y a los **jugadores lejanos** de tus grupos. En Configuración eliges si ver los terrenos en el mapa y en el minimapa, y si compartir tu ubicación y lo que exploras. Cada waypoint se puede dejar **privado**, hacer **público** o compartir con **uno de tus grupos** desde su propia pantalla.
+- **Terrenos:** reclama y protege chunks desde un mapa del terreno real: clic o arrastrar para reclamar o liberar, varios terrenos con nombre, amigos con plantillas y permisos uno a uno, permisos públicos, **notificaciones de bienvenida y despedida** con formato y una **alarma de visitantes** para el dueño y los miembros. Tecla **G** o `/claims menu`.
+- **Jugadores:** conectados, buscador y orden por cercanía o alfabético. Chat directo, solicitudes de viaje e invitaciones a grupos. **Bloquea** los mensajes directos o las solicitudes de viaje de quien quieras. **Grupos de amigos**: crear, invitar, expulsar, renombrar, elegir color y salir.
+- **Viajes:** warps del servidor (con nombre, icono y descripción opcionales) y tus lugares (nombre, mundo y coordenadas). Clic o botón para viajar; mover, renombrar y eliminar en un desplegable. Precio y espera por tipo de viaje.
+- **Economía:** banco (consignar, retirar, transferir con sugerencias de jugadores, ranura para consignar y casillas para **agrupar o separar monedas**), tienda con buscador por objeto o vendedor, vender tus objetos y **Mi tienda**: tus anuncios con su propio inventario de stock y el **historial de ventas**. El admin lleva una **tienda del servidor** con stock infinito que también puede comprar a los jugadores.
 - **Ayuda:** páginas escritas por el admin en **Markdown**: títulos, negrita, cursiva, tachado, código, listas (anidadas y de tareas), citas, tablas, enlaces e imágenes desde URL (PNG, JPG, GIF) con el ancho que quieras (`{width=120}`). Editor en el juego con vista previa.
-- **Configuración:** quién puede pedirte viajes, escribirte o invitarte (todos, solo amigos o nadie), aceptar solo los viajes de amigos, ocultar tu distancia, avisos de pagos, sonido y volumen de cada chat, notificaciones, el aspecto del chat (hora, líneas, ancho, opacidad y duración) y tu dinero junto a la barra rápida.
-- **Administración** (solo operadores): activar o desactivar cada módulo (también Terrenos y Mapa), precios y esperas de viajes, lugares por jugador, límites de terrenos (chunks, terrenos y amigos), dinero inicial, comisión de la tienda y límites del chat; dificultad, PvP, MOTD y reglas del juego; baneos (también temporales) y lista blanca. Por jugador: estadísticas (con dinero), ver su inventario y cofre de ender, ir o traer, curar, modo de juego, silenciar, expulsar, banear, sumar o fijar dinero y **su propia configuración** de viajes y terrenos (precios, esperas, lugares y límites distintos a los del servidor). Un **modo admin global** que se enciende y apaga con un switch, para ver el servidor como un jugador normal.
+- **Configuración:** quién puede pedirte viajes, escribirte o invitarte (todos, solo amigos o nadie), aceptar solo los viajes de amigos, ocultar tu distancia, avisos de pagos, sonido y volumen de cada chat, notificaciones, el aspecto del chat (hora, líneas, ancho, opacidad y duración), cerrar el chat al enviar un mensaje o un comando, tu dinero junto a la barra rápida, tus estadísticas junto al inventario y las opciones del **mapa**.
+- **Administración** (solo operadores): activar o desactivar cada módulo (también Terrenos y Mapa), precios y esperas de viajes, lugares por jugador, límites de terrenos (chunks, terrenos y amigos), dinero inicial, comisión de la tienda, límites del chat e historial de mensajes directos; **difusión** de anuncios (en el chat, como título o como notificación, para todos o algunos jugadores, al momento o cada N minutos); **textos** del servidor (mensajes de entrada, salida y bienvenida, nombre de la moneda); **orden de las pestañas**; dificultad, PvP, MOTD y reglas del juego; baneos (también temporales) y lista blanca. Por jugador: estadísticas (con dinero), ver su inventario y cofre de ender, ir o traer, curar, modo de juego, silenciar en el chat global, expulsar, banear, sumar o fijar dinero y **su propia configuración** de viajes y terrenos (precios, esperas, lugares y límites distintos a los del servidor). Un **modo admin global** que se enciende y apaga con un switch, para ver el servidor como un jugador normal.
 
 ### Un chat nuevo
 
-Sustituye al chat de vanilla (**T**): conversaciones a la izquierda (global, grupos y directos) con contador de no leídos, mensajes con formato Markdown y enlaces clicables, notificaciones emergentes y sonido por tipo de chat. Las solicitudes de viaje y las invitaciones a grupos llegan al chat directo con botones **Aceptar / Rechazar**. **Tab** cambia de conversación. Los **comandos** se escriben en el mismo chat (también con la tecla `/`), con el autocompletado y las sugerencias de vanilla.
+Sustituye al chat de vanilla (**T**) y ocupa solo la esquina inferior izquierda. Pestañas **Global, Grupos y Directos** con sus no leídos: al pasar el ratón cada una despliega sus conversaciones. Los directos se quitan de la lista sin perder el historial, que guarda el servidor. Mensajes con formato Markdown y enlaces clicables, notificaciones emergentes y sonido por tipo de chat. Las solicitudes de viaje y las invitaciones a grupos llegan al chat directo con botones **Aceptar / Rechazar**. **Tab** cambia de conversación. Los **comandos** se escriben en el mismo chat (también con la tecla `/`), con el autocompletado y las sugerencias de vanilla.
 
 ### El Ceitil, una moneda de verdad
 
@@ -32,7 +32,11 @@ Sustituye al chat de vanilla (**T**): conversaciones a la izquierda (global, gru
 | Pila de ceitiles | 10 |
 | Bolsa de ceitiles | 100 |
 
-El efectivo son objetos; el banco guarda tu saldo. Al retirar recibes las mínimas monedas y al pagar te dan el cambio. En la mesa de trabajo una pila se deshace en 10 ceitiles y una bolsa en 10 pilas («Agrupar monedas» en el banco hace lo contrario).
+El efectivo son objetos; el banco guarda tu saldo. Al retirar recibes las mínimas monedas y al pagar te dan el cambio. En la mesa de trabajo una pila se deshace en 10 ceitiles y una bolsa en 10 pilas (el conversor del banco agrupa y separa las que quieras). El nombre de la moneda se puede cambiar.
+
+### Textos con formato
+
+Anuncios, mensajes de entrada y salida y notificaciones de terrenos aceptan Markdown y colores de Minecraft (`&a`, `&6`, `&#FF8800`…), con vista previa y variables como `{player}` o `{online}`.
 
 ### Comandos rápidos
 
@@ -64,7 +68,7 @@ Idiomas: **español** e **inglés**.
 
 ### Combina muy bien con
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, ubicaciones compartidas y los jugadores de tu grupo.
+- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1 y 0.7.0.
 - **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.
 
 ### Acerca de
