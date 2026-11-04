@@ -1,3 +1,12 @@
+## 1.1.2
+
+- Actualizado **Mochos Esenciales** a 0.7.0, con soporte para addons.
+- Añadidos tres addons de Mochos Esenciales:
+  - **Mochos Tablist:** una lista de jugadores (Tab) con el diseño del servidor.
+  - **Mochos Acciones Rápidas:** una rueda de acciones al mantener **Z** para ir a warps y lugares, abrir el mapa, el banco o los terrenos, y mucho más.
+  - **Mochos Trabajos:** trabajos con niveles, pago en Ceitiles, misiones diarias, ventajas y ranking, en su propia pestaña.
+- Ahora son 62 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.1.1
 
 - Actualizado **Mochos Esenciales** a 0.6.0: chat rediseñado con pestañas Global, Grupos y Directos; tus estadísticas junto al inventario; anuncios, textos del servidor y orden de las pestañas en Administración; historial de ventas en «Mi tienda» y conversor de monedas en el banco; bienvenida, despedida y alarma de visitantes en los terrenos; y opciones del mapa con waypoints compartidos por grupo desde Diorama.
