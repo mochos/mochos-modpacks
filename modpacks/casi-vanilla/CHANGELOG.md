@@ -1,3 +1,18 @@
+## 1.3.0
+
+- Actualizado **Mochos Esenciales** a 0.8.0:
+  - una brújula arriba de la pantalla con los miembros de tus grupos;
+  - lugares compartidos con tus grupos o con todos, con buscador;
+  - basta con que duerma una parte de los jugadores para pasar la noche, con amanecer animado;
+  - al dormir se abre el chat del mod.
+- Añadidos tres addons de Mochos Esenciales:
+  - **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas, también tus skins de Mochos.
+  - **Mochos Tareas:** una lista de tareas para cada grupo de amigos, con tareas fijadas en pantalla.
+  - **Mochos Tiempo:** límite de tiempo de juego por día. Viene activado con 2 horas al día; los administradores lo cambian o lo apagan en Administración → Tiempo de juego.
+- Actualizados **Mochos Tablist** 0.1.1 y **Mochos Acciones Rápidas** 0.1.1 (cambiar a tus skins de Mochos desde la rueda).
+- La brújula viene activada en la configuración inicial (solo para quien instala el modpack por primera vez).
+- Ahora son 65 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.1.2
 
 - Actualizado **Mochos Esenciales** a 0.7.0, con soporte para addons.
