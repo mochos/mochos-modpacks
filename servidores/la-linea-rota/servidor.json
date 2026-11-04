@@ -7,7 +7,7 @@
   "address": "linearota.mochos.xyz",
   "modpack": "la-linea-rota",
   "tags": ["Survival", "Create", "Chat de voz"],
-  "featured": true,
+  "dev": true,
   "links": {
     "discord": "https://discord.mochos.xyz"
   }

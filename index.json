@@ -206,15 +206,15 @@
   ],
   "servers": [
     {
-      "id": "la-linea-rota",
-      "name": "La Línea Rota",
-      "summary": "Survival entre amigos con Create, aviones y dirigibles. Se entra con el modpack La Línea Rota.",
+      "id": "casi-vanilla",
+      "name": "Casi Vanilla",
+      "summary": "El Minecraft de siempre, más bonito y fluido, con aviones, mochilas, trabajos y chat de voz para jugar entre amigos. Se entra con el modpack Casi Vanilla.",
       "game": "minecraft",
-      "address": "linearota.mochos.xyz",
-      "modpack": "la-linea-rota",
+      "address": "casivanilla.mochos.xyz",
+      "modpack": "casi-vanilla",
       "tags": [
         "Survival",
-        "Create",
+        "Aviación",
         "Chat de voz"
       ],
       "featured": true,
@@ -222,8 +222,8 @@
         "discord": "https://discord.mochos.xyz"
       },
       "query": "minecraft",
-      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/la-linea-rota/icon.png",
-      "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/la-linea-rota/images/banner.png"
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/casi-vanilla/icon.gif",
+      "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/casi-vanilla/images/banner.webp"
     },
     {
       "id": "hytale",
@@ -1258,6 +1258,26 @@
         "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/servidores/horizonte-extremo/icon.png",
         "dev": true,
         "query": "minecraft"
+      },
+      {
+        "id": "la-linea-rota",
+        "name": "La Línea Rota",
+        "summary": "Survival entre amigos con Create, aviones y dirigibles. Se entra con el modpack La Línea Rota.",
+        "game": "minecraft",
+        "address": "linearota.mochos.xyz",
+        "modpack": "la-linea-rota",
+        "tags": [
+          "Survival",
+          "Create",
+          "Chat de voz"
+        ],
+        "dev": true,
+        "links": {
+          "discord": "https://discord.mochos.xyz"
+        },
+        "query": "minecraft",
+        "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/la-linea-rota/icon.png",
+        "banner": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/modpacks/la-linea-rota/images/banner.png"
       },
       {
         "id": "sukage",

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schema/servidor.schema.json",
+  "id": "casi-vanilla",
+  "name": "Casi Vanilla",
+  "summary": "El Minecraft de siempre, más bonito y fluido, con aviones, mochilas, trabajos y chat de voz para jugar entre amigos. Se entra con el modpack Casi Vanilla.",
+  "game": "minecraft",
+  "address": "casivanilla.mochos.xyz",
+  "modpack": "casi-vanilla",
+  "tags": ["Survival", "Aviación", "Chat de voz"],
+  "featured": true,
+  "links": {
+    "discord": "https://discord.mochos.xyz"
+  }
+}
