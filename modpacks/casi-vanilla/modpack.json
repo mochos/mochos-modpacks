@@ -12,7 +12,7 @@
   "banner": "images/banner.webp",
   "gallery": [],
   "tags": ["Survival", "Optimizado", "Aviación", "Chat de voz"],
-  "featured": false,
+  "featured": true,
   "authors": ["Mochos Studio"],
   "recommendedRamMb": 6144,
   "source": {
