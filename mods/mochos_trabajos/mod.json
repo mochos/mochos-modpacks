@@ -28,7 +28,10 @@
       "minecraft": ["1.21.1"],
       "loader": { "type": "neoforge", "minVersion": "21.1.265" },
       "date": "2026-11-04",
-      "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Pestaña **Trabajos**: Resumen, Qué paga, Misiones, Ventajas, Ranking e Historial de 14 días.\n- Trabajos con niveles y experiencia; el pago en Ceitiles va directo al banco, con límite diario.\n- Misiones diarias con recompensa extra y ventajas al subir de nivel.\n- Juego limpio: no se paga por bloques colocados por jugadores, criaturas de generadores o huevos, ni en creativo, y repetir lo mismo en el mismo chunk paga cada vez menos.\n- Administración → Trabajos: editor de trabajos, acciones y ventajas, y eventos de pago o XP x2 para todos.\n- Comando `/trabajos` (también `/jobs`). Configuración en `config/mochos_trabajos/`."
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Pestaña **Trabajos**: Resumen, Qué paga, Misiones, Ventajas, Ranking e Historial de 14 días.\n- Trabajos con niveles y experiencia; el pago en Ceitiles va directo al banco, con límite diario.\n- Misiones diarias con recompensa extra y ventajas al subir de nivel.\n- Juego limpio: no se paga por bloques colocados por jugadores, criaturas de generadores o huevos, ni en creativo, y repetir lo mismo en el mismo chunk paga cada vez menos.\n- Administración → Trabajos: editor de trabajos, acciones y ventajas, y eventos de pago o XP x2 para todos.\n- Comando `/trabajos` (también `/jobs`). Configuración en `config/mochos_trabajos/`.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.7.0", "name": "Mochos Esenciales" }
+      ]
     }
   ]
 }

@@ -49,14 +49,14 @@
           "changelog": { "type": "string", "description": "Cambios de esta versión (markdown)." },
           "dependencies": {
             "type": "array",
-            "description": "Solo mods. Mods de Modrinth o CurseForge que el launcher (1.5.6 o posterior) instala con este archivo si el jugador no los tiene.",
+            "description": "Solo mods. Mods de Modrinth, CurseForge o Mochos que el launcher (1.5.6 o posterior; Mochos desde la 1.6.1) instala con este archivo si el jugador no los tiene.",
             "items": {
               "type": "object",
               "required": ["source", "project"],
               "properties": {
-                "source": { "enum": ["modrinth", "curseforge"] },
-                "project": { "type": "string", "description": "Slug o id del proyecto en Modrinth; id numérico en CurseForge." },
-                "version": { "type": "string", "description": "Versión fija: id de la versión en Modrinth o del archivo en CurseForge. Sin ella, la última compatible con la instancia." },
+                "source": { "enum": ["modrinth", "curseforge", "mochos"], "description": "mochos: otro contenido de este repositorio (launcher 1.6.1 o posterior)." },
+                "project": { "type": "string", "description": "Slug o id del proyecto en Modrinth; id numérico en CurseForge; id del contenido en Mochos (mochos_esenciales)." },
+                "version": { "type": "string", "description": "Versión fija: id de la versión en Modrinth o del archivo en CurseForge. En Mochos, la versión mínima (0.8.0). Sin ella, la última compatible con la instancia." },
                 "name": { "type": "string", "description": "Nombre para mostrar en el launcher." }
               }
             }

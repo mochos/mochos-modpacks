@@ -33,10 +33,12 @@ No se paga por romper bloques colocados por jugadores, por criaturas de generado
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.7.0 o posterior**: instálalo antes desde esta misma sección. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.7.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 
 - **Mochos Tablist:** diseña la lista de jugadores del servidor.
 - **Mochos Acciones Rápidas:** rueda de acciones con una tecla.
 - **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.
+- **Mochos Tareas:** listas de tareas para tus grupos de amigos.
+- **Mochos Tiempo:** límite de tiempo de juego por día.

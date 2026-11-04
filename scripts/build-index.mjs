@@ -174,7 +174,11 @@ for (const { kind, folder, json, ext } of KINDS) {
       if (b.loader && (!LOADERS.includes(b.loader.type) || b.loader.type === "vanilla")) errors.push(`${where}: loader.type inválido "${b.loader.type}"`);
       if (b.date !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(b.date)) errors.push(`${where}: "date" debe ser AAAA-MM-DD`);
       for (const [j, d] of (b.dependencies ?? []).entries()) {
-        if (!["modrinth", "curseforge"].includes(d.source)) errors.push(`${where}.dependencies[${j}]: "source" debe ser modrinth o curseforge`);
+        if (!["modrinth", "curseforge", "mochos"].includes(d.source)) errors.push(`${where}.dependencies[${j}]: "source" debe ser modrinth, curseforge o mochos`);
+        // Otro contenido de este repositorio (un addon que necesita Mochos Esenciales): "project" es su id
+        // y "version", la versión mínima.
+        if (d.source === "mochos" && !KINDS.some((k) => existsSync(join(ROOT, k.folder, String(d.project), k.json)))) errors.push(`${where}.dependencies[${j}]: no hay contenido de Mochos con id "${d.project}"`);
+        if (d.source === "mochos" && d.project === id) errors.push(`${where}.dependencies[${j}]: un contenido no puede depender de sí mismo`);
         if (typeof d.project !== "string" || !d.project) errors.push(`${where}.dependencies[${j}]: falta "project"`);
         if (d.source === "curseforge" && !/^\d+$/.test(String(d.project))) errors.push(`${where}.dependencies[${j}]: en CurseForge "project" es el id numérico`);
       }
@@ -197,7 +201,7 @@ for (const { kind, folder, json, ext } of KINDS) {
         size: data.length,
         date: b.date,
         changelog: b.changelog,
-        // Mods de Modrinth o CurseForge que el launcher instala con este archivo.
+        // Mods de Modrinth, CurseForge o Mochos que el launcher instala con este archivo.
         ...(b.dependencies?.length ? { dependencies: b.dependencies.map(({ source, project, version, name }) => ({ source, project, version, name })) } : {}),
       });
     }

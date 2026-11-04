@@ -21,12 +21,26 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_tablist-0.1.1-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-04",
+      "changelog": "Necesita Mochos Esenciales 0.8.0 o posterior.\n\n- Avisa a los demás addons de dónde termina la lista de jugadores, para que Mochos Tareas muestre las tareas fijadas justo debajo.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.8.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_tablist-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",
       "minecraft": ["1.21.1"],
       "loader": { "type": "neoforge", "minVersion": "21.1.265" },
       "date": "2026-11-04",
-      "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Editor de la lista de jugadores en Administración → Tablist, con vista previa en vivo y jugadores de ejemplo.\n- Fondo, opacidad, borde, esquinas e imagen de fondo.\n- Imagen y textos de cabecera y pie con colores y variables (`{online}`, `{max}`, `{player}`, `{server}`, `{ping}`, `{tps}`, `{time}`, `{day}`…).\n- Cómo se ve cada jugador: cabeza, vida, ping, modo de juego, colores, orden y columnas.\n- Los cambios se aplican a todos al guardar."
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Editor de la lista de jugadores en Administración → Tablist, con vista previa en vivo y jugadores de ejemplo.\n- Fondo, opacidad, borde, esquinas e imagen de fondo.\n- Imagen y textos de cabecera y pie con colores y variables (`{online}`, `{max}`, `{player}`, `{server}`, `{ping}`, `{tps}`, `{time}`, `{day}`…).\n- Cómo se ve cada jugador: cabeza, vida, ping, modo de juego, colores, orden y columnas.\n- Los cambios se aplican a todos al guardar.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.7.0", "name": "Mochos Esenciales" }
+      ]
     }
   ]
 }

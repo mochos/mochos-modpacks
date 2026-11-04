@@ -14,6 +14,8 @@
     "images/06-chat-grupo.webp",
     "images/07-chat-directos.webp",
     "images/09-viajes-warps-y-lugares.webp",
+    "images/44-viajes-lugares-compartidos.webp",
+    "images/45-viajes-buscador.webp",
     "images/11-economia-tienda.webp",
     "images/12-economia-banco.webp",
     "images/27-economia-historial-de-ventas.webp",
@@ -31,13 +33,28 @@
     "images/39-mapa-jugador-lejano.webp",
     "images/40-waypoint-compartir-grupo.webp",
     "images/41-mapa-waypoint-compartido.webp",
-    "images/38-configuracion-mapa.webp"
+    "images/38-configuracion-mapa.webp",
+    "images/43-brujula-grupo.webp",
+    "images/46-configuracion-brujula.webp",
+    "images/47-admin-sueno.webp",
+    "images/48-dormir-chat-del-mod.webp"
   ],
   "tags": ["Utilidad", "Economía", "Social", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.8.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.8.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-04",
+      "changelog": "- **Brújula** arriba de la pantalla con los miembros de tus grupos (cabeza, nombre y distancia); cada parte se activa por separado en Configuración → Brújula.\n- **Lugares compartidos:** tus lugares se comparten como públicos o con cada grupo. Debajo de «Mis lugares» salen listas desplegables por grupo y de lugares públicos, con un buscador que filtra todas.\n- **Administración → General:** porcentaje de jugadores durmiendo para pasar la noche y segundos del amanecer animado.\n- Al dormir se abre el chat del mod (con «Salir de la cama») en lugar del de vanilla.\n- Botones − y + en los valores numéricos.\n- Más posibilidades para los addons: grupos, elementos junto al dinero, paneles junto al inventario y la lista de jugadores.\n- Addons nuevos: **Mochos Tareas** y **Mochos Tiempo**. **Mochos Apariencia** 0.2.0, **Mochos Tablist** 0.1.1 y **Mochos Acciones Rápidas** 0.1.1 necesitan esta versión.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.7.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.7.0",

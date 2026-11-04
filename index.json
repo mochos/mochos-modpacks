@@ -534,7 +534,7 @@
       "kind": "mod",
       "name": "Mochos Acciones Rápidas",
       "summary": "Addon de Mochos Esenciales: una rueda de acciones al mantener Z para ir a warps y lugares, abrir el mapa, el banco o los terrenos, cambiar de skin o lanzar tus propios comandos.",
-      "description": "**Mochos Acciones Rápidas** es un addon de [Mochos Esenciales](https://mochos.xyz) que pone lo que más usas a un gesto: mantén **Z**, apunta con el ratón y suelta.\n\nAl soltar la tecla sobre una acción se ejecuta; si la sueltas en el centro, se cancela. Las acciones con **›** abren un submenú, por ejemplo tus lugares o los warps del servidor.\n\n### Acciones disponibles\n\n- **Pestañas del mod:** mapa, banco, tienda, terrenos, jugadores y las demás.\n- **Warps y lugares:** submenú con los warps del servidor y tus lugares guardados, para viajar al momento.\n- **Terrenos:** abrir la pantalla o reclamar el chunk en el que estás.\n- **Cambiar de skin:** submenú con tus skins (con **Mochos Apariencia**).\n- **Tus propios comandos:** empieza por `/` para ejecutar un comando (por ejemplo `/spawn`); sin `/` se envía como mensaje al chat. El servidor comprueba tus permisos como siempre.\n\n### Tu rueda, a tu manera\n\nEn **Configuración → Personalizar rueda** cada jugador elige entre **2 y 12 acciones** y su orden, con vista previa. La primera queda arriba y las demás siguen en el sentido de las agujas del reloj. También puedes activar el sonido de la rueda y los nombres alrededor. La tecla se cambia en Opciones → Controles.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** |\n\nRequiere **Mochos Esenciales 0.7.0 o posterior**: instálalo antes desde esta misma sección. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.\n\n### Otros addons de Mochos Esenciales\n\n- **Mochos Tablist:** diseña la lista de jugadores del servidor.\n- **Mochos Trabajos:** trabajos con niveles, pago en Ceitiles y misiones diarias.\n- **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.\n",
+      "description": "**Mochos Acciones Rápidas** es un addon de [Mochos Esenciales](https://mochos.xyz) que pone lo que más usas a un gesto: mantén **Z**, apunta con el ratón y suelta.\n\nAl soltar la tecla sobre una acción se ejecuta; si la sueltas en el centro, se cancela. Las acciones con **›** abren un submenú, por ejemplo tus lugares o los warps del servidor.\n\n### Acciones disponibles\n\n- **Pestañas del mod:** mapa, banco, tienda, terrenos, jugadores y las demás.\n- **Warps y lugares:** submenú con los warps del servidor y tus lugares guardados, para viajar al momento.\n- **Terrenos:** abrir la pantalla o reclamar el chunk en el que estás.\n- **Cambiar de skin:** submenú con tus skins (con **Mochos Apariencia**), también tus skins de Mochos si tienes **Mochos Cédula**.\n- **Tus propios comandos:** empieza por `/` para ejecutar un comando (por ejemplo `/spawn`); sin `/` se envía como mensaje al chat. El servidor comprueba tus permisos como siempre.\n\n### Tu rueda, a tu manera\n\nEn **Configuración → Personalizar rueda** cada jugador elige entre **2 y 12 acciones** y su orden, con vista previa. La primera queda arriba y las demás siguen en el sentido de las agujas del reloj. También puedes activar el sonido de la rueda y los nombres alrededor. La tecla se cambia en Opciones → Controles.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** |\n\nRequiere **Mochos Esenciales 0.8.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.\n\n### Otros addons de Mochos Esenciales\n\n- **Mochos Tablist:** diseña la lista de jugadores del servidor.\n- **Mochos Trabajos:** trabajos con niveles, pago en Ceitiles y misiones diarias.\n- **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.\n- **Mochos Tareas:** listas de tareas para tus grupos de amigos.\n- **Mochos Tiempo:** límite de tiempo de juego por día.\n",
       "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_acciones/icon.png",
       "gallery": [
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_acciones/images/12-rueda.webp",
@@ -562,6 +562,30 @@
       "offer": false,
       "builds": [
         {
+          "version": "0.1.1",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_acciones-0.1.1-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_acciones/builds/mochos_acciones-0.1.1-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "5a853af0c6d3e2914b0481a507afe1b3d6fb2aa1",
+          "size": 70114,
+          "date": "2026-11-04",
+          "changelog": "Necesita Mochos Esenciales 0.8.0 o posterior.\n\n- «Cambiar de skin» también lista tus skins de Mochos cuando están instalados Mochos Apariencia 0.2.0 y Mochos Cédula.",
+          "dependencies": [
+            {
+              "source": "mochos",
+              "project": "mochos_esenciales",
+              "version": "0.8.0",
+              "name": "Mochos Esenciales"
+            }
+          ]
+        },
+        {
           "version": "0.1.0",
           "minecraft": [
             "1.21.1"
@@ -575,7 +599,15 @@
           "sha1": "eb96c29a44a4bc582d7acabed15d9e1fd42be1e8",
           "size": 69925,
           "date": "2026-11-04",
-          "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Rueda radial al mantener **Z**: se suelta la tecla sobre una acción para ejecutarla, o en el centro para cancelar.\n- Acciones: pestañas del mod, warps y lugares (con submenú), banco, tienda, terrenos, reclamar chunk, jugadores, cambiar de skin (con Mochos Apariencia) y comandos o mensajes propios.\n- Cada jugador elige entre 2 y 12 acciones y su orden en Configuración → Personalizar rueda, con vista previa."
+          "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Rueda radial al mantener **Z**: se suelta la tecla sobre una acción para ejecutarla, o en el centro para cancelar.\n- Acciones: pestañas del mod, warps y lugares (con submenú), banco, tienda, terrenos, reclamar chunk, jugadores, cambiar de skin (con Mochos Apariencia) y comandos o mensajes propios.\n- Cada jugador elige entre 2 y 12 acciones y su orden en Configuración → Personalizar rueda, con vista previa.",
+          "dependencies": [
+            {
+              "source": "mochos",
+              "project": "mochos_esenciales",
+              "version": "0.7.0",
+              "name": "Mochos Esenciales"
+            }
+          ]
         }
       ]
     },
@@ -584,9 +616,11 @@
       "kind": "mod",
       "name": "Mochos Apariencia",
       "summary": "Addon de Mochos Esenciales: una pestaña Apariencia para subir tus skins SD y HD desde un archivo o una URL y elegir la que llevas. El servidor las guarda y todos las ven.",
-      "description": "**Mochos Apariencia** es un addon de [Mochos Esenciales](https://mochos.xyz) que añade la pestaña **Apariencia**: sube tus skins, guárdalas en tu biblioteca y ponte la que quieras con un clic. El servidor las guarda y **todos los jugadores las ven**, sin cuentas ni webs externas.\n\n### Características\n\n- **Sube skins SD y HD:** 64×64, 64×32 clásicas y HD hasta 1024×1024, en PNG.\n- **Desde donde quieras:** un archivo de tu equipo, una URL o arrastrando la imagen a la ventana del juego.\n- **Brazos clásicos o delgados** para cada skin.\n- **Tu biblioteca:** todas tus skins con su vista previa; un clic para ponerte otra, o volver a tu skin de Minecraft.\n- **Cambio rápido:** con **Mochos Acciones Rápidas**, cambia de skin desde la rueda sin abrir ninguna pantalla.\n- Comando en el cliente: `/apariencia abrir`, `/apariencia archivo <ruta>` o `/apariencia url <url>`.\n\n### Para el administrador\n\nEn **Administración → Apariencia**: cuántas skins puede tener cada jugador, la resolución y el tamaño máximos del archivo, si se puede subir desde una URL, y la lista de jugadores con skins para **quitar una inapropiada** (el jugador vuelve a su skin de Minecraft).\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** |\n\nRequiere **Mochos Esenciales 0.7.0 o posterior**: instálalo antes desde esta misma sección. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.\n\n### Otros addons de Mochos Esenciales\n\n- **Mochos Tablist:** diseña la lista de jugadores del servidor.\n- **Mochos Acciones Rápidas:** rueda de acciones con una tecla.\n- **Mochos Trabajos:** trabajos con niveles, pago en Ceitiles y misiones diarias.\n",
+      "description": "**Mochos Apariencia** es un addon de [Mochos Esenciales](https://mochos.xyz) que añade la pestaña **Apariencia**: sube tus skins, guárdalas en tu biblioteca y ponte la que quieras con un clic. El servidor las guarda y **todos los jugadores las ven**, sin cuentas ni webs externas.\n\n### Características\n\n- **Sube skins SD y HD:** 64×64, 64×32 clásicas y HD hasta 1024×1024, en PNG.\n- **Desde donde quieras:** un archivo de tu equipo, una URL o arrastrando la imagen a la ventana del juego.\n- **Brazos clásicos o delgados** para cada skin.\n- **Tu biblioteca:** todas tus skins con su vista previa; un clic para ponerte otra, o volver a tu skin de Minecraft.\n- **Tus skins de Mochos:** con **Mochos Cédula** instalado, las skins de tu cuenta de Mochos vienen precargadas. Se usan pero no se modifican (se gestionan desde el launcher, y Cédula solo deja elegirlas a las cuentas verificadas con Microsoft o Discord). Tus skins adicionales se suben y editan como siempre.\n- **Cambio rápido:** con **Mochos Acciones Rápidas**, cambia de skin desde la rueda sin abrir ninguna pantalla.\n- Comando en el cliente: `/apariencia abrir`, `/apariencia archivo <ruta>` o `/apariencia url <url>`.\n\n### Para el administrador\n\nEn **Administración → Apariencia**: cuántas skins puede tener cada jugador, la resolución y el tamaño máximos del archivo, si se puede subir desde una URL, y la lista de jugadores con skins para **quitar una inapropiada** (el jugador vuelve a su skin de Minecraft).\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** |\n\nRequiere **Mochos Esenciales 0.8.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.\n\n### Otros addons de Mochos Esenciales\n\n- **Mochos Tablist:** diseña la lista de jugadores del servidor.\n- **Mochos Acciones Rápidas:** rueda de acciones con una tecla.\n- **Mochos Trabajos:** trabajos con niveles, pago en Ceitiles y misiones diarias.\n- **Mochos Tareas:** listas de tareas para tus grupos de amigos.\n- **Mochos Tiempo:** límite de tiempo de juego por día.\n",
       "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_apariencia/icon.png",
       "gallery": [
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_apariencia/images/60-apariencia-skins-de-mochos.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_apariencia/images/61-apariencia-skin-adicional.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_apariencia/images/35-ap-tester.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_apariencia/images/18-tras-subida.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_apariencia/images/37-amigo-ve.webp",
@@ -612,6 +646,30 @@
       "offer": false,
       "builds": [
         {
+          "version": "0.2.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_apariencia-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_apariencia/builds/mochos_apariencia-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "2d17e131afb37f74dd220f8fb25683eb1f86e84c",
+          "size": 107610,
+          "date": "2026-11-04",
+          "changelog": "Necesita Mochos Esenciales 0.8.0 o posterior.\n\n- Compatible con **Mochos Cédula** (opcional): tus skins de Mochos vienen precargadas en la pestaña Apariencia. Se pueden usar pero no modificar: se gestionan desde el launcher, y Cédula solo deja elegirlas a las cuentas verificadas con Microsoft o Discord. Las skins adicionales se suben y editan como siempre y se ponen por encima.\n- La skin subida se aplica después de la de otros mods de skins.",
+          "dependencies": [
+            {
+              "source": "mochos",
+              "project": "mochos_esenciales",
+              "version": "0.8.0",
+              "name": "Mochos Esenciales"
+            }
+          ]
+        },
+        {
           "version": "0.1.0",
           "minecraft": [
             "1.21.1"
@@ -625,7 +683,15 @@
           "sha1": "d562688f902cefe7645ac592b7877f70ff35a3aa",
           "size": 98951,
           "date": "2026-11-04",
-          "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Pestaña **Apariencia**: sube skins SD (64×64 y 64×32) y HD (hasta 1024×1024) desde un archivo, una URL o arrastrándolas a la ventana, con brazos clásicos o delgados.\n- Biblioteca de skins con vista previa del personaje; un clic para ponerte otra, o volver a la skin de Minecraft.\n- El servidor guarda las skins y todos los jugadores las ven.\n- Administración → Apariencia: skins por jugador, resolución y tamaño máximos, permitir subir desde URL y quitar la skin de un jugador.\n- Con Mochos Acciones Rápidas, cambio de skin desde la rueda."
+          "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Pestaña **Apariencia**: sube skins SD (64×64 y 64×32) y HD (hasta 1024×1024) desde un archivo, una URL o arrastrándolas a la ventana, con brazos clásicos o delgados.\n- Biblioteca de skins con vista previa del personaje; un clic para ponerte otra, o volver a la skin de Minecraft.\n- El servidor guarda las skins y todos los jugadores las ven.\n- Administración → Apariencia: skins por jugador, resolución y tamaño máximos, permitir subir desde URL y quitar la skin de un jugador.\n- Con Mochos Acciones Rápidas, cambio de skin desde la rueda.",
+          "dependencies": [
+            {
+              "source": "mochos",
+              "project": "mochos_esenciales",
+              "version": "0.7.0",
+              "name": "Mochos Esenciales"
+            }
+          ]
         }
       ]
     },
@@ -692,7 +758,7 @@
       "kind": "mod",
       "name": "Mochos Esenciales",
       "summary": "Esenciales con pantallas de verdad en vez de comandos: jugadores y grupos de amigos, lugares y warps, terrenos protegidos, economía con el Ceitil (banco y tienda), un chat nuevo con comandos, páginas de ayuda en Markdown y panel de administración.",
-      "description": "**Mochos Esenciales** hace con pantallas de verdad todo lo que otros mods de esenciales hacen con comandos: jugadores, grupos de amigos, lugares y warps, terrenos protegidos, una economía con monedas, banco y tienda, un chat nuevo, páginas de ayuda y un panel de administración completo, todo a un clic de tu inventario.\n\nAbre el inventario y aparece una columna de pestañas a la izquierda. Todas las pantallas se adaptan a cualquier tamaño de ventana y escala de GUI. Pensado para servidores, pero también funciona en un jugador.\n\n### Requisitos\n\n- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.7.0 junto con el mod.\n\n> **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan, y los grupos de mapa pasan a ser grupos de amigos.\n\n### Pestañas\n\n- **Inventario:** el inventario de siempre, con las pestañas al lado y **tus estadísticas** a la izquierda (dinero, tiempo de juego, muertes, lugares, terrenos…).\n- **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima. El mapa muestra los terrenos, lo que exploraron los demás, los **waypoints compartidos** y a los **jugadores lejanos** de tus grupos. En Configuración eliges si ver los terrenos en el mapa y en el minimapa, y si compartir tu ubicación y lo que exploras. Cada waypoint se puede dejar **privado**, hacer **público** o compartir con **uno de tus grupos** desde su propia pantalla.\n- **Terrenos:** reclama y protege chunks desde un mapa del terreno real: clic o arrastrar para reclamar o liberar, varios terrenos con nombre, amigos con plantillas y permisos uno a uno, permisos públicos, **notificaciones de bienvenida y despedida** con formato y una **alarma de visitantes** para el dueño y los miembros. Tecla **G** o `/claims menu`.\n- **Jugadores:** conectados, buscador y orden por cercanía o alfabético. Chat directo, solicitudes de viaje e invitaciones a grupos. **Bloquea** los mensajes directos o las solicitudes de viaje de quien quieras. **Grupos de amigos**: crear, invitar, expulsar, renombrar, elegir color y salir.\n- **Viajes:** warps del servidor (con nombre, icono y descripción opcionales) y tus lugares (nombre, mundo y coordenadas). Clic o botón para viajar; mover, renombrar y eliminar en un desplegable. Precio y espera por tipo de viaje.\n- **Economía:** banco (consignar, retirar, transferir con sugerencias de jugadores, ranura para consignar y casillas para **agrupar o separar monedas**), tienda con buscador por objeto o vendedor, vender tus objetos y **Mi tienda**: tus anuncios con su propio inventario de stock y el **historial de ventas**. El admin lleva una **tienda del servidor** con stock infinito que también puede comprar a los jugadores.\n- **Ayuda:** páginas escritas por el admin en **Markdown**: títulos, negrita, cursiva, tachado, código, listas (anidadas y de tareas), citas, tablas, enlaces e imágenes desde URL (PNG, JPG, GIF) con el ancho que quieras (`{width=120}`). Editor en el juego con vista previa.\n- **Configuración:** quién puede pedirte viajes, escribirte o invitarte (todos, solo amigos o nadie), aceptar solo los viajes de amigos, ocultar tu distancia, avisos de pagos, sonido y volumen de cada chat, notificaciones, el aspecto del chat (hora, líneas, ancho, opacidad y duración), cerrar el chat al enviar un mensaje o un comando, tu dinero junto a la barra rápida, tus estadísticas junto al inventario y las opciones del **mapa**.\n- **Administración** (solo operadores): activar o desactivar cada módulo (también Terrenos y Mapa), precios y esperas de viajes, lugares por jugador, límites de terrenos (chunks, terrenos y amigos), dinero inicial, comisión de la tienda, límites del chat e historial de mensajes directos; **difusión** de anuncios (en el chat, como título o como notificación, para todos o algunos jugadores, al momento o cada N minutos); **textos** del servidor (mensajes de entrada, salida y bienvenida, nombre de la moneda); **orden de las pestañas**; dificultad, PvP, MOTD y reglas del juego; baneos (también temporales) y lista blanca. Por jugador: estadísticas (con dinero), ver su inventario y cofre de ender, ir o traer, curar, modo de juego, silenciar en el chat global, expulsar, banear, sumar o fijar dinero y **su propia configuración** de viajes y terrenos (precios, esperas, lugares y límites distintos a los del servidor). Un **modo admin global** que se enciende y apaga con un switch, para ver el servidor como un jugador normal.\n\n### Un chat nuevo\n\nSustituye al chat de vanilla (**T**) y ocupa solo la esquina inferior izquierda. Pestañas **Global, Grupos y Directos** con sus no leídos: al pasar el ratón cada una despliega sus conversaciones. Los directos se quitan de la lista sin perder el historial, que guarda el servidor. Mensajes con formato Markdown y enlaces clicables, notificaciones emergentes y sonido por tipo de chat. Las solicitudes de viaje y las invitaciones a grupos llegan al chat directo con botones **Aceptar / Rechazar**. **Tab** cambia de conversación. Los **comandos** se escriben en el mismo chat (también con la tecla `/`), con el autocompletado y las sugerencias de vanilla.\n\n### El Ceitil, una moneda de verdad\n\n| Objeto | Valor |\n|---|---:|\n| Ceitil | 1 |\n| Pila de ceitiles | 10 |\n| Bolsa de ceitiles | 100 |\n\nEl efectivo son objetos; el banco guarda tu saldo. Al retirar recibes las mínimas monedas y al pagar te dan el cambio. En la mesa de trabajo una pila se deshace en 10 ceitiles y una bolsa en 10 pilas (el conversor del banco agrupa y separa las que quieras). El nombre de la moneda se puede cambiar.\n\n### Textos con formato\n\nAnuncios, mensajes de entrada y salida y notificaciones de terrenos aceptan Markdown y colores de Minecraft (`&a`, `&6`, `&#FF8800`…), con vista previa y variables como `{player}` o `{online}`.\n\n### Comandos rápidos\n\n| Comando | Qué hace |\n|---|---|\n| `/home [nombre]` · `/sethome [nombre]` · `/delhome <nombre>` | Tus lugares |\n| `/warp <nombre>` | Viajar a un warp del servidor |\n| `/tpa <jugador>` | Pedir viajar hasta un jugador |\n| `/balance` · `/pay <jugador> <cantidad>` | Dinero |\n| `/claim` · `/unclaim` · `/claims menu` | Reclamar o liberar el chunk donde estás, abrir la pantalla de terrenos |\n| `/eco give\\|take\\|set <jugador> <cantidad>` | Admin: cambiar el dinero de un jugador |\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** (el mod añade objetos y pantallas) |\n\nRequiere **Minecraft 1.21.1** y **NeoForge 21.1.265 o superior**. No necesita otros mods: los terrenos y el mapa vienen incluidos.\n\n- Configuración del servidor: `config/mochos_esenciales-server.toml` (también desde la pestaña Administración).\n- Terrenos: `config/mochos_esenciales-claims-server.toml` (los límites también desde Administración → Terrenos).\n- Mapa: `config/mochos_esenciales-clientmap-common.toml`.\n- Configuración personal: `config/mochos_esenciales-client.toml` (desde la pestaña Configuración).\n- Páginas de ayuda: `config/mochos_esenciales/help/*.md`. El orden lo da el prefijo del archivo (`01-…`) y el título, el primer encabezado. La primera vez se crean cuatro páginas de ejemplo.\n\nIdiomas: **español** e **inglés**.\n\n### Addons\n\nMods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales 0.7.0 o posterior. El mod funciona igual sin ellos. Van en el servidor y en los clientes.\n\n- **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.\n- **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.\n- **Mochos Trabajos:** pestaña Trabajos con niveles, pago en Ceitiles, misiones diarias, ventajas, ranking, eventos x2 e historial, y un editor de trabajos para el administrador.\n- **Mochos Apariencia:** pestaña Apariencia para subir skins SD y HD desde un archivo o una URL y elegir la que llevas; todos la ven.\n\n### Combina muy bien con\n\n- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1 y 0.7.0.\n- **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.\n\n### Acerca de\n\nNo está afiliado ni respaldado por los autores de Diorama.\n",
+      "description": "**Mochos Esenciales** hace con pantallas de verdad todo lo que otros mods de esenciales hacen con comandos: jugadores, grupos de amigos, lugares y warps, terrenos protegidos, una economía con monedas, banco y tienda, un chat nuevo, páginas de ayuda y un panel de administración completo, todo a un clic de tu inventario.\n\nAbre el inventario y aparece una columna de pestañas a la izquierda. Todas las pantallas se adaptan a cualquier tamaño de ventana y escala de GUI. Pensado para servidores, pero también funciona en un jugador.\n\n### Requisitos\n\n- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.7.0 junto con el mod.\n\n> **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan, y los grupos de mapa pasan a ser grupos de amigos.\n\n### Pestañas\n\n- **Inventario:** el inventario de siempre, con las pestañas al lado y **tus estadísticas** a la izquierda (dinero, tiempo de juego, muertes, lugares, terrenos…).\n- **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima. El mapa muestra los terrenos, lo que exploraron los demás, los **waypoints compartidos** y a los **jugadores lejanos** de tus grupos. En Configuración eliges si ver los terrenos en el mapa y en el minimapa, y si compartir tu ubicación y lo que exploras. Cada waypoint se puede dejar **privado**, hacer **público** o compartir con **uno de tus grupos** desde su propia pantalla.\n- **Terrenos:** reclama y protege chunks desde un mapa del terreno real: clic o arrastrar para reclamar o liberar, varios terrenos con nombre, amigos con plantillas y permisos uno a uno, permisos públicos, **notificaciones de bienvenida y despedida** con formato y una **alarma de visitantes** para el dueño y los miembros. Tecla **G** o `/claims menu`.\n- **Jugadores:** conectados, buscador y orden por cercanía o alfabético. Chat directo, solicitudes de viaje e invitaciones a grupos. **Bloquea** los mensajes directos o las solicitudes de viaje de quien quieras. **Grupos de amigos**: crear, invitar, expulsar, renombrar, elegir color y salir. Una **brújula** arriba de la pantalla muestra a los miembros de tus grupos con su cabeza, nombre y distancia.\n- **Viajes:** warps del servidor (con nombre, icono y descripción opcionales) y tus lugares (nombre, mundo y coordenadas), que puedes **compartir** como públicos o con cada uno de tus grupos. Debajo de «Mis lugares» salen los lugares de tus grupos y los públicos, con un buscador que filtra todos. Clic o botón para viajar; mover, renombrar y eliminar en un desplegable. Precio y espera por tipo de viaje.\n- **Economía:** banco (consignar, retirar, transferir con sugerencias de jugadores, ranura para consignar y casillas para **agrupar o separar monedas**), tienda con buscador por objeto o vendedor, vender tus objetos y **Mi tienda**: tus anuncios con su propio inventario de stock y el **historial de ventas**. El admin lleva una **tienda del servidor** con stock infinito que también puede comprar a los jugadores.\n- **Ayuda:** páginas escritas por el admin en **Markdown**: títulos, negrita, cursiva, tachado, código, listas (anidadas y de tareas), citas, tablas, enlaces e imágenes desde URL (PNG, JPG, GIF) con el ancho que quieras (`{width=120}`). Editor en el juego con vista previa.\n- **Configuración:** quién puede pedirte viajes, escribirte o invitarte (todos, solo amigos o nadie), aceptar solo los viajes de amigos, ocultar tu distancia, avisos de pagos, sonido y volumen de cada chat, notificaciones, el aspecto del chat (hora, líneas, ancho, opacidad y duración), cerrar el chat al enviar un mensaje o un comando, tu dinero junto a la barra rápida, tus estadísticas junto al inventario y las opciones del **mapa** y de la **brújula**.\n- **Administración** (solo operadores): activar o desactivar cada módulo (también Terrenos y Mapa), precios y esperas de viajes, lugares por jugador, límites de terrenos (chunks, terrenos y amigos), dinero inicial, comisión de la tienda, límites del chat e historial de mensajes directos; **difusión** de anuncios (en el chat, como título o como notificación, para todos o algunos jugadores, al momento o cada N minutos); **textos** del servidor (mensajes de entrada, salida y bienvenida, nombre de la moneda); **orden de las pestañas**; dificultad, PvP, MOTD y reglas del juego; porcentaje de jugadores durmiendo para pasar la noche, con un amanecer animado; baneos (también temporales) y lista blanca. Por jugador: estadísticas (con dinero), ver su inventario y cofre de ender, ir o traer, curar, modo de juego, silenciar en el chat global, expulsar, banear, sumar o fijar dinero y **su propia configuración** de viajes y terrenos (precios, esperas, lugares y límites distintos a los del servidor). Un **modo admin global** que se enciende y apaga con un switch, para ver el servidor como un jugador normal.\n\n### Un chat nuevo\n\nSustituye al chat de vanilla (**T**) y ocupa solo la esquina inferior izquierda. Pestañas **Global, Grupos y Directos** con sus no leídos: al pasar el ratón cada una despliega sus conversaciones. Los directos se quitan de la lista sin perder el historial, que guarda el servidor. Mensajes con formato Markdown y enlaces clicables, notificaciones emergentes y sonido por tipo de chat. Las solicitudes de viaje y las invitaciones a grupos llegan al chat directo con botones **Aceptar / Rechazar**. **Tab** cambia de conversación. Al dormir se abre este chat con el botón «Salir de la cama». Los **comandos** se escriben en el mismo chat (también con la tecla `/`), con el autocompletado y las sugerencias de vanilla.\n\n### El Ceitil, una moneda de verdad\n\n| Objeto | Valor |\n|---|---:|\n| Ceitil | 1 |\n| Pila de ceitiles | 10 |\n| Bolsa de ceitiles | 100 |\n\nEl efectivo son objetos; el banco guarda tu saldo. Al retirar recibes las mínimas monedas y al pagar te dan el cambio. En la mesa de trabajo una pila se deshace en 10 ceitiles y una bolsa en 10 pilas (el conversor del banco agrupa y separa las que quieras). El nombre de la moneda se puede cambiar.\n\n### Textos con formato\n\nAnuncios, mensajes de entrada y salida y notificaciones de terrenos aceptan Markdown y colores de Minecraft (`&a`, `&6`, `&#FF8800`…), con vista previa y variables como `{player}` o `{online}`.\n\n### Comandos rápidos\n\n| Comando | Qué hace |\n|---|---|\n| `/home [nombre]` · `/sethome [nombre]` · `/delhome <nombre>` | Tus lugares |\n| `/warp <nombre>` | Viajar a un warp del servidor |\n| `/tpa <jugador>` | Pedir viajar hasta un jugador |\n| `/balance` · `/pay <jugador> <cantidad>` | Dinero |\n| `/claim` · `/unclaim` · `/claims menu` | Reclamar o liberar el chunk donde estás, abrir la pantalla de terrenos |\n| `/eco give\\|take\\|set <jugador> <cantidad>` | Admin: cambiar el dinero de un jugador |\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** (el mod añade objetos y pantallas) |\n\nRequiere **Minecraft 1.21.1** y **NeoForge 21.1.265 o superior**. No necesita otros mods: los terrenos y el mapa vienen incluidos.\n\n- Configuración del servidor: `config/mochos_esenciales-server.toml` (también desde la pestaña Administración).\n- Terrenos: `config/mochos_esenciales-claims-server.toml` (los límites también desde Administración → Terrenos).\n- Mapa: `config/mochos_esenciales-clientmap-common.toml`.\n- Configuración personal: `config/mochos_esenciales-client.toml` (desde la pestaña Configuración).\n- Páginas de ayuda: `config/mochos_esenciales/help/*.md`. El orden lo da el prefijo del archivo (`01-…`) y el título, el primer encabezado. La primera vez se crean cuatro páginas de ejemplo.\n\nIdiomas: **español** e **inglés**.\n\n### Addons\n\nMods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.8.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.\n\n- **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.\n- **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.\n- **Mochos Trabajos:** pestaña Trabajos con niveles, pago en Ceitiles, misiones diarias, ventajas, ranking, eventos x2 e historial, y un editor de trabajos para el administrador.\n- **Mochos Apariencia:** pestaña Apariencia para subir skins SD y HD desde un archivo o una URL y elegir la que llevas; todos la ven. Con Mochos Cédula, también tus skins de Mochos.\n- **Mochos Tareas:** una lista de tareas por grupo de amigos, con categorías, responsables y estados, y tareas fijadas en pantalla, bajo el Tab o junto al inventario.\n- **Mochos Tiempo:** límite de tiempo de juego por día, con hora de recarga y excepciones por jugador.\n\n### Combina muy bien con\n\n- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1 y 0.7.0.\n- **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.\n\n### Acerca de\n\nNo está afiliado ni respaldado por los autores de Diorama.\n",
       "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/icon.png",
       "gallery": [
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/01-inventario-pestanas.webp",
@@ -702,6 +768,8 @@
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/06-chat-grupo.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/07-chat-directos.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/09-viajes-warps-y-lugares.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/44-viajes-lugares-compartidos.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/45-viajes-buscador.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/11-economia-tienda.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/12-economia-banco.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/27-economia-historial-de-ventas.webp",
@@ -719,7 +787,11 @@
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/39-mapa-jugador-lejano.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/40-waypoint-compartir-grupo.webp",
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/41-mapa-waypoint-compartido.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/38-configuracion-mapa.webp"
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/38-configuracion-mapa.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/43-brujula-grupo.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/46-configuracion-brujula.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/47-admin-sueno.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/48-dormir-chat-del-mod.webp"
       ],
       "ogImage": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/og-image.jpg",
       "tags": [
@@ -739,6 +811,30 @@
       "updatedAt": "2026-11-04",
       "offer": false,
       "builds": [
+        {
+          "version": "0.8.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.8.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.8.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "45fd91ed087d510ca38e70ed6e5b7dcc87b22725",
+          "size": 835678,
+          "date": "2026-11-04",
+          "changelog": "- **Brújula** arriba de la pantalla con los miembros de tus grupos (cabeza, nombre y distancia); cada parte se activa por separado en Configuración → Brújula.\n- **Lugares compartidos:** tus lugares se comparten como públicos o con cada grupo. Debajo de «Mis lugares» salen listas desplegables por grupo y de lugares públicos, con un buscador que filtra todas.\n- **Administración → General:** porcentaje de jugadores durmiendo para pasar la noche y segundos del amanecer animado.\n- Al dormir se abre el chat del mod (con «Salir de la cama») en lugar del de vanilla.\n- Botones − y + en los valores numéricos.\n- Más posibilidades para los addons: grupos, elementos junto al dinero, paneles junto al inventario y la lista de jugadores.\n- Addons nuevos: **Mochos Tareas** y **Mochos Tiempo**. **Mochos Apariencia** 0.2.0, **Mochos Tablist** 0.1.1 y **Mochos Acciones Rápidas** 0.1.1 necesitan esta versión.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
         {
           "version": "0.7.0",
           "minecraft": [
@@ -842,7 +938,7 @@
       "kind": "mod",
       "name": "Mochos Tablist",
       "summary": "Addon de Mochos Esenciales: diseña la lista de jugadores (Tab) de tu servidor desde el juego, con fondo, borde, imagen, cabecera, pie y cómo se ve cada jugador, con vista previa en vivo.",
-      "description": "**Mochos Tablist** es un addon de [Mochos Esenciales](https://mochos.xyz) para diseñar la lista de jugadores que se abre con **Tab**, desde el juego y sin tocar archivos.\n\nEl administrador la edita en **Administración → Tablist** con una vista previa en vivo, y al guardar todos los jugadores la ven igual.\n\n### Características\n\n- **Panel:** color de fondo, opacidad, grosor y color del borde, esquinas redondeadas y relleno.\n- **Imagen de fondo** e **imagen de cabecera** desde una URL (PNG o JPG, hasta 8 MiB), por ejemplo el logo de tu servidor.\n- **Cabecera y pie** con varias líneas, colores (`&a`, `&#FF8800`) y variables: `{online}`, `{max}`, `{player}`, `{server}` o `{motd}`, `{ping}`, `{tps}`, `{mspt}`, `{time}`, `{day}` y `{clock}`.\n- **Jugadores:** cabeza de la skin, vida, ping, modo de juego, colores, orden (por ejemplo, admins primero) y columnas con un máximo de filas.\n- **Vista previa con jugadores de ejemplo** para probar columnas y filas (solo la ve el administrador).\n- Si la cabecera o el pie están vacíos se muestran los del servidor, como en la lista normal. Se puede volver a la lista de Minecraft con un switch.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** |\n\nRequiere **Mochos Esenciales 0.7.0 o posterior**: instálalo antes desde esta misma sección. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.\n\n### Otros addons de Mochos Esenciales\n\n- **Mochos Acciones Rápidas:** rueda de acciones con una tecla.\n- **Mochos Trabajos:** trabajos con niveles, pago en Ceitiles y misiones diarias.\n- **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.\n",
+      "description": "**Mochos Tablist** es un addon de [Mochos Esenciales](https://mochos.xyz) para diseñar la lista de jugadores que se abre con **Tab**, desde el juego y sin tocar archivos.\n\nEl administrador la edita en **Administración → Tablist** con una vista previa en vivo, y al guardar todos los jugadores la ven igual.\n\n### Características\n\n- **Panel:** color de fondo, opacidad, grosor y color del borde, esquinas redondeadas y relleno.\n- **Imagen de fondo** e **imagen de cabecera** desde una URL (PNG o JPG, hasta 8 MiB), por ejemplo el logo de tu servidor.\n- **Cabecera y pie** con varias líneas, colores (`&a`, `&#FF8800`) y variables: `{online}`, `{max}`, `{player}`, `{server}` o `{motd}`, `{ping}`, `{tps}`, `{mspt}`, `{time}`, `{day}` y `{clock}`.\n- **Jugadores:** cabeza de la skin, vida, ping, modo de juego, colores, orden (por ejemplo, admins primero) y columnas con un máximo de filas.\n- **Vista previa con jugadores de ejemplo** para probar columnas y filas (solo la ve el administrador).\n- Si la cabecera o el pie están vacíos se muestran los del servidor, como en la lista normal. Se puede volver a la lista de Minecraft con un switch.\n- Con **Mochos Tareas**, las tareas fijadas se ven justo debajo de la lista.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** |\n\nRequiere **Mochos Esenciales 0.8.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.\n\n### Otros addons de Mochos Esenciales\n\n- **Mochos Acciones Rápidas:** rueda de acciones con una tecla.\n- **Mochos Trabajos:** trabajos con niveles, pago en Ceitiles y misiones diarias.\n- **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.\n- **Mochos Tareas:** listas de tareas para tus grupos de amigos.\n- **Mochos Tiempo:** límite de tiempo de juego por día.\n",
       "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tablist/icon.png",
       "gallery": [
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tablist/images/22-tablist.webp",
@@ -871,6 +967,30 @@
       "offer": false,
       "builds": [
         {
+          "version": "0.1.1",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_tablist-0.1.1-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tablist/builds/mochos_tablist-0.1.1-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "b4c3f6a96b4cf6c500dd5694e87456bbd1bd6a6c",
+          "size": 86796,
+          "date": "2026-11-04",
+          "changelog": "Necesita Mochos Esenciales 0.8.0 o posterior.\n\n- Avisa a los demás addons de dónde termina la lista de jugadores, para que Mochos Tareas muestre las tareas fijadas justo debajo.",
+          "dependencies": [
+            {
+              "source": "mochos",
+              "project": "mochos_esenciales",
+              "version": "0.8.0",
+              "name": "Mochos Esenciales"
+            }
+          ]
+        },
+        {
           "version": "0.1.0",
           "minecraft": [
             "1.21.1"
@@ -884,7 +1004,130 @@
           "sha1": "715bbd94c6c1e1778a6c19d64a3b5e165d94b635",
           "size": 86729,
           "date": "2026-11-04",
-          "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Editor de la lista de jugadores en Administración → Tablist, con vista previa en vivo y jugadores de ejemplo.\n- Fondo, opacidad, borde, esquinas e imagen de fondo.\n- Imagen y textos de cabecera y pie con colores y variables (`{online}`, `{max}`, `{player}`, `{server}`, `{ping}`, `{tps}`, `{time}`, `{day}`…).\n- Cómo se ve cada jugador: cabeza, vida, ping, modo de juego, colores, orden y columnas.\n- Los cambios se aplican a todos al guardar."
+          "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Editor de la lista de jugadores en Administración → Tablist, con vista previa en vivo y jugadores de ejemplo.\n- Fondo, opacidad, borde, esquinas e imagen de fondo.\n- Imagen y textos de cabecera y pie con colores y variables (`{online}`, `{max}`, `{player}`, `{server}`, `{ping}`, `{tps}`, `{time}`, `{day}`…).\n- Cómo se ve cada jugador: cabeza, vida, ping, modo de juego, colores, orden y columnas.\n- Los cambios se aplican a todos al guardar.",
+          "dependencies": [
+            {
+              "source": "mochos",
+              "project": "mochos_esenciales",
+              "version": "0.7.0",
+              "name": "Mochos Esenciales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mochos_tareas",
+      "kind": "mod",
+      "name": "Mochos Tareas",
+      "summary": "Addon de Mochos Esenciales: una lista de tareas para cada grupo de amigos. Crea tareas por categorías, asígnalas, márcalas pendiente, en progreso o terminada y fija las que quieras ver en pantalla, bajo el Tab o junto al inventario.",
+      "description": "**Mochos Tareas** es un addon de [Mochos Esenciales](https://mochos.xyz) para organizar lo que tu grupo tiene que hacer sin salir del juego. Añade la pestaña **Tareas**: una lista compartida por cada grupo de amigos, con responsables, estados y las tareas que te importan siempre a la vista.\n\nLas tareas son de los **grupos** de la pestaña Jugadores: si estás en varios grupos, cada uno tiene su lista.\n\n### Características\n\n- **Una lista por grupo:** a la izquierda tus grupos con su progreso («1 de 7 terminadas»); a la derecha, sus tareas con su estado y a quién están asignadas.\n- **Categorías:** escribe `categoría/tarea` (por ejemplo `Casa/Ventanas`) y la tarea entra en una lista desplegable con su contador de terminadas.\n- **Quién hace qué:** cualquier miembro crea tareas y edita las suyas. El **dueño del grupo** las asigna a uno o varios jugadores o a **todo el grupo**, las edita, las ordena con **Subir / Bajar**, las elimina y puede quitar todas las terminadas de una vez.\n- **Tres estados:** pendiente, en progreso y terminada. Los asignados los cambian con un clic; las terminadas aparecen tachadas.\n- **Avisos:** quien recibe una tarea nueva ve un aviso con sonido, y el dueño se entera cuando alguien termina una.\n- **Filtros y buscador:** todas o solo las tuyas, por estado, ocultar terminadas y búsqueda por tarea o categoría.\n- **Tareas fijadas:** fija con el alfiler las tareas que quieres tener a la vista y elige en **Configuración → Tareas fijadas** dónde verlas: **debajo de la lista de jugadores (Tab)**, en un **recuadro a la derecha de la pantalla** y/o **a la derecha del inventario**. Se actualizan al momento cuando alguien cambia su estado.\n\nHasta 300 tareas por grupo; nombres de hasta 80 caracteres y categorías de hasta 32. Las tareas se guardan con el mundo.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** |\n\nRequiere **Mochos Esenciales 0.8.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.\n\n### Otros addons de Mochos Esenciales\n\n- **Mochos Tablist:** diseña la lista de jugadores del servidor (las tareas fijadas se ven justo debajo).\n- **Mochos Acciones Rápidas:** rueda de acciones con una tecla.\n- **Mochos Trabajos:** trabajos con niveles, pago en Ceitiles y misiones diarias.\n- **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.\n- **Mochos Tiempo:** límite de tiempo de juego por día.\n",
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tareas/icon.png",
+      "gallery": [
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tareas/images/50-tareas-lista.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tareas/images/51-tareas-fijadas-hud.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tareas/images/52-tareas-bajo-tab.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tareas/images/54-inventario-tareas-y-tiempo.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tareas/images/53-tareas-configuracion.webp"
+      ],
+      "ogImage": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tareas/og-image.jpg",
+      "tags": [
+        "Addon",
+        "Social",
+        "Servidores"
+      ],
+      "authors": [
+        "lorspi"
+      ],
+      "links": {
+        "website": "https://mochos.xyz"
+      },
+      "featured": false,
+      "dev": false,
+      "updatedAt": "2026-11-04",
+      "offer": false,
+      "builds": [
+        {
+          "version": "0.1.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_tareas-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tareas/builds/mochos_tareas-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "29f134380887a7a9cd0f9cd5597a5b79f48482d8",
+          "size": 58962,
+          "date": "2026-11-04",
+          "changelog": "Primera versión. Necesita Mochos Esenciales 0.8.0 o posterior.\n\n- Pestaña **Tareas** con una lista de tareas por cada grupo de amigos.\n- Cualquier miembro crea tareas; `categoría/tarea` las agrupa en listas desplegables.\n- El dueño del grupo las asigna a jugadores o a todo el grupo, las reordena y las borra; los asignados las marcan pendiente, en progreso o terminada.\n- Filtros, buscador y avisos al asignar y al terminar.\n- **Tareas fijadas:** debajo de la lista de jugadores (Tab), en un recuadro a la derecha de la pantalla y/o a la derecha del inventario, cada lugar con su interruptor en Configuración.",
+          "dependencies": [
+            {
+              "source": "mochos",
+              "project": "mochos_esenciales",
+              "version": "0.8.0",
+              "name": "Mochos Esenciales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mochos_tiempo",
+      "kind": "mod",
+      "name": "Mochos Tiempo",
+      "summary": "Addon de Mochos Esenciales: límite de tiempo de juego por día. Minutos diarios, hora de recarga y excepciones desde el panel de administración; el jugador ve su tiempo restante y, al acabarse, no puede volver a entrar hasta la recarga.",
+      "description": "**Mochos Tiempo** es un addon de [Mochos Esenciales](https://mochos.xyz) que pone un **límite de tiempo de juego por día**, pensado para servidores de familia, de clase o de amigos. Cada jugador tiene unos minutos al día, ve cuánto le queda y, cuando se acaba, sale del servidor hasta la hora de recarga.\n\n### Para los administradores\n\nEn **Administración → Tiempo de juego**:\n\n- **Límite activo** y **tiempo por día** (120 minutos por defecto).\n- **Hora y minuto de recarga** (00:00 por defecto, hora del servidor): a esa hora todos vuelven a tener su tiempo completo.\n- **Pausar el conteo para todos** y **reiniciar el tiempo de todos**.\n- **Los operadores no tienen límite** (activado por defecto).\n- **Lista de jugadores** con lo que le queda a cada uno. Con **Editar**, por jugador: excluirlo del límite, darle un tiempo por día propio, ver y cambiar su tiempo jugado hoy o su tiempo restante, y reiniciar su tiempo de hoy.\n\nLos tiempos se guardan en el mundo, así que se conservan aunque se reinicie el servidor.\n\n### Para los jugadores\n\n- **Tu tiempo restante** junto al dinero, al lado de la barra rápida, y en un panel a la derecha del inventario con una barra y la hora de recarga. En **Configuración → Tiempo de juego** eliges verlo siempre o solo en el inventario.\n- En los últimos 5 minutos el tiempo se pone naranja; en el **último minuto** llega un aviso y el tiempo **parpadea en rojo**. Con el conteo en pausa se ve en gris.\n- Al llegar a cero, el jugador **sale del servidor** con un mensaje que dice a qué hora podrá volver. Si intenta entrar antes, la entrada se rechaza con el mismo aviso.\n\n### Comandos (operadores)\n\n| Comando | Qué hace |\n|---|---|\n| `/tiempo pausar` · `/tiempo reanudar` | Pausar o reanudar el conteo para todos |\n| `/tiempo limite <minutos>` | Cambiar el tiempo por día (0 a 1440) |\n| `/tiempo reiniciar [jugador]` | Reiniciar el tiempo de hoy de todos o de un jugador |\n| `/tiempo restante <jugador> <segundos>` | Fijar el tiempo que le queda hoy a un jugador |\n| `/tiempo excluir <jugador> <true\\|false>` | Excluir a un jugador del límite o volver a incluirlo |\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** |\n\nRequiere **Mochos Esenciales 0.8.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.\n\n### Otros addons de Mochos Esenciales\n\n- **Mochos Tablist:** diseña la lista de jugadores del servidor.\n- **Mochos Acciones Rápidas:** rueda de acciones con una tecla.\n- **Mochos Trabajos:** trabajos con niveles, pago en Ceitiles y misiones diarias.\n- **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.\n- **Mochos Tareas:** listas de tareas para tus grupos de amigos.\n",
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tiempo/icon.png",
+      "gallery": [
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tiempo/images/55-tiempo-admin.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tiempo/images/56-tiempo-jugador.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tiempo/images/57-tiempo-ultimo-minuto.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tiempo/images/54-inventario-tareas-y-tiempo.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tiempo/images/58-tiempo-expulsado.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tiempo/images/59-tiempo-entrada-rechazada.webp"
+      ],
+      "ogImage": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tiempo/og-image.jpg",
+      "tags": [
+        "Addon",
+        "Administración",
+        "Servidores"
+      ],
+      "authors": [
+        "lorspi"
+      ],
+      "links": {
+        "website": "https://mochos.xyz"
+      },
+      "featured": false,
+      "dev": false,
+      "updatedAt": "2026-11-04",
+      "offer": false,
+      "builds": [
+        {
+          "version": "0.1.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_tiempo-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_tiempo/builds/mochos_tiempo-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "eb1e2a58d4ec78983e594c51331fe8547b9269f6",
+          "size": 39000,
+          "date": "2026-11-04",
+          "changelog": "Primera versión. Necesita Mochos Esenciales 0.8.0 o posterior.\n\n- Límite de tiempo de juego por día en **Administración → Tiempo de juego**: activar, minutos por día, hora de recarga, pausar o reiniciar el conteo para todos y operadores sin límite.\n- Por jugador: excluirlo, darle su propio límite y ver o editar su tiempo jugado o restante.\n- El jugador ve su tiempo junto al dinero o solo en el inventario; en el último minuto recibe un aviso y el tiempo parpadea en rojo.\n- Al acabarse sale del servidor y no puede volver a entrar hasta la hora de recarga (el aviso dice a qué hora). Los tiempos se guardan en el mundo.\n- Comando `/tiempo`.",
+          "dependencies": [
+            {
+              "source": "mochos",
+              "project": "mochos_esenciales",
+              "version": "0.8.0",
+              "name": "Mochos Esenciales"
+            }
+          ]
         }
       ]
     },
@@ -893,7 +1136,7 @@
       "kind": "mod",
       "name": "Mochos Trabajos",
       "summary": "Addon de Mochos Esenciales: trabajos con niveles y pago en Ceitiles, misiones diarias, ventajas por nivel, ranking, eventos x2 e historial, con su propia pestaña y un editor para el administrador.",
-      "description": "**Mochos Trabajos** es un addon de [Mochos Esenciales](https://mochos.xyz) con el clásico sistema de trabajos de los servidores, pero con una interfaz de verdad: una pestaña **Trabajos** donde ves cuánto ganas, qué te paga cada cosa, tus misiones y tu progreso.\n\nÚnete a un trabajo, juega como siempre y cobra en **Ceitiles** directo a tu banco mientras subes de nivel.\n\n### Trabajos\n\nMinero, Leñador, Agricultor, Cazador, Pescador, Constructor, Herrero y Encantador vienen listos para usar; Explorador (paga por cada chunk nuevo que pisas, más en biomas raros) viene desactivado. El administrador puede activarlos, cambiarlos o crear los suyos.\n\n### La pestaña Trabajos\n\n- **Resumen:** nivel, XP, lo ganado hoy frente al límite diario, bonus de nivel y multiplicadores activos.\n- **Qué paga:** cuánto te da cada acción a tu nivel, con tus ventajas y el evento activo.\n- **Misiones diarias** con recompensas extra que van a tu banco (cuentan aunque hayas llegado al límite diario).\n- **Ventajas por nivel:** prisa minera, más pago, más experiencia, botín doble…\n- **Ranking** de jugadores e **historial** de los últimos 14 días con gráfico.\n- Ganancias junto a la mira mientras trabajas y sonido al subir de nivel (se pueden cambiar en Configuración).\n\n### Juego limpio\n\nNo se paga por romper bloques colocados por jugadores, por criaturas de generadores o huevos, ni en creativo. Repetir lo mismo en el mismo chunk paga cada vez menos. Hay un número máximo de trabajos y una espera para cambiar.\n\n### Para el administrador\n\n- **Administración → Trabajos:** editor de cada trabajo (nombre, icono, color, acciones con su XP y pago, misiones y ventajas).\n- **Eventos** de pago o XP x2 para todos durante un tiempo; al empezar y terminar se avisa a todos.\n- Los trabajos se guardan en `config/mochos_trabajos/jobs.json` (también se pueden editar a mano y recargar).\n- Comandos: `/trabajos` (o `/jobs`) `unirse` · `dejar`, y para admins `admin xp|nivel|unir|misiones|dia|evento|recargar`.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** |\n\nRequiere **Mochos Esenciales 0.7.0 o posterior**: instálalo antes desde esta misma sección. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.\n\n### Otros addons de Mochos Esenciales\n\n- **Mochos Tablist:** diseña la lista de jugadores del servidor.\n- **Mochos Acciones Rápidas:** rueda de acciones con una tecla.\n- **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.\n",
+      "description": "**Mochos Trabajos** es un addon de [Mochos Esenciales](https://mochos.xyz) con el clásico sistema de trabajos de los servidores, pero con una interfaz de verdad: una pestaña **Trabajos** donde ves cuánto ganas, qué te paga cada cosa, tus misiones y tu progreso.\n\nÚnete a un trabajo, juega como siempre y cobra en **Ceitiles** directo a tu banco mientras subes de nivel.\n\n### Trabajos\n\nMinero, Leñador, Agricultor, Cazador, Pescador, Constructor, Herrero y Encantador vienen listos para usar; Explorador (paga por cada chunk nuevo que pisas, más en biomas raros) viene desactivado. El administrador puede activarlos, cambiarlos o crear los suyos.\n\n### La pestaña Trabajos\n\n- **Resumen:** nivel, XP, lo ganado hoy frente al límite diario, bonus de nivel y multiplicadores activos.\n- **Qué paga:** cuánto te da cada acción a tu nivel, con tus ventajas y el evento activo.\n- **Misiones diarias** con recompensas extra que van a tu banco (cuentan aunque hayas llegado al límite diario).\n- **Ventajas por nivel:** prisa minera, más pago, más experiencia, botín doble…\n- **Ranking** de jugadores e **historial** de los últimos 14 días con gráfico.\n- Ganancias junto a la mira mientras trabajas y sonido al subir de nivel (se pueden cambiar en Configuración).\n\n### Juego limpio\n\nNo se paga por romper bloques colocados por jugadores, por criaturas de generadores o huevos, ni en creativo. Repetir lo mismo en el mismo chunk paga cada vez menos. Hay un número máximo de trabajos y una espera para cambiar.\n\n### Para el administrador\n\n- **Administración → Trabajos:** editor de cada trabajo (nombre, icono, color, acciones con su XP y pago, misiones y ventajas).\n- **Eventos** de pago o XP x2 para todos durante un tiempo; al empezar y terminar se avisa a todos.\n- Los trabajos se guardan en `config/mochos_trabajos/jobs.json` (también se pueden editar a mano y recargar).\n- Comandos: `/trabajos` (o `/jobs`) `unirse` · `dejar`, y para admins `admin xp|nivel|unir|misiones|dia|evento|recargar`.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** |\n\nRequiere **Mochos Esenciales 0.7.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.\n\n### Otros addons de Mochos Esenciales\n\n- **Mochos Tablist:** diseña la lista de jugadores del servidor.\n- **Mochos Acciones Rápidas:** rueda de acciones con una tecla.\n- **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.\n- **Mochos Tareas:** listas de tareas para tus grupos de amigos.\n- **Mochos Tiempo:** límite de tiempo de juego por día.\n",
       "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_trabajos/icon.png",
       "gallery": [
         "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_trabajos/images/05-trabajos.webp",
@@ -937,7 +1180,15 @@
           "sha1": "bf3856f91b2905156b46e9cd467f89b4dfb4087f",
           "size": 196836,
           "date": "2026-11-04",
-          "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Pestaña **Trabajos**: Resumen, Qué paga, Misiones, Ventajas, Ranking e Historial de 14 días.\n- Trabajos con niveles y experiencia; el pago en Ceitiles va directo al banco, con límite diario.\n- Misiones diarias con recompensa extra y ventajas al subir de nivel.\n- Juego limpio: no se paga por bloques colocados por jugadores, criaturas de generadores o huevos, ni en creativo, y repetir lo mismo en el mismo chunk paga cada vez menos.\n- Administración → Trabajos: editor de trabajos, acciones y ventajas, y eventos de pago o XP x2 para todos.\n- Comando `/trabajos` (también `/jobs`). Configuración en `config/mochos_trabajos/`."
+          "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Pestaña **Trabajos**: Resumen, Qué paga, Misiones, Ventajas, Ranking e Historial de 14 días.\n- Trabajos con niveles y experiencia; el pago en Ceitiles va directo al banco, con límite diario.\n- Misiones diarias con recompensa extra y ventajas al subir de nivel.\n- Juego limpio: no se paga por bloques colocados por jugadores, criaturas de generadores o huevos, ni en creativo, y repetir lo mismo en el mismo chunk paga cada vez menos.\n- Administración → Trabajos: editor de trabajos, acciones y ventajas, y eventos de pago o XP x2 para todos.\n- Comando `/trabajos` (también `/jobs`). Configuración en `config/mochos_trabajos/`.",
+          "dependencies": [
+            {
+              "source": "mochos",
+              "project": "mochos_esenciales",
+              "version": "0.7.0",
+              "name": "Mochos Esenciales"
+            }
+          ]
         }
       ]
     }

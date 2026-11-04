@@ -20,12 +20,26 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_acciones-0.1.1-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-04",
+      "changelog": "Necesita Mochos Esenciales 0.8.0 o posterior.\n\n- «Cambiar de skin» también lista tus skins de Mochos cuando están instalados Mochos Apariencia 0.2.0 y Mochos Cédula.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.8.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_acciones-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",
       "minecraft": ["1.21.1"],
       "loader": { "type": "neoforge", "minVersion": "21.1.265" },
       "date": "2026-11-04",
-      "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Rueda radial al mantener **Z**: se suelta la tecla sobre una acción para ejecutarla, o en el centro para cancelar.\n- Acciones: pestañas del mod, warps y lugares (con submenú), banco, tienda, terrenos, reclamar chunk, jugadores, cambiar de skin (con Mochos Apariencia) y comandos o mensajes propios.\n- Cada jugador elige entre 2 y 12 acciones y su orden en Configuración → Personalizar rueda, con vista previa."
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Rueda radial al mantener **Z**: se suelta la tecla sobre una acción para ejecutarla, o en el centro para cancelar.\n- Acciones: pestañas del mod, warps y lugares (con submenú), banco, tienda, terrenos, reclamar chunk, jugadores, cambiar de skin (con Mochos Apariencia) y comandos o mensajes propios.\n- Cada jugador elige entre 2 y 12 acciones y su orden en Configuración → Personalizar rueda, con vista previa.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.7.0", "name": "Mochos Esenciales" }
+      ]
     }
   ]
 }

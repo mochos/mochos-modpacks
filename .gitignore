@@ -5,3 +5,4 @@ node_modules/
 .env
 *.chuspa
 notas.md
+index-preview.json

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_tareas",
+  "name": "Mochos Tareas",
+  "summary": "Addon de Mochos Esenciales: una lista de tareas para cada grupo de amigos. Crea tareas por categorías, asígnalas, márcalas pendiente, en progreso o terminada y fija las que quieras ver en pantalla, bajo el Tab o junto al inventario.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/50-tareas-lista.webp",
+    "images/51-tareas-fijadas-hud.webp",
+    "images/52-tareas-bajo-tab.webp",
+    "images/54-inventario-tareas-y-tiempo.webp",
+    "images/53-tareas-configuracion.webp"
+  ],
+  "tags": ["Addon", "Social", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_tareas-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-04",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.8.0 o posterior.\n\n- Pestaña **Tareas** con una lista de tareas por cada grupo de amigos.\n- Cualquier miembro crea tareas; `categoría/tarea` las agrupa en listas desplegables.\n- El dueño del grupo las asigna a jugadores o a todo el grupo, las reordena y las borra; los asignados las marcan pendiente, en progreso o terminada.\n- Filtros, buscador y avisos al asignar y al terminar.\n- **Tareas fijadas:** debajo de la lista de jugadores (Tab), en un recuadro a la derecha de la pantalla y/o a la derecha del inventario, cada lugar con su interruptor en Configuración.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.8.0", "name": "Mochos Esenciales" }
+      ]
+    }
+  ]
+}
