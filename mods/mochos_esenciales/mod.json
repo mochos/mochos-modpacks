@@ -8,6 +8,7 @@
   "ogImage": "og-image.jpg",
   "gallery": [
     "images/01-inventario-pestanas.webp",
+    "images/01-pestanas-addons.webp",
     "images/03-jugadores-y-grupos.webp",
     "images/05-chat-global.webp",
     "images/06-chat-grupo.webp",
@@ -37,6 +38,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.7.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.7.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-04",
+      "changelog": "- **Soporte para addons:** mods aparte que añaden pestañas laterales (también en el orden de pestañas del admin), secciones en Administración y en Configuración, y usan la economía del mod. El mod sigue funcionando igual sin addons.\n- Primeros addons, que se instalan aparte desde esta misma sección: **Mochos Tablist**, **Mochos Acciones Rápidas**, **Mochos Trabajos** y **Mochos Apariencia**. Necesitan Mochos Esenciales 0.7.0 o posterior.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.6.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.6.0",

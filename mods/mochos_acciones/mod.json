@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_acciones",
+  "name": "Mochos Acciones Rápidas",
+  "summary": "Addon de Mochos Esenciales: una rueda de acciones al mantener Z para ir a warps y lugares, abrir el mapa, el banco o los terrenos, cambiar de skin o lanzar tus propios comandos.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/12-rueda.webp",
+    "images/14-lugares.webp",
+    "images/40-rueda-cambiar-skin.webp",
+    "images/41-rueda-submenu-skins.webp",
+    "images/34-editor-rueda.webp",
+    "images/33-config.webp"
+  ],
+  "tags": ["Addon", "Utilidad", "Interfaz"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_acciones-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-04",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Rueda radial al mantener **Z**: se suelta la tecla sobre una acción para ejecutarla, o en el centro para cancelar.\n- Acciones: pestañas del mod, warps y lugares (con submenú), banco, tienda, terrenos, reclamar chunk, jugadores, cambiar de skin (con Mochos Apariencia) y comandos o mensajes propios.\n- Cada jugador elige entre 2 y 12 acciones y su orden en Configuración → Personalizar rueda, con vista previa."
+    }
+  ]
+}

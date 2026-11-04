@@ -66,6 +66,15 @@ Requiere **Minecraft 1.21.1** y **NeoForge 21.1.265 o superior**. No necesita ot
 
 Idiomas: **español** e **inglés**.
 
+### Addons
+
+Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales 0.7.0 o posterior. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
+
+- **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.
+- **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.
+- **Mochos Trabajos:** pestaña Trabajos con niveles, pago en Ceitiles, misiones diarias, ventajas, ranking, eventos x2 e historial, y un editor de trabajos para el administrador.
+- **Mochos Apariencia:** pestaña Apariencia para subir skins SD y HD desde un archivo o una URL y elegir la que llevas; todos la ven.
+
 ### Combina muy bien con
 
 - **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1 y 0.7.0.

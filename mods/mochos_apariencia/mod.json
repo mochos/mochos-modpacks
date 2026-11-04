@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_apariencia",
+  "name": "Mochos Apariencia",
+  "summary": "Addon de Mochos Esenciales: una pestaña Apariencia para subir tus skins SD y HD desde un archivo o una URL y elegir la que llevas. El servidor las guarda y todos las ven.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/35-ap-tester.webp",
+    "images/18-tras-subida.webp",
+    "images/37-amigo-ve.webp",
+    "images/42-skin-cambiada.webp",
+    "images/25-adm-apariencia.webp",
+    "images/40-rueda-cambiar-skin.webp"
+  ],
+  "tags": ["Addon", "Skins", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_apariencia-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-04",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Pestaña **Apariencia**: sube skins SD (64×64 y 64×32) y HD (hasta 1024×1024) desde un archivo, una URL o arrastrándolas a la ventana, con brazos clásicos o delgados.\n- Biblioteca de skins con vista previa del personaje; un clic para ponerte otra, o volver a la skin de Minecraft.\n- El servidor guarda las skins y todos los jugadores las ven.\n- Administración → Apariencia: skins por jugador, resolución y tamaño máximos, permitir subir desde URL y quitar la skin de un jugador.\n- Con Mochos Acciones Rápidas, cambio de skin desde la rueda."
+    }
+  ]
+}

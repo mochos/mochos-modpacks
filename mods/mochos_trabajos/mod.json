@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_trabajos",
+  "name": "Mochos Trabajos",
+  "summary": "Addon de Mochos Esenciales: trabajos con niveles y pago en Ceitiles, misiones diarias, ventajas por nivel, ranking, eventos x2 e historial, con su propia pestaña y un editor para el administrador.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/05-trabajos.webp",
+    "images/06-paga.webp",
+    "images/07-misiones.webp",
+    "images/08-ventajas.webp",
+    "images/10-historial.webp",
+    "images/11-picando.webp",
+    "images/26-adm-trabajos.webp",
+    "images/27-evento.webp",
+    "images/28-editor-trabajos.webp"
+  ],
+  "tags": ["Addon", "Economía", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_trabajos-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-04",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.7.0 o posterior.\n\n- Pestaña **Trabajos**: Resumen, Qué paga, Misiones, Ventajas, Ranking e Historial de 14 días.\n- Trabajos con niveles y experiencia; el pago en Ceitiles va directo al banco, con límite diario.\n- Misiones diarias con recompensa extra y ventajas al subir de nivel.\n- Juego limpio: no se paga por bloques colocados por jugadores, criaturas de generadores o huevos, ni en creativo, y repetir lo mismo en el mismo chunk paga cada vez menos.\n- Administración → Trabajos: editor de trabajos, acciones y ventajas, y eventos de pago o XP x2 para todos.\n- Comando `/trabajos` (también `/jobs`). Configuración en `config/mochos_trabajos/`."
+    }
+  ]
+}

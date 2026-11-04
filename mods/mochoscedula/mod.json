@@ -5,6 +5,7 @@
   "summary": "Skins de Mochos (también HD) para todos los jugadores, cambio de cuenta sin salir del juego y verificación con tu cuenta del launcher en los servidores.",
   "description": "description.md",
   "icon": "icon.png",
+  "ogImage": "og-image.jpg",
   "tags": ["Skins", "Cuentas", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
