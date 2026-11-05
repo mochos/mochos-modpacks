@@ -1,3 +1,15 @@
+## 1.4.0
+
+- Actualizado **Mochos Esenciales** a 0.9.0:
+  - añade grupos de amigos enteros a tus terrenos;
+  - los administradores guardan, cargan y comparten la configuración en archivos JSON desde Administración → Configuraciones, con una tienda de ejemplo lista para cargar.
+- Añadidos dos addons de Mochos Esenciales:
+  - **Mochos Anuncios:** un tablón de anuncios de los jugadores, con destacados, aviso a todos, botón de viaje y un tablón que se coloca en el mundo.
+  - **Mochos Misiones:** una campaña de 66 misiones que guía por todo Minecraft hasta el Dragón del End, con recompensas.
+- Actualizado **Mochos Trabajos** a 0.2.0 (se integra con las misiones).
+- Añadido **Weather Glass**: lluvia, nieve y escarcha en las ventanas (solo en el cliente).
+- Ahora son 68 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.3.0
 
 - Actualizado **Mochos Esenciales** a 0.8.0:
