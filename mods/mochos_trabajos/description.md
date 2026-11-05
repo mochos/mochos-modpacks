@@ -45,3 +45,5 @@ Requiere **Mochos Esenciales 0.9.0 o posterior**: al instalar el addon desde el 
 - **Mochos Tiempo:** límite de tiempo de juego por día.
 - **Mochos Anuncios:** tablón de anuncios de los jugadores.
 - **Mochos Misiones:** una campaña de misiones hasta el Dragón del End.
+- **Mochos Recursos:** paquetes de recursos del servidor desde el juego.
+- **Mochos Forja:** editor de items para administradores.

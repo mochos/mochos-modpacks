@@ -13,6 +13,8 @@
     "images/05-chat-global.webp",
     "images/06-chat-grupo.webp",
     "images/07-chat-directos.webp",
+    "images/55-chat-chips.webp",
+    "images/54-chat-chips-hud.webp",
     "images/09-viajes-warps-y-lugares.webp",
     "images/44-viajes-lugares-compartidos.webp",
     "images/45-viajes-buscador.webp",
@@ -25,6 +27,7 @@
     "images/20-ayuda-editor-markdown.webp",
     "images/21-configuracion.webp",
     "images/23-admin-precios-y-esperas-de-viajes.webp",
+    "images/53-admin-inventario-armadura-curios.webp",
     "images/25-terrenos-mapa.webp",
     "images/26-terrenos-miembros.webp",
     "images/51-terrenos-grupos.webp",
@@ -41,13 +44,26 @@
     "images/47-admin-sueno.webp",
     "images/48-dormir-chat-del-mod.webp",
     "images/49-admin-configuraciones.webp",
-    "images/50-admin-configuraciones-advertencia.webp"
+    "images/50-admin-configuraciones-advertencia.webp",
+    "images/56-configuracion-voice-chat.webp",
+    "images/57-voice-chat-grupos.webp"
   ],
   "tags": ["Utilidad", "Economía", "Social", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.10.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.10.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-05",
+      "changelog": "- **Administración → ver inventario:** nueva vista con la armadura y la mano secundaria en su propia columna, la barra rápida aparte y tu inventario debajo para mover items en los dos sentidos.\n- Compatible con **Curios API** (opcional): la misma vista muestra las ranuras de Curios del jugador (anillos, collar, cinturón, espalda…) y se pueden sacar o poner items.\n- Compatible con **Simple Voice Chat** (opcional): Configuración tiene un bloque con sus opciones principales (silenciar, desactivar, pulsar para hablar o por voz, volumen, umbral, supresión de ruido…) y botones para sus grupos, el volumen de cada jugador y sus ajustes.\n- **Chat:** las etiquetas de canal (Global, el nombre del grupo, los directos, «/» y los anuncios) se ven como chips de color en lugar de texto entre corchetes.\n- No se puede abrir el inventario de un jugador muerto (se avisa).\n- Más posibilidades para los addons: elegir archivos del equipo y estado de Simple Voice Chat.\n- Addons nuevos: **Mochos Recursos** y **Mochos Forja**. **Mochos Acciones Rápidas** 0.2.0 añade los atajos de Simple Voice Chat.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.9.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.9.0",

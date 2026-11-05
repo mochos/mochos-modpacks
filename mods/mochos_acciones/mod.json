@@ -12,13 +12,26 @@
     "images/40-rueda-cambiar-skin.webp",
     "images/41-rueda-submenu-skins.webp",
     "images/34-editor-rueda.webp",
-    "images/33-config.webp"
+    "images/33-config.webp",
+    "images/80-acciones-rueda-chat-de-voz.webp",
+    "images/79-acciones-editor-chat-de-voz.webp"
   ],
   "tags": ["Addon", "Utilidad", "Interfaz"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_acciones-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-05",
+      "changelog": "Necesita Mochos Esenciales 0.10.0 o posterior.\n\n- Atajos de **Simple Voice Chat** (cuando está instalado), en el grupo «Chat de voz» del editor de la rueda: silenciar el micrófono, desactivar el chat de voz, cambiar entre pulsar para hablar y por voz, grupos de voz, menú de Voice Chat, volumen de cada jugador y sus ajustes. El sector muestra el estado actual (silenciado, desactivado…).",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.10.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_acciones-0.1.1-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.1",

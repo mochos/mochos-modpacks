@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_recursos",
+  "name": "Mochos Recursos",
+  "summary": "Addon de Mochos Esenciales: paquetes de recursos del servidor desde el juego. Sube .zip o añade enlaces, ordénalos, hazlos obligatorios con tu mensaje y recárgalos en vivo a todos. Cada versión nueva se carga siempre, aunque se llame igual.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/81-recursos-admin.webp",
+    "images/82-recursos-selector-de-archivos.webp",
+    "images/84-recursos-pregunta-obligatorio.webp",
+    "images/87-recursos-pregunta-opcional.webp",
+    "images/83-recursos-mensaje-de-rechazo.webp",
+    "images/85-recursos-expulsion.webp",
+    "images/86-recursos-paquetes-aplicados.webp"
+  ],
+  "tags": ["Addon", "Administración", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_recursos-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-05",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.10.0 o posterior.\n\n- **Administración → Paquetes de recursos:** varios paquetes a la vez. Se suben en .zip (el propio servidor los sirve con un servidor web incluido, en el puerto que elijas) o se añaden como enlaces públicos (Dropbox y GitHub se convierten solos en descarga directa).\n- Orden de prioridad con flechas (el de arriba gana), encender y apagar cada uno, renombrar, quitar y subir una versión nueva conservando su sitio.\n- Los jugadores los reciben al entrar; «Aplicar a todos ahora» los recarga en vivo a todos los conectados y «Probar solo en mí» los envía solo al admin.\n- Cada versión de un paquete tiene su propia identidad (por su SHA-1), así que el juego carga los cambios aunque se llame igual.\n- Cada paquete puede ser **obligatorio u opcional**; quien rechaza uno obligatorio es desconectado con el mensaje que elija el admin.\n- Estado por paquete (cargado, falló, rechazado) y aviso a los admins cuando un jugador no puede cargar uno.\n- Dirección automática o una dirección pública fija para servidores detrás de un proxy o dominio.\n- Se guarda y carga en Administración → Configuraciones. Mochos Forja entrega por aquí sus modelos.\n- Los jugadores no necesitan el addon: solo el servidor y el admin, para el panel.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.10.0", "name": "Mochos Esenciales" }
+      ]
+    }
+  ]
+}

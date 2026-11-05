@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_forja",
+  "name": "Mochos Forja",
+  "summary": "Addon de Mochos Esenciales: editor de items para admins. Nombre y lore con formato, encantamientos, pociones, atributos, colores, adornos, luz de colores, biblioteca de items y modelos de Blockbench. Con plantillas para crear items nuevos.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/89-forja-general.webp",
+    "images/91-forja-nombre-y-lore.webp",
+    "images/90-forja-nombre-con-formato.webp",
+    "images/92-forja-luz.webp",
+    "images/94-forja-luz-en-el-suelo.webp",
+    "images/95-forja-luz-en-la-mano.webp",
+    "images/96-forja-modelo-blockbench.webp",
+    "images/97-forja-modelo-en-la-mano.webp",
+    "images/88-forja-plantillas.webp",
+    "images/98-forja-plantilla-de-luz.webp",
+    "images/93-forja-biblioteca.webp"
+  ],
+  "tags": ["Addon", "Utilidad", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_forja-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-05",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.10.0 o posterior.\n\n- Pestaña **Forja** para administradores (o `/forja`): se pone un item en la ranura y debajo aparecen todas las opciones, por categorías, con una vista previa de cómo lo verán los jugadores.\n- General: cantidad, tipo de item, rareza, brillo de encantamiento, irrompible, resistente al fuego, tamaño de pila, durabilidad, custom model data y ocultar la descripción.\n- **Nombre y lore** con colores y formato (`&a`, `&#RRGGBB`, `&l`… y Markdown), con vista previa.\n- Encantamientos (hasta nivel 255, también en libros), atributos, pociones, tinte de cuero, adornos de armadura, cabezas de jugador, libros y comida.\n- Avanzado: copiar el item en SNBT o como `/give`, pegar un item del portapapeles y editar `custom_data`.\n- 12 plantillas en blanco y 9 plantillas de luz. **Cualquier item puede dar luz**: ilumina de verdad a su alrededor, en la mano o en el suelo, con brillo y partículas del color elegido.\n- **Biblioteca** de items guardados, también con `/forja dar|guardar|borrar|lista`; se guarda en Administración → Configuraciones.\n- **Modelos propios:** importa proyectos de Blockbench (.bbmodel) o imágenes PNG; se entregan como paquete de recursos con Mochos Recursos (necesario para esta parte).",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.10.0", "name": "Mochos Esenciales" }
+      ]
+    }
+  ]
+}
