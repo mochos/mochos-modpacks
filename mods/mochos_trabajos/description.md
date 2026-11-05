@@ -23,7 +23,8 @@ No se paga por romper bloques colocados por jugadores, por criaturas de generado
 
 - **Administración → Trabajos:** editor de cada trabajo (nombre, icono, color, acciones con su XP y pago, misiones y ventajas).
 - **Eventos** de pago o XP x2 para todos durante un tiempo; al empezar y terminar se avisa a todos.
-- Los trabajos se guardan en `config/mochos_trabajos/jobs.json` (también se pueden editar a mano y recargar).
+- Los trabajos se guardan en `config/mochos_trabajos/jobs.json` (también se pueden editar a mano y recargar), y se guardan, cargan y comparten como JSON desde **Administración → Configuraciones** de Mochos Esenciales.
+- Con **Mochos Misiones**, las misiones pueden pedir nivel en un trabajo y dar XP de trabajo.
 - Comandos: `/trabajos` (o `/jobs`) `unirse` · `dejar`, y para admins `admin xp|nivel|unir|misiones|dia|evento|recargar`.
 
 ### Instalación
@@ -33,7 +34,7 @@ No se paga por romper bloques colocados por jugadores, por criaturas de generado
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.7.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.9.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 
@@ -42,3 +43,5 @@ Requiere **Mochos Esenciales 0.7.0 o posterior**: al instalar el addon desde el 
 - **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.
 - **Mochos Tareas:** listas de tareas para tus grupos de amigos.
 - **Mochos Tiempo:** límite de tiempo de juego por día.
+- **Mochos Anuncios:** tablón de anuncios de los jugadores.
+- **Mochos Misiones:** una campaña de misiones hasta el Dragón del End.

@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_anuncios",
+  "name": "Mochos Anuncios",
+  "summary": "Addon de Mochos Esenciales: un tablón de anuncios de los jugadores. Compra anuncios por horas o días, destácalos, avisa a todos y lleva visitantes a tu tienda con un botón de viaje. El admin pone precios, límites y aprobación, y el tablón en el mundo.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/62-anuncios-tablon.webp",
+    "images/63-anuncios-publicar.webp",
+    "images/64-anuncios-icono.webp",
+    "images/67-anuncios-tablon-en-el-mundo.webp",
+    "images/68-anuncios-editor-del-bloque.webp",
+    "images/65-anuncios-mis-anuncios-pendiente.webp",
+    "images/66-anuncios-por-aprobar.webp",
+    "images/70-anuncios-aviso-nuevo-anuncio.webp",
+    "images/69-anuncios-admin.webp"
+  ],
+  "tags": ["Addon", "Economía", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_anuncios-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-05",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.9.0 o posterior.\n\n- Pestaña **Anuncios** con el tablón de anuncios de los jugadores: título, texto e icono opcional (un item de Minecraft). Se compran por un tiempo; los **destacados** cuestan más y salen arriba.\n- Extras al publicar: **aviso a todos** los jugadores conectados y **botón de viaje** a la ubicación del anunciante, con el precio y la espera de los viajes del servidor.\n- Aviso al vencer un anuncio (también si estaba desconectado) y opción de volver a publicarlo desde «Mis anuncios».\n- Administración: precios por hora y de los extras, tiempos mínimo y máximo, límites por jugador, máximo de anuncios y de destacados, **aprobación previa** (con devolución del dinero si se rechazan) y borrado de cualquier anuncio.\n- Bloque **Tablón de anuncios** (Bloques funcionales): muestra los anuncios en el mundo, en una pared o en el suelo, con tamaño, posición, ángulos, tema, borde y título ajustables.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.9.0", "name": "Mochos Esenciales" }
+      ]
+    }
+  ]
+}

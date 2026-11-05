@@ -28,3 +28,5 @@ Requiere **Mochos Esenciales 0.8.0 o posterior**: al instalar el addon desde el 
 - **Mochos Apariencia:** sube tus skins SD y HD y elige la que llevas.
 - **Mochos Tareas:** listas de tareas para tus grupos de amigos.
 - **Mochos Tiempo:** límite de tiempo de juego por día.
+- **Mochos Anuncios:** tablón de anuncios de los jugadores.
+- **Mochos Misiones:** una campaña de misiones hasta el Dragón del End.

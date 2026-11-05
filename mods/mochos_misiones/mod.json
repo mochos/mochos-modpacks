@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_misiones",
+  "name": "Mochos Misiones",
+  "summary": "Addon de Mochos Esenciales: misiones que guían a los jugadores por todo Minecraft hasta el Dragón del End. Árbol de misiones con historia, objetivos, recompensas y bloqueos opcionales de progresión, editable en el juego.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/71-misiones-arbol-y-detalle.webp",
+    "images/72-misiones-mision-completada.webp",
+    "images/73-misiones-recompensas-reclamadas.webp",
+    "images/74-misiones-seguimiento-en-pantalla.webp",
+    "images/75-misiones-modo-edicion.webp",
+    "images/76-misiones-editor-de-mision.webp",
+    "images/77-misiones-bloqueo-de-crafteo.webp",
+    "images/78-misiones-admin.webp"
+  ],
+  "tags": ["Addon", "Aventura", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_misiones-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-05",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.9.0 o posterior.\n\n- Pestaña **Misiones** con capítulos y un árbol de misiones por capítulo: historia y consejos, objetivos con su progreso, recompensas y lo que desbloquea cada una.\n- **Campaña de fábrica** de 66 misiones en 11 capítulos que guía por el juego vanilla hasta matar al Dragón del End, con capítulos secundarios de granjas y aldeas, encantamientos y pociones, jefes, exploración y oficios.\n- Objetivos: conseguir o entregar items, craftear, fundir, comer, derrotar criaturas, picar y colocar bloques, entrar a dimensiones, visitar biomas, estadísticas y logros vanilla, nivel de trabajo y marcar a mano.\n- Recompensas: items, Ceitiles, experiencia, XP de trabajo y comandos del servidor.\n- **Bloqueos de progresión** opcionales (apagados por defecto): craftear, usar items, entrar a dimensiones o alejarse del punto de aparición hasta completar una misión.\n- Avisos, reclamo de recompensas (o automático) y hasta 3 misiones seguidas en pantalla.\n- **Editor en el juego** para admins y comandos `/misiones completar|reiniciar|recargar`.\n- Integración opcional con Mochos Trabajos 0.2.0.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.9.0", "name": "Mochos Esenciales" }
+      ]
+    }
+  ]
+}

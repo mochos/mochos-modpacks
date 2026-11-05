@@ -30,3 +30,5 @@ Requiere **Mochos Esenciales 0.8.0 o posterior**: al instalar el addon desde el 
 - **Mochos Trabajos:** trabajos con niveles, pago en Ceitiles y misiones diarias.
 - **Mochos Tareas:** listas de tareas para tus grupos de amigos.
 - **Mochos Tiempo:** límite de tiempo de juego por día.
+- **Mochos Anuncios:** tablón de anuncios de los jugadores.
+- **Mochos Misiones:** una campaña de misiones hasta el Dragón del End.

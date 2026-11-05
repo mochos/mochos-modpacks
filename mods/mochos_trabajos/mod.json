@@ -23,6 +23,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_trabajos-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-05",
+      "changelog": "Necesita Mochos Esenciales 0.9.0 o posterior.\n\n- Los trabajos y sus ajustes se guardan, cargan, copian y limpian desde **Administración → Configuraciones** de Mochos Esenciales.\n- Con **Mochos Misiones**, las misiones pueden pedir nivel en un trabajo y dar XP de trabajo como recompensa.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.9.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_trabajos-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",
       "minecraft": ["1.21.1"],

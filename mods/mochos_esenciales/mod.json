@@ -17,6 +17,7 @@
     "images/44-viajes-lugares-compartidos.webp",
     "images/45-viajes-buscador.webp",
     "images/11-economia-tienda.webp",
+    "images/52-tienda-de-ejemplo.webp",
     "images/12-economia-banco.webp",
     "images/27-economia-historial-de-ventas.webp",
     "images/16-monedas-ceitil.webp",
@@ -26,6 +27,7 @@
     "images/23-admin-precios-y-esperas-de-viajes.webp",
     "images/25-terrenos-mapa.webp",
     "images/26-terrenos-miembros.webp",
+    "images/51-terrenos-grupos.webp",
     "images/35-terrenos-configuracion.webp",
     "images/28-admin-difusion.webp",
     "images/33-anuncio-titulo-y-notificacion.webp",
@@ -37,13 +39,26 @@
     "images/43-brujula-grupo.webp",
     "images/46-configuracion-brujula.webp",
     "images/47-admin-sueno.webp",
-    "images/48-dormir-chat-del-mod.webp"
+    "images/48-dormir-chat-del-mod.webp",
+    "images/49-admin-configuraciones.webp",
+    "images/50-admin-configuraciones-advertencia.webp"
   ],
   "tags": ["Utilidad", "Economía", "Social", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.9.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.9.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-05",
+      "changelog": "- **Grupos en los terrenos:** además de jugadores, se pueden añadir grupos de amigos (Miembros → + → «Grupo: …»). Todos sus miembros tienen los permisos que se le den; quien entra al grupo los recibe y quien sale los pierde. Hasta 10 grupos por terreno, y las alarmas de visitas avisan también a sus miembros.\n- **Administración → Configuraciones:** guardar en archivos JSON, cargar (añadiendo o reemplazando), copiar y pegar por portapapeles y limpiar, con advertencia, la tienda del servidor, la configuración general (valores, textos y orden de pestañas) y los apartados de los addons (trabajos, misiones y anuncios).\n- **Tienda de ejemplo** con 58 anuncios del servidor (comida, bloques, herramientas, granja, redstone, libros encantados, pociones y lo que el servidor compra), lista para cargar desde Configuraciones.\n- Más posibilidades para los addons: apartados de Configuraciones, viajes con el precio y la espera de los warps y un selector de items, criaturas y bloques.\n- Addons nuevos: **Mochos Anuncios** y **Mochos Misiones**. **Mochos Trabajos** 0.2.0 se guarda y carga en Configuraciones.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.8.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.8.0",
