@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_npcs",
+  "name": "Mochos NPCs",
+  "summary": "Addon de Mochos Esenciales: comerciantes que venden y compran, con su inventario y aspecto de cualquier entidad o de jugador con skin HD; banqueros; editor de entidades y aldeanos para admins; plantillas de NPCs en JSON.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/127-npcs-skin-hd-por-url.webp",
+    "images/99-npcs-comerciante-en-el-mundo.webp",
+    "images/122-npcs-comprar-y-vender.webp",
+    "images/125-npcs-comercios-vende-y-compra.webp",
+    "images/123-npcs-inventario-con-monedas.webp",
+    "images/124-npcs-historial-con-compras.webp",
+    "images/126-npcs-aspecto-jugador-skin.webp",
+    "images/103-npcs-entidades-para-jugadores.webp",
+    "images/104-npcs-aspecto-golem.webp",
+    "images/128-npcs-banco-central.webp",
+    "images/111-editor-entidad.webp",
+    "images/113-editor-comercios-aldeano.webp",
+    "images/114-editor-aldeano-en-el-mundo.webp",
+    "images/116-npcs-admin.webp",
+    "images/134-npcs-plantillas-de-ejemplo.webp"
+  ],
+  "tags": ["Addon", "Economía", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_npcs-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-05",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.11.0 o posterior.\n\n- **Comerciantes de jugadores:** con el objeto **Generar comerciante** cada jugador pone su propio comerciante, con inventario propio (hasta dos cofres dobles) y su dueño bajo el nombre.\n- Cada comercio **vende** (por dinero, por ítems o por cualquiera de los dos) o **compra** ítems a otros jugadores, pagando con las monedas que el dueño deja en su inventario, con cambio. Los ítems se descuentan directamente del inventario del comprador.\n- Aviso de cada venta y compra e historial. Con el inventario vacío, el comerciante se recoge y vuelve a ser un Generar comerciante.\n- **Aspecto:** aldeano, vendedor ambulante, gólem, zorro, allay… o **jugador con skin SD o HD** (hasta 1024×1024) desde un archivo o una URL. El administrador decide qué entidades y opciones pueden elegir los jugadores.\n- **Banqueros:** cualquier entidad puede abrir el banco en su propia ventana.\n- **Editor de entidades** para administradores (mayús + clic derecho en creativo): nombre con formato, brillo, inteligencia artificial, invulnerable, vida, tamaño… y, en los aldeanos, profesión, bioma, nivel y sus comercios.\n- **Plantillas de NPCs** en JSON en Administración → NPCs, con siete de ejemplo (granjera, constructor, aventurera, decoradora, cambista, pescador y el Banco Central).\n- Administración → NPCs: ocultar la pestaña Economía (comercio y banco solo con comerciantes y banqueros), límites, qué pueden personalizar los jugadores y la receta de Generar comerciante. Comando `/npcs huevo`.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.11.0", "name": "Mochos Esenciales" }
+      ]
+    }
+  ]
+}

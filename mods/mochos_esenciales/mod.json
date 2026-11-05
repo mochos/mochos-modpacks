@@ -19,6 +19,7 @@
     "images/44-viajes-lugares-compartidos.webp",
     "images/45-viajes-buscador.webp",
     "images/11-economia-tienda.webp",
+    "images/58-tienda-precios-compra-venta.webp",
     "images/52-tienda-de-ejemplo.webp",
     "images/12-economia-banco.webp",
     "images/27-economia-historial-de-ventas.webp",
@@ -53,6 +54,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.11.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.11.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-05",
+      "changelog": "- **Tienda:** cada botón lleva su precio («Comprar ¢ 120» en dorado, «Vender ¢ 45» en verde), así el precio de compra y el de venta se distinguen sin pasar el ratón.\n- La rueda del ratón desplaza la tienda y las demás listas de Economía desde cualquier punto del panel.\n- Los textos de los addons también usan el nombre de la moneda que configure el administrador.\n- Más posibilidades para los addons: ocultar la pestaña Economía a ciertos jugadores, abrir solo el banco en su propia ventana y pagar con cambio.\n- Addon nuevo: **Mochos NPCs** (comerciantes, banqueros y editor de entidades).",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.10.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.10.0",

@@ -34,3 +34,4 @@ Requiere **Mochos Esenciales 0.8.0 o posterior**: al instalar el addon desde el 
 - **Mochos Misiones:** una campaña de misiones hasta el Dragón del End.
 - **Mochos Recursos:** paquetes de recursos del servidor desde el juego.
 - **Mochos Forja:** editor de items para administradores.
+- **Mochos NPCs:** comerciantes, banqueros y editor de entidades.

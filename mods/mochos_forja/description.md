@@ -54,3 +54,4 @@ Solo los administradores (op con el modo admin) pueden usar la Forja.
 - **Mochos Anuncios:** tablón de anuncios de los jugadores.
 - **Mochos Misiones:** una campaña de misiones hasta el Dragón del End.
 - **Mochos Recursos:** paquetes de recursos del servidor desde el juego.
+- **Mochos NPCs:** comerciantes, banqueros y editor de entidades.

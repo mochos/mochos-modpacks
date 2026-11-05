@@ -39,3 +39,4 @@ Para los archivos subidos, abre el puerto del servidor web (por defecto **25580*
 - **Mochos Anuncios:** tablón de anuncios de los jugadores.
 - **Mochos Misiones:** una campaña de misiones hasta el Dragón del End.
 - **Mochos Forja:** editor de items para administradores.
+- **Mochos NPCs:** comerciantes, banqueros y editor de entidades.
