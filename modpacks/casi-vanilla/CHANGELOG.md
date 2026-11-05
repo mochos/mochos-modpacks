@@ -1,3 +1,15 @@
+## 1.5.0
+
+- Actualizado **Mochos Esenciales** a 0.10.0:
+  - los administradores ven el inventario de un jugador con su armadura y sus ranuras de Curios;
+  - opciones de Simple Voice Chat en Configuración;
+  - el chat marca cada mensaje con un chip de color de su canal.
+- Añadidos dos addons de Mochos Esenciales:
+  - **Mochos Recursos:** los administradores gestionan los paquetes de recursos del servidor desde el juego.
+  - **Mochos Forja:** editor de items para administradores, con nombres con formato, encantamientos, luz de colores y modelos propios.
+- Actualizado **Mochos Acciones Rápidas** a 0.2.0: atajos del chat de voz en la rueda.
+- Ahora son 70 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.4.0
 
 - Actualizado **Mochos Esenciales** a 0.9.0:
