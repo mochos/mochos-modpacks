@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_ranking",
+  "name": "Mochos Ranking",
+  "summary": "Addon de Mochos Esenciales: rankings de jugadores en una pestaña y en tablones y podios en el mundo, con los tres primeros de pie con su skin. Estadísticas del mundo, economía, trabajos y misiones; total, semanal o mensual.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/100-ranking-podio.webp",
+    "images/101-ranking-tablon.webp",
+    "images/102-ranking-pestana.webp",
+    "images/103-ranking-semana-anterior.webp",
+    "images/105-ranking-estadistica-del-juego.webp",
+    "images/104-ranking-editor-podio.webp",
+    "images/106-ranking-admin.webp"
+  ],
+  "tags": ["Addon", "Social", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_ranking-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-06",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.13.0 o posterior.\n\n- Pestaña **Ranking**: estadísticas por categoría con buscador, el ranking con la cara de cada jugador, tu puesto y los ganadores del periodo anterior.\n- Estadísticas del **mundo** (criaturas y jugadores eliminados, muertes, distancia, tiempo jugado, bloques minados y colocados, peces, tratos con aldeanos, logros…) y **cualquier otra estadística del juego** escribiéndola.\n- **Economía:** dinero, ventas, compras y objetos vendidos (tienda de Mochos Esenciales y comerciantes de Mochos NPCs).\n- Con **Mochos Trabajos**, experiencia y nivel en cada trabajo; con **Mochos Misiones**, misiones y capítulos completados. Sin ellos no aparecen y no hacen falta.\n- **Total, semana o mes**, con los ganadores del periodo anterior guardados.\n- Cuentan todos los jugadores que han entrado alguna vez, también desconectados. Por defecto se deja fuera a los operadores y a quien juega en creativo o espectador.\n- Bloques **Tablón de ranking** y **Podio de ranking**: el podio muestra a los tres primeros de pie sobre escalones de oro, hierro y cobre con su skin, y al lado los puestos 4 a 13. Un admin en creativo los edita con clic derecho.\n- Administración → Ranking: exclusiones, estadísticas visibles, frecuencia de actualización, día en que empieza la semana y empezar una nueva semana y mes. Los ajustes se exportan en Configuraciones.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.13.0", "name": "Mochos Esenciales" }
+      ]
+    }
+  ]
+}

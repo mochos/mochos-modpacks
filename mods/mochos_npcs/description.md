@@ -7,7 +7,7 @@ Con el objeto **Generar comerciante** (se fabrica, se compra en la tienda o lo d
 - **Vende y compra:** cada comercio vende un ítem (por dinero, por ítems o por cualquiera de los dos: el comprador elige) o lo compra a otros jugadores, pagando con las monedas que el dueño deja en su inventario, con cambio.
 - **Inventario propio** de hasta dos cofres dobles: lo que vende sale de ahí y ahí llegan los pagos. El dinero va al banco del dueño.
 - **Sin ranuras de pago:** los ítems que pide se descuentan directamente de tu inventario. La tienda muestra tu dinero en el banco y en efectivo.
-- **Aviso de cada venta** e **historial** de ventas y compras.
+- **Aviso de cada venta** e **historial** de ventas y compras. Con **Mochos Ranking**, cuentan en los rankings de ventas y compras.
 - **Su aspecto:** aldeano (con profesión y bioma), vendedor ambulante, gólem, zorro, allay… o un **jugador con skin SD o HD** (hasta 1024×1024) subida desde un archivo o una URL. También bebé, tamaño y si mira a los jugadores.
 - Bajo su nombre aparece **su dueño** en letra más pequeña. Con el inventario vacío, el comerciante se puede recoger y vuelve a ser un Generar comerciante.
 
@@ -34,7 +34,7 @@ En **Administración → NPCs**: permitir comerciantes de jugadores, máximo por
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.13.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 
@@ -48,3 +48,4 @@ Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el
 - **Mochos Misiones:** una campaña de misiones hasta el Dragón del End.
 - **Mochos Recursos:** paquetes de recursos del servidor desde el juego.
 - **Mochos Forja:** editor de items para administradores.
+- **Mochos Ranking:** rankings de jugadores, con tablones y podios en el mundo.

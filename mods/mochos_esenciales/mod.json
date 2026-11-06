@@ -58,6 +58,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_esenciales-0.13.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.13.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-06",
+      "changelog": "- **Tienda:** la rueda del ratón mueve la lista desde cualquier parte de la ventana de Economía, también sobre el inventario de al lado, y funciona con touchpads y escritorios remotos que solo envían desplazamiento horizontal. Lo mismo en la tienda de los comerciantes de Mochos NPCs.\n- Más posibilidades para los addons: cada venta de la tienda se informa a los addons, y se puede consultar el banco de un jugador desconectado y las monedas que lleva encima.\n- Addon nuevo: **Mochos Ranking**. Addons actualizados: Mochos Anuncios 0.3.0, Mochos NPCs 0.3.0 y Mochos Trabajos 0.4.0.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
+    {
       "file": "builds/mochos_esenciales-0.12.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.12.0",
       "minecraft": ["1.21.1"],

@@ -11,6 +11,7 @@
     "images/63-anuncios-publicar.webp",
     "images/64-anuncios-icono.webp",
     "images/67-anuncios-tablon-en-el-mundo.webp",
+    "images/107-anuncios-clic-en-todo-el-tablon.webp",
     "images/68-anuncios-editor-del-bloque.webp",
     "images/65-anuncios-mis-anuncios-pendiente.webp",
     "images/135-anuncios-no-publicados.webp",
@@ -27,6 +28,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_anuncios-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-06",
+      "changelog": "Necesita Mochos Esenciales 0.13.0 o posterior.\n\n- El clic derecho funciona en **todo el tablón** que se ve en el mundo, no solo en el bloque del que cuelga; el tablón al que apuntas se marca con un borde blanco. Agachado con un bloque en la mano se sigue pudiendo construir detrás.\n- Un administrador en creativo abre el editor del tablón; en supervivencia (y los demás jugadores) abre la pestaña Anuncios.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.13.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_anuncios-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",

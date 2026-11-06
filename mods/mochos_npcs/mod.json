@@ -32,6 +32,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_npcs-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-06",
+      "changelog": "Necesita Mochos Esenciales 0.13.0 o posterior.\n\n- Tienda de los comerciantes: la rueda del ratón mueve la lista de ofertas desde cualquier parte de la ventana.\n- Las compras y ventas con dinero cuentan en los rankings de ventas y compras de **Mochos Ranking**.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.13.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_npcs-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",
       "minecraft": ["1.21.1"],

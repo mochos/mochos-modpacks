@@ -25,6 +25,7 @@ No se paga por romper bloques colocados por jugadores, por criaturas de generado
 - **Eventos** de pago o XP x2 para todos durante un tiempo; al empezar y terminar se avisa a todos.
 - Los trabajos se guardan en `config/mochos_trabajos/jobs.json` (también se pueden editar a mano y recargar), y se guardan, cargan y comparten como JSON desde **Administración → Configuraciones** de Mochos Esenciales.
 - Con **Mochos Misiones**, las misiones pueden pedir nivel en un trabajo y dar XP de trabajo.
+- Con **Mochos Ranking**, rankings de cada trabajo («Top mineros», «Top leñadores»…).
 - Comandos: `/trabajos` (o `/jobs`) `unirse` · `dejar`, y para admins `admin xp|nivel|unir|misiones|dia|evento|recargar`.
 
 ### Instalación
@@ -34,7 +35,7 @@ No se paga por romper bloques colocados por jugadores, por criaturas de generado
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.13.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 
@@ -48,3 +49,4 @@ Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el
 - **Mochos Recursos:** paquetes de recursos del servidor desde el juego.
 - **Mochos Forja:** editor de items para administradores.
 - **Mochos NPCs:** comerciantes, banqueros y editor de entidades.
+- **Mochos Ranking:** rankings de jugadores, con tablones y podios en el mundo.
