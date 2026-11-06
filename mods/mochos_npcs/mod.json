@@ -17,6 +17,9 @@
     "images/103-npcs-entidades-para-jugadores.webp",
     "images/104-npcs-aspecto-golem.webp",
     "images/128-npcs-banco-central.webp",
+    "images/147-npcs-comerciante-de-experiencia.webp",
+    "images/151-npcs-frascos-de-experiencia.webp",
+    "images/148-npcs-tipo-de-npc.webp",
     "images/111-editor-entidad.webp",
     "images/113-editor-comercios-aldeano.webp",
     "images/114-editor-aldeano-en-el-mundo.webp",
@@ -28,6 +31,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_npcs-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-06",
+      "changelog": "Necesita Mochos Esenciales 0.12.0 o posterior.\n\n- Nuevo tipo de NPC: **comerciante de experiencia**. Guarda la experiencia del jugador en frascos de 15 y 30 niveles y la devuelve, gratis y exacta. Los frascos son items nuevos que se pueden intercambiar.\n- El tipo de NPC se elige con un botón: **normal, comerciante, banco y experiencia** (solo los admins lo ven; los comerciantes de los jugadores siempre son comerciantes).\n- El tipo se guarda al exportar a JSON; los archivos de la versión anterior siguen funcionando.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.12.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_npcs-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",

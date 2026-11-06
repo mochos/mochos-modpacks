@@ -7,7 +7,9 @@
 - **Destacado:** sale arriba del todo y resaltado; hay pocos sitios y cuesta más por hora.
 - **Aviso a todos:** al publicarse, todos los jugadores conectados reciben una notificación con tu anuncio (extra de pago).
 - **Botón de viaje:** guarda tu ubicación; quien lea el anuncio pulsa el botón y viaja allí con el precio y la espera de los viajes del servidor. Cuenta las visitas (extra de pago).
-- **Vencimiento:** cuando un anuncio vence, su autor recibe un aviso (también si estaba desconectado) y puede **volver a publicarlo** desde «Mis anuncios».
+- **Vencimiento:** cuando un anuncio vence, su autor recibe un aviso (también si estaba desconectado) y el anuncio queda en «Mis anuncios» como **no publicado**, listo para renovarlo.
+- **Editar y renovar:** cambia un anuncio publicado o no publicado. El precio se recalcula: si subes características pagas la diferencia y si las bajas se te devuelve lo que corresponde. Al **borrar** uno publicado se devuelve el tiempo que no se usó.
+- **Anuncios del servidor:** los admins publican gratis, sin límites y hasta sin vencimiento, con un autor personalizado («📢 Equipo de eventos») o sin autor.
 - **Aprobación:** el admin puede pedir que los anuncios nuevos esperen su revisión en «Por aprobar». Si los rechaza (con motivo opcional), se devuelve el dinero.
 
 ### El tablón en el mundo
@@ -31,7 +33,7 @@ Los ajustes se guardan, cargan y comparten como JSON desde **Administración →
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.9.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 

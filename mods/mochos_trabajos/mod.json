@@ -10,6 +10,7 @@
     "images/05-trabajos.webp",
     "images/06-paga.webp",
     "images/07-misiones.webp",
+    "images/146-trabajos-seguir-diarias.webp",
     "images/08-ventajas.webp",
     "images/10-historial.webp",
     "images/11-picando.webp",
@@ -22,6 +23,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_trabajos-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-06",
+      "changelog": "Necesita Mochos Esenciales 0.12.0 o posterior.\n\n- Las **misiones diarias se pueden seguir** (botón del ojo, hasta 5): se ven en pantalla con su progreso, junto a las misiones seguidas de Mochos Misiones o solas si no está.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.12.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_trabajos-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",

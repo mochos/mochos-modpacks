@@ -13,6 +13,8 @@
     "images/05-chat-global.webp",
     "images/06-chat-grupo.webp",
     "images/07-chat-directos.webp",
+    "images/60-chat-campana-notificaciones.webp",
+    "images/62-chat-campana-contador.webp",
     "images/55-chat-chips.webp",
     "images/54-chat-chips-hud.webp",
     "images/09-viajes-warps-y-lugares.webp",
@@ -40,6 +42,7 @@
     "images/40-waypoint-compartir-grupo.webp",
     "images/41-mapa-waypoint-compartido.webp",
     "images/38-configuracion-mapa.webp",
+    "images/61-diorama-dibujo-sin-pestanas.webp",
     "images/43-brujula-grupo.webp",
     "images/46-configuracion-brujula.webp",
     "images/47-admin-sueno.webp",
@@ -54,6 +57,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.12.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.12.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-06",
+      "changelog": "- **Chat:** nueva pestaña con una **campana**, a la izquierda de Global, solo para las notificaciones y anuncios del juego, del mod y de los addons (entradas y salidas, muertes, logros, avisos de terrenos, subidas de nivel…). Global queda para conversar.\n- La campana solo cuenta lo importante (anuncios del servidor, del tablón y de misiones). Configuración → Chat → «Contador de anuncios en la campana» lo desactiva.\n- **Mapa de Diorama:** al usar la herramienta de dibujo se ocultan las pestañas laterales para no tapar sus herramientas.\n- Iconos nuevos de flechas izquierda y derecha.\n- Más posibilidades para los addons: avisos que cuentan en la campana y un panel compartido de lo que sigue el jugador en pantalla.\n- Addons actualizados: Mochos Anuncios 0.2.0, Mochos Misiones 0.2.0, Mochos NPCs 0.2.0, Mochos Trabajos 0.3.0, Mochos Acciones Rápidas 0.3.0 y Mochos Apariencia 0.3.0.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.11.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.11.0",

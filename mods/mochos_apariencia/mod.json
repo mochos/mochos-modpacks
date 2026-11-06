@@ -9,6 +9,7 @@
   "gallery": [
     "images/60-apariencia-skins-de-mochos.webp",
     "images/61-apariencia-skin-adicional.webp",
+    "images/150-apariencia-cedula-recargar.webp",
     "images/35-ap-tester.webp",
     "images/18-tras-subida.webp",
     "images/37-amigo-ve.webp",
@@ -21,6 +22,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_apariencia-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-06",
+      "changelog": "Necesita Mochos Esenciales 0.12.0 o posterior.\n\n- Corregido: con **Mochos Cédula** instalado, las skins subidas a mano no se veían en el personaje. Ahora la skin subida tiene prioridad y, sin ella, se ve la de Mochos.\n- Botón **recargar** junto a «Skins de Mochos»: vuelve a consultar mochos.xyz para traer skins nuevas, cambiadas o borradas, y los demás también las ven.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.12.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_apariencia-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",

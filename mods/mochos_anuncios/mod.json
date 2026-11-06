@@ -13,6 +13,11 @@
     "images/67-anuncios-tablon-en-el-mundo.webp",
     "images/68-anuncios-editor-del-bloque.webp",
     "images/65-anuncios-mis-anuncios-pendiente.webp",
+    "images/135-anuncios-no-publicados.webp",
+    "images/136-anuncios-renovar.webp",
+    "images/137-anuncios-editar-reembolso.webp",
+    "images/138-anuncios-borrar-reembolso.webp",
+    "images/139-anuncios-del-servidor.webp",
     "images/66-anuncios-por-aprobar.webp",
     "images/70-anuncios-aviso-nuevo-anuncio.webp",
     "images/69-anuncios-admin.webp"
@@ -22,6 +27,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_anuncios-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-06",
+      "changelog": "Necesita Mochos Esenciales 0.12.0 o posterior.\n\n- Los anuncios vencidos ya no se borran: quedan en «Mis anuncios» como **no publicados** hasta que su dueño los borre.\n- **Editar y renovar** anuncios, publicados o no. Al editar uno publicado se mantiene el tiempo que le queda o se elige otra duración, y el precio se recalcula: si se suben características se cobra la diferencia y si se bajan se devuelve lo que corresponde.\n- **Borrar** un anuncio publicado devuelve la parte del tiempo que no se usó (todo si aún esperaba aprobación).\n- **Anuncios del servidor** (admins): gratis, sin límites de duración (también sin vencimiento), de destacados ni de cantidad, con autor personalizable o sin autor. Tienen su propia vista «Servidor».\n- Los avisos del tablón cuentan en la campana del chat de Mochos Esenciales.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.12.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_anuncios-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",

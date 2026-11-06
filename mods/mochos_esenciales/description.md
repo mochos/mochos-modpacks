@@ -11,7 +11,7 @@ Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las 
 ### Pestañas
 
 - **Inventario:** el inventario de siempre, con las pestañas al lado y **tus estadísticas** a la izquierda (dinero, tiempo de juego, muertes, lugares, terrenos…).
-- **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima. El mapa muestra los terrenos, lo que exploraron los demás, los **waypoints compartidos** y a los **jugadores lejanos** de tus grupos. En Configuración eliges si ver los terrenos en el mapa y en el minimapa, y si compartir tu ubicación y lo que exploras. Cada waypoint se puede dejar **privado**, hacer **público** o compartir con **uno de tus grupos** desde su propia pantalla.
+- **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima. El mapa muestra los terrenos, lo que exploraron los demás, los **waypoints compartidos** y a los **jugadores lejanos** de tus grupos. En Configuración eliges si ver los terrenos en el mapa y en el minimapa, y si compartir tu ubicación y lo que exploras. Al usar la herramienta de dibujo, las pestañas se ocultan para no tapar sus herramientas. Cada waypoint se puede dejar **privado**, hacer **público** o compartir con **uno de tus grupos** desde su propia pantalla.
 - **Terrenos:** reclama y protege chunks desde un mapa del terreno real: clic o arrastrar para reclamar o liberar, varios terrenos con nombre, amigos (también **grupos de amigos** enteros) con plantillas y permisos uno a uno, permisos públicos, **notificaciones de bienvenida y despedida** con formato y una **alarma de visitantes** para el dueño y los miembros. Tecla **G** o `/claims menu`.
 - **Jugadores:** conectados, buscador y orden por cercanía o alfabético. Chat directo, solicitudes de viaje e invitaciones a grupos. **Bloquea** los mensajes directos o las solicitudes de viaje de quien quieras. **Grupos de amigos**: crear, invitar, expulsar, renombrar, elegir color y salir. Una **brújula** arriba de la pantalla muestra a los miembros de tus grupos con su cabeza, nombre y distancia.
 - **Viajes:** warps del servidor (con nombre, icono y descripción opcionales) y tus lugares (nombre, mundo y coordenadas), que puedes **compartir** como públicos o con cada uno de tus grupos. Debajo de «Mis lugares» salen los lugares de tus grupos y los públicos, con un buscador que filtra todos. Clic o botón para viajar; mover, renombrar y eliminar en un desplegable. Precio y espera por tipo de viaje.
@@ -22,7 +22,7 @@ Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las 
 
 ### Un chat nuevo
 
-Sustituye al chat de vanilla (**T**) y ocupa solo la esquina inferior izquierda. Pestañas **Global, Grupos y Directos** con sus no leídos, y cada mensaje marcado con un chip de color de su canal: al pasar el ratón cada una despliega sus conversaciones. Los directos se quitan de la lista sin perder el historial, que guarda el servidor. Mensajes con formato Markdown y enlaces clicables, notificaciones emergentes y sonido por tipo de chat. Las solicitudes de viaje y las invitaciones a grupos llegan al chat directo con botones **Aceptar / Rechazar**. **Tab** cambia de conversación. Al dormir se abre este chat con el botón «Salir de la cama». Los **comandos** se escriben en el mismo chat (también con la tecla `/`), con el autocompletado y las sugerencias de vanilla.
+Sustituye al chat de vanilla (**T**) y ocupa solo la esquina inferior izquierda. Pestañas **Global, Grupos y Directos** con sus no leídos, más una pestaña con una **campana** solo para las notificaciones y anuncios del juego, del mod y de los addons (Global queda para conversar), y cada mensaje marcado con un chip de color de su canal: al pasar el ratón cada una despliega sus conversaciones. Los directos se quitan de la lista sin perder el historial, que guarda el servidor. Mensajes con formato Markdown y enlaces clicables, notificaciones emergentes y sonido por tipo de chat. Las solicitudes de viaje y las invitaciones a grupos llegan al chat directo con botones **Aceptar / Rechazar**. **Tab** cambia de conversación. Al dormir se abre este chat con el botón «Salir de la cama». Los **comandos** se escriben en el mismo chat (también con la tecla `/`), con el autocompletado y las sugerencias de vanilla.
 
 ### El Ceitil, una moneda de verdad
 
@@ -68,7 +68,7 @@ Idiomas: **español** e **inglés**.
 
 ### Addons
 
-Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.11.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
+Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.12.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
 
 - **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.
 - **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.
@@ -80,7 +80,7 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 - **Mochos Misiones:** una campaña de 66 misiones hasta el Dragón del End, con árbol de misiones, recompensas, bloqueos de progresión opcionales y editor en el juego.
 - **Mochos Recursos:** paquetes de recursos del servidor desde el juego: sube .zip o añade enlaces, ordénalos, hazlos obligatorios y recárgalos en vivo a todos.
 - **Mochos Forja:** editor de items para administradores: nombre y lore con formato, encantamientos, pociones, atributos, luz de colores, biblioteca de items y modelos de Blockbench.
-- **Mochos NPCs:** comerciantes de jugadores que venden y compran con su propio inventario y aspecto (también de jugador con skin), banqueros, editor de entidades y aldeanos y plantillas de NPCs.
+- **Mochos NPCs:** comerciantes de jugadores que venden y compran con su propio inventario y aspecto (también de jugador con skin), banqueros, comerciantes de experiencia, editor de entidades y aldeanos y plantillas de NPCs.
 
 ### Combina muy bien con
 

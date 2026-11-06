@@ -4,17 +4,21 @@
 
 - **Capítulos y árbol:** cada capítulo muestra sus misiones como un árbol (se arrastra para moverlo). Las completadas en verde, las disponibles en azul con su progreso, las bloqueadas con candado y las que tienen recompensa por reclamar brillan en dorado.
 - **Historia y consejos:** cada misión explica qué hacer y cómo (dónde está la fortaleza, cómo encender el portal, qué llevar al End…).
-- **Objetivos:** conseguir o entregar items, craftear, fundir o cocinar, comer, derrotar criaturas, picar y colocar bloques, entrar a una dimensión, visitar biomas, alejarse del punto de aparición, estadísticas y logros vanilla, nivel de trabajo y marcar a mano. Admiten ids, tags (`#minecraft:logs`) y `*`.
+- **Objetivos:** conseguir o entregar items, craftear, fundir o cocinar, comer, derrotar criaturas, picar y colocar bloques, entrar a una dimensión, visitar biomas, alejarse del punto de aparición, **encontrar una estructura**, **conocer una criatura**, estadísticas y logros vanilla, nivel de trabajo y marcar a mano. Admiten ids, tags (`#minecraft:logs`) y `*`.
 - **Recompensas:** items (con encantamientos, pociones, nombres…), Ceitiles, experiencia, XP de trabajo y comandos del servidor. Se reclaman con un botón, o se dan solas si el admin quiere.
 - **Avisos:** al completar una misión, al abrirse misiones nuevas y, para todos, cuando alguien completa un capítulo.
-- **Seguir en pantalla:** hasta 3 misiones con sus objetivos y progreso a un lado de la pantalla.
+- **Seguir en pantalla:** hasta 3 misiones con sus objetivos y progreso a un lado de la pantalla, junto a las misiones diarias de Mochos Trabajos.
 
 ### La campaña
 
 **66 misiones en 11 capítulos**, en español:
 
 - **Línea principal:** Primeros pasos · La edad del hierro · Diamantes · El Nether · El ojo del End · El Dragón.
-- **Secundarios:** Granjas y aldeas · Encantamientos y pociones · Jefes y desafíos (guardián anciano, el Wither, cámaras de desafío) · Explora el mundo · Oficios (con Mochos Trabajos).
+- **Secundarios:** Granjas y aldeas · Encantamientos y pociones · Jefes y desafíos (guardián anciano, el Wither, el Warden, cámaras de desafío) · Explora el mundo · Oficios (con Mochos Trabajos).
+
+### Árboles de misiones
+
+En **Administración → Misiones** se importan capítulos completos desde un archivo, el portapapeles o plantillas, y se exporta cualquier capítulo. Al importar, el progreso de los jugadores se conserva. Vienen plantillas listas: **Explorador del mundo** (63 biomas y 34 estructuras), **Bestiario** (79 criaturas), **Jefes y desafíos**, **Gran chef**, **Coleccionista**, **Constructor** y **Desafíos extremos**.
 
 ### Bloqueos de progresión (opcionales)
 
@@ -38,7 +42,7 @@ Si **Mochos Trabajos** 0.2.0 o superior está instalado, las misiones pueden ped
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.9.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: Mochos Trabajos 0.2.0 o posterior.
+Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: Mochos Trabajos 0.2.0 o posterior.
 
 ### Otros addons de Mochos Esenciales
 

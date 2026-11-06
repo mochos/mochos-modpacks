@@ -10,7 +10,7 @@ Minero, Leñador, Agricultor, Cazador, Pescador, Constructor, Herrero y Encantad
 
 - **Resumen:** nivel, XP, lo ganado hoy frente al límite diario, bonus de nivel y multiplicadores activos.
 - **Qué paga:** cuánto te da cada acción a tu nivel, con tus ventajas y el evento activo.
-- **Misiones diarias** con recompensas extra que van a tu banco (cuentan aunque hayas llegado al límite diario).
+- **Misiones diarias** con recompensas extra que van a tu banco (cuentan aunque hayas llegado al límite diario). Sigue hasta 5 en pantalla con su progreso.
 - **Ventajas por nivel:** prisa minera, más pago, más experiencia, botín doble…
 - **Ranking** de jugadores e **historial** de los últimos 14 días con gráfico.
 - Ganancias junto a la mira mientras trabajas y sonido al subir de nivel (se pueden cambiar en Configuración).
@@ -34,7 +34,7 @@ No se paga por romper bloques colocados por jugadores, por criaturas de generado
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.9.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 

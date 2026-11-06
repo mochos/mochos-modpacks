@@ -11,16 +11,32 @@
     "images/72-misiones-mision-completada.webp",
     "images/73-misiones-recompensas-reclamadas.webp",
     "images/74-misiones-seguimiento-en-pantalla.webp",
+    "images/145-misiones-y-diarias-en-pantalla.webp",
+    "images/144-misiones-barras-de-progreso.webp",
     "images/75-misiones-modo-edicion.webp",
     "images/76-misiones-editor-de-mision.webp",
     "images/77-misiones-bloqueo-de-crafteo.webp",
-    "images/78-misiones-admin.webp"
+    "images/78-misiones-admin.webp",
+    "images/140-misiones-arboles.webp",
+    "images/141-misiones-bestiario.webp",
+    "images/142-misiones-warden.webp"
   ],
   "tags": ["Addon", "Aventura", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_misiones-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-06",
+      "changelog": "Necesita Mochos Esenciales 0.12.0 o posterior.\n\n- **Árboles de misiones** en Administración → Misiones: importar capítulos completos desde un archivo, el portapapeles o las plantillas del servidor, y exportar cualquier capítulo. Al importar, **el progreso de los jugadores se conserva**.\n- **Plantillas incluidas:** Explorador del mundo (63 biomas y 34 estructuras), Bestiario (79 criaturas), Jefes y desafíos (con el Warden), Gran chef, Coleccionista, Constructor y Desafíos extremos.\n- Objetivos nuevos: **encontrar una estructura** y **conocer una criatura** (verla de cerca).\n- El **Warden** llega a «Jefes y desafíos».\n- Barras de progreso del mismo ancho, con sitio para los números.\n- El panel de misiones seguidas también muestra las misiones diarias de Mochos Trabajos.\n- Las misiones completadas y los capítulos cuentan en la campana del chat.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.12.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_misiones-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",

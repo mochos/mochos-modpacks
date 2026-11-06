@@ -6,7 +6,7 @@
 - **Desde donde quieras:** un archivo de tu equipo, una URL o arrastrando la imagen a la ventana del juego.
 - **Brazos clásicos o delgados** para cada skin.
 - **Tu biblioteca:** todas tus skins con su vista previa; un clic para ponerte otra, o volver a tu skin de Minecraft.
-- **Tus skins de Mochos:** con **Mochos Cédula** instalado, las skins de tu cuenta de Mochos vienen precargadas. Se usan pero no se modifican (se gestionan desde el launcher, y Cédula solo deja elegirlas a las cuentas verificadas con Microsoft o Discord). Tus skins adicionales se suben y editan como siempre.
+- **Tus skins de Mochos:** con **Mochos Cédula** instalado, las skins de tu cuenta de Mochos vienen precargadas. Se usan pero no se modifican (se gestionan desde el launcher, y Cédula solo deja elegirlas a las cuentas verificadas con Microsoft o Discord). Tus skins adicionales se suben y editan como siempre y tienen prioridad. El botón **recargar** trae al momento las skins nuevas o cambiadas de mochos.xyz.
 - **Cambio rápido:** con **Mochos Acciones Rápidas**, cambia de skin desde la rueda sin abrir ninguna pantalla.
 - Comando en el cliente: `/apariencia abrir`, `/apariencia archivo <ruta>` o `/apariencia url <url>`.
 
@@ -21,7 +21,7 @@ En **Administración → Apariencia**: cuántas skins puede tener cada jugador, 
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.8.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 
