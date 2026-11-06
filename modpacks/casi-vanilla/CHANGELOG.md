@@ -1,3 +1,18 @@
+## 1.7.0
+
+- Actualizado **Mochos Esenciales** a 0.12.0:
+  - nueva pestaña del chat con una campana para las notificaciones y anuncios, y Global queda para conversar;
+  - al dibujar en el mapa de Diorama se ocultan las pestañas laterales.
+- Actualizados los addons de Mochos Esenciales:
+  - **Mochos Misiones** 0.2.0: plantillas de misiones nuevas (Explorador del mundo, Bestiario, Jefes y desafíos con el Warden, Gran chef y más) y objetivos de encontrar estructuras y conocer criaturas;
+  - **Mochos NPCs** 0.2.0: comerciante de experiencia, que guarda tus niveles en frascos y te los devuelve;
+  - **Mochos Anuncios** 0.2.0: editar, renovar y borrar anuncios con reembolso, y anuncios del servidor;
+  - **Mochos Trabajos** 0.3.0: sigue en pantalla tus misiones diarias;
+  - **Mochos Acciones Rápidas** 0.3.0: los lugares compartidos contigo aparecen en la rueda;
+  - **Mochos Apariencia** 0.3.0: las skins subidas a mano ya se ven con Mochos Cédula, y un botón para recargar las skins de Mochos.
+- Añadido **Emotecraft**, con 195 emotes listos para usar.
+- Ahora son 72 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.6.0
 
 - Actualizado **Mochos Esenciales** a 0.11.0:

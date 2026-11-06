@@ -8,6 +8,7 @@
 - **Calidad de vida:** mochilas de viaje, almacenamiento de Tom's Storage, tumbas al morir (Corpse), talado de árboles por partes (TreeChop), Jade, Roughly Enough Items, zoom y armadura cosmética.
 - **Visuales:** Fresh Animations, texturas conectadas (Continuity y Fusion), objetos en 3D, estelas en el agua, brillos y Distant Horizons para ver el horizonte a kilómetros.
 - **Sonido:** Sound Physics Remastered y chat de voz por proximidad con Simple Voice Chat.
+- **Emotes:** Emotecraft, con 195 emotes listos para usar con tus amigos.
 - **Rendimiento:** Sodium, Lithium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling y Dynamic FPS.
 - **Mochos Cédula** incluido y el logo de Casi Vanilla en el menú principal.
 

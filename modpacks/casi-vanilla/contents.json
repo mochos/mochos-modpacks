@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
+  "version": "1.7.0",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -98,6 +98,12 @@
       "name": "EMF Compat: Core",
       "url": "https://modrinth.com/mod/emf-compat-core",
       "icon": "https://cdn.modrinth.com/data/hbGct5uU/e7956dddcb266c091c03b04435edd8f9bd80581f_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Emotecraft",
+      "url": "https://modrinth.com/mod/emotecraft",
+      "icon": "https://cdn.modrinth.com/data/pZ2wrerK/eed7e2c9851392e5879c7d7cb763f142f124e6d2_96.webp",
       "platform": "modrinth"
     },
     {
@@ -218,25 +224,25 @@
       "platform": "modrinth"
     },
     {
-      "name": "mochos_acciones-0.2.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_acciones-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_anuncios-0.1.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_anuncios-0.2.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_apariencia-0.2.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_apariencia-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_esenciales-0.11.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_esenciales-0.12.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_forja-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_misiones-0.1.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_misiones-0.2.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_npcs-0.1.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_npcs-0.2.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_recursos-0.1.0-MC1.21.1-neoforge21.1.265"
@@ -251,7 +257,7 @@
       "name": "mochos_tiempo-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_trabajos-0.2.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_trabajos-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248"
