@@ -1,3 +1,13 @@
+## 1.8.0
+
+- Actualizado **Mochos Esenciales** a 0.13.0: la rueda del ratón mueve la lista de la tienda desde cualquier parte de la ventana.
+- Añadido el addon **Mochos Ranking**: rankings de jugadores en una pestaña y en tablones y podios que se colocan en el mundo, con los tres primeros de pie con su skin.
+- Actualizados **Mochos Anuncios** 0.3.0 (clic en cualquier parte del tablón del mundo), **Mochos NPCs** 0.3.0 y **Mochos Trabajos** 0.4.0 (rankings por trabajo).
+- Añadido **Wall Climb**: mantén el salto frente a un muro de uno o dos bloques para trepar y subir encima (solo en el cliente).
+- Configuración inicial de los addons, con las plantillas de misiones, NPCs y tiendas de ejemplo (solo para quien instala el modpack por primera vez).
+- Corregidos los nombres de los emotes con acentos o caracteres especiales, que en la 1.7.0 llegaban mal escritos.
+- Ahora son 74 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.7.0
 
 - Actualizado **Mochos Esenciales** a 0.12.0:

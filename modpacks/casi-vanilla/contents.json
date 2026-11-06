@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
+  "version": "1.8.0",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -227,13 +227,13 @@
       "name": "mochos_acciones-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_anuncios-0.2.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_anuncios-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_apariencia-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_esenciales-0.12.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_esenciales-0.13.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_forja-0.1.0-MC1.21.1-neoforge21.1.265"
@@ -242,7 +242,10 @@
       "name": "mochos_misiones-0.2.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_npcs-0.2.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_npcs-0.3.0-MC1.21.1-neoforge21.1.265"
+    },
+    {
+      "name": "mochos_ranking-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_recursos-0.1.0-MC1.21.1-neoforge21.1.265"
@@ -257,7 +260,7 @@
       "name": "mochos_tiempo-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_trabajos-0.3.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_trabajos-0.4.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248"
@@ -372,6 +375,9 @@
       "url": "https://modrinth.com/mod/wakes-reforged",
       "icon": "https://cdn.modrinth.com/data/E0SdeAoH/f655ca1093b28f2c02cafd1577160513d121a8fa_96.webp",
       "platform": "modrinth"
+    },
+    {
+      "name": "WallClimb-1.0.0-1.21.1-NeoForge"
     },
     {
       "name": "weatherglass-0.5.0-1.21.1-neoforge"
