@@ -5,7 +5,7 @@
   "summary": "El Minecraft de siempre, más bonito y fluido, con aviones, mochilas, recompensas y chat de voz para jugar entre amigos.",
   "description": "description.md",
   "changelog": "CHANGELOG.md",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "minecraft": "1.21.1",
   "loader": { "type": "neoforge", "version": "21.1.265" },
   "icon": "icon.gif",
@@ -17,14 +17,14 @@
   "recommendedRamMb": 6144,
   "source": {
     "type": "mrpack",
-    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.5.0/Casi-Vanilla-1.21.1-v1.5.0.mrpack",
-    "sha1": "6e3b89ed6cb17f631125579ad36b3b46409d7410",
-    "size": 2428949
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.6.0/Casi-Vanilla-1.21.1-v1.6.0.mrpack",
+    "sha1": "a2307c77993178fd6047f2c4bf9ac55ca17791a1",
+    "size": 2311893
   },
   "chuspa": {
-    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.5.0/Casi-Vanilla-1.21.1-v1.5.0.chuspa",
-    "sha1": "78dd499ab60d95d33a65ca62ba2d1d9ae079e977",
-    "size": 2711550
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-1.6.0/Casi-Vanilla-1.21.1-v1.6.0.chuspa",
+    "sha1": "57d4cad675b182ba3851f819e92a1c703946cbbc",
+    "size": 2594492
   },
   "server": {
     "enabled": true,

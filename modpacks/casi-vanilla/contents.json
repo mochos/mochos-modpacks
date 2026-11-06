@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -227,13 +227,16 @@
       "name": "mochos_apariencia-0.2.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_esenciales-0.10.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_esenciales-0.11.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_forja-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_misiones-0.1.0-MC1.21.1-neoforge21.1.265"
+    },
+    {
+      "name": "mochos_npcs-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_recursos-0.1.0-MC1.21.1-neoforge21.1.265"

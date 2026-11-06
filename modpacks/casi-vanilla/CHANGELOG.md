@@ -1,3 +1,14 @@
+## 1.6.0
+
+- Actualizado **Mochos Esenciales** a 0.11.0:
+  - cada botón de la tienda lleva su precio («Comprar» en dorado, «Vender» en verde);
+  - la rueda del ratón desplaza las listas de Economía desde cualquier punto.
+- Añadido el addon **Mochos NPCs**:
+  - pon tu propio comerciante, que vende y compra con su propio inventario, con aspecto de aldeano, de otras criaturas o de jugador con skin;
+  - banqueros que abren el banco;
+  - editor de entidades para los administradores.
+- Ahora son 71 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.5.0
 
 - Actualizado **Mochos Esenciales** a 0.10.0:
