@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0",
+  "version": "1.10.0",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -72,9 +72,6 @@
       "url": "https://modrinth.com/mod/custom-glow-enchantment-outline",
       "icon": "https://cdn.modrinth.com/data/Q2rI8IqW/9985bae09d087512dc64fa52a31e11ef85d2751e_96.webp",
       "platform": "modrinth"
-    },
-    {
-      "name": "dioaddons_webmap-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "Diorama",
@@ -230,13 +227,16 @@
       "name": "mochos_anuncios-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_apariencia-0.3.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_apariencia-0.4.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_esenciales-0.14.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_esenciales-0.15.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_forja-0.1.0-MC1.21.1-neoforge21.1.265"
+    },
+    {
+      "name": "mochos_mapaweb-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_misiones-0.2.0-MC1.21.1-neoforge21.1.265"
@@ -245,7 +245,7 @@
       "name": "mochos_npcs-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_ranking-0.1.1-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_ranking-0.1.2-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_recursos-0.1.0-MC1.21.1-neoforge21.1.265"

@@ -1,3 +1,10 @@
+## 1.10.0
+
+- Actualizado **Mochos Esenciales** a 0.15.0: las caras de los jugadores desconectados (grupos, chat, terrenos, brújula, rankings) ya salen con su skin.
+- **Diorama Addons: Web Map** se sustituye por **Mochos Mapa Web**: el mapa del servidor en el navegador al estilo Diorama, con los jugadores y su skin, waypoints públicos, terrenos y chat, y se configura desde Administración.
+- Actualizados **Diorama** 0.8.0, **Mochos Apariencia** 0.4.0 (tu skin subida también en las caras de los desconectados y en el mapa web) y **Mochos Ranking** 0.1.2.
+- Siguen siendo 74 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.9.0
 
 - Actualizado **Mochos Esenciales** a 0.14.0:
