@@ -8,6 +8,7 @@
   "ogImage": "og-image.jpg",
   "gallery": [
     "images/100-ranking-podio.webp",
+    "images/152-ranking-podio-sin-tablon.webp",
     "images/101-ranking-tablon.webp",
     "images/102-ranking-pestana.webp",
     "images/103-ranking-semana-anterior.webp",
@@ -20,6 +21,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_ranking-0.1.1-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-08",
+      "changelog": "Necesita Mochos Esenciales 0.14.0 o posterior.\n\n- Podio sin tablón de los otros puestos: el título flotante sube por encima del nombre y el valor del primer puesto, para que no se monten y todo se lea bien (también con el podio a otra escala).",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.14.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_ranking-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",

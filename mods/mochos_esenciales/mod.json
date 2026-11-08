@@ -10,6 +10,7 @@
     "images/01-inventario-pestanas.webp",
     "images/01-pestanas-addons.webp",
     "images/03-jugadores-y-grupos.webp",
+    "images/63-jugadores-desconectados-y-pvp-grupo.webp",
     "images/05-chat-global.webp",
     "images/06-chat-grupo.webp",
     "images/07-chat-directos.webp",
@@ -17,6 +18,7 @@
     "images/62-chat-campana-contador.webp",
     "images/55-chat-chips.webp",
     "images/54-chat-chips-hud.webp",
+    "images/65-chat-tooltip-logro.webp",
     "images/09-viajes-warps-y-lugares.webp",
     "images/44-viajes-lugares-compartidos.webp",
     "images/45-viajes-buscador.webp",
@@ -31,6 +33,8 @@
     "images/21-configuracion.webp",
     "images/23-admin-precios-y-esperas-de-viajes.webp",
     "images/53-admin-inventario-armadura-curios.webp",
+    "images/64-admin-inventario-desconectado.webp",
+    "images/66-admin-orden-pestanas.webp",
     "images/25-terrenos-mapa.webp",
     "images/26-terrenos-miembros.webp",
     "images/51-terrenos-grupos.webp",
@@ -57,6 +61,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.14.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.14.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-08",
+      "changelog": "- **Jugadores desconectados:** la lista de jugadores de Administración tiene un apartado desplegable con todos los que tienen datos guardados en el mundo. Su inventario (con armadura, mano secundaria y Curios) y su cofre de ender se pueden ver y **editar**; los cambios se guardan en su archivo del mundo sin tocar nada más. También se les puede silenciar o banear desde ahí.\n- **PvP por grupo:** el dueño de un grupo puede activar o desactivar el PvP entre sus miembros (icono de espada; por defecto sigue activado), también con flechas y otros proyectiles. El PvP desactivado del servidor y de los terrenos sigue mandando.\n- Corregido: el PvP y el MOTD cambiados desde Administración volvían a su valor de `server.properties` al reiniciar el servidor. Ahora se guardan en el mundo.\n- Corregido: las pestañas laterales podían salir en distinto orden a cada jugador. Ahora todos ven el orden del admin, y las secciones de los addons salen siempre en el mismo orden.\n- Chat: al pasar el ratón por un mensaje se ven sus textos emergentes, como la descripción de los **logros**.\n- Addons actualizados: Mochos Ranking 0.1.1 y Mochos Trabajos 0.4.1.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "1FG2KJOU", "name": "Diorama 0.7.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.13.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.13.0",

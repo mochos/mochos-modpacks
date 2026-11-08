@@ -50,7 +50,7 @@ Los ajustes se guardan, cargan y comparten como JSON desde **Administración →
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.13.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcionales: **Mochos Trabajos 0.4.0** y **Mochos Misiones 0.2.0** o posteriores.
+Requiere **Mochos Esenciales 0.14.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcionales: **Mochos Trabajos 0.4.0** y **Mochos Misiones 0.2.0** o posteriores.
 
 ### Otros addons de Mochos Esenciales
 

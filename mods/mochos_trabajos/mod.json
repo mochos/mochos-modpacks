@@ -11,6 +11,7 @@
     "images/06-paga.webp",
     "images/07-misiones.webp",
     "images/146-trabajos-seguir-diarias.webp",
+    "images/153-trabajos-diarias-en-directo.webp",
     "images/08-ventajas.webp",
     "images/10-historial.webp",
     "images/11-picando.webp",
@@ -23,6 +24,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_trabajos-0.4.1-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.4.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-08",
+      "changelog": "Necesita Mochos Esenciales 0.14.0 o posterior.\n\n- Corregido: el progreso de las misiones diarias seguidas en pantalla no se actualizaba hasta abrir la pestaña de Trabajos. Ahora avanza en tiempo real mientras trabajas.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.14.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_trabajos-0.4.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.4.0",
