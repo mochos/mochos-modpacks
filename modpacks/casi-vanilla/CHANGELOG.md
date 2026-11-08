@@ -1,3 +1,15 @@
+## 1.9.0
+
+- Actualizado **Mochos Esenciales** a 0.14.0:
+  - el dueño de un grupo puede activar o desactivar el PvP entre sus miembros;
+  - los administradores ven y editan el inventario y el cofre de ender de los jugadores desconectados;
+  - el PvP y el MOTD cambiados desde Administración ya no se pierden al reiniciar el servidor;
+  - todos los jugadores ven las pestañas en el mismo orden;
+  - al pasar el ratón por un mensaje del chat se ve su descripción, como la de los logros.
+- Actualizados **Mochos Ranking** 0.1.1 (el título del podio ya no se monta sobre el primer puesto) y **Mochos Trabajos** 0.4.1 (las misiones diarias seguidas avanzan en tiempo real).
+- Actualizados **Streams Reflowing** 2.17.1, **Polytone** 5.3.6 y **Weather Glass** 0.6.0.
+- Siguen siendo 74 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.8.0
 
 - Actualizado **Mochos Esenciales** a 0.13.0: la rueda del ratón mueve la lista de la tienda desde cualquier parte de la ventana.

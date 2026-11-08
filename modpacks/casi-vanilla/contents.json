@@ -1,5 +1,5 @@
 {
-  "version": "1.8.0",
+  "version": "1.9.0",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -233,7 +233,7 @@
       "name": "mochos_apariencia-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_esenciales-0.13.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_esenciales-0.14.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_forja-0.1.0-MC1.21.1-neoforge21.1.265"
@@ -245,7 +245,7 @@
       "name": "mochos_npcs-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_ranking-0.1.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_ranking-0.1.1-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_recursos-0.1.0-MC1.21.1-neoforge21.1.265"
@@ -260,7 +260,7 @@
       "name": "mochos_tiempo-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_trabajos-0.4.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_trabajos-0.4.1-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248"
@@ -380,7 +380,7 @@
       "name": "WallClimb-1.0.0-1.21.1-NeoForge"
     },
     {
-      "name": "weatherglass-0.5.0-1.21.1-neoforge"
+      "name": "weatherglass-0.6.0-1.21.1-neoforge"
     },
     {
       "name": "YetAnotherConfigLib (YACL)",
