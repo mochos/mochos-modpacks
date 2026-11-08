@@ -4,7 +4,7 @@ Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las 
 
 ### Requisitos
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.7.0 junto con el mod.
+- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.8.0 junto con el mod.
 
 > **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan, y los grupos de mapa pasan a ser grupos de amigos.
 
@@ -68,7 +68,7 @@ Idiomas: **español** e **inglés**.
 
 ### Addons
 
-Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.13.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
+Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.15.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
 
 - **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.
 - **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.
@@ -82,10 +82,11 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 - **Mochos Forja:** editor de items para administradores: nombre y lore con formato, encantamientos, pociones, atributos, luz de colores, biblioteca de items y modelos de Blockbench.
 - **Mochos NPCs:** comerciantes de jugadores que venden y compran con su propio inventario y aspecto (también de jugador con skin), banqueros, comerciantes de experiencia, editor de entidades y aldeanos y plantillas de NPCs.
 - **Mochos Ranking:** rankings de jugadores en una pestaña y en tablones y podios en el mundo, con los tres primeros de pie con su skin; del mundo, la economía, los trabajos y las misiones, totales, semanales o mensuales.
+- **Mochos Mapa Web:** el mapa del servidor en el navegador al estilo Diorama, con los jugadores y su skin, waypoints públicos, terrenos y chat; los jugadores no instalan nada.
 
 ### Combina muy bien con
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1 y 0.7.0.
+- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0 y 0.8.0.
 - **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.
 
 ### Acerca de

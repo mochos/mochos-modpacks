@@ -7,6 +7,7 @@
 - **Brazos clásicos o delgados** para cada skin.
 - **Tu biblioteca:** todas tus skins con su vista previa; un clic para ponerte otra, o volver a tu skin de Minecraft.
 - **Tus skins de Mochos:** con **Mochos Cédula** instalado, las skins de tu cuenta de Mochos vienen precargadas. Se usan pero no se modifican (se gestionan desde el launcher, y Cédula solo deja elegirlas a las cuentas verificadas con Microsoft o Discord). Tus skins adicionales se suben y editan como siempre y tienen prioridad. El botón **recargar** trae al momento las skins nuevas o cambiadas de mochos.xyz.
+- **También fuera del juego:** tu skin subida se ve en las caras de los jugadores desconectados (grupos, rankings…) y, con **Mochos Mapa Web**, en el mapa web.
 - **Cambio rápido:** con **Mochos Acciones Rápidas**, cambia de skin desde la rueda sin abrir ninguna pantalla.
 - Comando en el cliente: `/apariencia abrir`, `/apariencia archivo <ruta>` o `/apariencia url <url>`.
 
@@ -21,7 +22,7 @@ En **Administración → Apariencia**: cuántas skins puede tener cada jugador, 
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.15.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 
@@ -36,3 +37,4 @@ Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el
 - **Mochos Forja:** editor de items para administradores.
 - **Mochos NPCs:** comerciantes, banqueros y editor de entidades.
 - **Mochos Ranking:** rankings de jugadores, con tablones y podios en el mundo.
+- **Mochos Mapa Web:** el mapa del servidor en el navegador.

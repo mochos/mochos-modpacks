@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_mapaweb",
+  "name": "Mochos Mapa Web",
+  "summary": "Addon de Mochos Esenciales: el mapa de tu servidor en el navegador, al estilo Diorama. Jugadores con su skin, waypoints públicos, terrenos y chat. Se configura desde el panel de administración; los jugadores no instalan nada.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/154-mapaweb-jugadores.webp",
+    "images/155-mapaweb-waypoints.webp",
+    "images/156-mapaweb-chat.webp",
+    "images/157-mapaweb-capas.webp",
+    "images/161-mapaweb-waypoint-publico.webp",
+    "images/158-mapaweb-admin.webp",
+    "images/159-mapaweb-admin-capas.webp",
+    "images/160-mapaweb-admin-dibujado.webp"
+  ],
+  "tags": ["Addon", "Mapas", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_mapaweb-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-08",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.15.0 o posterior.\n\n- El mapa del servidor en el navegador, dibujado al estilo Diorama (o desde arriba) con texturas de bloques reales; el terreno sin guardar aparece en vivo y los tiles se actualizan sin recargar.\n- Página con el aspecto de Mochos Esenciales: barra lateral con **Jugadores**, **Waypoints**, **Chat** y **Capas**.\n- **Jugadores con su skin** (la de Mochos Apariencia, la de su cuenta o la por defecto); solo salen quienes comparten su posición en el mapa.\n- **Waypoints públicos** con buscador, **terrenos** con nombre y dueño, y **chat global** opcional (solo lectura).\n- Configuración en **Administración → Mapa web**: dirección, servidor web, página, capas y dibujado.\n- Comando `/mapaweb` (estado, render, clearcache, restart, reload) para admins.\n- Sustituye a Diorama Addons: Web Map: si están los dos, Mochos Mapa Web avisa y no arranca su servidor web.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.15.0", "name": "Mochos Esenciales" }
+      ]
+    }
+  ]
+}

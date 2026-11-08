@@ -3,7 +3,7 @@
 ### La pestaña Ranking
 
 - **Estadísticas por categoría**, con buscador.
-- **El ranking** de la estadística elegida, con la cara de cada jugador.
+- **El ranking** de la estadística elegida, con la cara de cada jugador y su skin, también si está desconectado.
 - **Tu puesto**, aunque no estés arriba.
 - **Los ganadores del periodo anterior** en los rankings semanales y mensuales.
 
@@ -50,7 +50,7 @@ Los ajustes se guardan, cargan y comparten como JSON desde **Administración →
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.14.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcionales: **Mochos Trabajos 0.4.0** y **Mochos Misiones 0.2.0** o posteriores.
+Requiere **Mochos Esenciales 0.15.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcionales: **Mochos Trabajos 0.4.0** y **Mochos Misiones 0.2.0** o posteriores.
 
 ### Otros addons de Mochos Esenciales
 
@@ -65,3 +65,4 @@ Requiere **Mochos Esenciales 0.14.0 o posterior**: al instalar el addon desde el
 - **Mochos Recursos:** paquetes de recursos del servidor desde el juego.
 - **Mochos Forja:** editor de items para administradores.
 - **Mochos NPCs:** comerciantes, banqueros y editor de entidades.
+- **Mochos Mapa Web:** el mapa del servidor en el navegador.

@@ -23,6 +23,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_apariencia-0.4.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.4.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-08",
+      "changelog": "Necesita Mochos Esenciales 0.15.0 o posterior.\n\n- Las skins subidas también se ven en las **caras de los jugadores desconectados** (grupos, rankings…).\n- Con **Mochos Mapa Web**, cada jugador sale en el mapa web con su skin subida.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.15.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_apariencia-0.3.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.3.0",
       "minecraft": ["1.21.1"],

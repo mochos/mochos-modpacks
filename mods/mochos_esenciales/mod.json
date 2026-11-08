@@ -11,6 +11,7 @@
     "images/01-pestanas-addons.webp",
     "images/03-jugadores-y-grupos.webp",
     "images/63-jugadores-desconectados-y-pvp-grupo.webp",
+    "images/67-jugadores-desconectados-con-skin.webp",
     "images/05-chat-global.webp",
     "images/06-chat-grupo.webp",
     "images/07-chat-directos.webp",
@@ -61,6 +62,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.15.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.15.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-08",
+      "changelog": "- Corregido: las **caras de los jugadores desconectados** (grupos, lista de desconectados, chat, terrenos, brújula, rankings) salían con la skin por defecto. Ahora se ve su skin: el servidor guarda la skin de cada jugador al entrar y, con Mochos Apariencia, también la subida.\n- Compatible con **Diorama 0.8.0** (además de 0.6.0, 0.6.1 y 0.7.0): mapa con pestañas, terrenos, menú del mapa, waypoints compartidos y jugadores lejanos. El launcher instala ahora Diorama 0.8.0.\n- Más posibilidades para los addons: chat global, waypoints públicos, quién comparte su posición en el mapa y las skins de cualquier jugador, también desconectado. Las usa el nuevo addon **Mochos Mapa Web**.\n- Addons actualizados: Mochos Apariencia 0.4.0 y Mochos Ranking 0.1.2. Nuevo: Mochos Mapa Web.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "ykq2PGwf", "name": "Diorama 0.8.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.14.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.14.0",

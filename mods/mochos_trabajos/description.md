@@ -50,3 +50,4 @@ Requiere **Mochos Esenciales 0.14.0 o posterior**: al instalar el addon desde el
 - **Mochos Forja:** editor de items para administradores.
 - **Mochos NPCs:** comerciantes, banqueros y editor de entidades.
 - **Mochos Ranking:** rankings de jugadores, con tablones y podios en el mundo.
+- **Mochos Mapa Web:** el mapa del servidor en el navegador.
