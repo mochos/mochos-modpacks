@@ -11,6 +11,9 @@
     "images/155-mapaweb-waypoints.webp",
     "images/156-mapaweb-chat.webp",
     "images/157-mapaweb-capas.webp",
+    "images/163-mapaweb-nubes.webp",
+    "images/162-mapaweb-nether.webp",
+    "images/164-mapaweb-skin-mochos.webp",
     "images/161-mapaweb-waypoint-publico.webp",
     "images/158-mapaweb-admin.webp",
     "images/159-mapaweb-admin-capas.webp",
@@ -21,6 +24,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_mapaweb-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-09",
+      "changelog": "Necesita Mochos Esenciales 0.16.0 o posterior.\n\n- **Nubes en las zonas sin explorar**, como en el mapa de Diorama, con el tono de cada dimensión (blancas en la superficie, humo rojizo en el Nether, violeta en el End). Se pueden quitar en **Capas**.\n- **Nether**: se dibuja el terreno bajo el techo de bedrock (antes salía todo gris). Los tiles del Nether ya dibujados se vuelven a dibujar solos.\n- **Caras con la skin de Mochos**: la subida con Mochos Apariencia y, si no, la skin de Mochos (la misma que muestra Mochos Cédula); después la de la cuenta y la de por defecto. Las skins HD se ven con más detalle.\n- Las coordenadas bajo el ratón ya no se quedan en «–» sobre el terreno dibujado.\n- Al cambiar de dimensión ya no se quedan las etiquetas de los terrenos de la dimensión anterior.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.16.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_mapaweb-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",

@@ -21,6 +21,8 @@
     "images/54-chat-chips-hud.webp",
     "images/65-chat-tooltip-logro.webp",
     "images/09-viajes-warps-y-lugares.webp",
+    "images/68-portal-viaje-contorno.webp",
+    "images/69-portal-viaje-abierto.webp",
     "images/44-viajes-lugares-compartidos.webp",
     "images/45-viajes-buscador.webp",
     "images/11-economia-tienda.webp",
@@ -33,6 +35,9 @@
     "images/20-ayuda-editor-markdown.webp",
     "images/21-configuracion.webp",
     "images/23-admin-precios-y-esperas-de-viajes.webp",
+    "images/72-admin-viajes-portales.webp",
+    "images/70-portal-bloque.webp",
+    "images/71-portal-editor.webp",
     "images/53-admin-inventario-armadura-curios.webp",
     "images/64-admin-inventario-desconectado.webp",
     "images/66-admin-orden-pestanas.webp",
@@ -62,6 +67,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.16.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.16.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-09",
+      "changelog": "- **Viajes por portales** (por defecto): al viajar a un warp, a un lugar o a un jugador se abre delante un portal con el aspecto de un end gateway. Durante la espera solo se dibuja su contorno, que se va cerrando; al terminar queda abierto unos segundos (5 por defecto, configurable en Administración → Viajes). Cualquiera que lo cruce viaja al destino y sale por un portal que lleva de vuelta mientras siga abierto. El precio y la espera se cobran al primer cruce. El admin puede volver al **teletransporte clásico**. Los addons que usan los viajes (anuncios, acciones rápidas…) también abren portales.\n- **Bloque portal** para admins (bloques funcionales y de operador del creativo): un portal permanente a un warp, a un lugar o a unas coordenadas, con nombre encima, tamaño, posición y giro. Con **ida y vuelta**, coloca en el destino un portal igual que lleva de regreso.\n- Corregido: la **rueda del ratón en la tienda** podía dejar de mover la lista cuando otro mod usaba la rueda en los inventarios. Lo mismo en la tienda de los comerciantes de Mochos NPCs.\n- Addons actualizados: Mochos Anuncios 0.3.1, Mochos Mapa Web 0.2.0 y Mochos NPCs 0.3.1.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "ykq2PGwf", "name": "Diorama 0.8.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.15.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.15.0",

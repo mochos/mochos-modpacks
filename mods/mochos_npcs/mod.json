@@ -32,6 +32,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_npcs-0.3.1-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-09",
+      "changelog": "Necesita Mochos Esenciales 0.16.0 o posterior.\n\n- Tienda de los comerciantes: la rueda del ratón llega siempre a la lista, aunque haya otros mods que usen la rueda en los inventarios.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.16.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_npcs-0.3.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.3.0",
       "minecraft": ["1.21.1"],
