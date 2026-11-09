@@ -1,5 +1,5 @@
 {
-  "version": "1.10.0",
+  "version": "2.0.0",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -12,6 +12,15 @@
       "url": "https://modrinth.com/mod/entitytexturefeatures",
       "icon": "https://cdn.modrinth.com/data/BVzZfTc1/af683d206d50b05258d865b0d6e4aa2f2cee12f2_96.webp",
       "platform": "modrinth"
+    },
+    {
+      "name": "Aether Villages",
+      "url": "https://modrinth.com/mod/aether-villages",
+      "icon": "https://cdn.modrinth.com/data/3P2XnNW6/cc9077bba26c66fbe57eafcbcb4f90283af49f20_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "aether-1.21.1-1.5.10-neoforge"
     },
     {
       "name": "Almanac",
@@ -134,6 +143,12 @@
       "platform": "modrinth"
     },
     {
+      "name": "Geckolib",
+      "url": "https://modrinth.com/mod/geckolib",
+      "icon": "https://cdn.modrinth.com/data/8BmcQJ2H/012d1aadbc754995de66e8c149a56aa10b63fe05_96.webp",
+      "platform": "modrinth"
+    },
+    {
       "name": "HT's TreeChop",
       "url": "https://modrinth.com/mod/treechop",
       "icon": "https://cdn.modrinth.com/data/gHoB7SHO/58692ff7dc6cc327291e8aac195cf44545b87f23_96.webp",
@@ -221,6 +236,12 @@
       "platform": "modrinth"
     },
     {
+      "name": "Mielon's The Sift 2.0",
+      "url": "https://modrinth.com/mod/mielons-the-sift",
+      "icon": "https://cdn.modrinth.com/data/j0IfTxBq/1c915be0e740f0f3bb6c104dc15cee209b038587_96.webp",
+      "platform": "modrinth"
+    },
+    {
       "name": "mochos_acciones-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
@@ -266,6 +287,12 @@
       "name": "mochoscedula-1.0.2-MC1.21.1-neoforge21.1.248"
     },
     {
+      "name": "Modern Apple Cows",
+      "url": "https://modrinth.com/mod/modern-apple-cows",
+      "icon": "https://cdn.modrinth.com/data/h3VCF7si/e0a3ebb9c354e8f066d60ef79e0a113bfaa6578b_96.webp",
+      "platform": "modrinth"
+    },
+    {
       "name": "ModernFix",
       "url": "https://modrinth.com/mod/modernfix",
       "icon": "https://cdn.modrinth.com/data/nmDcB62a/2af94de5e08ae54567ee86b968fc7ce076d9fee5_96.webp",
@@ -275,6 +302,12 @@
       "name": "More Culling",
       "url": "https://modrinth.com/mod/moreculling",
       "icon": "https://cdn.modrinth.com/data/51shyZVL/c51b07193b56e952269ef50101d12aecba2b4747_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "oωo (owo-lib)",
+      "url": "https://modrinth.com/mod/owo-lib",
+      "icon": "https://cdn.modrinth.com/data/ccKDOlHs/42c9fe358c72dd5afda078271c574c325e963d19_96.webp",
       "platform": "modrinth"
     },
     {
@@ -350,9 +383,18 @@
       "platform": "modrinth"
     },
     {
+      "name": "TerraBlender-neoforge-1.21.1-4.1.0.8"
+    },
+    {
       "name": "Terralith",
       "url": "https://modrinth.com/mod/terralith",
       "icon": "https://cdn.modrinth.com/data/8oi3bsk5/1959d924a1088944bbf07a06ba523726112d7e7a_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "Tom's Livestock Overhaul",
+      "url": "https://modrinth.com/mod/toms-livestock-overhaul",
+      "icon": "https://cdn.modrinth.com/data/ehyZsIlv/73bb5ca24c90a845d54d23200071c5cf01d6ed5e_96.webp",
       "platform": "modrinth"
     },
     {
@@ -386,6 +428,78 @@
       "name": "YetAnotherConfigLib (YACL)",
       "url": "https://modrinth.com/mod/yacl",
       "icon": "https://cdn.modrinth.com/data/1eAoo2KR/08c0cd32515e260f4bb20bbc0696510041523f9a_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's API",
+      "url": "https://modrinth.com/mod/yungs-api",
+      "icon": "https://cdn.modrinth.com/data/Ua7DFN59/0fab1c351bf00926a8e1c91dc64b7c88832c3e1f_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Better Caves",
+      "url": "https://modrinth.com/mod/yungs-better-caves",
+      "icon": "https://cdn.modrinth.com/data/Dfu00ggU/0fd178fe0c735fae747c5711e0423b1a89276610_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Better Desert Temples",
+      "url": "https://modrinth.com/mod/yungs-better-desert-temples",
+      "icon": "https://cdn.modrinth.com/data/XNlO7sBv/32fc82949e922ad9281ac9a8fe965afc04261848_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Better Dungeons",
+      "url": "https://modrinth.com/mod/yungs-better-dungeons",
+      "icon": "https://cdn.modrinth.com/data/o1C1Dkj5/9b54b2d932a5a5b6565c93814935c04902f3179b_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Better End Island",
+      "url": "https://modrinth.com/mod/yungs-better-end-island",
+      "icon": "https://cdn.modrinth.com/data/2BwBOmBQ/78c665ae3617a5b7e8902242b480d7f71ef04307_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Better Jungle Temples",
+      "url": "https://modrinth.com/mod/yungs-better-jungle-temples",
+      "icon": "https://cdn.modrinth.com/data/z9Ve58Ih/a142b7d112fe6812592de7db2d2badb1398100a7_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Better Mineshafts",
+      "url": "https://modrinth.com/mod/yungs-better-mineshafts",
+      "icon": "https://cdn.modrinth.com/data/HjmxVlSr/4e41ef8344db48b8368cd3d6f35844c8a619f446_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Better Nether Fortresses",
+      "url": "https://modrinth.com/mod/yungs-better-nether-fortresses",
+      "icon": "https://cdn.modrinth.com/data/Z2mXHnxP/3c88dd70c00b5e47addd9fdeba53a7c96076088d_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Better Ocean Monuments",
+      "url": "https://modrinth.com/mod/yungs-better-ocean-monuments",
+      "icon": "https://cdn.modrinth.com/data/3dT9sgt4/05c04c64ab9e5bf523701fa7bc0ac54adec25337_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Better Strongholds",
+      "url": "https://modrinth.com/mod/yungs-better-strongholds",
+      "icon": "https://cdn.modrinth.com/data/kidLKymU/bfb3cac4ca4d7d891fbbcb34a1d61eaa1d6f3e9a_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Better Witch Huts",
+      "url": "https://modrinth.com/mod/yungs-better-witch-huts",
+      "icon": "https://cdn.modrinth.com/data/t5FRdP87/20d3e930ec0a010723df61df091160104294e0b0_96.webp",
+      "platform": "modrinth"
+    },
+    {
+      "name": "YUNG's Cave Biomes",
+      "url": "https://modrinth.com/mod/yungs-cave-biomes",
+      "icon": "https://cdn.modrinth.com/data/cs7iGVq1/e5ce74259dece306f7d25c55c59d6afcc3d473ea_96.webp",
       "platform": "modrinth"
     }
   ],

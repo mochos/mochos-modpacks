@@ -1,8 +1,11 @@
-**Casi Vanilla** es el Minecraft de siempre, con lo justo para que sea más bonito, más fluido y más divertido entre amigos. Sin tecnología pesada ni nuevas dimensiones: el survival de toda la vida con mejoras de calidad.
+**Casi Vanilla** es el Minecraft de siempre, con lo justo para que sea más bonito, más fluido y más divertido entre amigos. Sin tecnología pesada: el survival de toda la vida con mejoras de calidad y dos dimensiones nuevas para explorar.
 
 ### ¿Qué incluye?
 
 - **Mundo:** generación de terreno de Terralith, ríos que fluyen de verdad (Streams Reflowing), Luki's Grand Capitals y santuarios legendarios para explorar.
+- **Estructuras y cuevas:** las de YUNG's (mazmorras, minas, fortalezas, templos, monumentos, la isla del End y más) y biomas de cuevas nuevos.
+- **Dimensiones nuevas:** el **Aether**, con sus aldeas y templos, y **The Sift**, una dimensión extraña de sculk y almas resonantes.
+- **Animales:** ganado con genética real que hereda su pelaje al criar (Tom's Livestock Overhaul) y vacas de manzana.
 - **Aventura:** tablón de encargos con recompensas (Bountiful) y Tempad para viajar entre puntos guardados.
 - **Aviación:** Immersive Aircraft y Man of Many Planes.
 - **Calidad de vida:** mochilas de viaje, almacenamiento de Tom's Storage, tumbas al morir (Corpse), talado de árboles por partes (TreeChop), Jade, Roughly Enough Items, zoom y armadura cosmética.

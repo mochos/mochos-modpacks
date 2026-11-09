@@ -1,3 +1,14 @@
+## 2.0.0
+
+- Nuevas dimensiones:
+  - **The Aether**, la dimensión del cielo, con **Aether Villages** (aldeas y templos);
+  - **The Sift**, una dimensión extraña de sculk, vida antigua y almas resonantes.
+- Mejores estructuras y cuevas con los mods de **YUNG's**: cuevas, mazmorras, minas, fortalezas del Nether, templos del desierto y la jungla, monumentos oceánicos, fortalezas, cabañas de bruja y la isla del End, más **YUNG's Cave Biomes**.
+- Animales: **Tom's Livestock Overhaul** (ovejas, vacas, cerdos, gallinas y lobos heredan su pelaje al criar y aparecen según el clima) y **Modern Apple Cows**.
+- Plantillas de misiones nuevas para el Aether y The Sift en Mochos Misiones.
+- En un mundo ya empezado, las estructuras, cuevas y animales nuevos solo aparecen en las zonas que aún no se han explorado; las dimensiones nuevas se pueden visitar desde el principio.
+- Ahora son 94 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 1.10.0
 
 - Actualizado **Mochos Esenciales** a 0.15.0: las caras de los jugadores desconectados (grupos, chat, terrenos, brújula, rankings) ya salen con su skin.
