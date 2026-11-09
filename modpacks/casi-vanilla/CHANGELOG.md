@@ -1,3 +1,13 @@
+## 2.1.0
+
+- Actualizado **Mochos Esenciales** a 0.16.0:
+  - los viajes se hacen por **portales**: se abre uno delante de ti, lo cruzas y puedes volver por el de llegada mientras siga abierto;
+  - los administradores pueden colocar portales permanentes a un warp, un lugar o unas coordenadas, con ida y vuelta;
+  - la rueda del ratón vuelve a mover siempre la lista de la tienda.
+- Actualizados **Mochos Mapa Web** 0.2.0 (nubes sobre las zonas sin explorar, el Nether bajo su techo de bedrock y las caras con la skin de Mochos), **Mochos Anuncios** 0.3.1 y **Mochos NPCs** 0.3.1.
+- Actualizados **Touch'n Motion** 1.0.5, **Polytone** 5.3.8 y **EMF Compat Core** 2.4.0.
+- Siguen siendo 94 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.0.0
 
 - Nuevas dimensiones:
