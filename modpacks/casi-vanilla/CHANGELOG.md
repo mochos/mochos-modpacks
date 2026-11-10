@@ -1,3 +1,12 @@
+## 2.3.0
+
+- Actualizado **Mochos NPCs** a 0.4.0:
+  - **aldeanos** con el aspecto que quieras que abren la ventana de comercios de Minecraft;
+  - NPCs con **interfaz**: páginas con texto, imágenes y botones que abren pestañas, llevan a warps o al banco;
+  - NPCs de **misiones aleatorias**: un tablero de misiones por rarezas con tiempo límite y recompensas;
+  - plantillas nuevas: la Guía del servidor, Rosa la cazarrecompensas y Anselmo el aldeano.
+- Siguen siendo 94 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.2.0
 
 - Actualizado **Mochos Esenciales** a 0.17.0:

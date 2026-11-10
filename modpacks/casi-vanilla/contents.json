@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -263,7 +263,7 @@
       "name": "mochos_misiones-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_npcs-0.3.1-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_npcs-0.4.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_ranking-0.1.2-MC1.21.1-neoforge21.1.265"
