@@ -2,7 +2,7 @@
   "$schema": "../../schema/contenido.schema.json",
   "id": "mochos_npcs",
   "name": "Mochos NPCs",
-  "summary": "Addon de Mochos Esenciales: comerciantes que venden y compran, con su inventario y aspecto de cualquier entidad o de jugador con skin HD; banqueros; editor de entidades y aldeanos para admins; plantillas de NPCs en JSON.",
+  "summary": "Addon de Mochos Esenciales: comerciantes que venden y compran, aldeanos, NPCs con páginas y botones, misiones aleatorias con recompensas, banqueros y editor de entidades. Con aspecto de cualquier entidad o de jugador con skin HD.",
   "description": "description.md",
   "icon": "icon.png",
   "ogImage": "og-image.jpg",
@@ -20,6 +20,14 @@
     "images/147-npcs-comerciante-de-experiencia.webp",
     "images/151-npcs-frascos-de-experiencia.webp",
     "images/148-npcs-tipo-de-npc.webp",
+    "images/167-npcs-interfaz-guia.webp",
+    "images/168-npcs-interfaz-editor.webp",
+    "images/169-npcs-misiones-aleatorias.webp",
+    "images/174-npcs-misiones-aceptadas.webp",
+    "images/170-npcs-misiones-en-pantalla.webp",
+    "images/171-npcs-recompensas-por-rareza.webp",
+    "images/172-npcs-tipo-aldeano.webp",
+    "images/173-npcs-admin-misiones-aleatorias.webp",
     "images/111-editor-entidad.webp",
     "images/113-editor-comercios-aldeano.webp",
     "images/114-editor-aldeano-en-el-mundo.webp",
@@ -31,6 +39,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_npcs-0.4.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.4.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-10",
+      "changelog": "Necesita Mochos Esenciales 0.17.0 o posterior.\n\n- Nuevo tipo de NPC: **Aldeano**. Un NPC con cualquier aspecto (también jugador con skin) que abre la **ventana de comercios de Minecraft**. Sus comercios se editan como los de un aldeano y se reponen cada mañana.\n- Nuevo tipo de NPC: **Interfaz**, como los NPCs de Minecraft Bedrock pero más personalizable. Abre una ventana con el **modelo del NPC al lado** y páginas con título, texto en **Markdown con imágenes** y hasta 12 **botones**: ir a otra página, abrir una pestaña de Mochos Esenciales o de un addon, viajar a un warp, abrir el banco, abrir un enlace o ejecutar un comando. Editor de páginas en el juego con vista previa.\n- Nuevo tipo de NPC: **Misiones aleatorias**. Un tablero de misiones para cada jugador (se renueva cada 30 minutos) de rareza gris, verde, azul, morada o dorada, con tiempo límite: cazar jugadores o criaturas, entregar objetos, ir a unas coordenadas, encontrar una estructura, fabricar, picar, pescar, criar… Las recompensas son monedas, experiencia y objetos (los que el admin ponga en cada rareza, o aleatorios). Las misiones aceptadas se ven en pantalla con su progreso.\n- Administración → NPCs → **Misiones aleatorias**: misiones contra jugadores, cuántas a la vez, cuántas en el tablero, cada cuánto se renueva y qué tipos se ofrecen. Comandos `/npcs misiones recargar` y `/npcs misiones reiniciar`.\n- Tres plantillas nuevas: **Guía del servidor** (una interfaz que explica Mochos Esenciales y sus addons), **Rosa la cazarrecompensas** (misiones aleatorias) y **Anselmo el aldeano**. También se copian en los mundos que ya tenían las anteriores.\n- Corregido: el modelo del NPC ya no se corta detrás del panel cuando mira hacia arriba.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.17.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_npcs-0.3.1-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.3.1",
