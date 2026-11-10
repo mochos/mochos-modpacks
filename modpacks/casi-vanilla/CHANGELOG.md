@@ -1,3 +1,13 @@
+## 2.2.0
+
+- Actualizado **Mochos Esenciales** a 0.17.0:
+  - el portal de destino se abre a la vez que el de origen, así que se puede volver desde el primer momento;
+  - al llegar, los portales que ya estaban abiertos allí no te llevan hasta que te alejas unos pasos;
+  - los portales se ven con estrellas también con los shaders activados.
+- Actualizado **Mochos Misiones** a 0.3.0: buscador en la pestaña Misiones.
+- Actualizado **Diorama** a 0.8.1.
+- Siguen siendo 94 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.1.0
 
 - Actualizado **Mochos Esenciales** a 0.16.0:
