@@ -4,7 +4,7 @@ Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las 
 
 ### Requisitos
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.8.0 junto con el mod.
+- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.8.1 junto con el mod.
 
 > **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan, y los grupos de mapa pasan a ser grupos de amigos.
 
@@ -14,7 +14,7 @@ Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las 
 - **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima. El mapa muestra los terrenos, lo que exploraron los demás, los **waypoints compartidos** y a los **jugadores lejanos** de tus grupos. En Configuración eliges si ver los terrenos en el mapa y en el minimapa, y si compartir tu ubicación y lo que exploras. Al usar la herramienta de dibujo, las pestañas se ocultan para no tapar sus herramientas. Cada waypoint se puede dejar **privado**, hacer **público** o compartir con **uno de tus grupos** desde su propia pantalla.
 - **Terrenos:** reclama y protege chunks desde un mapa del terreno real: clic o arrastrar para reclamar o liberar, varios terrenos con nombre, amigos (también **grupos de amigos** enteros) con plantillas y permisos uno a uno, permisos públicos, **notificaciones de bienvenida y despedida** con formato y una **alarma de visitantes** para el dueño y los miembros. Tecla **G** o `/claims menu`.
 - **Jugadores:** conectados, buscador y orden por cercanía o alfabético. Chat directo, solicitudes de viaje e invitaciones a grupos. **Bloquea** los mensajes directos o las solicitudes de viaje de quien quieras. **Grupos de amigos**: crear, invitar, expulsar, renombrar, elegir color, salir y activar o desactivar el **PvP entre los miembros**. Una **brújula** arriba de la pantalla muestra a los miembros de tus grupos con su cabeza, nombre y distancia.
-- **Viajes:** warps del servidor (con nombre, icono y descripción opcionales) y tus lugares (nombre, mundo y coordenadas), que puedes **compartir** como públicos o con cada uno de tus grupos. Debajo de «Mis lugares» salen los lugares de tus grupos y los públicos, con un buscador que filtra todos. Clic o botón para viajar; mover, renombrar y eliminar en un desplegable. Precio y espera por tipo de viaje. Se viaja por **portales**: se abre uno delante de ti, lo cruzas y sales por otro que lleva de vuelta mientras siga abierto (el admin puede volver al teletransporte clásico). Los admins también pueden colocar **portales permanentes** a un warp, un lugar o unas coordenadas, con ida y vuelta.
+- **Viajes:** warps del servidor (con nombre, icono y descripción opcionales) y tus lugares (nombre, mundo y coordenadas), que puedes **compartir** como públicos o con cada uno de tus grupos. Debajo de «Mis lugares» salen los lugares de tus grupos y los públicos, con un buscador que filtra todos. Clic o botón para viajar; mover, renombrar y eliminar en un desplegable. Precio y espera por tipo de viaje. Se viaja por **portales**: se abre uno delante de ti y otro a la vez en el destino, lo cruzas y puedes volver por el de llegada mientras siga abierto; también se ven con shaders (el admin puede volver al teletransporte clásico). Los admins también pueden colocar **portales permanentes** a un warp, un lugar o unas coordenadas, con ida y vuelta.
 - **Economía:** banco (consignar, retirar, transferir con sugerencias de jugadores, ranura para consignar y casillas para **agrupar o separar monedas**), tienda con buscador por objeto o vendedor, el precio en cada botón (comprar en dorado, vender en verde) y desplazamiento con la rueda desde cualquier parte de la ventana, vender tus objetos y **Mi tienda**: tus anuncios con su propio inventario de stock y el **historial de ventas**. El admin lleva una **tienda del servidor** con stock infinito que también puede comprar a los jugadores.
 - **Ayuda:** páginas escritas por el admin en **Markdown**: títulos, negrita, cursiva, tachado, código, listas (anidadas y de tareas), citas, tablas, enlaces e imágenes desde URL (PNG, JPG, GIF) con el ancho que quieras (`{width=120}`). Editor en el juego con vista previa.
 - **Configuración:** quién puede pedirte viajes, escribirte o invitarte (todos, solo amigos o nadie), aceptar solo los viajes de amigos, ocultar tu distancia, avisos de pagos, sonido y volumen de cada chat, notificaciones, el aspecto del chat (hora, líneas, ancho, opacidad y duración), cerrar el chat al enviar un mensaje o un comando, tu dinero junto a la barra rápida, tus estadísticas junto al inventario, las opciones del **mapa** y de la **brújula** y, con **Simple Voice Chat**, sus opciones principales y botones para sus grupos y el volumen de cada jugador.
@@ -68,7 +68,7 @@ Idiomas: **español** e **inglés**.
 
 ### Addons
 
-Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.16.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
+Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.17.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
 
 - **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.
 - **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.
@@ -86,7 +86,7 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 
 ### Combina muy bien con
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0 y 0.8.0.
+- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0, 0.8.0 y 0.8.1.
 - **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.
 
 ### Acerca de

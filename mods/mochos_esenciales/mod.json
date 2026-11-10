@@ -23,6 +23,8 @@
     "images/09-viajes-warps-y-lugares.webp",
     "images/68-portal-viaje-contorno.webp",
     "images/69-portal-viaje-abierto.webp",
+    "images/73-portal-destino.webp",
+    "images/75-portal-shaders-viaje.webp",
     "images/44-viajes-lugares-compartidos.webp",
     "images/45-viajes-buscador.webp",
     "images/11-economia-tienda.webp",
@@ -38,6 +40,7 @@
     "images/72-admin-viajes-portales.webp",
     "images/70-portal-bloque.webp",
     "images/71-portal-editor.webp",
+    "images/74-portal-shaders-bloque.webp",
     "images/53-admin-inventario-armadura-curios.webp",
     "images/64-admin-inventario-desconectado.webp",
     "images/66-admin-orden-pestanas.webp",
@@ -67,6 +70,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.17.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.17.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-10",
+      "changelog": "- **El portal de destino se abre a la vez que el de origen**, así que desde el otro lado también se puede cruzar desde el primer momento. Los dos duran lo mismo (5 s por defecto) y cada cruce deja abierto el de llegada el tiempo completo para poder volver.\n- **Protección de llegada:** al salir de un portal, los que ya estaban abiertos allí (el de otro jugador o un bloque portal junto al warp) no te llevan hasta que te alejas unos bloques. Así un viaje ya no te encadena con otro.\n- Si en el destino ya hay un portal abierto, el nuevo se abre a su lado en lugar de encima.\n- Corregido: un portal que quedaba en un chunk sin cargar podía volver a abrirse al regresar el chunk y llevarte a otro sitio.\n- **Portales con shaders:** con Iris u Oculus (probado con Amethyst Shaders) los portales se ven con estrellas y su contorno.\n- Compatible con **Diorama 0.8.1**; el launcher la instala junto con el mod.\n- Addon actualizado: Mochos Misiones 0.3.0 (buscador).",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "LUifI5BG", "name": "Diorama 0.8.1" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.16.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.16.0",

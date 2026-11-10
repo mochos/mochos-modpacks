@@ -2,7 +2,7 @@
 
 ### Características
 
-- **Capítulos y árbol:** cada capítulo muestra sus misiones como un árbol (se arrastra para moverlo). Las completadas en verde, las disponibles en azul con su progreso, las bloqueadas con candado y las que tienen recompensa por reclamar brillan en dorado.
+- **Capítulos y árbol:** cada capítulo muestra sus misiones como un árbol (se arrastra para moverlo). Las completadas en verde, las disponibles en azul con su progreso, las bloqueadas con candado y las que tienen recompensa por reclamar brillan en dorado. Un **buscador** en la cabecera filtra los capítulos y resalta las misiones que coinciden (sin distinguir mayúsculas ni tildes).
 - **Historia y consejos:** cada misión explica qué hacer y cómo (dónde está la fortaleza, cómo encender el portal, qué llevar al End…).
 - **Objetivos:** conseguir o entregar items, craftear, fundir o cocinar, comer, derrotar criaturas, picar y colocar bloques, entrar a una dimensión, visitar biomas, alejarse del punto de aparición, **encontrar una estructura**, **conocer una criatura**, estadísticas y logros vanilla, nivel de trabajo y marcar a mano. Admiten ids, tags (`#minecraft:logs`) y `*`.
 - **Recompensas:** items (con encantamientos, pociones, nombres…), Ceitiles, experiencia, XP de trabajo y comandos del servidor. Se reclaman con un botón, o se dan solas si el admin quiere.
@@ -42,7 +42,7 @@ Si **Mochos Trabajos** 0.2.0 o superior está instalado, las misiones pueden ped
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.12.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: Mochos Trabajos 0.2.0 o posterior.
+Requiere **Mochos Esenciales 0.17.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: Mochos Trabajos 0.2.0 o posterior.
 
 ### Otros addons de Mochos Esenciales
 

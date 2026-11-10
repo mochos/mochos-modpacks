@@ -8,6 +8,7 @@
   "ogImage": "og-image.jpg",
   "gallery": [
     "images/71-misiones-arbol-y-detalle.webp",
+    "images/166-misiones-buscador.webp",
     "images/72-misiones-mision-completada.webp",
     "images/73-misiones-recompensas-reclamadas.webp",
     "images/74-misiones-seguimiento-en-pantalla.webp",
@@ -26,6 +27,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_misiones-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-10",
+      "changelog": "Necesita Mochos Esenciales 0.17.0 o posterior.\n\n- **Buscador** en la cabecera de la pestaña Misiones: al escribir solo quedan los capítulos con algo que coincida, y en el árbol las misiones que no coinciden se ven atenuadas. Busca en los capítulos y en el título, la historia y los objetivos de cada misión, sin distinguir mayúsculas ni tildes («dragon» encuentra «Dragón»). Si la primera misión que coincide queda fuera de la vista, el árbol se mueve para mostrarla.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.17.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_misiones-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",
