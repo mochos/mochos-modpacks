@@ -9,7 +9,7 @@ Con el objeto **Generar comerciante** (se fabrica, se compra en la tienda o lo d
 - **Sin ranuras de pago:** los ítems que pide se descuentan directamente de tu inventario. La tienda muestra tu dinero en el banco y en efectivo.
 - **Aviso de cada venta** e **historial** de ventas y compras. Con **Mochos Ranking**, cuentan en los rankings de ventas y compras.
 - **Su aspecto:** aldeano (con profesión y bioma), vendedor ambulante, gólem, zorro, allay… o un **jugador con skin SD o HD** (hasta 1024×1024) subida desde un archivo o una URL. También bebé, tamaño y si mira a los jugadores.
-- Bajo su nombre aparece **su dueño** en letra más pequeña. Con el inventario vacío, el comerciante se puede recoger y vuelve a ser un Generar comerciante.
+- Bajo su nombre aparece **su dueño** en letra más pequeña. Con el inventario vacío, el comerciante se puede recoger: queda guardado entero en el huevo (aspecto, nombre, comercios y opciones) y al usarlo vuelve el mismo comerciante.
 
 ### Banqueros y comerciantes de experiencia
 
@@ -25,7 +25,7 @@ Como los NPCs de Minecraft Bedrock, pero más personalizables: al hablar con ell
 
 ### Misiones aleatorias
 
-Un NPC de **Misiones aleatorias** ofrece a cada jugador un tablero que se renueva cada 30 minutos, con misiones de rareza **gris, verde, azul, morada o dorada** y **tiempo límite**: matar jugadores o **cazar a uno conectado** (se le avisa), matar criaturas, entregar objetos, ordeñar una champivaca, hacer crecer azaleas, ir a unas coordenadas, encontrar una estructura, fabricar, picar, pescar o criar. Las recompensas son monedas, experiencia y objetos: los que el admin pone en cada rareza (también de otros mods) o, si la deja vacía, objetos aleatorios. Las misiones aceptadas se ven en pantalla con su progreso y el tiempo que queda.
+Un NPC de **Misiones aleatorias** ofrece a cada jugador un tablero que se renueva cada 30 minutos, con misiones de rareza **gris, verde, azul, morada o dorada** y **tiempo límite**: matar jugadores o **cazar a uno conectado** (se le avisa), matar criaturas, entregar objetos, ordeñar una champivaca, hacer crecer azaleas, ir a unas coordenadas, encontrar una estructura, fabricar, picar, pescar o criar. Las recompensas son monedas, experiencia y objetos: los que el admin pone en cada rareza (también de otros mods) o, si la deja vacía, objetos aleatorios. Las misiones aceptadas se pueden **seguir** en el panel de misiones de la pantalla, con su progreso y el tiempo que queda.
 
 ### Editor de entidades
 
@@ -46,7 +46,7 @@ En **Administración → NPCs**: permitir comerciantes de jugadores, máximo por
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.17.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.18.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 

@@ -22,7 +22,7 @@ En **Administración → Apariencia**: cuántas skins puede tener cada jugador, 
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.15.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.18.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 

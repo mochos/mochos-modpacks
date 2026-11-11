@@ -24,6 +24,7 @@
     "images/68-portal-viaje-contorno.webp",
     "images/69-portal-viaje-abierto.webp",
     "images/73-portal-destino.webp",
+    "images/79-portales-sincronizados.webp",
     "images/75-portal-shaders-viaje.webp",
     "images/44-viajes-lugares-compartidos.webp",
     "images/45-viajes-buscador.webp",
@@ -43,6 +44,9 @@
     "images/74-portal-shaders-bloque.webp",
     "images/53-admin-inventario-armadura-curios.webp",
     "images/64-admin-inventario-desconectado.webp",
+    "images/76-jugadores-desconectados-admin.webp",
+    "images/77-datos-del-jugador.webp",
+    "images/78-migracion-por-nombre.webp",
     "images/66-admin-orden-pestanas.webp",
     "images/25-terrenos-mapa.webp",
     "images/26-terrenos-miembros.webp",
@@ -70,6 +74,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.18.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.18.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-11",
+      "changelog": "- **Jugadores desconectados:** cada uno tiene en Administración las mismas herramientas que los conectados: ver y editar el inventario y el cofre de ender, copiar la UUID, valores propios, silenciar, banear y la nueva ventana **Datos**. La lista muestra si cada jugador es **premium** o **no premium**.\n- **Datos del jugador, mod por mod:** la ventana Datos lista todo lo que el servidor guarda de un jugador (inventario, cofre de ender, experiencia, logros, estadísticas, posición, Esenciales, terrenos, mapa compartido y los datos de cada addon). Lo marcado se puede **transferir** a otro jugador o **borrar**.\n- **Migración por nombre** para servidores que pasaron de modo online a offline (o al revés): los datos de la UUID antigua pasan a la que el nombre tiene ahora, para un jugador o para todos a la vez.\n- **Respaldos:** antes de cada transferencia, borrado o restauración se guardan los datos de los jugadores implicados, y la ventana Datos permite **restaurarlos**.\n- **Portales sincronizados:** el portal de destino aparece y se traza a la vez que el de origen, con la misma animación, y los dos se abren juntos.\n- Los textos largos del panel de misiones seguidas se reducen antes de cortarse.\n- Addons actualizados: Acciones Rápidas 0.4.0, Anuncios 0.4.0, Apariencia 0.5.0, Misiones 0.4.0, NPCs 0.5.0, Ranking 0.2.0, Tareas 0.2.0, Tiempo 0.2.0 y Trabajos 0.5.0 (necesitan esta versión).",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "LUifI5BG", "name": "Diorama 0.8.1" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.17.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.17.0",

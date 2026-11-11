@@ -12,6 +12,7 @@
     "images/122-npcs-comprar-y-vender.webp",
     "images/125-npcs-comercios-vende-y-compra.webp",
     "images/123-npcs-inventario-con-monedas.webp",
+    "images/177-npcs-huevo-guardado.webp",
     "images/124-npcs-historial-con-compras.webp",
     "images/126-npcs-aspecto-jugador-skin.webp",
     "images/103-npcs-entidades-para-jugadores.webp",
@@ -24,6 +25,8 @@
     "images/168-npcs-interfaz-editor.webp",
     "images/169-npcs-misiones-aleatorias.webp",
     "images/174-npcs-misiones-aceptadas.webp",
+    "images/175-npcs-seguir-mision.webp",
+    "images/176-npcs-mision-seguida-panel.webp",
     "images/170-npcs-misiones-en-pantalla.webp",
     "images/171-npcs-recompensas-por-rareza.webp",
     "images/172-npcs-tipo-aldeano.webp",
@@ -39,6 +42,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_npcs-0.5.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.5.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-11",
+      "changelog": "Necesita Mochos Esenciales 0.18.0 o posterior.\n\n- **Seguir misiones aleatorias** del cazarrecompensas: cada misión aceptada tiene un botón para seguirla, y las seguidas aparecen en el panel de la izquierda junto a las demás misiones fijadas, con su progreso y el tiempo que queda. Ya no hay panel flotante a la derecha.\n- **Recoger un comerciante lo guarda entero en el huevo:** aspecto, nombre, tipo, comercios y opciones quedan en el objeto, que brilla y dice qué NPC contiene; al usarlo vuelve el mismo comerciante. El de un jugador hay que vaciarlo antes de recogerlo.\n- Los textos largos de las misiones se ven más pequeños en lugar de cortarse.\n- **Datos por jugador:** las misiones aleatorias y los comerciantes de cada jugador aparecen en Administración → Jugadores → Datos de Mochos Esenciales (transferir a otra UUID, borrar, restaurar).",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.18.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_npcs-0.4.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.4.0",

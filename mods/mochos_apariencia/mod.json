@@ -23,6 +23,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_apariencia-0.5.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.5.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-11",
+      "changelog": "Necesita Mochos Esenciales 0.18.0 o posterior.\n\n- **Datos por jugador:** sus datos aparecen en Administración → Jugadores → Datos de Mochos Esenciales, donde se pueden pasar a otra UUID (servidores que cambiaron de modo online a offline), borrar y restaurar desde respaldos.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.18.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_apariencia-0.4.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.4.0",
       "minecraft": ["1.21.1"],
