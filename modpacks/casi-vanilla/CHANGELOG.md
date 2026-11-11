@@ -1,3 +1,15 @@
+## 2.4.0
+
+- Actualizado **Mochos Esenciales** a 0.18.0:
+  - los administradores gestionan también a los jugadores desconectados y pueden pasar, borrar o restaurar los datos de cada jugador;
+  - los portales de origen y destino aparecen y se abren a la vez.
+- Actualizados los addons de Mochos Esenciales:
+  - **Mochos Acciones Rápidas** 0.4.0: opción para usar la rueda con clics, sin mantener la tecla;
+  - **Mochos Misiones** 0.4.0: al mantener Tab, las misiones seguidas aparecen bajo la lista de jugadores;
+  - **Mochos NPCs** 0.5.0: las misiones del cazarrecompensas se pueden seguir en pantalla, y al recoger un comerciante se guarda entero en el huevo;
+  - **Mochos Tareas** 0.2.0, **Anuncios** 0.4.0, **Apariencia** 0.5.0, **Ranking** 0.2.0, **Tiempo** 0.2.0 y **Trabajos** 0.5.0.
+- Siguen siendo 94 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.3.0
 
 - Actualizado **Mochos NPCs** a 0.4.0:
