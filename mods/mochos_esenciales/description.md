@@ -4,7 +4,7 @@ Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las 
 
 ### Requisitos
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.8.1 junto con el mod.
+- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.9.0 junto con el mod.
 
 > **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan, y los grupos de mapa pasan a ser grupos de amigos.
 
@@ -95,7 +95,7 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 
 ### Combina muy bien con
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0, 0.8.0 y 0.8.1.
+- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0, 0.8.0, 0.8.1 y 0.9.0. Con Diorama 0.9.0 en un servidor dedicado se usa su propio mapa explorado compartido, y el de Esenciales se pausa (se puede volver a activar en Administración → Módulos).
 - **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.
 
 ### Acerca de
