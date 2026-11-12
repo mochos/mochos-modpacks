@@ -1,3 +1,9 @@
+## 2.6.1
+
+- Actualizado **Mochos Forja** a 0.2.0: los modelos de Blockbench se ven sin paquetes de recursos y pueden ser items, **prendas** (sombreros, camisetas…, también en el nuevo **Vestuario**) u **objetos** que se colocan en el mundo.
+- Actualizado **Mochos Carteles** a 0.2.0: los modelos con texturas animadas se animan, a la velocidad que se elija.
+- Siguen siendo 95 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.0
 
 - Añadido **Mochos Carteles**: los administradores pueden colocar carteles en el mundo con texto, imágenes y modelos, fijos, girando o mirando al jugador, que al hacer clic abren una ventana, un enlace o ejecutan un comando.
