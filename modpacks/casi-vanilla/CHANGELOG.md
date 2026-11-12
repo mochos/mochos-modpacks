@@ -1,3 +1,11 @@
+## 2.5.0
+
+- Actualizado **Diorama** a 0.9.0, y **Mochos Esenciales** a 0.20.0 para que sea compatible.
+- **Mochos Esenciales** trae comandos de administración (`/vanish`, `/invsee`, `/whois`, `/nick`, `/fly`, `/heal`…) que los administradores pueden abrir a los jugadores con su precio.
+- Actualizado **Mochos NPCs** a 0.6.0: cada NPC combina diálogo, comercio, banco, experiencia y misiones, y puede mostrar sus propios árboles de misiones.
+- Actualizado **Mochos Misiones** a 0.5.0: capítulos ocultos que solo se descubren hablando con un NPC.
+- Siguen siendo 94 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.4.0
 
 - Actualizado **Mochos Esenciales** a 0.18.0:
