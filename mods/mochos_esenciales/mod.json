@@ -38,6 +38,7 @@
     "images/20-ayuda-editor-markdown.webp",
     "images/21-configuracion.webp",
     "images/23-admin-precios-y-esperas-de-viajes.webp",
+    "images/80-admin-comandos.webp",
     "images/72-admin-viajes-portales.webp",
     "images/70-portal-bloque.webp",
     "images/71-portal-editor.webp",
@@ -45,6 +46,7 @@
     "images/53-admin-inventario-armadura-curios.webp",
     "images/64-admin-inventario-desconectado.webp",
     "images/76-jugadores-desconectados-admin.webp",
+    "images/81-whois-vanish.webp",
     "images/77-datos-del-jugador.webp",
     "images/78-migracion-por-nombre.webp",
     "images/66-admin-orden-pestanas.webp",
@@ -74,6 +76,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.19.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.19.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-12",
+      "changelog": "- **Comandos de administración:** `/tps`, `/feed`, `/heal`, `/repair`, `/vanish`, `/invsee`, `/enderchest`, `/fly`, `/god`, `/speed`, `/gm` (y `/gmc`, `/gms`, `/gma`, `/gmsp`), `/clearinv`, `/top`, `/near`, `/whois`, `/broadcast`, `/sudo` y `/nick`. Por defecto son solo de admins; en **Administración → Comandos** cada uno se puede abrir a todos los jugadores (para usarlo sobre sí mismos) con su precio y su espera, también por jugador.\n- `/vanish` oculta al jugador para quien no es operador: del mundo, la lista de jugadores, la pestaña Jugadores, la brújula y el mapa, y entra y sale sin mensaje. Se mantiene al reconectar, igual que `/god`, `/fly` y el apodo.\n- `/nick` cambia el nombre que se ve en el chat, la lista y sobre la cabeza. `/whois` muestra la ficha de un jugador. `/invsee` abre su inventario (editable para los admins, también de desconectados) y `/enderchest` tu cofre de ender en cualquier sitio.\n- Addons actualizados: Mochos Misiones 0.5.0 (árboles de misiones ocultos) y Mochos NPCs 0.6.0 (capacidades combinables).",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "LUifI5BG", "name": "Diorama 0.8.1" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.18.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.18.0",

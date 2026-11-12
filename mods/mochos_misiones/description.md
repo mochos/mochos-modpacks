@@ -20,6 +20,8 @@
 
 En **Administración → Misiones** se importan capítulos completos desde un archivo, el portapapeles o plantillas, y se exporta cualquier capítulo. Al importar, el progreso de los jugadores se conserva. Vienen plantillas listas: **Explorador del mundo** (63 biomas y 34 estructuras), **Bestiario** (79 criaturas), **Jefes y desafíos**, **Gran chef**, **Coleccionista**, **Constructor** y **Desafíos extremos**.
 
+Cada capítulo puede ser **público** (en la pestaña Misiones) u **oculto**: un capítulo oculto solo lo muestra un NPC de **Mochos NPCs** que lo tenga vinculado, en su propia ventana, y sus misiones cuentan para cada jugador desde que lo abre allí. Así un guía o un explorador puede tener sus propias misiones.
+
 ### Bloqueos de progresión (opcionales)
 
 Las misiones pueden impedir **craftear** un item, **usar** un item, **entrar a una dimensión** o **alejarse** del punto de aparición hasta completarlas. Vienen **apagados**: la campaña trae algunos sugeridos (el Nether hasta tener armadura de hierro, el End hasta los ojos de ender) y el admin los activa con un interruptor. Los jugadores en creativo no se bloquean.
@@ -42,7 +44,7 @@ Si **Mochos Trabajos** 0.2.0 o superior está instalado, las misiones pueden ped
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.18.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: Mochos Trabajos 0.2.0 o posterior.
+Requiere **Mochos Esenciales 0.19.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: Mochos Trabajos 0.2.0 o posterior.
 
 ### Otros addons de Mochos Esenciales
 
