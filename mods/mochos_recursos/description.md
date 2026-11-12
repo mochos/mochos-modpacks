@@ -15,7 +15,7 @@
 - **Dirección automática:** cada jugador descarga desde la misma dirección con la que entró. Si usas un proxy o un dominio distinto, escribe la dirección pública. El panel avisa cuando la dirección solo sirve en la red local.
 - **Puerto del servidor web** y **tamaño máximo por subida** (hasta 250 MB, el límite del juego).
 - La lista y sus mensajes se guardan, cargan y comparten como JSON desde **Administración → Configuraciones** de Mochos Esenciales.
-- Otros addons pueden publicar sus propios paquetes: **Mochos Forja** entrega por aquí sus modelos.
+- Otros addons pueden publicar sus propios paquetes por aquí.
 
 ### Instalación
 

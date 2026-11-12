@@ -10,6 +10,7 @@
     "images/192-carteles-en-el-mundo.webp",
     "images/195-carteles-texto-flotante.webp",
     "images/194-carteles-modelos.webp",
+    "images/201-carteles-modelo-animado.webp",
     "images/193-carteles-editor.webp",
     "images/196-carteles-administracion.webp"
   ],
@@ -18,6 +19,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_carteles-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-12",
+      "changelog": "Necesita Mochos Esenciales 0.20.0 o posterior.\n\n- **Modelos de Blockbench con texturas animadas** (como los modelos Java con una tira de fotogramas): antes se veía la textura estirada; ahora cada cara usa su fotograma y la textura **se anima** como en Blockbench (duración de cada fotograma y orden: bucle, al revés, ida y vuelta o propio).\n- **Velocidad de la animación** en el editor del cartel (100 % la original, 0 % quieta).",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.20.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_carteles-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",

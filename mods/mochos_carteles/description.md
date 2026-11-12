@@ -4,7 +4,7 @@
 
 - **Texto con Markdown:** títulos, negrita, cursiva, listas, casillas, citas, código, tablas e imágenes de enlaces. Alineación, tamaño, color, sombra y un alto que se ajusta solo. Con o **sin fondo ni borde**, para textos flotantes.
 - **Imágenes:** súbelas desde tu ordenador (PNG, JPG, GIF o BMP) o usa un enlace web. Enteras, rellenando el marco o estiradas.
-- **Modelos:** cualquier objeto o bloque de Minecraft, criaturas, o tus proyectos de **Blockbench** (`.bbmodel`, cubos y mallas con sus grupos y rotaciones), sin paquete de recursos.
+- **Modelos:** cualquier objeto o bloque de Minecraft, criaturas, o tus proyectos de **Blockbench** (`.bbmodel`, cubos y mallas con sus grupos y rotaciones), sin paquete de recursos. Las **texturas animadas** se animan como en Blockbench, a la velocidad que elijas.
 
 ### Cómo se ve
 
