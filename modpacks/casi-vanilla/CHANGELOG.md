@@ -1,3 +1,10 @@
+## 2.6.0
+
+- Añadido **Mochos Carteles**: los administradores pueden colocar carteles en el mundo con texto, imágenes y modelos, fijos, girando o mirando al jugador, que al hacer clic abren una ventana, un enlace o ejecutan un comando.
+- Actualizado **Mochos NPCs** a 0.6.1: un NPC con el nombre oculto ya no lo vuelve a mostrar.
+- Actualizado **Entity Culling** a 1.12.0.
+- Ahora son 95 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.5.0
 
 - Actualizado **Diorama** a 0.9.0, y **Mochos Esenciales** a 0.20.0 para que sea compatible.
