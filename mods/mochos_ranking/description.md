@@ -66,3 +66,4 @@ Requiere **Mochos Esenciales 0.18.0 o posterior**: al instalar el addon desde el
 - **Mochos Forja:** editor de items para administradores.
 - **Mochos NPCs:** comerciantes, banqueros y editor de entidades.
 - **Mochos Mapa Web:** el mapa del servidor en el navegador.
+- **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.

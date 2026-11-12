@@ -52,3 +52,4 @@ Sustituye a **Diorama Addons: Web Map**: si están los dos instalados, Mochos Ma
 - **Mochos Forja:** editor de items para administradores.
 - **Mochos NPCs:** comerciantes, banqueros y editor de entidades.
 - **Mochos Ranking:** rankings de jugadores, con tablones y podios en el mundo.
+- **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_carteles",
+  "name": "Mochos Carteles",
+  "summary": "Addon de Mochos Esenciales: carteles en el mundo con texto Markdown, imágenes y modelos (Minecraft o Blockbench), en paredes o flotando, fijos, girando o mirando al jugador, con bordes, y que al hacer clic ejecutan un comando, abren una pestaña o un enlace.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/192-carteles-en-el-mundo.webp",
+    "images/195-carteles-texto-flotante.webp",
+    "images/194-carteles-modelos.webp",
+    "images/193-carteles-editor.webp",
+    "images/196-carteles-administracion.webp"
+  ],
+  "tags": ["Addon", "Decoración", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_carteles-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-12",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.20.0 o posterior.\n\n- **Bloque Cartel** para paredes, suelo o techo, que puede flotar lejos del bloque y ocultarlo. Solo los admins lo colocan y lo editan.\n- **Texto con Markdown** (títulos, listas, tablas, imágenes de enlaces…), con alineación, tamaño, color y sombra; también sin fondo ni borde.\n- **Imágenes** subidas desde el ordenador o desde un enlace, y **modelos**: objetos, bloques, criaturas o proyectos de **Blockbench**, sin paquete de recursos.\n- **Estático, girando o mirando al jugador**, con opción de flotar; bordes de varios estilos, fondo y brillo.\n- **Al hacer clic**: ejecutar un comando, abrir una pestaña de Mochos Esenciales o de un addon, o abrir un enlace.\n- Editor en vivo y **Administración → Carteles** para subir y borrar imágenes y modelos.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.20.0", "name": "Mochos Esenciales" }
+      ]
+    }
+  ]
+}

@@ -49,3 +49,4 @@ Requiere **Mochos Esenciales 0.18.0 o posterior**: al instalar el addon desde el
 - **Mochos NPCs:** comerciantes, banqueros y editor de entidades.
 - **Mochos Ranking:** rankings de jugadores, con tablones y podios en el mundo.
 - **Mochos Mapa Web:** el mapa del servidor en el navegador.
+- **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.

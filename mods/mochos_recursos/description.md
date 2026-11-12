@@ -42,3 +42,4 @@ Para los archivos subidos, abre el puerto del servidor web (por defecto **25580*
 - **Mochos NPCs:** comerciantes, banqueros y editor de entidades.
 - **Mochos Ranking:** rankings de jugadores, con tablones y podios en el mundo.
 - **Mochos Mapa Web:** el mapa del servidor en el navegador.
+- **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.

@@ -57,3 +57,4 @@ Solo los administradores (op con el modo admin) pueden usar la Forja.
 - **Mochos NPCs:** comerciantes, banqueros y editor de entidades.
 - **Mochos Ranking:** rankings de jugadores, con tablones y podios en el mundo.
 - **Mochos Mapa Web:** el mapa del servidor en el navegador.
+- **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.

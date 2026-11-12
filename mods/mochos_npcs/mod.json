@@ -51,6 +51,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_npcs-0.6.1-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.6.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-12",
+      "changelog": "Necesita Mochos Esenciales 0.20.0 o posterior.\n\n- Corregido: un NPC con «Nombre siempre visible» apagado volvía a mostrar su nombre después de alejarse y volver a acercarse. Ahora se mantiene oculto.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.20.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_npcs-0.6.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.6.0",
       "minecraft": ["1.21.1"],

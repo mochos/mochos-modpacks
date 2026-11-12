@@ -54,7 +54,7 @@ En **Administración → NPCs**: permitir comerciantes de jugadores, máximo por
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.19.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.20.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 
@@ -70,3 +70,4 @@ Requiere **Mochos Esenciales 0.19.0 o posterior**: al instalar el addon desde el
 - **Mochos Forja:** editor de items para administradores.
 - **Mochos Ranking:** rankings de jugadores, con tablones y podios en el mundo.
 - **Mochos Mapa Web:** el mapa del servidor en el navegador.
+- **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.
