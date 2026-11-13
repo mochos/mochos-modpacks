@@ -279,6 +279,506 @@
   ],
   "content": [
     {
+      "id": "mochos_esenciales",
+      "kind": "mod",
+      "name": "Mochos Esenciales",
+      "summary": "Esenciales con pantallas de verdad en vez de comandos: jugadores y grupos de amigos, lugares y warps, terrenos protegidos, economía con el Ceitil (banco y tienda), un chat nuevo con comandos, páginas de ayuda en Markdown y panel de administración.",
+      "description": "**Mochos Esenciales** hace con pantallas de verdad todo lo que otros mods de esenciales hacen con comandos: jugadores, grupos de amigos, lugares y warps, terrenos protegidos, una economía con monedas, banco y tienda, un chat nuevo, páginas de ayuda y un panel de administración completo, todo a un clic de tu inventario.\n\nAbre el inventario y aparece una columna de pestañas a la izquierda. Todas las pantallas se adaptan a cualquier tamaño de ventana y escala de GUI. Pensado para servidores, pero también funciona en un jugador.\n\n### Requisitos\n\n- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.9.0 junto con el mod.\n\n> **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan, y los grupos de mapa pasan a ser grupos de amigos.\n\n### Pestañas\n\n- **Inventario:** el inventario de siempre, con las pestañas al lado y **tus estadísticas** a la izquierda (dinero, tiempo de juego, muertes, lugares, terrenos…).\n- **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima. El mapa muestra los terrenos, lo que exploraron los demás, los **waypoints compartidos** y a los **jugadores lejanos** de tus grupos. En Configuración eliges si ver los terrenos en el mapa y en el minimapa, y si compartir tu ubicación y lo que exploras. Al usar la herramienta de dibujo, las pestañas se ocultan para no tapar sus herramientas. Cada waypoint se puede dejar **privado**, hacer **público** o compartir con **uno de tus grupos** desde su propia pantalla.\n- **Terrenos:** reclama y protege chunks desde un mapa del terreno real: clic o arrastrar para reclamar o liberar, varios terrenos con nombre, amigos (también **grupos de amigos** enteros) con plantillas y permisos uno a uno, permisos públicos, **notificaciones de bienvenida y despedida** con formato y una **alarma de visitantes** para el dueño y los miembros. Tecla **G** o `/claims menu`.\n- **Jugadores:** conectados, buscador y orden por cercanía o alfabético. Chat directo, solicitudes de viaje e invitaciones a grupos. **Bloquea** los mensajes directos o las solicitudes de viaje de quien quieras. **Grupos de amigos**: crear, invitar, expulsar, renombrar, elegir color, salir y activar o desactivar el **PvP entre los miembros**. Una **brújula** arriba de la pantalla muestra a los miembros de tus grupos con su cabeza, nombre y distancia.\n- **Viajes:** warps del servidor (con nombre, icono y descripción opcionales) y tus lugares (nombre, mundo y coordenadas), que puedes **compartir** como públicos o con cada uno de tus grupos. Debajo de «Mis lugares» salen los lugares de tus grupos y los públicos, con un buscador que filtra todos. Clic o botón para viajar; mover, renombrar y eliminar en un desplegable. Precio y espera por tipo de viaje. Se viaja por **portales**: se abre uno delante de ti y otro a la vez en el destino, lo cruzas y puedes volver por el de llegada mientras siga abierto; también se ven con shaders (el admin puede volver al teletransporte clásico). Los admins también pueden colocar **portales permanentes** a un warp, un lugar o unas coordenadas, con ida y vuelta.\n- **Economía:** banco (consignar, retirar, transferir con sugerencias de jugadores, ranura para consignar y casillas para **agrupar o separar monedas**), tienda con buscador por objeto o vendedor, el precio en cada botón (comprar en dorado, vender en verde) y desplazamiento con la rueda desde cualquier parte de la ventana, vender tus objetos y **Mi tienda**: tus anuncios con su propio inventario de stock y el **historial de ventas**. El admin lleva una **tienda del servidor** con stock infinito que también puede comprar a los jugadores.\n- **Ayuda:** páginas escritas por el admin en **Markdown**: títulos, negrita, cursiva, tachado, código, listas (anidadas y de tareas), citas, tablas, enlaces e imágenes desde URL (PNG, JPG, GIF) con el ancho que quieras (`{width=120}`). Editor en el juego con vista previa.\n- **Configuración:** quién puede pedirte viajes, escribirte o invitarte (todos, solo amigos o nadie), aceptar solo los viajes de amigos, ocultar tu distancia, avisos de pagos, sonido y volumen de cada chat, notificaciones, el aspecto del chat (hora, líneas, ancho, opacidad y duración), cerrar el chat al enviar un mensaje o un comando, tu dinero junto a la barra rápida, tus estadísticas junto al inventario, las opciones del **mapa** y de la **brújula** y, con **Simple Voice Chat**, sus opciones principales y botones para sus grupos y el volumen de cada jugador.\n- **Administración** (solo operadores): activar o desactivar cada módulo (también Terrenos y Mapa), precios y esperas de viajes, lugares por jugador, límites de terrenos (chunks, terrenos y amigos), dinero inicial, comisión de la tienda, límites del chat e historial de mensajes directos; **difusión** de anuncios (en el chat, como título o como notificación, para todos o algunos jugadores, al momento o cada N minutos); **textos** del servidor (mensajes de entrada, salida y bienvenida, nombre de la moneda); **orden de las pestañas**; **Configuraciones** para guardar en JSON, cargar, copiar, pegar y limpiar la tienda del servidor, la configuración general y los apartados de los addons (con una **tienda de ejemplo** de 58 anuncios lista para cargar); dificultad, PvP, MOTD y reglas del juego; porcentaje de jugadores durmiendo para pasar la noche, con un amanecer animado; baneos (también temporales) y lista blanca. Por jugador, también los **desconectados**: estadísticas (con dinero), ver y editar su inventario (con la armadura, la mano secundaria y, con **Curios API**, sus ranuras de Curios) y su cofre de ender, ir o traer, curar, modo de juego, silenciar en el chat global, expulsar, banear, sumar o fijar dinero y **su propia configuración** de viajes y terrenos (precios, esperas, lugares y límites distintos a los del servidor). Un **modo admin global** que se enciende y apaga con un switch, para ver el servidor como un jugador normal.\n\n### Datos de los jugadores\n\nLos administradores gestionan también a los jugadores **desconectados** (la lista muestra si cada uno es premium o no premium). La ventana **Datos** lista, mod por mod, todo lo que el servidor guarda de un jugador: inventario, cofre de ender, experiencia, logros, estadísticas, posición, banco, casas, grupos, terrenos y los datos de cada addon. Lo marcado se puede **transferir** a otro jugador o **borrar**, y antes de cada cambio se guarda un **respaldo** que se puede restaurar. Para servidores que pasaron de modo online a offline (o al revés), la **migración por nombre** pasa los datos de la UUID antigua a la nueva, de un jugador o de todos a la vez.\n\n### Un chat nuevo\n\nSustituye al chat de vanilla (**T**) y ocupa solo la esquina inferior izquierda. Pestañas **Global, Grupos y Directos** con sus no leídos, más una pestaña con una **campana** solo para las notificaciones y anuncios del juego, del mod y de los addons (Global queda para conversar), y cada mensaje marcado con un chip de color de su canal: al pasar el ratón cada una despliega sus conversaciones. Los directos se quitan de la lista sin perder el historial, que guarda el servidor. Mensajes con formato Markdown y enlaces clicables (al pasar el ratón se ven sus textos emergentes, como la descripción de los logros), notificaciones emergentes y sonido por tipo de chat. Las solicitudes de viaje y las invitaciones a grupos llegan al chat directo con botones **Aceptar / Rechazar**. **Tab** cambia de conversación. Al dormir se abre este chat con el botón «Salir de la cama». Los **comandos** se escriben en el mismo chat (también con la tecla `/`), con el autocompletado y las sugerencias de vanilla.\n\n### El Ceitil, una moneda de verdad\n\n| Objeto | Valor |\n|---|---:|\n| Ceitil | 1 |\n| Pila de ceitiles | 10 |\n| Bolsa de ceitiles | 100 |\n\nEl efectivo son objetos; el banco guarda tu saldo. Al retirar recibes las mínimas monedas y al pagar te dan el cambio. En la mesa de trabajo una pila se deshace en 10 ceitiles y una bolsa en 10 pilas (el conversor del banco agrupa y separa las que quieras). El nombre de la moneda se puede cambiar.\n\n### Textos con formato\n\nAnuncios, mensajes de entrada y salida y notificaciones de terrenos aceptan Markdown y colores de Minecraft (`&a`, `&6`, `&#FF8800`…), con vista previa y variables como `{player}` o `{online}`.\n\n### Comandos rápidos\n\n| Comando | Qué hace |\n|---|---|\n| `/home [nombre]` · `/sethome [nombre]` · `/delhome <nombre>` | Tus lugares |\n| `/warp <nombre>` | Viajar a un warp del servidor |\n| `/tpa <jugador>` | Pedir viajar hasta un jugador |\n| `/balance` · `/pay <jugador> <cantidad>` | Dinero |\n| `/claim` · `/unclaim` · `/claims menu` | Reclamar o liberar el chunk donde estás, abrir la pantalla de terrenos |\n| `/eco give\\|take\\|set <jugador> <cantidad>` | Admin: cambiar el dinero de un jugador |\n| `/heal` · `/feed` · `/repair` · `/fly` · `/god` · `/speed` · `/gm` | Admin: curar, saciar, reparar, volar, ser invulnerable, velocidad y modo de juego |\n| `/vanish` · `/invsee` · `/enderchest` · `/whois` · `/near` · `/top` | Admin: hacerse invisible, ver inventarios, ficha y cercanía de jugadores |\n| `/tps` · `/broadcast` · `/sudo` · `/nick` · `/clearinv` | Admin: rendimiento, anuncios, actuar como otro jugador, apodos y vaciar inventarios |\n\nLos comandos de administración se pueden abrir a todos los jugadores, uno por uno, con su precio y su espera, en **Administración → Comandos**.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** (el mod añade objetos y pantallas) |\n\nRequiere **Minecraft 1.21.1** y **NeoForge 21.1.265 o superior**. No necesita otros mods: los terrenos y el mapa vienen incluidos.\n\n- Configuración del servidor: `config/mochos_esenciales-server.toml` (también desde la pestaña Administración).\n- Terrenos: `config/mochos_esenciales-claims-server.toml` (los límites también desde Administración → Terrenos).\n- Mapa: `config/mochos_esenciales-clientmap-common.toml`.\n- Configuración personal: `config/mochos_esenciales-client.toml` (desde la pestaña Configuración).\n- Páginas de ayuda: `config/mochos_esenciales/help/*.md`. El orden lo da el prefijo del archivo (`01-…`) y el título, el primer encabezado. La primera vez se crean cuatro páginas de ejemplo.\n\nIdiomas: **español** e **inglés**.\n\n### Addons\n\nMods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.19.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.\n\n- **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.\n- **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.\n- **Mochos Trabajos:** pestaña Trabajos con niveles, pago en Ceitiles, misiones diarias, ventajas, ranking, eventos x2 e historial, y un editor de trabajos para el administrador.\n- **Mochos Apariencia:** pestaña Apariencia para subir skins SD y HD desde un archivo o una URL y elegir la que llevas; todos la ven. Con Mochos Cédula, también tus skins de Mochos.\n- **Mochos Tareas:** una lista de tareas por grupo de amigos, con categorías, responsables y estados, y tareas fijadas en pantalla, bajo el Tab o junto al inventario.\n- **Mochos Tiempo:** límite de tiempo de juego por día, con hora de recarga y excepciones por jugador.\n- **Mochos Anuncios:** tablón de anuncios de los jugadores, con destacados, aviso a todos, botón de viaje y un tablón que se coloca en el mundo.\n- **Mochos Misiones:** una campaña de 66 misiones hasta el Dragón del End, con árbol de misiones, recompensas, bloqueos de progresión opcionales y editor en el juego.\n- **Mochos Recursos:** paquetes de recursos del servidor desde el juego: sube .zip o añade enlaces, ordénalos, hazlos obligatorios y recárgalos en vivo a todos.\n- **Mochos Forja:** editor de items para administradores: nombre y lore con formato, encantamientos, pociones, atributos, luz de colores, biblioteca de items y modelos de Blockbench como items, prendas u objetos colocables.\n- **Mochos NPCs:** comerciantes de jugadores que venden y compran con su propio inventario y aspecto (también de jugador con skin), aldeanos, NPCs con páginas y botones, misiones aleatorias con recompensas, banqueros, comerciantes de experiencia, editor de entidades y plantillas de NPCs.\n- **Mochos Ranking:** rankings de jugadores en una pestaña y en tablones y podios en el mundo, con los tres primeros de pie con su skin; del mundo, la economía, los trabajos y las misiones, totales, semanales o mensuales.\n- **Mochos Mapa Web:** el mapa del servidor en el navegador al estilo Diorama, con los jugadores y su skin, waypoints públicos, terrenos y chat; los jugadores no instalan nada.\n- **Mochos Carteles:** carteles en el mundo con texto Markdown, imágenes y modelos (también de Blockbench), fijos, girando o mirando al jugador, que al hacer clic ejecutan un comando, abren una ventana o un enlace.\n\n### Combina muy bien con\n\n- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0, 0.8.0, 0.8.1 y 0.9.0. Con Diorama 0.9.0 en un servidor dedicado se usa su propio mapa explorado compartido, y el de Esenciales se pausa (se puede volver a activar en Administración → Módulos).\n- **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.\n\n### Acerca de\n\nNo está afiliado ni respaldado por los autores de Diorama.\n",
+      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/icon.png",
+      "gallery": [
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/01-inventario-pestanas.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/01-pestanas-addons.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/03-jugadores-y-grupos.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/63-jugadores-desconectados-y-pvp-grupo.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/67-jugadores-desconectados-con-skin.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/05-chat-global.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/06-chat-grupo.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/07-chat-directos.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/60-chat-campana-notificaciones.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/62-chat-campana-contador.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/55-chat-chips.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/54-chat-chips-hud.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/65-chat-tooltip-logro.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/09-viajes-warps-y-lugares.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/68-portal-viaje-contorno.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/69-portal-viaje-abierto.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/73-portal-destino.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/79-portales-sincronizados.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/75-portal-shaders-viaje.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/44-viajes-lugares-compartidos.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/45-viajes-buscador.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/11-economia-tienda.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/58-tienda-precios-compra-venta.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/52-tienda-de-ejemplo.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/12-economia-banco.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/27-economia-historial-de-ventas.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/16-monedas-ceitil.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/18-ayuda-reglas-tabla.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/20-ayuda-editor-markdown.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/21-configuracion.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/23-admin-precios-y-esperas-de-viajes.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/80-admin-comandos.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/72-admin-viajes-portales.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/70-portal-bloque.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/71-portal-editor.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/74-portal-shaders-bloque.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/53-admin-inventario-armadura-curios.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/64-admin-inventario-desconectado.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/76-jugadores-desconectados-admin.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/81-whois-vanish.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/77-datos-del-jugador.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/78-migracion-por-nombre.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/66-admin-orden-pestanas.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/25-terrenos-mapa.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/26-terrenos-miembros.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/51-terrenos-grupos.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/35-terrenos-configuracion.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/28-admin-difusion.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/33-anuncio-titulo-y-notificacion.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/30-admin-textos.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/39-mapa-jugador-lejano.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/40-waypoint-compartir-grupo.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/41-mapa-waypoint-compartido.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/38-configuracion-mapa.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/61-diorama-dibujo-sin-pestanas.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/43-brujula-grupo.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/46-configuracion-brujula.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/47-admin-sueno.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/48-dormir-chat-del-mod.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/49-admin-configuraciones.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/50-admin-configuraciones-advertencia.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/56-configuracion-voice-chat.webp",
+        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/57-voice-chat-grupos.webp"
+      ],
+      "ogImage": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/og-image.jpg",
+      "tags": [
+        "Utilidad",
+        "Economía",
+        "Social",
+        "Servidores"
+      ],
+      "authors": [
+        "lorspi"
+      ],
+      "links": {
+        "website": "https://mochos.xyz"
+      },
+      "featured": true,
+      "dev": false,
+      "updatedAt": "2026-11-12",
+      "offer": false,
+      "builds": [
+        {
+          "version": "0.20.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.20.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.20.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "1a51498b47ad6e63ab08676bac537ab409689506",
+          "size": 1149341,
+          "date": "2026-11-12",
+          "changelog": "- **Compatible con Diorama 0.9.0:** terrenos en el mapa y el minimapa, waypoints compartidos (con su botón «Compartir»), jugadores lejanos y el menú del mapa funcionan con la nueva versión. El launcher instala ahora Diorama 0.9.0.\n- **Convivencia con el mapa compartido de Diorama:** Diorama 0.9.0 trae en los servidores dedicados su propio mapa explorado compartido. Cuando está activo, el de Esenciales se pausa para no hacer el mismo trabajo dos veces, sin perder lo explorado. En **Administración → Módulos** se puede volver a usar el de Esenciales.\n- Los waypoints compartidos, los jugadores lejanos y los terrenos siguen siendo de Esenciales con cualquier versión de Diorama.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "oOp6l94r",
+              "name": "Diorama 0.9.0"
+            }
+          ]
+        },
+        {
+          "version": "0.19.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.19.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.19.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "da48cece213c2d7e8f1a17c6ff5a7ad61ddff54c",
+          "size": 1144515,
+          "date": "2026-11-12",
+          "changelog": "- **Comandos de administración:** `/tps`, `/feed`, `/heal`, `/repair`, `/vanish`, `/invsee`, `/enderchest`, `/fly`, `/god`, `/speed`, `/gm` (y `/gmc`, `/gms`, `/gma`, `/gmsp`), `/clearinv`, `/top`, `/near`, `/whois`, `/broadcast`, `/sudo` y `/nick`. Por defecto son solo de admins; en **Administración → Comandos** cada uno se puede abrir a todos los jugadores (para usarlo sobre sí mismos) con su precio y su espera, también por jugador.\n- `/vanish` oculta al jugador para quien no es operador: del mundo, la lista de jugadores, la pestaña Jugadores, la brújula y el mapa, y entra y sale sin mensaje. Se mantiene al reconectar, igual que `/god`, `/fly` y el apodo.\n- `/nick` cambia el nombre que se ve en el chat, la lista y sobre la cabeza. `/whois` muestra la ficha de un jugador. `/invsee` abre su inventario (editable para los admins, también de desconectados) y `/enderchest` tu cofre de ender en cualquier sitio.\n- Addons actualizados: Mochos Misiones 0.5.0 (árboles de misiones ocultos) y Mochos NPCs 0.6.0 (capacidades combinables).",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "LUifI5BG",
+              "name": "Diorama 0.8.1"
+            }
+          ]
+        },
+        {
+          "version": "0.18.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.18.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.18.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "24aafdeaa51bf62e7ba7749eb17e6f6239edfcc1",
+          "size": 1098604,
+          "date": "2026-11-11",
+          "changelog": "- **Jugadores desconectados:** cada uno tiene en Administración las mismas herramientas que los conectados: ver y editar el inventario y el cofre de ender, copiar la UUID, valores propios, silenciar, banear y la nueva ventana **Datos**. La lista muestra si cada jugador es **premium** o **no premium**.\n- **Datos del jugador, mod por mod:** la ventana Datos lista todo lo que el servidor guarda de un jugador (inventario, cofre de ender, experiencia, logros, estadísticas, posición, Esenciales, terrenos, mapa compartido y los datos de cada addon). Lo marcado se puede **transferir** a otro jugador o **borrar**.\n- **Migración por nombre** para servidores que pasaron de modo online a offline (o al revés): los datos de la UUID antigua pasan a la que el nombre tiene ahora, para un jugador o para todos a la vez.\n- **Respaldos:** antes de cada transferencia, borrado o restauración se guardan los datos de los jugadores implicados, y la ventana Datos permite **restaurarlos**.\n- **Portales sincronizados:** el portal de destino aparece y se traza a la vez que el de origen, con la misma animación, y los dos se abren juntos.\n- Los textos largos del panel de misiones seguidas se reducen antes de cortarse.\n- Addons actualizados: Acciones Rápidas 0.4.0, Anuncios 0.4.0, Apariencia 0.5.0, Misiones 0.4.0, NPCs 0.5.0, Ranking 0.2.0, Tareas 0.2.0, Tiempo 0.2.0 y Trabajos 0.5.0 (necesitan esta versión).",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "LUifI5BG",
+              "name": "Diorama 0.8.1"
+            }
+          ]
+        },
+        {
+          "version": "0.17.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.17.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.17.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "5d37d3f66b725758c4c6f8ab0a99fa2e8d434779",
+          "size": 1031149,
+          "date": "2026-11-10",
+          "changelog": "- **El portal de destino se abre a la vez que el de origen**, así que desde el otro lado también se puede cruzar desde el primer momento. Los dos duran lo mismo (5 s por defecto) y cada cruce deja abierto el de llegada el tiempo completo para poder volver.\n- **Protección de llegada:** al salir de un portal, los que ya estaban abiertos allí (el de otro jugador o un bloque portal junto al warp) no te llevan hasta que te alejas unos bloques. Así un viaje ya no te encadena con otro.\n- Si en el destino ya hay un portal abierto, el nuevo se abre a su lado en lugar de encima.\n- Corregido: un portal que quedaba en un chunk sin cargar podía volver a abrirse al regresar el chunk y llevarte a otro sitio.\n- **Portales con shaders:** con Iris u Oculus (probado con Amethyst Shaders) los portales se ven con estrellas y su contorno.\n- Compatible con **Diorama 0.8.1**; el launcher la instala junto con el mod.\n- Addon actualizado: Mochos Misiones 0.3.0 (buscador).",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "LUifI5BG",
+              "name": "Diorama 0.8.1"
+            }
+          ]
+        },
+        {
+          "version": "0.16.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.16.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.16.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "295bbf1c3af0c01e1ac632be40c2da597b40e913",
+          "size": 1023490,
+          "date": "2026-11-09",
+          "changelog": "- **Viajes por portales** (por defecto): al viajar a un warp, a un lugar o a un jugador se abre delante un portal con el aspecto de un end gateway. Durante la espera solo se dibuja su contorno, que se va cerrando; al terminar queda abierto unos segundos (5 por defecto, configurable en Administración → Viajes). Cualquiera que lo cruce viaja al destino y sale por un portal que lleva de vuelta mientras siga abierto. El precio y la espera se cobran al primer cruce. El admin puede volver al **teletransporte clásico**. Los addons que usan los viajes (anuncios, acciones rápidas…) también abren portales.\n- **Bloque portal** para admins (bloques funcionales y de operador del creativo): un portal permanente a un warp, a un lugar o a unas coordenadas, con nombre encima, tamaño, posición y giro. Con **ida y vuelta**, coloca en el destino un portal igual que lleva de regreso.\n- Corregido: la **rueda del ratón en la tienda** podía dejar de mover la lista cuando otro mod usaba la rueda en los inventarios. Lo mismo en la tienda de los comerciantes de Mochos NPCs.\n- Addons actualizados: Mochos Anuncios 0.3.1, Mochos Mapa Web 0.2.0 y Mochos NPCs 0.3.1.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "ykq2PGwf",
+              "name": "Diorama 0.8.0"
+            }
+          ]
+        },
+        {
+          "version": "0.15.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.15.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.15.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "cde36f15585145b2a75d90fd92d32833c813a116",
+          "size": 964859,
+          "date": "2026-11-08",
+          "changelog": "- Corregido: las **caras de los jugadores desconectados** (grupos, lista de desconectados, chat, terrenos, brújula, rankings) salían con la skin por defecto. Ahora se ve su skin: el servidor guarda la skin de cada jugador al entrar y, con Mochos Apariencia, también la subida.\n- Compatible con **Diorama 0.8.0** (además de 0.6.0, 0.6.1 y 0.7.0): mapa con pestañas, terrenos, menú del mapa, waypoints compartidos y jugadores lejanos. El launcher instala ahora Diorama 0.8.0.\n- Más posibilidades para los addons: chat global, waypoints públicos, quién comparte su posición en el mapa y las skins de cualquier jugador, también desconectado. Las usa el nuevo addon **Mochos Mapa Web**.\n- Addons actualizados: Mochos Apariencia 0.4.0 y Mochos Ranking 0.1.2. Nuevo: Mochos Mapa Web.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "ykq2PGwf",
+              "name": "Diorama 0.8.0"
+            }
+          ]
+        },
+        {
+          "version": "0.14.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.14.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.14.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "bf91ade4c4179a31ca82ea9c0bfb07aff93fed1b",
+          "size": 958979,
+          "date": "2026-11-08",
+          "changelog": "- **Jugadores desconectados:** la lista de jugadores de Administración tiene un apartado desplegable con todos los que tienen datos guardados en el mundo. Su inventario (con armadura, mano secundaria y Curios) y su cofre de ender se pueden ver y **editar**; los cambios se guardan en su archivo del mundo sin tocar nada más. También se les puede silenciar o banear desde ahí.\n- **PvP por grupo:** el dueño de un grupo puede activar o desactivar el PvP entre sus miembros (icono de espada; por defecto sigue activado), también con flechas y otros proyectiles. El PvP desactivado del servidor y de los terrenos sigue mandando.\n- Corregido: el PvP y el MOTD cambiados desde Administración volvían a su valor de `server.properties` al reiniciar el servidor. Ahora se guardan en el mundo.\n- Corregido: las pestañas laterales podían salir en distinto orden a cada jugador. Ahora todos ven el orden del admin, y las secciones de los addons salen siempre en el mismo orden.\n- Chat: al pasar el ratón por un mensaje se ven sus textos emergentes, como la descripción de los **logros**.\n- Addons actualizados: Mochos Ranking 0.1.1 y Mochos Trabajos 0.4.1.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
+        {
+          "version": "0.13.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.13.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.13.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "cbbb5ee7dc2bda5cc6790f6868badc39d32942a3",
+          "size": 943697,
+          "date": "2026-11-06",
+          "changelog": "- **Tienda:** la rueda del ratón mueve la lista desde cualquier parte de la ventana de Economía, también sobre el inventario de al lado, y funciona con touchpads y escritorios remotos que solo envían desplazamiento horizontal. Lo mismo en la tienda de los comerciantes de Mochos NPCs.\n- Más posibilidades para los addons: cada venta de la tienda se informa a los addons, y se puede consultar el banco de un jugador desconectado y las monedas que lleva encima.\n- Addon nuevo: **Mochos Ranking**. Addons actualizados: Mochos Anuncios 0.3.0, Mochos NPCs 0.3.0 y Mochos Trabajos 0.4.0.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
+        {
+          "version": "0.12.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.12.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.12.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "11bba0ea71b62d445f741d3ccf35aff899c5e947",
+          "size": 942030,
+          "date": "2026-11-06",
+          "changelog": "- **Chat:** nueva pestaña con una **campana**, a la izquierda de Global, solo para las notificaciones y anuncios del juego, del mod y de los addons (entradas y salidas, muertes, logros, avisos de terrenos, subidas de nivel…). Global queda para conversar.\n- La campana solo cuenta lo importante (anuncios del servidor, del tablón y de misiones). Configuración → Chat → «Contador de anuncios en la campana» lo desactiva.\n- **Mapa de Diorama:** al usar la herramienta de dibujo se ocultan las pestañas laterales para no tapar sus herramientas.\n- Iconos nuevos de flechas izquierda y derecha.\n- Más posibilidades para los addons: avisos que cuentan en la campana y un panel compartido de lo que sigue el jugador en pantalla.\n- Addons actualizados: Mochos Anuncios 0.2.0, Mochos Misiones 0.2.0, Mochos NPCs 0.2.0, Mochos Trabajos 0.3.0, Mochos Acciones Rápidas 0.3.0 y Mochos Apariencia 0.3.0.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
+        {
+          "version": "0.11.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.11.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.11.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "65ce45168508627429bf06f924304bfa5270dd3f",
+          "size": 932841,
+          "date": "2026-11-05",
+          "changelog": "- **Tienda:** cada botón lleva su precio («Comprar ¢ 120» en dorado, «Vender ¢ 45» en verde), así el precio de compra y el de venta se distinguen sin pasar el ratón.\n- La rueda del ratón desplaza la tienda y las demás listas de Economía desde cualquier punto del panel.\n- Los textos de los addons también usan el nombre de la moneda que configure el administrador.\n- Más posibilidades para los addons: ocultar la pestaña Economía a ciertos jugadores, abrir solo el banco en su propia ventana y pagar con cambio.\n- Addon nuevo: **Mochos NPCs** (comerciantes, banqueros y editor de entidades).",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
+        {
+          "version": "0.10.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.10.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.10.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "3b1a88019cb959f990e6e000afe466d75fb8238d",
+          "size": 925267,
+          "date": "2026-11-05",
+          "changelog": "- **Administración → ver inventario:** nueva vista con la armadura y la mano secundaria en su propia columna, la barra rápida aparte y tu inventario debajo para mover items en los dos sentidos.\n- Compatible con **Curios API** (opcional): la misma vista muestra las ranuras de Curios del jugador (anillos, collar, cinturón, espalda…) y se pueden sacar o poner items.\n- Compatible con **Simple Voice Chat** (opcional): Configuración tiene un bloque con sus opciones principales (silenciar, desactivar, pulsar para hablar o por voz, volumen, umbral, supresión de ruido…) y botones para sus grupos, el volumen de cada jugador y sus ajustes.\n- **Chat:** las etiquetas de canal (Global, el nombre del grupo, los directos, «/» y los anuncios) se ven como chips de color en lugar de texto entre corchetes.\n- No se puede abrir el inventario de un jugador muerto (se avisa).\n- Más posibilidades para los addons: elegir archivos del equipo y estado de Simple Voice Chat.\n- Addons nuevos: **Mochos Recursos** y **Mochos Forja**. **Mochos Acciones Rápidas** 0.2.0 añade los atajos de Simple Voice Chat.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
+        {
+          "version": "0.9.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.9.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.9.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "e7a42f667d50b451ff500cbb0782e744e44802cf",
+          "size": 884855,
+          "date": "2026-11-05",
+          "changelog": "- **Grupos en los terrenos:** además de jugadores, se pueden añadir grupos de amigos (Miembros → + → «Grupo: …»). Todos sus miembros tienen los permisos que se le den; quien entra al grupo los recibe y quien sale los pierde. Hasta 10 grupos por terreno, y las alarmas de visitas avisan también a sus miembros.\n- **Administración → Configuraciones:** guardar en archivos JSON, cargar (añadiendo o reemplazando), copiar y pegar por portapapeles y limpiar, con advertencia, la tienda del servidor, la configuración general (valores, textos y orden de pestañas) y los apartados de los addons (trabajos, misiones y anuncios).\n- **Tienda de ejemplo** con 58 anuncios del servidor (comida, bloques, herramientas, granja, redstone, libros encantados, pociones y lo que el servidor compra), lista para cargar desde Configuraciones.\n- Más posibilidades para los addons: apartados de Configuraciones, viajes con el precio y la espera de los warps y un selector de items, criaturas y bloques.\n- Addons nuevos: **Mochos Anuncios** y **Mochos Misiones**. **Mochos Trabajos** 0.2.0 se guarda y carga en Configuraciones.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
+        {
+          "version": "0.8.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.8.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.8.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "45fd91ed087d510ca38e70ed6e5b7dcc87b22725",
+          "size": 835678,
+          "date": "2026-11-04",
+          "changelog": "- **Brújula** arriba de la pantalla con los miembros de tus grupos (cabeza, nombre y distancia); cada parte se activa por separado en Configuración → Brújula.\n- **Lugares compartidos:** tus lugares se comparten como públicos o con cada grupo. Debajo de «Mis lugares» salen listas desplegables por grupo y de lugares públicos, con un buscador que filtra todas.\n- **Administración → General:** porcentaje de jugadores durmiendo para pasar la noche y segundos del amanecer animado.\n- Al dormir se abre el chat del mod (con «Salir de la cama») en lugar del de vanilla.\n- Botones − y + en los valores numéricos.\n- Más posibilidades para los addons: grupos, elementos junto al dinero, paneles junto al inventario y la lista de jugadores.\n- Addons nuevos: **Mochos Tareas** y **Mochos Tiempo**. **Mochos Apariencia** 0.2.0, **Mochos Tablist** 0.1.1 y **Mochos Acciones Rápidas** 0.1.1 necesitan esta versión.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
+        {
+          "version": "0.7.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.7.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.7.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "a79cb9d04bae3d70c261b146440202424af05d22",
+          "size": 798329,
+          "date": "2026-11-04",
+          "changelog": "- **Soporte para addons:** mods aparte que añaden pestañas laterales (también en el orden de pestañas del admin), secciones en Administración y en Configuración, y usan la economía del mod. El mod sigue funcionando igual sin addons.\n- Primeros addons, que se instalan aparte desde esta misma sección: **Mochos Tablist**, **Mochos Acciones Rápidas**, **Mochos Trabajos** y **Mochos Apariencia**. Necesitan Mochos Esenciales 0.7.0 o posterior.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
+        {
+          "version": "0.6.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.6.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.6.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "8043dc813b2d621c9437489e9f62f67556709e13",
+          "size": 783341,
+          "date": "2026-11-03",
+          "changelog": "Incluye los cambios de la 0.5.0.\n\n- **Configuración → Mapa** (con Diorama): ver terrenos en el mapa, ver terrenos en el minimapa, compartir mi ubicación y compartir mis mapas explorados. Todo activo por defecto.\n- **Waypoints compartidos desde Diorama:** botón «Compartir: Privado / Público / Grupo» en la pantalla de cada waypoint; nombre, posición, color y borrado se actualizan para los demás.\n- El mapa usa los **grupos de amigos** de Mochos (también varios a la vez). Los grupos de `/mapgroup` se convierten en grupos de amigos; se quitan `/mapgroup`, `/sharedwaypoint` y «Añadir waypoint compartido aquí» del mapa.\n- **Chat rediseñado:** abajo a la izquierda y menos invasivo, con pestañas Global / Grupos / Directos y sus no leídos; al pasar el ratón cada pestaña despliega sus conversaciones. Los directos se pueden quitar de la lista y su historial lo guarda el servidor. Tab cambia de conversación.\n- **Mis estadísticas** junto al inventario (dinero, tiempo de juego, muertes, lugares, terrenos…).\n- Configuración: cerrar el chat al enviar un mensaje o al ejecutar un comando.\n- **Administración → Difusión:** anuncios en el chat, como título y/o como notificación, para todos o jugadores elegidos, al momento o cada N minutos, con colores (`&a`, `&#FF8800`) y Markdown.\n- **Administración → Textos:** mensajes de entrada, primera entrada, salida y bienvenida privada, y nombre de la moneda. **Administración → Pestañas:** orden de las pestañas laterales.\n- **Economía:** «Mi tienda» con historial de ventas; el banco cambia «Agrupar monedas» por un conversor de casillas; sugerencias de jugadores al transferir.\n- **Terrenos:** notificación de bienvenida y despedida y alarma de visitantes para el dueño y/o los miembros.\n- Mis lugares: acciones en un desplegable y botón de viajar junto a la flecha.\n- Jugadores: silenciar solo afecta al chat global; cada jugador puede bloquear los mensajes directos y las solicitudes de viaje de otro.\n- Protocolo del mapa 2: servidor y clientes deben actualizarse juntos.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
+        {
+          "version": "0.4.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.4.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.4.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "8d81fb7a5bcfa85abd54409d1211d46974fc50a4",
+          "size": 683524,
+          "date": "2026-11-02",
+          "changelog": "Incluye los cambios de la 0.3.0.\n\n- **Terrenos y mapa incluidos en el mod:** ya no hacen falta Diorama Addons: Claims ni Client Map, y **no se pueden usar junto con ellos**: quítalos (los terrenos y la configuración de esos mods se conservan). La única dependencia externa es Diorama (opcional, cliente).\n- Terrenos y Mapa son módulos que se pueden desactivar desde Administración, al momento. Administración → Terrenos: chunks, terrenos y amigos por jugador, chunks unidos y distancia al spawn.\n- **Configuración propia por jugador** (desde sus estadísticas): precios, esperas, tiempo quieto y lugares de los viajes, y límites de terrenos. Sustituye al antiguo límite de lugares por jugador, que se migra solo.\n- **Modo admin global:** un switch al principio de Administración enciende o apaga las herramientas de administrador en todo el mod (Jugadores, Viajes, Economía, Ayuda, Terrenos, puntos compartidos del mapa, `/eco` y `/claims admin ...`). Apagado, un operador ve y usa el mod como un jugador normal. Se guarda por jugador y viene encendido.\n- **Chat:** los comandos se escriben y ejecutan en el chat nuevo, con autocompletado; la tecla `/` también lo abre. El texto normal se envía como mensaje; solo es comando lo que empieza por `/`.\n- Dinero total (banco + monedas) junto a la barra rápida, abreviado (5.5k).\n- Ayuda: ancho de imagen con `{width=N}` o `{width=N%}`.\n- Compatible con Diorama 0.7.0.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "1FG2KJOU",
+              "name": "Diorama 0.7.0"
+            }
+          ]
+        },
+        {
+          "version": "0.2.0",
+          "minecraft": [
+            "1.21.1"
+          ],
+          "loader": {
+            "type": "neoforge",
+            "minVersion": "21.1.265"
+          },
+          "fileName": "mochos_esenciales-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+          "sha1": "00d88f616a080bc24b9a2ed5d839a67bf933ce61",
+          "size": 381038,
+          "date": "2026-11-01",
+          "changelog": "Primera versión pública.\n\n- Pestañas laterales en el inventario, el mapa de Diorama (opcional) y todas las pantallas del mod.\n- Jugadores: lista con buscador y orden, chat directo, solicitudes de viaje, grupos de amigos y herramientas de administración (estadísticas con dinero, inventario, cofre de ender, ir / traer, curar, modo de juego, silenciar, expulsar, banear, dinero y límite de lugares).\n- Viajes: warps con icono y descripción, lugares del jugador, precio, espera y tiempo quieto por tipo de viaje.\n- Economía con el Ceitil (ceitil, pila y bolsa): banco, transferencias, tienda de jugadores y del servidor con stock infinito y compra por el servidor.\n- Ayuda en Markdown con imágenes desde URL, enlaces, tablas y editor con vista previa.\n- Configuración personal (privacidad, sonidos, aspecto del chat) y Administración (módulos, valores, servidor, reglas, baneos, lista blanca).\n- Chat nuevo: global, grupos y directos, notificaciones, no leídos y solicitudes con Aceptar / Rechazar.\n- Compatibilidad con Diorama Addons: Claims: pestaña «Terrenos» bajo el Mapa con una pantalla de claims al estilo de Mochos (mapa con terreno, reclamar y liberar, claims, miembros, plantillas, permisos públicos). La tecla G del mod de claims abre esta versión; la original se puede recuperar en Configuración.\n- Español e inglés.",
+          "dependencies": [
+            {
+              "source": "modrinth",
+              "project": "diorama-map",
+              "version": "y4CUZz0J",
+              "name": "Diorama 0.6.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "dioaddons_claims",
       "kind": "mod",
       "name": "Diorama Addons: Claims",
@@ -1147,506 +1647,6 @@
           "size": 94435,
           "date": "2026-10-31",
           "changelog": "- Comandos y pantalla para permitir o denegar jugadores offline."
-        }
-      ]
-    },
-    {
-      "id": "mochos_esenciales",
-      "kind": "mod",
-      "name": "Mochos Esenciales",
-      "summary": "Esenciales con pantallas de verdad en vez de comandos: jugadores y grupos de amigos, lugares y warps, terrenos protegidos, economía con el Ceitil (banco y tienda), un chat nuevo con comandos, páginas de ayuda en Markdown y panel de administración.",
-      "description": "**Mochos Esenciales** hace con pantallas de verdad todo lo que otros mods de esenciales hacen con comandos: jugadores, grupos de amigos, lugares y warps, terrenos protegidos, una economía con monedas, banco y tienda, un chat nuevo, páginas de ayuda y un panel de administración completo, todo a un clic de tu inventario.\n\nAbre el inventario y aparece una columna de pestañas a la izquierda. Todas las pantallas se adaptan a cualquier tamaño de ventana y escala de GUI. Pensado para servidores, pero también funciona en un jugador.\n\n### Requisitos\n\n- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.9.0 junto con el mod.\n\n> **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan, y los grupos de mapa pasan a ser grupos de amigos.\n\n### Pestañas\n\n- **Inventario:** el inventario de siempre, con las pestañas al lado y **tus estadísticas** a la izquierda (dinero, tiempo de juego, muertes, lugares, terrenos…).\n- **Mapa:** abre el mapa de [Diorama](https://modrinth.com/mod/diorama-map) con las pestañas encima. El mapa muestra los terrenos, lo que exploraron los demás, los **waypoints compartidos** y a los **jugadores lejanos** de tus grupos. En Configuración eliges si ver los terrenos en el mapa y en el minimapa, y si compartir tu ubicación y lo que exploras. Al usar la herramienta de dibujo, las pestañas se ocultan para no tapar sus herramientas. Cada waypoint se puede dejar **privado**, hacer **público** o compartir con **uno de tus grupos** desde su propia pantalla.\n- **Terrenos:** reclama y protege chunks desde un mapa del terreno real: clic o arrastrar para reclamar o liberar, varios terrenos con nombre, amigos (también **grupos de amigos** enteros) con plantillas y permisos uno a uno, permisos públicos, **notificaciones de bienvenida y despedida** con formato y una **alarma de visitantes** para el dueño y los miembros. Tecla **G** o `/claims menu`.\n- **Jugadores:** conectados, buscador y orden por cercanía o alfabético. Chat directo, solicitudes de viaje e invitaciones a grupos. **Bloquea** los mensajes directos o las solicitudes de viaje de quien quieras. **Grupos de amigos**: crear, invitar, expulsar, renombrar, elegir color, salir y activar o desactivar el **PvP entre los miembros**. Una **brújula** arriba de la pantalla muestra a los miembros de tus grupos con su cabeza, nombre y distancia.\n- **Viajes:** warps del servidor (con nombre, icono y descripción opcionales) y tus lugares (nombre, mundo y coordenadas), que puedes **compartir** como públicos o con cada uno de tus grupos. Debajo de «Mis lugares» salen los lugares de tus grupos y los públicos, con un buscador que filtra todos. Clic o botón para viajar; mover, renombrar y eliminar en un desplegable. Precio y espera por tipo de viaje. Se viaja por **portales**: se abre uno delante de ti y otro a la vez en el destino, lo cruzas y puedes volver por el de llegada mientras siga abierto; también se ven con shaders (el admin puede volver al teletransporte clásico). Los admins también pueden colocar **portales permanentes** a un warp, un lugar o unas coordenadas, con ida y vuelta.\n- **Economía:** banco (consignar, retirar, transferir con sugerencias de jugadores, ranura para consignar y casillas para **agrupar o separar monedas**), tienda con buscador por objeto o vendedor, el precio en cada botón (comprar en dorado, vender en verde) y desplazamiento con la rueda desde cualquier parte de la ventana, vender tus objetos y **Mi tienda**: tus anuncios con su propio inventario de stock y el **historial de ventas**. El admin lleva una **tienda del servidor** con stock infinito que también puede comprar a los jugadores.\n- **Ayuda:** páginas escritas por el admin en **Markdown**: títulos, negrita, cursiva, tachado, código, listas (anidadas y de tareas), citas, tablas, enlaces e imágenes desde URL (PNG, JPG, GIF) con el ancho que quieras (`{width=120}`). Editor en el juego con vista previa.\n- **Configuración:** quién puede pedirte viajes, escribirte o invitarte (todos, solo amigos o nadie), aceptar solo los viajes de amigos, ocultar tu distancia, avisos de pagos, sonido y volumen de cada chat, notificaciones, el aspecto del chat (hora, líneas, ancho, opacidad y duración), cerrar el chat al enviar un mensaje o un comando, tu dinero junto a la barra rápida, tus estadísticas junto al inventario, las opciones del **mapa** y de la **brújula** y, con **Simple Voice Chat**, sus opciones principales y botones para sus grupos y el volumen de cada jugador.\n- **Administración** (solo operadores): activar o desactivar cada módulo (también Terrenos y Mapa), precios y esperas de viajes, lugares por jugador, límites de terrenos (chunks, terrenos y amigos), dinero inicial, comisión de la tienda, límites del chat e historial de mensajes directos; **difusión** de anuncios (en el chat, como título o como notificación, para todos o algunos jugadores, al momento o cada N minutos); **textos** del servidor (mensajes de entrada, salida y bienvenida, nombre de la moneda); **orden de las pestañas**; **Configuraciones** para guardar en JSON, cargar, copiar, pegar y limpiar la tienda del servidor, la configuración general y los apartados de los addons (con una **tienda de ejemplo** de 58 anuncios lista para cargar); dificultad, PvP, MOTD y reglas del juego; porcentaje de jugadores durmiendo para pasar la noche, con un amanecer animado; baneos (también temporales) y lista blanca. Por jugador, también los **desconectados**: estadísticas (con dinero), ver y editar su inventario (con la armadura, la mano secundaria y, con **Curios API**, sus ranuras de Curios) y su cofre de ender, ir o traer, curar, modo de juego, silenciar en el chat global, expulsar, banear, sumar o fijar dinero y **su propia configuración** de viajes y terrenos (precios, esperas, lugares y límites distintos a los del servidor). Un **modo admin global** que se enciende y apaga con un switch, para ver el servidor como un jugador normal.\n\n### Datos de los jugadores\n\nLos administradores gestionan también a los jugadores **desconectados** (la lista muestra si cada uno es premium o no premium). La ventana **Datos** lista, mod por mod, todo lo que el servidor guarda de un jugador: inventario, cofre de ender, experiencia, logros, estadísticas, posición, banco, casas, grupos, terrenos y los datos de cada addon. Lo marcado se puede **transferir** a otro jugador o **borrar**, y antes de cada cambio se guarda un **respaldo** que se puede restaurar. Para servidores que pasaron de modo online a offline (o al revés), la **migración por nombre** pasa los datos de la UUID antigua a la nueva, de un jugador o de todos a la vez.\n\n### Un chat nuevo\n\nSustituye al chat de vanilla (**T**) y ocupa solo la esquina inferior izquierda. Pestañas **Global, Grupos y Directos** con sus no leídos, más una pestaña con una **campana** solo para las notificaciones y anuncios del juego, del mod y de los addons (Global queda para conversar), y cada mensaje marcado con un chip de color de su canal: al pasar el ratón cada una despliega sus conversaciones. Los directos se quitan de la lista sin perder el historial, que guarda el servidor. Mensajes con formato Markdown y enlaces clicables (al pasar el ratón se ven sus textos emergentes, como la descripción de los logros), notificaciones emergentes y sonido por tipo de chat. Las solicitudes de viaje y las invitaciones a grupos llegan al chat directo con botones **Aceptar / Rechazar**. **Tab** cambia de conversación. Al dormir se abre este chat con el botón «Salir de la cama». Los **comandos** se escriben en el mismo chat (también con la tecla `/`), con el autocompletado y las sugerencias de vanilla.\n\n### El Ceitil, una moneda de verdad\n\n| Objeto | Valor |\n|---|---:|\n| Ceitil | 1 |\n| Pila de ceitiles | 10 |\n| Bolsa de ceitiles | 100 |\n\nEl efectivo son objetos; el banco guarda tu saldo. Al retirar recibes las mínimas monedas y al pagar te dan el cambio. En la mesa de trabajo una pila se deshace en 10 ceitiles y una bolsa en 10 pilas (el conversor del banco agrupa y separa las que quieras). El nombre de la moneda se puede cambiar.\n\n### Textos con formato\n\nAnuncios, mensajes de entrada y salida y notificaciones de terrenos aceptan Markdown y colores de Minecraft (`&a`, `&6`, `&#FF8800`…), con vista previa y variables como `{player}` o `{online}`.\n\n### Comandos rápidos\n\n| Comando | Qué hace |\n|---|---|\n| `/home [nombre]` · `/sethome [nombre]` · `/delhome <nombre>` | Tus lugares |\n| `/warp <nombre>` | Viajar a un warp del servidor |\n| `/tpa <jugador>` | Pedir viajar hasta un jugador |\n| `/balance` · `/pay <jugador> <cantidad>` | Dinero |\n| `/claim` · `/unclaim` · `/claims menu` | Reclamar o liberar el chunk donde estás, abrir la pantalla de terrenos |\n| `/eco give\\|take\\|set <jugador> <cantidad>` | Admin: cambiar el dinero de un jugador |\n| `/heal` · `/feed` · `/repair` · `/fly` · `/god` · `/speed` · `/gm` | Admin: curar, saciar, reparar, volar, ser invulnerable, velocidad y modo de juego |\n| `/vanish` · `/invsee` · `/enderchest` · `/whois` · `/near` · `/top` | Admin: hacerse invisible, ver inventarios, ficha y cercanía de jugadores |\n| `/tps` · `/broadcast` · `/sudo` · `/nick` · `/clearinv` | Admin: rendimiento, anuncios, actuar como otro jugador, apodos y vaciar inventarios |\n\nLos comandos de administración se pueden abrir a todos los jugadores, uno por uno, con su precio y su espera, en **Administración → Comandos**.\n\n### Instalación\n\n| Dónde | ¿Necesario? |\n|---|---|\n| Servidor | **Obligatorio** |\n| Cliente | **Obligatorio** (el mod añade objetos y pantallas) |\n\nRequiere **Minecraft 1.21.1** y **NeoForge 21.1.265 o superior**. No necesita otros mods: los terrenos y el mapa vienen incluidos.\n\n- Configuración del servidor: `config/mochos_esenciales-server.toml` (también desde la pestaña Administración).\n- Terrenos: `config/mochos_esenciales-claims-server.toml` (los límites también desde Administración → Terrenos).\n- Mapa: `config/mochos_esenciales-clientmap-common.toml`.\n- Configuración personal: `config/mochos_esenciales-client.toml` (desde la pestaña Configuración).\n- Páginas de ayuda: `config/mochos_esenciales/help/*.md`. El orden lo da el prefijo del archivo (`01-…`) y el título, el primer encabezado. La primera vez se crean cuatro páginas de ejemplo.\n\nIdiomas: **español** e **inglés**.\n\n### Addons\n\nMods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.19.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.\n\n- **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.\n- **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.\n- **Mochos Trabajos:** pestaña Trabajos con niveles, pago en Ceitiles, misiones diarias, ventajas, ranking, eventos x2 e historial, y un editor de trabajos para el administrador.\n- **Mochos Apariencia:** pestaña Apariencia para subir skins SD y HD desde un archivo o una URL y elegir la que llevas; todos la ven. Con Mochos Cédula, también tus skins de Mochos.\n- **Mochos Tareas:** una lista de tareas por grupo de amigos, con categorías, responsables y estados, y tareas fijadas en pantalla, bajo el Tab o junto al inventario.\n- **Mochos Tiempo:** límite de tiempo de juego por día, con hora de recarga y excepciones por jugador.\n- **Mochos Anuncios:** tablón de anuncios de los jugadores, con destacados, aviso a todos, botón de viaje y un tablón que se coloca en el mundo.\n- **Mochos Misiones:** una campaña de 66 misiones hasta el Dragón del End, con árbol de misiones, recompensas, bloqueos de progresión opcionales y editor en el juego.\n- **Mochos Recursos:** paquetes de recursos del servidor desde el juego: sube .zip o añade enlaces, ordénalos, hazlos obligatorios y recárgalos en vivo a todos.\n- **Mochos Forja:** editor de items para administradores: nombre y lore con formato, encantamientos, pociones, atributos, luz de colores, biblioteca de items y modelos de Blockbench como items, prendas u objetos colocables.\n- **Mochos NPCs:** comerciantes de jugadores que venden y compran con su propio inventario y aspecto (también de jugador con skin), aldeanos, NPCs con páginas y botones, misiones aleatorias con recompensas, banqueros, comerciantes de experiencia, editor de entidades y plantillas de NPCs.\n- **Mochos Ranking:** rankings de jugadores en una pestaña y en tablones y podios en el mundo, con los tres primeros de pie con su skin; del mundo, la economía, los trabajos y las misiones, totales, semanales o mensuales.\n- **Mochos Mapa Web:** el mapa del servidor en el navegador al estilo Diorama, con los jugadores y su skin, waypoints públicos, terrenos y chat; los jugadores no instalan nada.\n- **Mochos Carteles:** carteles en el mundo con texto Markdown, imágenes y modelos (también de Blockbench), fijos, girando o mirando al jugador, que al hacer clic ejecutan un comando, abren una ventana o un enlace.\n\n### Combina muy bien con\n\n- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0, 0.8.0, 0.8.1 y 0.9.0. Con Diorama 0.9.0 en un servidor dedicado se usa su propio mapa explorado compartido, y el de Esenciales se pausa (se puede volver a activar en Administración → Módulos).\n- **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.\n\n### Acerca de\n\nNo está afiliado ni respaldado por los autores de Diorama.\n",
-      "icon": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/icon.png",
-      "gallery": [
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/01-inventario-pestanas.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/01-pestanas-addons.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/03-jugadores-y-grupos.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/63-jugadores-desconectados-y-pvp-grupo.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/67-jugadores-desconectados-con-skin.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/05-chat-global.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/06-chat-grupo.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/07-chat-directos.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/60-chat-campana-notificaciones.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/62-chat-campana-contador.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/55-chat-chips.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/54-chat-chips-hud.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/65-chat-tooltip-logro.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/09-viajes-warps-y-lugares.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/68-portal-viaje-contorno.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/69-portal-viaje-abierto.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/73-portal-destino.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/79-portales-sincronizados.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/75-portal-shaders-viaje.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/44-viajes-lugares-compartidos.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/45-viajes-buscador.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/11-economia-tienda.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/58-tienda-precios-compra-venta.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/52-tienda-de-ejemplo.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/12-economia-banco.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/27-economia-historial-de-ventas.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/16-monedas-ceitil.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/18-ayuda-reglas-tabla.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/20-ayuda-editor-markdown.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/21-configuracion.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/23-admin-precios-y-esperas-de-viajes.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/80-admin-comandos.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/72-admin-viajes-portales.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/70-portal-bloque.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/71-portal-editor.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/74-portal-shaders-bloque.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/53-admin-inventario-armadura-curios.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/64-admin-inventario-desconectado.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/76-jugadores-desconectados-admin.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/81-whois-vanish.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/77-datos-del-jugador.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/78-migracion-por-nombre.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/66-admin-orden-pestanas.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/25-terrenos-mapa.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/26-terrenos-miembros.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/51-terrenos-grupos.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/35-terrenos-configuracion.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/28-admin-difusion.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/33-anuncio-titulo-y-notificacion.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/30-admin-textos.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/39-mapa-jugador-lejano.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/40-waypoint-compartir-grupo.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/41-mapa-waypoint-compartido.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/38-configuracion-mapa.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/61-diorama-dibujo-sin-pestanas.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/43-brujula-grupo.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/46-configuracion-brujula.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/47-admin-sueno.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/48-dormir-chat-del-mod.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/49-admin-configuraciones.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/50-admin-configuraciones-advertencia.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/56-configuracion-voice-chat.webp",
-        "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/images/57-voice-chat-grupos.webp"
-      ],
-      "ogImage": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/og-image.jpg",
-      "tags": [
-        "Utilidad",
-        "Economía",
-        "Social",
-        "Servidores"
-      ],
-      "authors": [
-        "lorspi"
-      ],
-      "links": {
-        "website": "https://mochos.xyz"
-      },
-      "featured": false,
-      "dev": false,
-      "updatedAt": "2026-11-12",
-      "offer": false,
-      "builds": [
-        {
-          "version": "0.20.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.20.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.20.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "1a51498b47ad6e63ab08676bac537ab409689506",
-          "size": 1149341,
-          "date": "2026-11-12",
-          "changelog": "- **Compatible con Diorama 0.9.0:** terrenos en el mapa y el minimapa, waypoints compartidos (con su botón «Compartir»), jugadores lejanos y el menú del mapa funcionan con la nueva versión. El launcher instala ahora Diorama 0.9.0.\n- **Convivencia con el mapa compartido de Diorama:** Diorama 0.9.0 trae en los servidores dedicados su propio mapa explorado compartido. Cuando está activo, el de Esenciales se pausa para no hacer el mismo trabajo dos veces, sin perder lo explorado. En **Administración → Módulos** se puede volver a usar el de Esenciales.\n- Los waypoints compartidos, los jugadores lejanos y los terrenos siguen siendo de Esenciales con cualquier versión de Diorama.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "oOp6l94r",
-              "name": "Diorama 0.9.0"
-            }
-          ]
-        },
-        {
-          "version": "0.19.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.19.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.19.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "da48cece213c2d7e8f1a17c6ff5a7ad61ddff54c",
-          "size": 1144515,
-          "date": "2026-11-12",
-          "changelog": "- **Comandos de administración:** `/tps`, `/feed`, `/heal`, `/repair`, `/vanish`, `/invsee`, `/enderchest`, `/fly`, `/god`, `/speed`, `/gm` (y `/gmc`, `/gms`, `/gma`, `/gmsp`), `/clearinv`, `/top`, `/near`, `/whois`, `/broadcast`, `/sudo` y `/nick`. Por defecto son solo de admins; en **Administración → Comandos** cada uno se puede abrir a todos los jugadores (para usarlo sobre sí mismos) con su precio y su espera, también por jugador.\n- `/vanish` oculta al jugador para quien no es operador: del mundo, la lista de jugadores, la pestaña Jugadores, la brújula y el mapa, y entra y sale sin mensaje. Se mantiene al reconectar, igual que `/god`, `/fly` y el apodo.\n- `/nick` cambia el nombre que se ve en el chat, la lista y sobre la cabeza. `/whois` muestra la ficha de un jugador. `/invsee` abre su inventario (editable para los admins, también de desconectados) y `/enderchest` tu cofre de ender en cualquier sitio.\n- Addons actualizados: Mochos Misiones 0.5.0 (árboles de misiones ocultos) y Mochos NPCs 0.6.0 (capacidades combinables).",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "LUifI5BG",
-              "name": "Diorama 0.8.1"
-            }
-          ]
-        },
-        {
-          "version": "0.18.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.18.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.18.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "24aafdeaa51bf62e7ba7749eb17e6f6239edfcc1",
-          "size": 1098604,
-          "date": "2026-11-11",
-          "changelog": "- **Jugadores desconectados:** cada uno tiene en Administración las mismas herramientas que los conectados: ver y editar el inventario y el cofre de ender, copiar la UUID, valores propios, silenciar, banear y la nueva ventana **Datos**. La lista muestra si cada jugador es **premium** o **no premium**.\n- **Datos del jugador, mod por mod:** la ventana Datos lista todo lo que el servidor guarda de un jugador (inventario, cofre de ender, experiencia, logros, estadísticas, posición, Esenciales, terrenos, mapa compartido y los datos de cada addon). Lo marcado se puede **transferir** a otro jugador o **borrar**.\n- **Migración por nombre** para servidores que pasaron de modo online a offline (o al revés): los datos de la UUID antigua pasan a la que el nombre tiene ahora, para un jugador o para todos a la vez.\n- **Respaldos:** antes de cada transferencia, borrado o restauración se guardan los datos de los jugadores implicados, y la ventana Datos permite **restaurarlos**.\n- **Portales sincronizados:** el portal de destino aparece y se traza a la vez que el de origen, con la misma animación, y los dos se abren juntos.\n- Los textos largos del panel de misiones seguidas se reducen antes de cortarse.\n- Addons actualizados: Acciones Rápidas 0.4.0, Anuncios 0.4.0, Apariencia 0.5.0, Misiones 0.4.0, NPCs 0.5.0, Ranking 0.2.0, Tareas 0.2.0, Tiempo 0.2.0 y Trabajos 0.5.0 (necesitan esta versión).",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "LUifI5BG",
-              "name": "Diorama 0.8.1"
-            }
-          ]
-        },
-        {
-          "version": "0.17.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.17.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.17.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "5d37d3f66b725758c4c6f8ab0a99fa2e8d434779",
-          "size": 1031149,
-          "date": "2026-11-10",
-          "changelog": "- **El portal de destino se abre a la vez que el de origen**, así que desde el otro lado también se puede cruzar desde el primer momento. Los dos duran lo mismo (5 s por defecto) y cada cruce deja abierto el de llegada el tiempo completo para poder volver.\n- **Protección de llegada:** al salir de un portal, los que ya estaban abiertos allí (el de otro jugador o un bloque portal junto al warp) no te llevan hasta que te alejas unos bloques. Así un viaje ya no te encadena con otro.\n- Si en el destino ya hay un portal abierto, el nuevo se abre a su lado en lugar de encima.\n- Corregido: un portal que quedaba en un chunk sin cargar podía volver a abrirse al regresar el chunk y llevarte a otro sitio.\n- **Portales con shaders:** con Iris u Oculus (probado con Amethyst Shaders) los portales se ven con estrellas y su contorno.\n- Compatible con **Diorama 0.8.1**; el launcher la instala junto con el mod.\n- Addon actualizado: Mochos Misiones 0.3.0 (buscador).",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "LUifI5BG",
-              "name": "Diorama 0.8.1"
-            }
-          ]
-        },
-        {
-          "version": "0.16.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.16.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.16.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "295bbf1c3af0c01e1ac632be40c2da597b40e913",
-          "size": 1023490,
-          "date": "2026-11-09",
-          "changelog": "- **Viajes por portales** (por defecto): al viajar a un warp, a un lugar o a un jugador se abre delante un portal con el aspecto de un end gateway. Durante la espera solo se dibuja su contorno, que se va cerrando; al terminar queda abierto unos segundos (5 por defecto, configurable en Administración → Viajes). Cualquiera que lo cruce viaja al destino y sale por un portal que lleva de vuelta mientras siga abierto. El precio y la espera se cobran al primer cruce. El admin puede volver al **teletransporte clásico**. Los addons que usan los viajes (anuncios, acciones rápidas…) también abren portales.\n- **Bloque portal** para admins (bloques funcionales y de operador del creativo): un portal permanente a un warp, a un lugar o a unas coordenadas, con nombre encima, tamaño, posición y giro. Con **ida y vuelta**, coloca en el destino un portal igual que lleva de regreso.\n- Corregido: la **rueda del ratón en la tienda** podía dejar de mover la lista cuando otro mod usaba la rueda en los inventarios. Lo mismo en la tienda de los comerciantes de Mochos NPCs.\n- Addons actualizados: Mochos Anuncios 0.3.1, Mochos Mapa Web 0.2.0 y Mochos NPCs 0.3.1.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "ykq2PGwf",
-              "name": "Diorama 0.8.0"
-            }
-          ]
-        },
-        {
-          "version": "0.15.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.15.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.15.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "cde36f15585145b2a75d90fd92d32833c813a116",
-          "size": 964859,
-          "date": "2026-11-08",
-          "changelog": "- Corregido: las **caras de los jugadores desconectados** (grupos, lista de desconectados, chat, terrenos, brújula, rankings) salían con la skin por defecto. Ahora se ve su skin: el servidor guarda la skin de cada jugador al entrar y, con Mochos Apariencia, también la subida.\n- Compatible con **Diorama 0.8.0** (además de 0.6.0, 0.6.1 y 0.7.0): mapa con pestañas, terrenos, menú del mapa, waypoints compartidos y jugadores lejanos. El launcher instala ahora Diorama 0.8.0.\n- Más posibilidades para los addons: chat global, waypoints públicos, quién comparte su posición en el mapa y las skins de cualquier jugador, también desconectado. Las usa el nuevo addon **Mochos Mapa Web**.\n- Addons actualizados: Mochos Apariencia 0.4.0 y Mochos Ranking 0.1.2. Nuevo: Mochos Mapa Web.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "ykq2PGwf",
-              "name": "Diorama 0.8.0"
-            }
-          ]
-        },
-        {
-          "version": "0.14.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.14.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.14.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "bf91ade4c4179a31ca82ea9c0bfb07aff93fed1b",
-          "size": 958979,
-          "date": "2026-11-08",
-          "changelog": "- **Jugadores desconectados:** la lista de jugadores de Administración tiene un apartado desplegable con todos los que tienen datos guardados en el mundo. Su inventario (con armadura, mano secundaria y Curios) y su cofre de ender se pueden ver y **editar**; los cambios se guardan en su archivo del mundo sin tocar nada más. También se les puede silenciar o banear desde ahí.\n- **PvP por grupo:** el dueño de un grupo puede activar o desactivar el PvP entre sus miembros (icono de espada; por defecto sigue activado), también con flechas y otros proyectiles. El PvP desactivado del servidor y de los terrenos sigue mandando.\n- Corregido: el PvP y el MOTD cambiados desde Administración volvían a su valor de `server.properties` al reiniciar el servidor. Ahora se guardan en el mundo.\n- Corregido: las pestañas laterales podían salir en distinto orden a cada jugador. Ahora todos ven el orden del admin, y las secciones de los addons salen siempre en el mismo orden.\n- Chat: al pasar el ratón por un mensaje se ven sus textos emergentes, como la descripción de los **logros**.\n- Addons actualizados: Mochos Ranking 0.1.1 y Mochos Trabajos 0.4.1.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "1FG2KJOU",
-              "name": "Diorama 0.7.0"
-            }
-          ]
-        },
-        {
-          "version": "0.13.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.13.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.13.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "cbbb5ee7dc2bda5cc6790f6868badc39d32942a3",
-          "size": 943697,
-          "date": "2026-11-06",
-          "changelog": "- **Tienda:** la rueda del ratón mueve la lista desde cualquier parte de la ventana de Economía, también sobre el inventario de al lado, y funciona con touchpads y escritorios remotos que solo envían desplazamiento horizontal. Lo mismo en la tienda de los comerciantes de Mochos NPCs.\n- Más posibilidades para los addons: cada venta de la tienda se informa a los addons, y se puede consultar el banco de un jugador desconectado y las monedas que lleva encima.\n- Addon nuevo: **Mochos Ranking**. Addons actualizados: Mochos Anuncios 0.3.0, Mochos NPCs 0.3.0 y Mochos Trabajos 0.4.0.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "1FG2KJOU",
-              "name": "Diorama 0.7.0"
-            }
-          ]
-        },
-        {
-          "version": "0.12.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.12.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.12.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "11bba0ea71b62d445f741d3ccf35aff899c5e947",
-          "size": 942030,
-          "date": "2026-11-06",
-          "changelog": "- **Chat:** nueva pestaña con una **campana**, a la izquierda de Global, solo para las notificaciones y anuncios del juego, del mod y de los addons (entradas y salidas, muertes, logros, avisos de terrenos, subidas de nivel…). Global queda para conversar.\n- La campana solo cuenta lo importante (anuncios del servidor, del tablón y de misiones). Configuración → Chat → «Contador de anuncios en la campana» lo desactiva.\n- **Mapa de Diorama:** al usar la herramienta de dibujo se ocultan las pestañas laterales para no tapar sus herramientas.\n- Iconos nuevos de flechas izquierda y derecha.\n- Más posibilidades para los addons: avisos que cuentan en la campana y un panel compartido de lo que sigue el jugador en pantalla.\n- Addons actualizados: Mochos Anuncios 0.2.0, Mochos Misiones 0.2.0, Mochos NPCs 0.2.0, Mochos Trabajos 0.3.0, Mochos Acciones Rápidas 0.3.0 y Mochos Apariencia 0.3.0.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "1FG2KJOU",
-              "name": "Diorama 0.7.0"
-            }
-          ]
-        },
-        {
-          "version": "0.11.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.11.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.11.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "65ce45168508627429bf06f924304bfa5270dd3f",
-          "size": 932841,
-          "date": "2026-11-05",
-          "changelog": "- **Tienda:** cada botón lleva su precio («Comprar ¢ 120» en dorado, «Vender ¢ 45» en verde), así el precio de compra y el de venta se distinguen sin pasar el ratón.\n- La rueda del ratón desplaza la tienda y las demás listas de Economía desde cualquier punto del panel.\n- Los textos de los addons también usan el nombre de la moneda que configure el administrador.\n- Más posibilidades para los addons: ocultar la pestaña Economía a ciertos jugadores, abrir solo el banco en su propia ventana y pagar con cambio.\n- Addon nuevo: **Mochos NPCs** (comerciantes, banqueros y editor de entidades).",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "1FG2KJOU",
-              "name": "Diorama 0.7.0"
-            }
-          ]
-        },
-        {
-          "version": "0.10.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.10.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.10.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "3b1a88019cb959f990e6e000afe466d75fb8238d",
-          "size": 925267,
-          "date": "2026-11-05",
-          "changelog": "- **Administración → ver inventario:** nueva vista con la armadura y la mano secundaria en su propia columna, la barra rápida aparte y tu inventario debajo para mover items en los dos sentidos.\n- Compatible con **Curios API** (opcional): la misma vista muestra las ranuras de Curios del jugador (anillos, collar, cinturón, espalda…) y se pueden sacar o poner items.\n- Compatible con **Simple Voice Chat** (opcional): Configuración tiene un bloque con sus opciones principales (silenciar, desactivar, pulsar para hablar o por voz, volumen, umbral, supresión de ruido…) y botones para sus grupos, el volumen de cada jugador y sus ajustes.\n- **Chat:** las etiquetas de canal (Global, el nombre del grupo, los directos, «/» y los anuncios) se ven como chips de color en lugar de texto entre corchetes.\n- No se puede abrir el inventario de un jugador muerto (se avisa).\n- Más posibilidades para los addons: elegir archivos del equipo y estado de Simple Voice Chat.\n- Addons nuevos: **Mochos Recursos** y **Mochos Forja**. **Mochos Acciones Rápidas** 0.2.0 añade los atajos de Simple Voice Chat.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "1FG2KJOU",
-              "name": "Diorama 0.7.0"
-            }
-          ]
-        },
-        {
-          "version": "0.9.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.9.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.9.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "e7a42f667d50b451ff500cbb0782e744e44802cf",
-          "size": 884855,
-          "date": "2026-11-05",
-          "changelog": "- **Grupos en los terrenos:** además de jugadores, se pueden añadir grupos de amigos (Miembros → + → «Grupo: …»). Todos sus miembros tienen los permisos que se le den; quien entra al grupo los recibe y quien sale los pierde. Hasta 10 grupos por terreno, y las alarmas de visitas avisan también a sus miembros.\n- **Administración → Configuraciones:** guardar en archivos JSON, cargar (añadiendo o reemplazando), copiar y pegar por portapapeles y limpiar, con advertencia, la tienda del servidor, la configuración general (valores, textos y orden de pestañas) y los apartados de los addons (trabajos, misiones y anuncios).\n- **Tienda de ejemplo** con 58 anuncios del servidor (comida, bloques, herramientas, granja, redstone, libros encantados, pociones y lo que el servidor compra), lista para cargar desde Configuraciones.\n- Más posibilidades para los addons: apartados de Configuraciones, viajes con el precio y la espera de los warps y un selector de items, criaturas y bloques.\n- Addons nuevos: **Mochos Anuncios** y **Mochos Misiones**. **Mochos Trabajos** 0.2.0 se guarda y carga en Configuraciones.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "1FG2KJOU",
-              "name": "Diorama 0.7.0"
-            }
-          ]
-        },
-        {
-          "version": "0.8.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.8.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.8.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "45fd91ed087d510ca38e70ed6e5b7dcc87b22725",
-          "size": 835678,
-          "date": "2026-11-04",
-          "changelog": "- **Brújula** arriba de la pantalla con los miembros de tus grupos (cabeza, nombre y distancia); cada parte se activa por separado en Configuración → Brújula.\n- **Lugares compartidos:** tus lugares se comparten como públicos o con cada grupo. Debajo de «Mis lugares» salen listas desplegables por grupo y de lugares públicos, con un buscador que filtra todas.\n- **Administración → General:** porcentaje de jugadores durmiendo para pasar la noche y segundos del amanecer animado.\n- Al dormir se abre el chat del mod (con «Salir de la cama») en lugar del de vanilla.\n- Botones − y + en los valores numéricos.\n- Más posibilidades para los addons: grupos, elementos junto al dinero, paneles junto al inventario y la lista de jugadores.\n- Addons nuevos: **Mochos Tareas** y **Mochos Tiempo**. **Mochos Apariencia** 0.2.0, **Mochos Tablist** 0.1.1 y **Mochos Acciones Rápidas** 0.1.1 necesitan esta versión.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "1FG2KJOU",
-              "name": "Diorama 0.7.0"
-            }
-          ]
-        },
-        {
-          "version": "0.7.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.7.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.7.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "a79cb9d04bae3d70c261b146440202424af05d22",
-          "size": 798329,
-          "date": "2026-11-04",
-          "changelog": "- **Soporte para addons:** mods aparte que añaden pestañas laterales (también en el orden de pestañas del admin), secciones en Administración y en Configuración, y usan la economía del mod. El mod sigue funcionando igual sin addons.\n- Primeros addons, que se instalan aparte desde esta misma sección: **Mochos Tablist**, **Mochos Acciones Rápidas**, **Mochos Trabajos** y **Mochos Apariencia**. Necesitan Mochos Esenciales 0.7.0 o posterior.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "1FG2KJOU",
-              "name": "Diorama 0.7.0"
-            }
-          ]
-        },
-        {
-          "version": "0.6.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.6.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.6.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "8043dc813b2d621c9437489e9f62f67556709e13",
-          "size": 783341,
-          "date": "2026-11-03",
-          "changelog": "Incluye los cambios de la 0.5.0.\n\n- **Configuración → Mapa** (con Diorama): ver terrenos en el mapa, ver terrenos en el minimapa, compartir mi ubicación y compartir mis mapas explorados. Todo activo por defecto.\n- **Waypoints compartidos desde Diorama:** botón «Compartir: Privado / Público / Grupo» en la pantalla de cada waypoint; nombre, posición, color y borrado se actualizan para los demás.\n- El mapa usa los **grupos de amigos** de Mochos (también varios a la vez). Los grupos de `/mapgroup` se convierten en grupos de amigos; se quitan `/mapgroup`, `/sharedwaypoint` y «Añadir waypoint compartido aquí» del mapa.\n- **Chat rediseñado:** abajo a la izquierda y menos invasivo, con pestañas Global / Grupos / Directos y sus no leídos; al pasar el ratón cada pestaña despliega sus conversaciones. Los directos se pueden quitar de la lista y su historial lo guarda el servidor. Tab cambia de conversación.\n- **Mis estadísticas** junto al inventario (dinero, tiempo de juego, muertes, lugares, terrenos…).\n- Configuración: cerrar el chat al enviar un mensaje o al ejecutar un comando.\n- **Administración → Difusión:** anuncios en el chat, como título y/o como notificación, para todos o jugadores elegidos, al momento o cada N minutos, con colores (`&a`, `&#FF8800`) y Markdown.\n- **Administración → Textos:** mensajes de entrada, primera entrada, salida y bienvenida privada, y nombre de la moneda. **Administración → Pestañas:** orden de las pestañas laterales.\n- **Economía:** «Mi tienda» con historial de ventas; el banco cambia «Agrupar monedas» por un conversor de casillas; sugerencias de jugadores al transferir.\n- **Terrenos:** notificación de bienvenida y despedida y alarma de visitantes para el dueño y/o los miembros.\n- Mis lugares: acciones en un desplegable y botón de viajar junto a la flecha.\n- Jugadores: silenciar solo afecta al chat global; cada jugador puede bloquear los mensajes directos y las solicitudes de viaje de otro.\n- Protocolo del mapa 2: servidor y clientes deben actualizarse juntos.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "1FG2KJOU",
-              "name": "Diorama 0.7.0"
-            }
-          ]
-        },
-        {
-          "version": "0.4.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.4.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.4.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "8d81fb7a5bcfa85abd54409d1211d46974fc50a4",
-          "size": 683524,
-          "date": "2026-11-02",
-          "changelog": "Incluye los cambios de la 0.3.0.\n\n- **Terrenos y mapa incluidos en el mod:** ya no hacen falta Diorama Addons: Claims ni Client Map, y **no se pueden usar junto con ellos**: quítalos (los terrenos y la configuración de esos mods se conservan). La única dependencia externa es Diorama (opcional, cliente).\n- Terrenos y Mapa son módulos que se pueden desactivar desde Administración, al momento. Administración → Terrenos: chunks, terrenos y amigos por jugador, chunks unidos y distancia al spawn.\n- **Configuración propia por jugador** (desde sus estadísticas): precios, esperas, tiempo quieto y lugares de los viajes, y límites de terrenos. Sustituye al antiguo límite de lugares por jugador, que se migra solo.\n- **Modo admin global:** un switch al principio de Administración enciende o apaga las herramientas de administrador en todo el mod (Jugadores, Viajes, Economía, Ayuda, Terrenos, puntos compartidos del mapa, `/eco` y `/claims admin ...`). Apagado, un operador ve y usa el mod como un jugador normal. Se guarda por jugador y viene encendido.\n- **Chat:** los comandos se escriben y ejecutan en el chat nuevo, con autocompletado; la tecla `/` también lo abre. El texto normal se envía como mensaje; solo es comando lo que empieza por `/`.\n- Dinero total (banco + monedas) junto a la barra rápida, abreviado (5.5k).\n- Ayuda: ancho de imagen con `{width=N}` o `{width=N%}`.\n- Compatible con Diorama 0.7.0.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "1FG2KJOU",
-              "name": "Diorama 0.7.0"
-            }
-          ]
-        },
-        {
-          "version": "0.2.0",
-          "minecraft": [
-            "1.21.1"
-          ],
-          "loader": {
-            "type": "neoforge",
-            "minVersion": "21.1.265"
-          },
-          "fileName": "mochos_esenciales-0.2.0-MC1.21.1-neoforge21.1.265.jar",
-          "url": "https://raw.githubusercontent.com/mochos/mochos-modpacks/main/mods/mochos_esenciales/builds/mochos_esenciales-0.2.0-MC1.21.1-neoforge21.1.265.jar",
-          "sha1": "00d88f616a080bc24b9a2ed5d839a67bf933ce61",
-          "size": 381038,
-          "date": "2026-11-01",
-          "changelog": "Primera versión pública.\n\n- Pestañas laterales en el inventario, el mapa de Diorama (opcional) y todas las pantallas del mod.\n- Jugadores: lista con buscador y orden, chat directo, solicitudes de viaje, grupos de amigos y herramientas de administración (estadísticas con dinero, inventario, cofre de ender, ir / traer, curar, modo de juego, silenciar, expulsar, banear, dinero y límite de lugares).\n- Viajes: warps con icono y descripción, lugares del jugador, precio, espera y tiempo quieto por tipo de viaje.\n- Economía con el Ceitil (ceitil, pila y bolsa): banco, transferencias, tienda de jugadores y del servidor con stock infinito y compra por el servidor.\n- Ayuda en Markdown con imágenes desde URL, enlaces, tablas y editor con vista previa.\n- Configuración personal (privacidad, sonidos, aspecto del chat) y Administración (módulos, valores, servidor, reglas, baneos, lista blanca).\n- Chat nuevo: global, grupos y directos, notificaciones, no leídos y solicitudes con Aceptar / Rechazar.\n- Compatibilidad con Diorama Addons: Claims: pestaña «Terrenos» bajo el Mapa con una pantalla de claims al estilo de Mochos (mapa con terreno, reclamar y liberar, claims, miembros, plantillas, permisos públicos). La tecla G del mod de claims abre esta versión; la original se puede recuperar en Configuración.\n- Español e inglés.",
-          "dependencies": [
-            {
-              "source": "modrinth",
-              "project": "diorama-map",
-              "version": "y4CUZz0J",
-              "name": "Diorama 0.6.0"
-            }
-          ]
         }
       ]
     },
