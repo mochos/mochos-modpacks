@@ -74,6 +74,7 @@
   "tags": ["Utilidad", "Economía", "Social", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
+  "featured": true,
   "offer": false,
   "builds": [
     {
