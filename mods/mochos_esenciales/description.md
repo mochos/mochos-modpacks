@@ -93,6 +93,7 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 - **Mochos Ranking:** rankings de jugadores en una pestaña y en tablones y podios en el mundo, con los tres primeros de pie con su skin; del mundo, la economía, los trabajos y las misiones, totales, semanales o mensuales.
 - **Mochos Mapa Web:** el mapa del servidor en el navegador al estilo Diorama, con los jugadores y su skin, waypoints públicos, terrenos y chat; los jugadores no instalan nada.
 - **Mochos Carteles:** carteles en el mundo con texto Markdown, imágenes y modelos (también de Blockbench), fijos, girando o mirando al jugador, que al hacer clic ejecutan un comando, abren una ventana o un enlace.
+- **Mochos Scripts:** scripts al estilo de Skript en español para crear comandos, eventos, tareas, menús y jefes sin escribir Java, con una pestaña para gestionarlos y un editor web con bloques.
 
 ### Combina muy bien con
 
