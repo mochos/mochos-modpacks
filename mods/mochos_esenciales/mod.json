@@ -78,6 +78,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_esenciales-0.22.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.22.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-14",
+      "changelog": "- **Para addons:** nueva interfaz `CustomItems` para que un addon ofrezca sus objetos guardados y modelos a los demás. Mochos Forja 0.4 la ofrece y Mochos Scripts 0.3.0 la usa para dar, quitar y reconocer los objetos guardados de la Forja y poner sus modelos a los ítems.\n- Addons actualizados: Mochos Forja 0.4.1 (pestañas, armas y herramientas, ranuras de Curios, objetos guardados editables y editor NBT completo) y Mochos Scripts 0.3.0 (bloques para cambiar ítems e integración con la Forja).",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "Hy4iYmoc", "name": "Diorama 0.10.1" }
+      ]
+    },
+    {
       "file": "builds/mochos_esenciales-0.21.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.21.0",
       "minecraft": ["1.21.1"],

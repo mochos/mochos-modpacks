@@ -77,7 +77,7 @@ Idiomas: **español** e **inglés**.
 
 ### Addons
 
-Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.21.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
+Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.22.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
 
 - **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.
 - **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.
@@ -88,7 +88,7 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 - **Mochos Anuncios:** tablón de anuncios de los jugadores, con destacados, aviso a todos, botón de viaje y un tablón que se coloca en el mundo.
 - **Mochos Misiones:** una campaña de 66 misiones hasta el Dragón del End, con árbol de misiones, recompensas, bloqueos de progresión opcionales y editor en el juego.
 - **Mochos Recursos:** paquetes de recursos del servidor desde el juego: sube .zip o añade enlaces, ordénalos, hazlos obligatorios y recárgalos en vivo a todos.
-- **Mochos Forja:** editor de items para administradores: nombre y lore con formato, encantamientos, pociones, atributos, luz de colores, biblioteca de items, modelos de Blockbench como items, prendas u objetos colocables y editor de las recetas de todas las mesas.
+- **Mochos Forja:** editor de items para administradores: nombre y lore con formato, encantamientos, pociones, atributos, luz de colores, editor NBT, objetos guardados, modelos de Blockbench como items, armas, prendas u objetos colocables, editor de las recetas de todas las mesas y ranuras de Curios.
 - **Mochos NPCs:** comerciantes de jugadores que venden y compran con su propio inventario y aspecto (también de jugador con skin), aldeanos, NPCs con páginas y botones, misiones aleatorias con recompensas, banqueros, comerciantes de experiencia, editor de entidades y plantillas de NPCs.
 - **Mochos Ranking:** rankings de jugadores en una pestaña y en tablones y podios en el mundo, con los tres primeros de pie con su skin; del mundo, la economía, los trabajos y las misiones, totales, semanales o mensuales.
 - **Mochos Mapa Web:** el mapa del servidor en el navegador al estilo Diorama, con los jugadores y su skin, waypoints públicos, terrenos y chat; los jugadores no instalan nada.

@@ -20,7 +20,9 @@ comando /curar [<jugador>]:
 - **Mobs y entidades:** generar, nombrar, equipar, efectos de poción, salud, fuego, empujar, rayos y explosiones.
 - **Ítems** con nombre y descripción de colores, inventarios, **sonidos** y **partículas**.
 - **Menús de cofre** con botones que ejecutan código al hacer clic.
+- **Cambiar ítems:** encantamientos, durabilidad y durabilidad máxima, irrompible, descripción, nbt y cualquier componente como en `/give` (`!componente` lo quita); y leerlos: durabilidad, nivel de un encantamiento, nbt y sus valores.
 - **Mochos Esenciales:** pagar y cobrar con su dinero, saldo, notificaciones, banco, grupos y terrenos reclamados.
+- **Mochos Forja:** dar, quitar y reconocer sus **objetos guardados** por su marca invisible (aunque se gasten, se renombren o se encanten) y poner sus **modelos** a los ítems (uno de arma o herramienta convierte el ítem en esa herramienta).
 
 Más de 150 elementos, todos documentados con ejemplos.
 
@@ -42,11 +44,12 @@ Para los administradores: todos los scripts por **carpetas**, su estado (cargado
 - **Texto** con colores, y vista **dividida** con los dos a la vez: son el mismo archivo `.msk`.
 - Revisión mientras escribes **sin bloquear los bloques**: lo que falta por completar sale en gris, los errores en ámbar sobre su bloque y en rojo al pulsar **Validar** o al guardar.
 - Los cambios sin guardar se marcan en la lista y junto al estado del script; problemas y registro del script, guardar y recargar.
+- Los objetos guardados y los modelos de Mochos Forja y los encantamientos se **eligen de una lista** en los bloques, y las **opciones** y **variables** de un script se ven como bloques, una fila por cada una.
 - Referencia de todo el lenguaje con ejemplos que se insertan con un clic, y buscador de ids del juego.
 
 ### Para empezar
 
-Trae **diez scripts de ejemplo** (deshabilitados) en `config/mochos_scripts/scripts/ejemplos`: bienvenida, comandos, eventos, variables, bucles, funciones, una tienda con menú, anuncios, un jefe zombi y el mismo lenguaje en inglés. La referencia completa está en `config/mochos_scripts/REFERENCIA.md`.
+Trae **once scripts de ejemplo** (deshabilitados) en `config/mochos_scripts/scripts/ejemplos`: bienvenida, comandos, eventos, variables, bucles, funciones, una tienda con menú, anuncios, un jefe zombi, objetos personalizados (con los de Mochos Forja) y el mismo lenguaje en inglés. La referencia completa está en `config/mochos_scripts/REFERENCIA.md`.
 
 ### Instalación
 
@@ -55,7 +58,7 @@ Trae **diez scripts de ejemplo** (deshabilitados) en `config/mochos_scripts/scri
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** (para la pestaña Scripts; los jugadores sin el addon ven igual los menús y mensajes) |
 
-Requiere **Mochos Esenciales 0.21.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.22.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Mochos Forja 0.4.0 o posterior** para usar sus objetos guardados y modelos.
 
 - Scripts: `config/mochos_scripts/scripts/**/*.msk` (un `-` delante del nombre lo deshabilita).
 - Editor web: puerto **8124** (`config/mochos_scripts-common.toml`); cada enlace lleva un token que caduca.

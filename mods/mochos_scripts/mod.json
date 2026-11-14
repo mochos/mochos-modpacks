@@ -14,13 +14,26 @@
     "images/207-scripts-editor-errores.webp",
     "images/208-scripts-bloques-con-errores.webp",
     "images/209-scripts-validar.webp",
-    "images/206-scripts-menu-tienda.webp"
+    "images/206-scripts-menu-tienda.webp",
+    "images/221-scripts-opciones-en-bloques.webp",
+    "images/222-scripts-objetos-guardados.webp"
   ],
   "tags": ["Addon", "Administración", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_scripts-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-14",
+      "changelog": "Necesita Mochos Esenciales 0.22.0 o posterior.\n\n- **Bloques para cambiar ítems** (categoría Ítems), en texto y en bloques: encantamientos (nivel 0 lo quita), sin encantamientos, durabilidad y durabilidad máxima, irrompible, descripción, nbt y cualquier componente como en `/give` (`!componente` lo quita). Y para leerlos: durabilidad, nivel de un encantamiento, nbt y sus valores, y la condición «tiene encantamiento».\n- **Integración con Mochos Forja** (nueva categoría): `objeto guardado \"nombre\"` para dar o usar en menús; quitar y comprobar objetos guardados por su marca invisible, aunque se hayan gastado, renombrado o encantado; `<ítem> con modelo \"nombre\"` pone un modelo de la Forja (uno de arma o herramienta convierte el ítem en esa herramienta).\n- En el editor de bloques, los objetos guardados, los modelos y los encantamientos se **eligen de una lista**; la pestaña IDs también los lista.\n- Nuevo ejemplo `objetos.msk`.\n- Corregido: los bloques `opciones` y `variables` no se dibujaban en el editor de bloques, y los que venían después tampoco (los ejemplos «anuncios» y «bienvenida» solo enseñaban el primer comentario). Ahora cada opción o variable es una fila.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.22.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_scripts-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",
