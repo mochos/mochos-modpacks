@@ -4,7 +4,7 @@ Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las 
 
 ### Requisitos
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.9.0 junto con el mod.
+- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.10.1 junto con el mod.
 
 > **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan, y los grupos de mapa pasan a ser grupos de amigos.
 
@@ -77,7 +77,7 @@ Idiomas: **español** e **inglés**.
 
 ### Addons
 
-Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.19.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
+Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.21.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
 
 - **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.
 - **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.
@@ -88,7 +88,7 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 - **Mochos Anuncios:** tablón de anuncios de los jugadores, con destacados, aviso a todos, botón de viaje y un tablón que se coloca en el mundo.
 - **Mochos Misiones:** una campaña de 66 misiones hasta el Dragón del End, con árbol de misiones, recompensas, bloqueos de progresión opcionales y editor en el juego.
 - **Mochos Recursos:** paquetes de recursos del servidor desde el juego: sube .zip o añade enlaces, ordénalos, hazlos obligatorios y recárgalos en vivo a todos.
-- **Mochos Forja:** editor de items para administradores: nombre y lore con formato, encantamientos, pociones, atributos, luz de colores, biblioteca de items y modelos de Blockbench como items, prendas u objetos colocables.
+- **Mochos Forja:** editor de items para administradores: nombre y lore con formato, encantamientos, pociones, atributos, luz de colores, biblioteca de items, modelos de Blockbench como items, prendas u objetos colocables y editor de las recetas de todas las mesas.
 - **Mochos NPCs:** comerciantes de jugadores que venden y compran con su propio inventario y aspecto (también de jugador con skin), aldeanos, NPCs con páginas y botones, misiones aleatorias con recompensas, banqueros, comerciantes de experiencia, editor de entidades y plantillas de NPCs.
 - **Mochos Ranking:** rankings de jugadores en una pestaña y en tablones y podios en el mundo, con los tres primeros de pie con su skin; del mundo, la economía, los trabajos y las misiones, totales, semanales o mensuales.
 - **Mochos Mapa Web:** el mapa del servidor en el navegador al estilo Diorama, con los jugadores y su skin, waypoints públicos, terrenos y chat; los jugadores no instalan nada.
@@ -97,7 +97,7 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 
 ### Combina muy bien con
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0, 0.8.0, 0.8.1 y 0.9.0. Con Diorama 0.9.0 en un servidor dedicado se usa su propio mapa explorado compartido, y el de Esenciales se pausa (se puede volver a activar en Administración → Módulos).
+- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0, 0.8.0, 0.8.1, 0.9.0, 0.10.0 y 0.10.1. Con Diorama 0.9.0 en un servidor dedicado se usa su propio mapa explorado compartido, y el de Esenciales se pausa (se puede volver a activar en Administración → Módulos).
 - **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.
 
 ### Acerca de

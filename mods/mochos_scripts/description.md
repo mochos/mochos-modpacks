@@ -40,7 +40,8 @@ Para los administradores: todos los scripts por **carpetas**, su estado (cargado
 
 - **Bloques** por categorías y colores, al estilo de **MCreator**.
 - **Texto** con colores, y vista **dividida** con los dos a la vez: son el mismo archivo `.msk`.
-- Revisión mientras escribes, problemas y registro del script, guardar y recargar.
+- Revisión mientras escribes **sin bloquear los bloques**: lo que falta por completar sale en gris, los errores en ámbar sobre su bloque y en rojo al pulsar **Validar** o al guardar.
+- Los cambios sin guardar se marcan en la lista y junto al estado del script; problemas y registro del script, guardar y recargar.
 - Referencia de todo el lenguaje con ejemplos que se insertan con un clic, y buscador de ids del juego.
 
 ### Para empezar
@@ -54,7 +55,7 @@ Trae **diez scripts de ejemplo** (deshabilitados) en `config/mochos_scripts/scri
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** (para la pestaña Scripts; los jugadores sin el addon ven igual los menús y mensajes) |
 
-Requiere **Mochos Esenciales 0.20.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.21.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 - Scripts: `config/mochos_scripts/scripts/**/*.msk` (un `-` delante del nombre lo deshabilita).
 - Editor web: puerto **8124** (`config/mochos_scripts-common.toml`); cada enlace lleva un token que caduca.

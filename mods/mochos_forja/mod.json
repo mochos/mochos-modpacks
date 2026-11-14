@@ -2,7 +2,7 @@
   "$schema": "../../schema/contenido.schema.json",
   "id": "mochos_forja",
   "name": "Mochos Forja",
-  "summary": "Addon de Mochos Esenciales: editor de items para admins. Nombre y lore con formato, encantamientos, pociones, atributos, colores, adornos, luz de colores y biblioteca de items. Modelos de Blockbench sin paquetes de recursos como items, prendas u objetos colocables.",
+  "summary": "Addon de Mochos Esenciales: editor de items para admins. Nombre y lore con formato, encantamientos, pociones, atributos, colores, adornos, luz de colores y biblioteca de items. Modelos de Blockbench sin paquetes de recursos como items, prendas u objetos colocables, y editor de recetas de todas las mesas.",
   "description": "description.md",
   "icon": "icon.png",
   "ogImage": "og-image.jpg",
@@ -17,7 +17,11 @@
     "images/198-forja-modelos-ajustes.webp",
     "images/199-forja-vestuario.webp",
     "images/200-forja-objetos.webp",
+    "images/210-forja-icono-inventario.webp",
     "images/97-forja-modelo-en-la-mano.webp",
+    "images/211-forja-recetas.webp",
+    "images/212-forja-editor-receta.webp",
+    "images/214-forja-recetas-desactivadas.webp",
     "images/88-forja-plantillas.webp",
     "images/98-forja-plantilla-de-luz.webp",
     "images/93-forja-biblioteca.webp"
@@ -27,6 +31,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_forja-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-14",
+      "changelog": "Necesita Mochos Esenciales 0.21.0 o posterior.\n\n- **Editor de recetas** (Forja → Recetas, solo administradores) para todas las mesas: crafteo (con y sin forma), horno, alto horno, ahumador, fogata, cortapiedras, herrería y las recetas de otros mods, con filtros por mesa y estado y buscador.\n- **Activar y desactivar** cualquier receta: una desactivada no se puede fabricar y sale del libro de recetas de todos al momento.\n- **Crear recetas** y **cambiar las del juego** con casillas como las de cada mesa (los items de la Forja se piden con sus cambios), con cantidad, experiencia y tiempo en los hornos. Una receta del juego cambiada se puede **restaurar**.\n- **Exportar e importar** en el JSON de los datapacks de Minecraft 1.21.1, por archivo o portapapeles. Todo se guarda en `config/mochos_forja/recetas.json` y se vuelve a aplicar tras `/reload`.\n- **Icono de inventario** opcional para cada modelo: una imagen PNG plana, como las armaduras, que se ve en los inventarios mientras el modelo se sigue viendo en la mano, el cuerpo y el mundo.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.21.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_forja-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",

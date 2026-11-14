@@ -13,6 +13,7 @@
     "images/157-mapaweb-capas.webp",
     "images/163-mapaweb-nubes.webp",
     "images/162-mapaweb-nether.webp",
+    "images/213-mapaweb-cambio-de-dimension.webp",
     "images/164-mapaweb-skin-mochos.webp",
     "images/161-mapaweb-waypoint-publico.webp",
     "images/158-mapaweb-admin.webp",
@@ -24,6 +25,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_mapaweb-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-14",
+      "changelog": "Necesita Mochos Esenciales 0.21.0 o posterior.\n\n- **Al cambiar de dimensión** con los botones de arriba, si en la vista no hay nada explorado (por ejemplo, el Nether se exploró lejos del lugar de la superficie que estabas mirando), el mapa se mueve solo al terreno descubierto más cercano, con el mismo zoom.\n- **Waypoints por dimensión:** el panel de waypoints y su contador solo muestran los de la dimensión que se está viendo, y se actualizan al cambiar. Si no hay ninguno en esa dimensión, lo dice.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.21.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_mapaweb-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",

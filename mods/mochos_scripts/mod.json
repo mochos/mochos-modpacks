@@ -12,6 +12,8 @@
     "images/205-scripts-editor-dividido.webp",
     "images/204-scripts-errores.webp",
     "images/207-scripts-editor-errores.webp",
+    "images/208-scripts-bloques-con-errores.webp",
+    "images/209-scripts-validar.webp",
     "images/206-scripts-menu-tienda.webp"
   ],
   "tags": ["Addon", "Administración", "Servidores"],
@@ -19,6 +21,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_scripts-0.2.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-14",
+      "changelog": "Necesita Mochos Esenciales 0.21.0 o posterior.\n\n- **El editor web ya no bloquea los bloques mientras hay errores:** lo que está sin terminar (un evento, comando o función vacío) sale en gris como «Incompleto»; los errores salen en ámbar mientras se edita y en rojo con el nuevo botón **Validar**, al guardar o al recargar. Cada problema aparece también sobre su bloque.\n- Las líneas que no se entienden se conservan como bloque «línea libre», y un `si` o `mientras` con una condición que no se entiende mantiene sus bloques de dentro.\n- Se puede guardar con errores, como antes: el servidor sigue usando la última versión buena.\n- **Cambios sin guardar** a la vista: en cursiva con un punto en la lista y con el chip «Sin guardar» junto al estado.\n- Corregido: una pestaña del editor abierta con un enlace caducado acababa bloqueando el equipo hasta reiniciar el servidor. Ahora deja de preguntar y lo explica, y los intentos fallidos se olvidan a los 10 minutos.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.21.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_scripts-0.1.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.1.0",

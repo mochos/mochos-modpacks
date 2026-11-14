@@ -1,4 +1,4 @@
-**Mochos Forja** es un addon de [Mochos Esenciales](https://mochos.xyz) para crear los items, las prendas y los objetos de tu servidor sin comandos. Añade la pestaña **Forja** para administradores: pon un item en la ranura y debajo aparecen todas las opciones para personalizarlo, con una vista previa de cómo lo verán los jugadores.
+**Mochos Forja** es un addon de [Mochos Esenciales](https://mochos.xyz) para crear los items, las prendas, los objetos y las recetas de tu servidor sin comandos. Añade la pestaña **Forja** para administradores: pon un item en la ranura y debajo aparecen todas las opciones para personalizarlo, con una vista previa de cómo lo verán los jugadores.
 
 ### Qué se puede personalizar
 
@@ -25,6 +25,18 @@ Importa un proyecto de **Blockbench** (`.bbmodel`) o una **imagen PNG**: el jueg
 - **Prenda:** sombreros, camisetas, pantalones o botas para la cabeza, el torso, las piernas o los pies. En la **ranura de armadura** (se dibuja en lugar de la armadura y protege lo que le pongas en Atributos) o **cosmética**, encima de la armadura, en el **Vestuario** (pestaña para todos los jugadores o `/vestuario`) o en las ranuras de **Curios**. Los grupos `cabeza`, `cuerpo`, `brazo_derecho`… (o `head`, `body`, `right_arm`…) siguen esa parte del cuerpo al andar: una camiseta mueve las mangas con los brazos.
 - **Objeto colocable:** decoración, peluches o estatuas que se colocan mirando al jugador y al romperlos devuelven el mismo item. Colisión a elegir: ninguna, la forma del modelo o bloque completo. Respeta los terrenos y protecciones.
 
+Cada modelo puede tener además un **icono de inventario**: una imagen PNG plana, como las armaduras, que se ve en los inventarios mientras el modelo se sigue viendo en la mano, el cuerpo y el mundo.
+
+### Recetas de todas las mesas
+
+En **Forja → Recetas** están todas las recetas del juego, de datapacks y de otros mods, con filtros por mesa (crafteo, horno, alto horno, ahumador, fogata, cortapiedras, herrería y otras) y por estado, y un buscador.
+
+- **Desactiva** cualquier receta con un interruptor: nadie podrá fabricarla y desaparece del libro de recetas al momento.
+- **Crea recetas** o **cambia las del juego** con casillas como las de cada mesa: pon un item del inventario (los de la Forja se piden con su nombre y modelo) o elígelo de la lista. Cantidad del resultado, experiencia y tiempo de cocción. Las recetas del juego cambiadas se pueden restaurar.
+- **Exporta e importa** en el JSON de los datapacks: archivo y portapapeles. Se acepta el archivo exportado, una receta de datapack o una lista de ellas.
+
+Todo se guarda en `config/mochos_forja/recetas.json`, se mantiene tras `/reload` y se aplica a todos los jugadores al instante.
+
 ### Biblioteca
 
 Guarda los items que crees para sacarlos o dárselos a un jugador cuando quieras. También con comandos:
@@ -43,7 +55,7 @@ La biblioteca se guarda, carga y comparte como JSON desde **Administración → 
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.20.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Curios** para llevar las prendas cosméticas en sus ranuras.
+Requiere **Mochos Esenciales 0.21.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Curios** para llevar las prendas cosméticas en sus ranuras.
 
 Solo los administradores (op con el modo admin) pueden usar la Forja; el Vestuario es para todos los jugadores.
 

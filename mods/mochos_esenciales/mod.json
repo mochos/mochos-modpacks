@@ -78,6 +78,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_esenciales-0.21.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.21.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-14",
+      "changelog": "- **Compatible con Diorama 0.10.0 y 0.10.1.** Diorama 0.10 cambió cómo guarda de quién es cada chunk; los terrenos de Esenciales vuelven a verse en su mapa y minimapa con su color y nombre. Los waypoints compartidos, los jugadores lejanos, el menú del mapa y la pausa del mapa compartido cuando Diorama comparte el suyo funcionan igual. Las versiones 0.6.0 a 0.9.0 siguen siendo compatibles.\n- El launcher instala ahora Diorama 0.10.1.\n- Addons actualizados: Mochos Forja 0.3.0 (editor de recetas), Mochos Mapa Web 0.3.0 y Mochos Scripts 0.2.0.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "Hy4iYmoc", "name": "Diorama 0.10.1" }
+      ]
+    },
+    {
       "file": "builds/mochos_esenciales-0.20.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.20.0",
       "minecraft": ["1.21.1"],
