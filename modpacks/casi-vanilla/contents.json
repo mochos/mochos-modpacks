@@ -1,5 +1,5 @@
 {
-  "version": "2.6.3",
+  "version": "2.6.4",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -254,10 +254,10 @@
       "name": "mochos_carteles-0.2.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_esenciales-0.21.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_esenciales-0.22.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_forja-0.3.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_forja-0.4.1-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_mapaweb-0.3.0-MC1.21.1-neoforge21.1.265"
@@ -275,7 +275,7 @@
       "name": "mochos_recursos-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_scripts-0.2.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_scripts-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_tablist-0.1.1-MC1.21.1-neoforge21.1.265"
@@ -428,7 +428,7 @@
       "name": "WallClimb-1.0.0-1.21.1-NeoForge"
     },
     {
-      "name": "weatherglass-0.6.0-1.21.1-neoforge"
+      "name": "weatherglass-0.6.2-1.21.1-neoforge"
     },
     {
       "name": "YetAnotherConfigLib (YACL)",

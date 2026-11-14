@@ -1,3 +1,11 @@
+## 2.6.4
+
+- Actualizado **Mochos Esenciales** a 0.22.0.
+- Actualizado **Mochos Forja** a 0.4.1: armas y herramientas con modelos propios, ranuras de Curios, objetos guardados que se pueden editar y editor NBT completo.
+- Actualizado **Mochos Scripts** a 0.3.0: bloques para cambiar ítems y para usar los objetos guardados y los modelos de la Forja.
+- Actualizados **Streams Reflowing** a 2.17.4 y **Weatherglass** a 0.6.2.
+- Siguen siendo 96 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.3
 
 - Actualizado **Diorama** a 0.10.1, y **Mochos Esenciales** a 0.21.0 para que sea compatible: los terrenos vuelven a verse en el mapa.
