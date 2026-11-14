@@ -1,5 +1,5 @@
 {
-  "version": "2.6.1",
+  "version": "2.6.2",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -273,6 +273,9 @@
     },
     {
       "name": "mochos_recursos-0.1.0-MC1.21.1-neoforge21.1.265"
+    },
+    {
+      "name": "mochos_scripts-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_tablist-0.1.1-MC1.21.1-neoforge21.1.265"

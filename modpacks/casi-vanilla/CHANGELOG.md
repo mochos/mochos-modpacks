@@ -1,3 +1,9 @@
+## 2.6.2
+
+- Añadido **Mochos Scripts**: los administradores pueden crear comandos, eventos, tareas, menús y jefes con scripts en español, desde una pestaña del juego o con un editor web de bloques.
+- **Jade** muestra también los fluidos al apuntarlos.
+- Ahora son 96 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.1
 
 - Actualizado **Mochos Forja** a 0.2.0: los modelos de Blockbench se ven sin paquetes de recursos y pueden ser items, **prendas** (sombreros, camisetas…, también en el nuevo **Vestuario**) u **objetos** que se colocan en el mundo.
