@@ -1,3 +1,12 @@
+## 2.6.3
+
+- Actualizado **Diorama** a 0.10.1, y **Mochos Esenciales** a 0.21.0 para que sea compatible: los terrenos vuelven a verse en el mapa.
+- Actualizado **Mochos Forja** a 0.3.0: los administradores pueden activar, desactivar, crear y cambiar las recetas de todas las mesas.
+- Actualizado **Mochos Mapa Web** a 0.3.0: al cambiar de dimensión el mapa va a lo explorado, y los waypoints se muestran por dimensión.
+- Actualizado **Mochos Scripts** a 0.2.0: el editor web ya no bloquea los bloques cuando hay errores.
+- Actualizados **Entity Culling** a 1.12.1, **Architectury** a 13.0.12 y **Streams Reflowing** a 2.17.3.
+- Siguen siendo 96 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.2
 
 - Añadido **Mochos Scripts**: los administradores pueden crear comandos, eventos, tareas, menús y jefes con scripts en español, desde una pestaña del juego o con un editor web de bloques.
