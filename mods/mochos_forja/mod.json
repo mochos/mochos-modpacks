@@ -20,6 +20,7 @@
     "images/198-forja-modelos-ajustes.webp",
     "images/199-forja-vestuario.webp",
     "images/200-forja-objetos.webp",
+    "images/227-forja-modelos-corregidos.webp",
     "images/93-forja-biblioteca.webp",
     "images/211-forja-recetas.webp",
     "images/212-forja-editor-receta.webp",
@@ -38,6 +39,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_forja-0.4.2-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.4.2",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-15",
+      "changelog": "Necesita Mochos Esenciales 0.23.0 o posterior.\n\n- Corregido: en los modelos «Java Block/Item» de Blockbench los grupos ya no giran (como en Blockbench); piezas como las orejas de un sombrero salían torcidas.\n- Corregido: los cubos invertidos y las capas translúcidas se ven como en Blockbench, y en los modelos Java las caras solo se ven por delante; las capas translúcidas ya no tapan ni ensucian el interior del modelo. Una textura con «Render Sides: Double» se sigue viendo por las dos caras.\n- Corregido: el brillo de encantamiento de los objetos y prendas de la Forja tiene el tamaño del de las armaduras de Minecraft (antes salía en rayas diminutas).",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.23.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_forja-0.4.1-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.4.1",

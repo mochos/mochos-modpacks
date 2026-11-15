@@ -61,7 +61,7 @@ Los objetos guardados se guardan, cargan y comparten como JSON desde **Administr
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.22.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Curios** para llevar las prendas cosméticas en sus ranuras y crear ranuras propias.
+Requiere **Mochos Esenciales 0.23.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Curios** para llevar las prendas cosméticas en sus ranuras y crear ranuras propias.
 
 Solo los administradores (op con el modo admin) pueden usar la Forja; el Vestuario es para todos los jugadores.
 

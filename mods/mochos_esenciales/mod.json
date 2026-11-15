@@ -40,6 +40,7 @@
     "images/23-admin-precios-y-esperas-de-viajes.webp",
     "images/80-admin-comandos.webp",
     "images/72-admin-viajes-portales.webp",
+    "images/82-admin-viajes-entidades.webp",
     "images/70-portal-bloque.webp",
     "images/71-portal-editor.webp",
     "images/74-portal-shaders-bloque.webp",
@@ -77,6 +78,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.23.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.23.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-15",
+      "changelog": "- **Cualquier entidad cruza los portales.** Criaturas, objetos tirados, flechas, barcos y vagonetas atraviesan los portales de viaje y los portales fijos, gratis y manteniendo su velocidad. Si un jugador cruza montado, su montura (con todos los que van en ella) cruza con él y siguen montados; las criaturas que lleva atadas con una rienda también le siguen. Solo paga el jugador.\n- **Administración → Viajes:** «Criaturas, objetos y demás entidades cruzan los portales» (activa por defecto) y «Solo cruzan las entidades que caben en el portal».\n- Los NPCs, las criaturas sin IA, los marcos y demás decoraciones nunca cruzan un portal.\n- Addons actualizados: Mochos Forja 0.4.2 (modelos de Blockbench como en Blockbench) y Mochos NPCs 0.7.0 (equipo y poses).",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "Hy4iYmoc", "name": "Diorama 0.10.1" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.22.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.22.0",

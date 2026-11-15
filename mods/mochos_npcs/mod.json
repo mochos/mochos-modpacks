@@ -9,6 +9,9 @@
   "gallery": [
     "images/127-npcs-skin-hd-por-url.webp",
     "images/99-npcs-comerciante-en-el-mundo.webp",
+    "images/228-npcs-poses.webp",
+    "images/229-npcs-equipo-y-pose.webp",
+    "images/231-npcs-sentado-con-prenda-forja.webp",
     "images/122-npcs-comprar-y-vender.webp",
     "images/125-npcs-comercios-vende-y-compra.webp",
     "images/123-npcs-inventario-con-monedas.webp",
@@ -50,6 +53,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_npcs-0.7.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.7.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-15",
+      "changelog": "Necesita Mochos Esenciales 0.23.0 o posterior.\n\n- **Equipo de los NPCs:** en la pestaña Apariencia del editor (y en el editor de cualquier entidad viva) hay seis casillas: cabeza, pecho, piernas, pies, mano principal y mano secundaria. Clic con un objeto en el cursor pone una copia (el objeto no se gasta) y clic derecho la quita. Sirve cualquier armadura, arma, herramienta u objeto, también los de Mochos Forja. El NPC nunca suelta su equipo.\n- **Poses:** de pie, sentado, agachado, acostado, tumbado bocabajo, cabeza abajo, saludando, brazos en alto, apuntando con arco, bloqueando con escudo y atacando. Las de los brazos, con los aspectos que tienen brazos; lobos, gatos y zorros se sientan a su manera.\n- Los jugadores pueden cambiar el equipo y la pose de sus comerciantes si el admin lo permite (activado por defecto).\n- La pose y el equipo se guardan al recoger el NPC en su huevo y en la exportación JSON.\n- Los NPCs no cruzan los portales de Mochos Esenciales 0.23.0.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.23.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_npcs-0.6.1-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.6.1",

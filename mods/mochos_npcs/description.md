@@ -15,6 +15,10 @@ Con el objeto **Generar comerciante** (se fabrica, se compra en la tienda o lo d
 - **Su aspecto:** aldeano (con profesión y bioma), vendedor ambulante, gólem, zorro, allay… o un **jugador con skin SD o HD** (hasta 1024×1024) subida desde un archivo o una URL. También bebé, tamaño y si mira a los jugadores.
 - Bajo su nombre aparece **su dueño** en letra más pequeña. Con el inventario vacío, el comerciante se puede recoger: queda guardado entero en el huevo (aspecto, nombre, comercios y opciones) y al usarlo vuelve el mismo comerciante.
 
+### Equipo y poses
+
+En la pestaña **Apariencia** cada NPC lleva **equipo**: cabeza, pecho, piernas, pies y las dos manos. Haz clic con cualquier objeto (armaduras, armas, herramientas, prendas de Mochos Forja…) y el NPC se pone una copia, sin gastar el tuyo; clic derecho para quitarla. Y elige su **pose**: de pie, sentado, agachado, acostado, tumbado bocabajo, cabeza abajo, saludando, brazos en alto, apuntando con arco, bloqueando con escudo o atacando. Los jugadores también pueden vestir y posar a sus comerciantes si el admin lo permite.
+
 ### Banqueros y comerciantes de experiencia
 
 Cualquier entidad puede ser **banquero**: con clic derecho abre el banco (consignar, retirar, transferir y el cambio de monedas) en su propia ventana. Son empleados del estado: no muestran dueño. Un **comerciante de experiencia** guarda tu experiencia en frascos de 15 y 30 niveles y te la devuelve, gratis y exacta; los frascos se pueden intercambiar. Con la opción **«Ocultar la pestaña Economía»**, el comercio y el banco pasan a hacerse solo con comerciantes y banqueros.
@@ -54,7 +58,7 @@ En **Administración → NPCs**: permitir comerciantes de jugadores, máximo por
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.20.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.23.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 
