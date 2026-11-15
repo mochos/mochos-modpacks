@@ -1,3 +1,10 @@
+## 2.6.5
+
+- Actualizado **Mochos Esenciales** a 0.23.0: las criaturas, los objetos y las monturas también cruzan los portales de viaje; tu caballo cruza contigo y las criaturas atadas te siguen.
+- Actualizado **Mochos NPCs** a 0.7.0: los NPCs llevan armadura y objetos en las manos, y pueden sentarse, saludar, tumbarse y otras poses.
+- Actualizado **Mochos Forja** a 0.4.2: los modelos de Blockbench se ven igual que en Blockbench.
+- Siguen siendo 96 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.4
 
 - Actualizado **Mochos Esenciales** a 0.22.0.
