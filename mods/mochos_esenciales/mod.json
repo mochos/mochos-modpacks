@@ -58,6 +58,10 @@
     "images/26-terrenos-miembros.webp",
     "images/51-terrenos-grupos.webp",
     "images/35-terrenos-configuracion.webp",
+    "images/89-terrenos-llave-resaltado.webp",
+    "images/90-terrenos-llave-permisos.webp",
+    "images/92-escritura-terreno-tooltip.webp",
+    "images/91-admin-escrituras-terreno.webp",
     "images/28-admin-difusion.webp",
     "images/33-anuncio-titulo-y-notificacion.webp",
     "images/30-admin-textos.webp",
@@ -81,6 +85,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.25.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.25.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-16",
+      "changelog": "- **Llave de terreno:** nuevo objeto (lingote de oro + gancho de cuerda) para dar permisos públicos a un bloque concreto de tu terreno. Clic derecho en un bloque abre una ventana para elegir qué puede hacer cualquier jugador con él: **usar** (botones, palancas, puertas…), **abrir su inventario** (cofres, barriles, hornos…), **romperlo** o **colocar** en ese sitio (cosechar y replantar un cultivo público, por ejemplo). Puertas, camas y cofres dobles cuentan como un solo bloque. Con la llave en la mano se **resaltan** los bloques con permisos públicos cercanos. Límite por terreno en Administración → Terrenos.\n- **Escrituras de terreno:** objetos de un solo uso que suben para siempre los chunks, los terrenos o ambos de quien los usa. Los administradores crean **plantillas** en Administración → Terrenos (opcionalmente solo para un jugador), sacan copias o las dan; se pueden vender en la tienda o regalar. También desde la consola con `/claims admin deed give|template|bonus`.\n- Lo ganado con escrituras se ve y se cambia en Administración → Terrenos y en la configuración de cada jugador, y viaja con sus datos al transferirlos o migrarlos.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "Hy4iYmoc", "name": "Diorama 0.10.1" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.24.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.24.0",
