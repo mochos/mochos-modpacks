@@ -5,7 +5,7 @@
   "summary": "El Minecraft de siempre, más bonito y fluido, con el Aether, mejores estructuras, aviones, mochilas y chat de voz para jugar entre amigos.",
   "description": "description.md",
   "changelog": "CHANGELOG.md",
-  "version": "2.6.5",
+  "version": "2.6.6",
   "minecraft": "1.21.1",
   "loader": { "type": "neoforge", "version": "21.1.265" },
   "icon": "icon.gif",
@@ -17,14 +17,14 @@
   "recommendedRamMb": 6144,
   "source": {
     "type": "mrpack",
-    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-2.6.5/Casi-Vanilla-1.21.1-v2.6.5.mrpack",
-    "sha1": "ef43e1d42037db6812b428b8cd1cdd9a858873de",
-    "size": 13440856
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-2.6.6/Casi-Vanilla-1.21.1-v2.6.6.mrpack",
+    "sha1": "616cc7546a9d739682ac43f8a8a8f2e09e55bd44",
+    "size": 11924305
   },
   "chuspa": {
-    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-2.6.5/Casi-Vanilla-1.21.1-v2.6.5.chuspa",
-    "sha1": "1ca1d865a553dd1dc7d8d1fcb476309d02f73828",
-    "size": 13723568
+    "url": "https://github.com/mochos/mochos-modpacks/releases/download/casi-vanilla-2.6.6/Casi-Vanilla-1.21.1-v2.6.6.chuspa",
+    "sha1": "c5c611fcf5190f56de5e0c0e3e94ea4cbde10f49",
+    "size": 12207028
   },
   "server": {
     "enabled": true,
@@ -35,5 +35,5 @@
     "website": "https://mochos.xyz",
     "discord": "https://discord.mochos.xyz"
   },
-  "updatedAt": "2026-11-15"
+  "updatedAt": "2026-11-16"
 }

@@ -1,5 +1,5 @@
 {
-  "version": "2.6.5",
+  "version": "2.6.6",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -254,6 +254,9 @@
       "name": "mochos_carteles-0.2.0-MC1.21.1-neoforge21.1.265"
     },
     {
+      "name": "mochos_constructor-0.1.0-MC1.21.1-neoforge21.1.265"
+    },
+    {
       "name": "mochos_esenciales-0.23.0-MC1.21.1-neoforge21.1.265"
     },
     {
@@ -429,6 +432,12 @@
     },
     {
       "name": "weatherglass-0.6.2-1.21.1-neoforge"
+    },
+    {
+      "name": "WorldEdit",
+      "url": "https://modrinth.com/mod/worldedit",
+      "icon": "https://cdn.modrinth.com/data/1u6JkXh5/30698991048ced77e60c4e8284007d3782f2e6a3_96.webp",
+      "platform": "modrinth"
     },
     {
       "name": "YetAnotherConfigLib (YACL)",

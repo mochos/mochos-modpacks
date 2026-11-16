@@ -1,3 +1,9 @@
+## 2.6.6
+
+- Añadido **Mochos Constructor**, con **WorldEdit**: los administradores (y los jugadores a los que den acceso) construyen sin comandos, con la selección dibujada en el mundo, herramientas para copiar, mover, apilar y rellenar, formas, pincel y esquemas que se ven translúcidos antes de colocarlos.
+- Actualizado **Streams Reflowing** a 2.17.5.
+- Ahora son 98 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.5
 
 - Actualizado **Mochos Esenciales** a 0.23.0: las criaturas, los objetos y las monturas también cruzan los portales de viaje; tu caballo cruza contigo y las criaturas atadas te siguen.
