@@ -1,3 +1,9 @@
+## 2.6.7
+
+- Actualizado **Mochos Esenciales** a 0.24.0: la ayuda del servidor tiene categorías desplegables y sus páginas muestran objetos, criaturas que se pueden girar y recetas con la interfaz de cada mesa.
+- Actualizado **Kotlin for Forge** a 5.13.0.
+- Siguen siendo 98 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.6
 
 - Añadido **Mochos Constructor**, con **WorldEdit**: los administradores (y los jugadores a los que den acceso) construyen sin comandos, con la selección dibujada en el mundo, herramientas para copiar, mover, apilar y rellenar, formas, pincel y esquemas que se ven translúcidos antes de colocarlos.
