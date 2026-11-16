@@ -55,3 +55,4 @@ Sustituye a **Diorama Addons: Web Map**: si están los dos instalados, Mochos Ma
 - **Mochos Ranking:** rankings de jugadores, con tablones y podios en el mundo.
 - **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.
 - **Mochos Scripts:** scripts en español para comandos, eventos y menús, con editor de bloques.
+- **Mochos Constructor:** WorldEdit sin comandos, con vista previa de esquemas.

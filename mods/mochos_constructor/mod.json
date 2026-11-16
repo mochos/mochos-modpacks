@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_constructor",
+  "name": "Mochos Constructor",
+  "summary": "Addon de Mochos Esenciales: una interfaz amigable para WorldEdit. Selector, vista previa translúcida para colocar esquemas, gestor de esquemas, herramientas de copiar, mover, apilar, rellenar y formas, pincel, materiales y deshacer.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/234-constructor-vista-previa.webp",
+    "images/232-constructor-seleccion.webp",
+    "images/233-constructor-herramientas-apilar.webp",
+    "images/235-constructor-colocar-esquema.webp",
+    "images/236-constructor-esquemas.webp",
+    "images/238-constructor-formas.webp",
+    "images/239-constructor-pincel.webp",
+    "images/237-constructor-materiales.webp",
+    "images/240-constructor-edicion-por-ticks.webp",
+    "images/242-constructor-historial.webp",
+    "images/241-constructor-admin.webp"
+  ],
+  "tags": ["Addon", "Utilidad", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_constructor-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-16",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.23.0 o posterior y WorldEdit 7.3 en el servidor.\n\n- **Selector:** clic izquierdo y derecho marcan las esquinas y Ctrl + rueda agranda o encoge la cara a la que miras. La selección se dibuja en el mundo y va a la par con la de WorldEdit.\n- **Herramientas** en un panel lateral: copiar, cortar, mover, apilar, rellenar, reemplazar, paredes, contorno, vaciar, formas, guardar esquema, materiales y deshacer/rehacer. Mover, apilar y las formas se ven antes de aplicarlas.\n- **Paletas de bloques** con porcentajes y **formas** (cubo, esfera, cúpula, cilindro, cono y pirámide), macizas o huecas.\n- **Ítem Esquema** con **vista previa translúcida** que sigue la mirada: se fija, se gira, se refleja, se mueve y se pega, con o sin aire.\n- **Gestor de esquemas** sobre la carpeta de WorldEdit: buscar, cargar, materiales, descargar, renombrar, borrar y **subir `.schem` y `.schematic`** desde el PC.\n- **Pincel** a distancia, **lista de materiales** en pilas y cajas de shulker, y **deshacer y rehacer** con historial.\n- **Ediciones por ticks** con barra de progreso y cancelación, para no detener el servidor.\n- **Acceso** para los operadores y los jugadores que elija el admin (Administración → Constructor), con límites; los que no son operadores respetan los terrenos y la protección del spawn.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.23.0", "name": "Mochos Esenciales" },
+        { "source": "modrinth", "project": "worldedit", "version": "WTAFvuRx", "name": "WorldEdit 7.3.8" }
+      ]
+    }
+  ]
+}

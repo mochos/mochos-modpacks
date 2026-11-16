@@ -94,6 +94,7 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 - **Mochos Mapa Web:** el mapa del servidor en el navegador al estilo Diorama, con los jugadores y su skin, waypoints públicos, terrenos y chat; los jugadores no instalan nada.
 - **Mochos Carteles:** carteles en el mundo con texto Markdown, imágenes y modelos (también de Blockbench), fijos, girando o mirando al jugador, que al hacer clic ejecutan un comando, abren una ventana o un enlace.
 - **Mochos Scripts:** scripts al estilo de Skript en español para crear comandos, eventos, tareas, menús y jefes sin escribir Java, con una pestaña para gestionarlos y un editor web con bloques.
+- **Mochos Constructor:** una interfaz para WorldEdit sin comandos: selección dibujada en el mundo, herramientas en un panel, formas, pincel, esquemas con vista previa translúcida, materiales y deshacer, con ediciones repartidas por ticks (necesita WorldEdit en el servidor).
 
 ### Combina muy bien con
 

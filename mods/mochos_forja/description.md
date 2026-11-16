@@ -81,3 +81,4 @@ Solo los administradores (op con el modo admin) pueden usar la Forja; el Vestuar
 - **Mochos Mapa Web:** el mapa del servidor en el navegador.
 - **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.
 - **Mochos Scripts:** scripts en español para comandos, eventos y menús, con editor de bloques.
+- **Mochos Constructor:** WorldEdit sin comandos, con vista previa de esquemas.
