@@ -36,6 +36,9 @@
     "images/16-monedas-ceitil.webp",
     "images/18-ayuda-reglas-tabla.webp",
     "images/20-ayuda-editor-markdown.webp",
+    "images/83-ayuda-categorias-recetas.webp",
+    "images/85-ayuda-criaturas.webp",
+    "images/87-ayuda-insertar-receta.webp",
     "images/21-configuracion.webp",
     "images/23-admin-precios-y-esperas-de-viajes.webp",
     "images/80-admin-comandos.webp",
@@ -78,6 +81,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.24.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.24.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-16",
+      "changelog": "- **Categorías en la ayuda:** las páginas se agrupan en categorías desplegables en el índice, con categorías dentro de otras (hasta cuatro niveles). Los administradores crean, renombran, ordenan, mueven y borran categorías desde el juego, y mueven páginas de una categoría a otra. Las páginas que ya existían siguen igual.\n- **Objetos, criaturas y recetas en las páginas:** objetos con su cantidad y su tooltip (también los de Mochos Forja con su modelo), criaturas que giran solas y se giran arrastrándolas, las **recetas reales del servidor** con la interfaz de la mesa de trabajo, los hornos, la fogata, el cortapiedras o la herrería, y recetas dibujadas a mano.\n- **Botón «Insertar…»** en el editor de ayuda, con vista previa: imágenes, objetos, criaturas, recetas, mesas y hornos que se rellenan con clics.\n- **Subir imágenes desde el PC** (PNG, JPG o GIF, hasta 2 MiB) a la carpeta de la ayuda del servidor; llegan a los jugadores por la conexión del juego, sin abrir puertos, y se guardan en caché.\n- **Para addons:** el Markdown puede activar las líneas de objetos, criaturas y recetas.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "Hy4iYmoc", "name": "Diorama 0.10.1" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.23.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.23.0",
