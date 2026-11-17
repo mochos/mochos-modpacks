@@ -1,16 +1,17 @@
-**Mochos Anuncios** es un addon de [Mochos Esenciales](https://mochos.xyz) con el tablón de anuncios de tu servidor. Añade la pestaña **Anuncios**: los jugadores compran anuncios para vender, buscar compañeros o invitar a su tienda, y todos los ven en el tablón… también en el mundo, en un tablón que el admin coloca donde quiera.
+**Mochos Anuncios** es un addon de [Mochos Esenciales](https://mochos.xyz) con el tablón de anuncios de tu servidor, con imagen y texto con formato. Añade la pestaña **Anuncios**: los jugadores compran anuncios para vender, buscar compañeros o invitar a su tienda, y todos los ven en el tablón… también en el mundo, en un tablón que el admin coloca donde quiera.
 
 ### Características
 
 - **El tablón:** todos los anuncios publicados, los **destacados** primero (en dorado) y luego los más nuevos. Cada anuncio muestra su icono, título, autor, tiempo restante y texto. Con buscador.
-- **Publicar:** título, texto de varias líneas, **icono opcional** (cualquier item de Minecraft, buscado por nombre) y **duración** (de horas a semanas). Una vista previa muestra cómo quedará, con el precio de cada opción y el total en Ceitiles.
+- **Publicar:** título y texto de varias líneas **con formato** (`**negrita**`, `*cursiva*`, `~~tachado~~` y colores `&a`, `&#FF8800`…, con la ayuda debajo del texto), **icono opcional** (cualquier item de Minecraft, buscado por nombre) y **duración** (de horas a semanas). Una vista previa muestra cómo quedará, con el precio de cada opción y el total en Ceitiles.
+- **Imagen:** súbela **desde tu PC** (PNG, JPG, GIF o BMP) o **desde una URL**. Con título o texto, la imagen sale a la izquierda y la información a la derecha; sin ellos, el anuncio es **solo la imagen**. También en los tablones del mundo. El servidor la reduce a los límites del admin y la reparte a los jugadores.
 - **Destacado:** sale arriba del todo y resaltado; hay pocos sitios y cuesta más por hora.
 - **Aviso a todos:** al publicarse, todos los jugadores conectados reciben una notificación con tu anuncio (extra de pago).
 - **Botón de viaje:** guarda tu ubicación; quien lea el anuncio pulsa el botón y viaja allí con el precio y la espera de los viajes del servidor. Cuenta las visitas (extra de pago).
 - **Vencimiento:** cuando un anuncio vence, su autor recibe un aviso (también si estaba desconectado) y el anuncio queda en «Mis anuncios» como **no publicado**, listo para renovarlo.
 - **Editar y renovar:** cambia un anuncio publicado o no publicado. El precio se recalcula: si subes características pagas la diferencia y si las bajas se te devuelve lo que corresponde. Al **borrar** uno publicado se devuelve el tiempo que no se usó.
 - **Anuncios del servidor:** los admins publican gratis, sin límites y hasta sin vencimiento, con un autor personalizado («📢 Equipo de eventos») o sin autor.
-- **Aprobación:** el admin puede pedir que los anuncios nuevos esperen su revisión en «Por aprobar». Si los rechaza (con motivo opcional), se devuelve el dinero.
+- **Aprobación:** el admin puede pedir que los anuncios nuevos esperen su revisión en «Por aprobar», o solo los que traen una **imagen nueva**. Si los rechaza (con motivo opcional), se devuelve el dinero.
 
 ### El tablón en el mundo
 
@@ -22,7 +23,7 @@ En creativo, en **Bloques funcionales**, está el bloque **Tablón de anuncios**
 
 ### Para el administrador
 
-En **Administración → Anuncios**: activar o desactivar la publicación, la aprobación previa, el **precio por hora** (normal y destacado), el precio de cada extra, la **duración mínima y máxima**, los días que se guardan los vencidos, los **anuncios por jugador**, los **anuncios en el tablón** y los **destacados a la vez**. Los admins pueden borrar cualquier anuncio (el autor recibe un aviso). Con la economía apagada, publicar es gratis.
+En **Administración → Anuncios**: activar o desactivar la publicación, la aprobación previa, el **precio por hora** (normal y destacado), el precio de cada extra, la **duración mínima y máxima**, los días que se guardan los vencidos, los **anuncios por jugador**, los **anuncios en el tablón** y los **destacados a la vez**. Para las **imágenes**: permitirlas a los jugadores, su aprobación, su **precio** (se paga una vez, como el botón de viaje), el **tamaño máximo en pantalla** (un anuncio solo de imagen nunca ocupa más de la mitad de un tablón del mundo), la resolución máxima guardada y el peso máximo del archivo. Los admins pueden borrar cualquier anuncio (el autor recibe un aviso). Con la economía apagada, publicar es gratis.
 
 Los ajustes se guardan, cargan y comparten como JSON desde **Administración → Configuraciones** de Mochos Esenciales.
 
@@ -33,7 +34,7 @@ Los ajustes se guardan, cargan y comparten como JSON desde **Administración →
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.18.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.26.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 
