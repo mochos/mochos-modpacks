@@ -78,7 +78,7 @@ Idiomas: **español** e **inglés**.
 
 ### Addons
 
-Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.23.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
+Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.26.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
 
 - **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, y cómo se ve cada jugador.
 - **Mochos Acciones Rápidas:** rueda de acciones al mantener **Z** (pestañas, warps, lugares, banco, terrenos, cambiar de skin, comandos propios…), configurable por cada jugador.

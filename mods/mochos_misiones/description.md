@@ -3,7 +3,7 @@
 ### Características
 
 - **Capítulos y árbol:** cada capítulo muestra sus misiones como un árbol (se arrastra para moverlo). Las completadas en verde, las disponibles en azul con su progreso, las bloqueadas con candado y las que tienen recompensa por reclamar brillan en dorado. Un **buscador** en la cabecera filtra los capítulos y resalta las misiones que coinciden (sin distinguir mayúsculas ni tildes).
-- **Historia y consejos:** cada misión explica qué hacer y cómo (dónde está la fortaleza, cómo encender el portal, qué llevar al End…).
+- **Historia y consejos:** cada misión explica qué hacer y cómo (dónde está la fortaleza, cómo encender el portal, qué llevar al End…), con el formato de las páginas de ayuda: imágenes, objetos, criaturas que giran y recetas.
 - **Objetivos:** conseguir o entregar items, craftear, fundir o cocinar, comer, derrotar criaturas, picar y colocar bloques, entrar a una dimensión, visitar biomas, alejarse del punto de aparición, **encontrar una estructura**, **conocer una criatura**, estadísticas y logros vanilla, nivel de trabajo y marcar a mano. Admiten ids, tags (`#minecraft:logs`) y `*`.
 - **Recompensas:** items (con encantamientos, pociones, nombres…), Ceitiles, experiencia, XP de trabajo y comandos del servidor. Se reclaman con un botón, o se dan solas si el admin quiere.
 - **Avisos:** al completar una misión, al abrirse misiones nuevas y, para todos, cuando alguien completa un capítulo.
@@ -28,7 +28,7 @@ Las misiones pueden impedir **craftear** un item, **usar** un item, **entrar a u
 
 ### Para el administrador
 
-- **Editor en el juego:** el botón **Editar** de la pestaña Misiones permite crear, editar, ordenar y borrar capítulos y misiones (historia, icono, posición en el árbol, requisitos, objetivos, recompensas y bloqueos), con selectores de items, criaturas, bloques, dimensiones, biomas, estadísticas, logros y trabajos.
+- **Editor en el juego:** el botón **Editar** de la pestaña Misiones permite crear, editar, ordenar y borrar capítulos y misiones (historia en Markdown con el editor y el botón **Insertar** de las páginas de ayuda, icono —un objeto o una imagen subida desde el PC, en una galería compartida—, posición en el árbol, requisitos, objetivos, recompensas y bloqueos), con selectores de items, criaturas, bloques, dimensiones, biomas, estadísticas, logros y trabajos.
 - **Administración → Misiones:** activar los bloqueos, dar las recompensas al completar, mostrar las secundarias, avisar de los capítulos, recargar el archivo, restablecer la campaña de fábrica y reiniciar las misiones de un jugador.
 - Las misiones se guardan, cargan y comparten como JSON desde **Administración → Configuraciones** de Mochos Esenciales.
 - Comandos: `/misiones completar <jugador> <misión>`, `/misiones reiniciar <jugador> [misión]` y `/misiones recargar`.
@@ -44,7 +44,7 @@ Si **Mochos Trabajos** 0.2.0 o superior está instalado, las misiones pueden ped
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.19.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: Mochos Trabajos 0.2.0 o posterior.
+Requiere **Mochos Esenciales 0.26.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: Mochos Trabajos 0.2.0 o posterior.
 
 ### Otros addons de Mochos Esenciales
 

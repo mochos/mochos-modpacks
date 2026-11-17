@@ -33,7 +33,7 @@ Como los NPCs de Minecraft Bedrock, pero más personalizables: al hablar con ell
 
 ### Misiones aleatorias
 
-Un NPC con **misiones aleatorias** ofrece a cada jugador un tablero que se renueva cada 30 minutos, con misiones de rareza **gris, verde, azul, morada o dorada** y **tiempo límite**: matar jugadores o **cazar a uno conectado** (se le avisa), matar criaturas, entregar objetos, ordeñar una champivaca, hacer crecer azaleas, ir a unas coordenadas, encontrar una estructura, fabricar, picar, pescar o criar. Las recompensas son monedas, experiencia y objetos: los que el admin pone en cada rareza (también de otros mods) o, si la deja vacía, objetos aleatorios. Las misiones aceptadas se pueden **seguir** en el panel de misiones de la pantalla, con su progreso y el tiempo que queda.
+Un NPC con **misiones aleatorias** ofrece a cada jugador un tablero que se renueva cada 30 minutos, con misiones de rareza **gris, verde, azul, morada o dorada** y **tiempo límite**: matar jugadores o **cazar a uno conectado** (se le avisa), matar criaturas, entregar objetos, ordeñar una champivaca, hacer crecer azaleas, ir a unas coordenadas, encontrar una estructura, fabricar, picar, pescar o criar. Las recompensas son monedas, experiencia y objetos: los que el admin pone en cada rareza (también de otros mods) o, si la deja vacía, objetos aleatorios. Las misiones aceptadas se pueden **seguir** en el panel de misiones de la pantalla, con su progreso y el tiempo que queda. Todo se edita desde el juego en **Administración → NPCs → Editar misiones aleatorias**: por tipo, activarlo, su probabilidad, cantidades, tiempo y lo que puede pedir (ids de cualquier mod, con buscador); por rareza, su probabilidad, escala, tiempo extra, ceitiles, experiencia y recompensas por defecto. Cada tipo, rareza o todo junto se puede **restablecer de fábrica**.
 
 ### Árboles de misiones
 
@@ -49,7 +49,7 @@ Exporta cualquier NPC o entidad editada a **JSON** (con sus comercios, páginas 
 
 ### Para el administrador
 
-En **Administración → NPCs**: permitir comerciantes de jugadores, máximo por jugador, ranuras de inventario, qué pueden personalizar los jugadores y qué entidades pueden elegir, la **receta** del objeto Generar comerciante (editable, con una por defecto), ocultar la pestaña Economía, las plantillas y la lista de comerciantes con un botón para ir. En **Misiones aleatorias**: misiones contra jugadores, cuántas a la vez, cuántas en el tablero, cada cuánto se renueva y qué tipos se ofrecen (lo que pueden pedir, de cualquier mod, está en `config/mochos/npcs-misiones.json`). Comandos: `/npcs huevo [jugadores] [cantidad]`, `/npcs misiones recargar` y `/npcs misiones reiniciar <jugadores>`.
+En **Administración → NPCs**: permitir comerciantes de jugadores, máximo por jugador, ranuras de inventario, qué pueden personalizar los jugadores y qué entidades pueden elegir, la **receta** del objeto Generar comerciante (editable, con una por defecto), ocultar la pestaña Economía, las plantillas y la lista de comerciantes con un botón para ir. En **Misiones aleatorias**: misiones contra jugadores, cuántas a la vez, cuántas en el tablero, cada cuánto se renueva y el **editor de tipos y rarezas** (se guarda en `config/mochos/npcs-misiones.json`). Comandos: `/npcs huevo [jugadores] [cantidad]`, `/npcs misiones recargar` y `/npcs misiones reiniciar <jugadores>`.
 
 ### Instalación
 
@@ -58,7 +58,7 @@ En **Administración → NPCs**: permitir comerciantes de jugadores, máximo por
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.23.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.26.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 

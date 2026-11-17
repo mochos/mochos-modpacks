@@ -39,7 +39,9 @@
     "images/170-npcs-misiones-en-pantalla.webp",
     "images/171-npcs-recompensas-por-rareza.webp",
     "images/172-npcs-tipo-aldeano.webp",
-    "images/173-npcs-admin-misiones-aleatorias.webp",
+    "images/95-npcs-admin-editar-misiones-aleatorias.webp",
+    "images/96-npcs-editor-epicidad.webp",
+    "images/97-npcs-editor-objetivos.webp",
     "images/186-npcs-arboles.webp",
     "images/187-npcs-vincular-arbol.webp",
     "images/111-editor-entidad.webp",
@@ -53,6 +55,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_npcs-0.8.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.8.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-17",
+      "changelog": "Necesita Mochos Esenciales 0.26.0 o posterior.\n\n- **Editor de misiones aleatorias:** Administración → NPCs → «Editar misiones aleatorias» abre una ventana con los 12 tipos de misión y las 5 epicidades. Por **tipo**: activarlo, su probabilidad, la cantidad mínima y máxima, el tiempo límite y lo que puede pedir (criaturas, objetos, bloques o estructuras, también de mods y datapacks, con buscador). Por **epicidad**: su probabilidad (con el % resultante), la escala de la cantidad, el tiempo extra, el dinero, la experiencia, cuántos objetos da y las recompensas por defecto. Cada cambio se guarda al momento.\n- **Restablecer de fábrica** un tipo, una epicidad o todo. Las recompensas propias de cada NPC no se tocan.\n- `config/mochos/npcs-misiones.json` guarda también estos ajustes; los archivos anteriores se convierten solos y los ids de mods que faltan se conservan por si el mod vuelve.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.26.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_npcs-0.7.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.7.0",

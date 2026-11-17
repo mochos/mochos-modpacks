@@ -86,6 +86,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_esenciales-0.26.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.26.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-17",
+      "changelog": "- **Para addons:** los addons pueden mostrar texto con el formato de las páginas de ayuda (imágenes subidas, objetos, criaturas y recetas) y abrir el editor de ayuda, con vista previa y el botón Insertar, para sus propios textos. Lo usa Mochos Misiones 0.6.0 para la historia de las misiones.\n- Addons actualizados: Mochos Misiones 0.6.0 (iconos propios e historia en Markdown) y Mochos NPCs 0.8.0 (editor de misiones aleatorias).",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "Hy4iYmoc", "name": "Diorama 0.10.1" }
+      ]
+    },
+    {
       "file": "builds/mochos_esenciales-0.25.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.25.0",
       "minecraft": ["1.21.1"],
