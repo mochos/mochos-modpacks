@@ -1,3 +1,10 @@
+## 2.6.8
+
+- Actualizado **Mochos Esenciales** a 0.26.0: llegan la **llave de terreno**, para dejar que cualquiera use, abra, rompa o coloque en un bloque concreto de tu terreno, y las **escrituras de terreno**, que suben para siempre tus chunks o terrenos.
+- Actualizado **Mochos Misiones** a 0.6.0: misiones con iconos propios e historias con recetas, criaturas e imágenes.
+- Actualizado **Mochos NPCs** a 0.8.0: los administradores ajustan las misiones aleatorias desde el juego.
+- Siguen siendo 98 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.7
 
 - Actualizado **Mochos Esenciales** a 0.24.0: la ayuda del servidor tiene categorías desplegables y sus páginas muestran objetos, criaturas que se pueden girar y recetas con la interfaz de cada mesa.
