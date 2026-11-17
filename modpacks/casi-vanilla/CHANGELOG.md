@@ -1,3 +1,8 @@
+## 2.6.9
+
+- Actualizado **Mochos Anuncios** a 0.5.0: los anuncios pueden llevar una imagen (desde tu PC o desde una URL) y texto con negrita, cursiva y colores, también en los tablones del mundo.
+- Siguen siendo 98 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.8
 
 - Actualizado **Mochos Esenciales** a 0.26.0: llegan la **llave de terreno**, para dejar que cualquiera use, abra, rompa o coloque en un bloque concreto de tu terreno, y las **escrituras de terreno**, que suben para siempre tus chunks o terrenos.
