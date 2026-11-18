@@ -62,6 +62,9 @@
     "images/90-terrenos-llave-permisos.webp",
     "images/92-escritura-terreno-tooltip.webp",
     "images/91-admin-escrituras-terreno.webp",
+    "images/101-niebla-de-guerra-mapa-diorama.webp",
+    "images/102-niebla-de-guerra-pantalla-terrenos.webp",
+    "images/103-niebla-de-guerra-configuracion.webp",
     "images/28-admin-difusion.webp",
     "images/33-anuncio-titulo-y-notificacion.webp",
     "images/30-admin-textos.webp",
@@ -85,6 +88,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.27.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.27.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-18",
+      "changelog": "- **Niebla de guerra en los terrenos:** en Terrenos → Configuración el dueño (o un admin) puede activar «Niebla de guerra en los mapas». Quien no sea dueño ni miembro del terreno ve **nubes oscuras** en lugar de su interior, con unos chunks de margen para que no se adivine su forma. Los administradores ven a través.\n- La niebla se ve en el **mapa y el minimapa de Diorama** (0.10.0 y 0.10.1), siguiendo el relieve, y en la **pantalla de terrenos**. Los jugadores lejanos que están bajo la niebla no salen en el mapa de quien no puede verla.\n- En Administración → Terrenos: «Niebla de guerra en los mapas» (activa por defecto) y su margen (2 chunks por defecto, de 0 a 8).\n- Mochos Mapa Web 0.4.0 la aplica también en el mapa web.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "Hy4iYmoc", "name": "Diorama 0.10.1" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.26.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.26.0",

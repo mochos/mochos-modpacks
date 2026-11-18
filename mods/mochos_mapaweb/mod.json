@@ -12,6 +12,8 @@
     "images/156-mapaweb-chat.webp",
     "images/157-mapaweb-capas.webp",
     "images/163-mapaweb-nubes.webp",
+    "images/251-mapaweb-niebla-de-guerra.webp",
+    "images/252-mapaweb-agua-antes-y-despues.webp",
     "images/162-mapaweb-nether.webp",
     "images/213-mapaweb-cambio-de-dimension.webp",
     "images/164-mapaweb-skin-mochos.webp",
@@ -25,6 +27,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_mapaweb-0.4.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.4.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-18",
+      "changelog": "Necesita Mochos Esenciales 0.27.0 o posterior.\n\n- **Niebla de guerra de los terrenos:** los terrenos cuyo dueño activó la niebla de guerra en Mochos Esenciales se ven cubiertos de **nubes oscuras** para todos los visitantes, con el nombre del terreno encima. El servidor nunca envía lo que hay debajo: los tiles salen ya recortados, no se dan alturas ni coordenadas ahí y los jugadores que están dentro no aparecen. Al activarla o quitarla, las páginas abiertas se actualizan solas.\n- **Agua sin cuadros:** el color del agua, la hierba y las hojas se mezcla entre biomas vecinos, como en el juego, en lugar de cambiar a saltos. Se aplica a lo que se dibuje de nuevo; `/mapaweb render` lo redibuja todo de una vez.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.27.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_mapaweb-0.3.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.3.0",
