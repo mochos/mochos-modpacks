@@ -1,3 +1,9 @@
+## 2.6.10
+
+- Actualizado **Mochos Esenciales** a 0.27.0: **niebla de guerra** en los terrenos. Si el dueño la activa, quien no es del terreno lo ve tapado por nubes oscuras en el mapa y el minimapa.
+- Actualizado **Mochos Mapa Web** a 0.4.0: la niebla de guerra también en el mapa web, y el agua ya no se ve a cuadros.
+- Siguen siendo 98 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.9
 
 - Actualizado **Mochos Anuncios** a 0.5.0: los anuncios pueden llevar una imagen (desde tu PC o desde una URL) y texto con negrita, cursiva y colores, también en los tablones del mundo.
