@@ -56,6 +56,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_npcs-0.8.1-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.8.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-18",
+      "changelog": "Necesita Mochos Esenciales 0.28.0 o posterior.\n\n- El **editor de entidades** (modo creativo, mayús + clic derecho) solo se abre sobre los NPCs de este addon (comerciantes y entidades que ya tienen capacidades). Ya no se abre sobre jugadores ni sobre los demás mobs, así que no choca con otros mods ni con agacharse junto a un amigo.\n- Los enlaces a páginas de ayuda (`[texto](pagina:...)`) en los diálogos abren esa página.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.28.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_npcs-0.8.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.8.0",
       "minecraft": ["1.21.1"],

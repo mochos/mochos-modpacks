@@ -41,7 +41,7 @@ Con **Mochos Misiones**, un NPC muestra en su propia ventana los capítulos de m
 
 ### Editor de entidades
 
-En modo creativo, **mayús + clic derecho sobre cualquier entidad**: nombre con colores y formato, mostrar el nombre, brillo, mirar al jugador, inteligencia artificial, invulnerable, silencioso, gravedad, invisible, bebé, vida y tamaño. En los aldeanos, además: profesión, bioma, nivel, **comercios fijos** y sus comercios (añadir, quitar, reordenar, usos infinitos y experiencia que sueltan).
+En modo creativo, **mayús + clic derecho sobre un NPC del addon** (comerciantes y entidades que ya tienen capacidades; nunca sobre jugadores ni sobre los demás mobs, así que no choca con otros mods): nombre con colores y formato, mostrar el nombre, brillo, mirar al jugador, inteligencia artificial, invulnerable, silencioso, gravedad, invisible, bebé, vida y tamaño. En los aldeanos, además: profesión, bioma, nivel, **comercios fijos** y sus comercios (añadir, quitar, reordenar, usos infinitos y experiencia que sueltan).
 
 ### Plantillas de NPCs
 
@@ -58,7 +58,7 @@ En **Administración → NPCs**: permitir comerciantes de jugadores, máximo por
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.26.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.28.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 
@@ -77,3 +77,4 @@ Requiere **Mochos Esenciales 0.26.0 o posterior**: al instalar el addon desde el
 - **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.
 - **Mochos Scripts:** scripts en español para comandos, eventos y menús, con editor de bloques.
 - **Mochos Constructor:** WorldEdit sin comandos, con vista previa de esquemas.
+- **Mochos Permisos:** permisos, grupos y prefijos con chips.

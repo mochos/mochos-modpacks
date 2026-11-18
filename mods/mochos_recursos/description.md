@@ -45,3 +45,4 @@ Para los archivos subidos, abre el puerto del servidor web (por defecto **25580*
 - **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.
 - **Mochos Scripts:** scripts en español para comandos, eventos y menús, con editor de bloques.
 - **Mochos Constructor:** WorldEdit sin comandos, con vista previa de esquemas.
+- **Mochos Permisos:** permisos, grupos y prefijos con chips.

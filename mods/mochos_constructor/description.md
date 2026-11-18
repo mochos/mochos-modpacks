@@ -59,3 +59,4 @@ Requiere **Mochos Esenciales 0.23.0 o posterior** y **WorldEdit 7.3**: al instal
 - **Mochos Mapa Web:** el mapa del servidor en el navegador.
 - **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.
 - **Mochos Scripts:** scripts en español para comandos, eventos y menús, con editor de bloques.
+- **Mochos Permisos:** permisos, grupos y prefijos con chips.

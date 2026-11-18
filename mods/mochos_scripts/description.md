@@ -81,3 +81,4 @@ Requiere **Mochos Esenciales 0.22.0 o posterior**: al instalar el addon desde el
 - **Mochos Mapa Web:** el mapa del servidor en el navegador.
 - **Mochos Carteles:** carteles con texto, imágenes y modelos en el mundo.
 - **Mochos Constructor:** WorldEdit sin comandos, con vista previa de esquemas.
+- **Mochos Permisos:** permisos, grupos y prefijos con chips.

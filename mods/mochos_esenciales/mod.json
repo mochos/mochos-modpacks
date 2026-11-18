@@ -19,6 +19,7 @@
     "images/62-chat-campana-contador.webp",
     "images/55-chat-chips.webp",
     "images/54-chat-chips-hud.webp",
+    "images/104-chat-prefijo-chip.webp",
     "images/65-chat-tooltip-logro.webp",
     "images/09-viajes-warps-y-lugares.webp",
     "images/68-portal-viaje-contorno.webp",
@@ -39,7 +40,9 @@
     "images/83-ayuda-categorias-recetas.webp",
     "images/85-ayuda-criaturas.webp",
     "images/87-ayuda-insertar-receta.webp",
+    "images/105-ayuda-enlaces-y-botones.webp",
     "images/21-configuracion.webp",
+    "images/106-configuracion-ocultar-pestanas.webp",
     "images/23-admin-precios-y-esperas-de-viajes.webp",
     "images/80-admin-comandos.webp",
     "images/72-admin-viajes-portales.webp",
@@ -65,6 +68,7 @@
     "images/101-niebla-de-guerra-mapa-diorama.webp",
     "images/102-niebla-de-guerra-pantalla-terrenos.webp",
     "images/103-niebla-de-guerra-configuracion.webp",
+    "images/107-terrenos-claim-del-servidor.webp",
     "images/28-admin-difusion.webp",
     "images/33-anuncio-titulo-y-notificacion.webp",
     "images/30-admin-textos.webp",
@@ -88,6 +92,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.28.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.28.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-18",
+      "changelog": "- **Permisos por nodos:** el permiso `mochos_esenciales.admin` decide quién administra (la pestaña Administración y todas las acciones de admin). Sin gestor de permisos siguen siendo los operadores; con **LuckPerms** o **Mochos Permisos** se puede dar a un grupo sin hacerlo operador.\n- **Prefijos y sufijos** con colores, **chips** diseñados (`{chip:admin}`), iconos de objetos (`{icono:diamond}`) e iconos propios (`{img:id}`), de Mochos Permisos o de la meta de LuckPerms. Se ven en el **chat** (se puede apagar en Administración → Chat), en la lista de jugadores y en el nametag de Mochos Tablist.\n- **Claims del servidor:** un admin convierte cualquier claim en claim del servidor: sin dueño, en morado, lo gestiona cualquier admin y no cuenta para los límites de nadie. «Transferir» se lo devuelve a un jugador.\n- **Ayuda:** enlaces a otras páginas (`[las reglas](pagina:02-servidor/01-reglas)`) y botones como los de los diálogos de los NPCs, hacia otra página o una web. El diálogo **Insertar** tiene un modo **Enlace** para elegir la página de una lista.\n- **Ocultar pestañas:** en Configuración → Interfaz cada jugador elige qué pestañas ve en la barra; las ocultas siguen funcionando desde NPCs, teclas o comandos.\n- Compatible con **Diorama 0.10.2**, que es la que instala ahora el launcher.\n- Addon nuevo: **Mochos Permisos**. Actualizados: Mochos Tablist 0.2.0 (nametag diseñable y prefijos en la lista) y Mochos NPCs 0.8.1.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "owSqgQ37", "name": "Diorama 0.10.2" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.27.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.27.0",

@@ -52,3 +52,4 @@ Los carteles se guardan con el mundo, y los archivos subidos en `<mundo>/mochos_
 - **Mochos Mapa Web:** el mapa del servidor en el navegador.
 - **Mochos Scripts:** scripts en español para comandos, eventos y menús, con editor de bloques.
 - **Mochos Constructor:** WorldEdit sin comandos, con vista previa de esquemas.
+- **Mochos Permisos:** permisos, grupos y prefijos con chips.

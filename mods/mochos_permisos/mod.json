@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/contenido.schema.json",
+  "id": "mochos_permisos",
+  "name": "Mochos Permisos",
+  "summary": "Addon de Mochos Esenciales: permisos y grupos al estilo LuckPerms con un editor en el juego. Nodos de cualquier mod, comandos por grupo y prefijos con chips diseñados en el chat, el tablist y el nametag.",
+  "description": "description.md",
+  "icon": "icon.png",
+  "ogImage": "og-image.jpg",
+  "gallery": [
+    "images/253-permisos-grupos.webp",
+    "images/254-permisos-comandos-por-grupo.webp",
+    "images/255-permisos-chips.webp",
+    "images/260-permisos-iconos-propios.webp",
+    "images/256-permisos-administracion.webp"
+  ],
+  "tags": ["Addon", "Administración", "Servidores"],
+  "authors": ["lorspi"],
+  "links": { "website": "https://mochos.xyz" },
+  "offer": false,
+  "builds": [
+    {
+      "file": "builds/mochos_permisos-0.1.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.1.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-18",
+      "changelog": "Primera versión. Necesita Mochos Esenciales 0.28.0 o posterior.\n\n- **Permisos y grupos** inspirados en LuckPerms, con editor en Administración → Permisos (o `/permisos`): grupos con nombre visible, peso, herencia y el grupo `default`.\n- **Nodos de cualquier mod**, listados por mod con buscador: permitir, denegar o dejar sin definir, con comodines `mod.*` y `*`, y lo que hereda cada grupo o jugador.\n- **Comandos por grupo** (`command.<nombre>`): usar `/tp` sin ser operador, o no poder usar un comando que sí podría.\n- **Jugadores** con sus grupos, permisos propios y prefijo y sufijo propios.\n- **Chips**: diseñador de etiquetas tipo rango (texto, degradado, borde, forma, contorno, negrita e icono) para prefijos y sufijos, que se ven en el chat, la lista de jugadores y el nametag.\n- **Iconos propios** subidos desde el PC o una URL para prefijos, sufijos y chips.\n- Un servidor nuevo empieza con chips y grupos de ejemplo (OWNER, ADMIN, MOD, HELPER, BUILDER, MVP, VIP+, VIP y USER).\n- Es el gestor de permisos de NeoForge del servidor; con **LuckPerms** instalado se aparta y solo se diseñan los chips.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.28.0", "name": "Mochos Esenciales" }
+      ]
+    }
+  ]
+}
