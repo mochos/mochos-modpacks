@@ -1,5 +1,5 @@
 {
-  "version": "2.7.0",
+  "version": "2.7.1",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -74,12 +74,6 @@
       "name": "Curios API",
       "url": "https://modrinth.com/mod/curios",
       "icon": "https://cdn.modrinth.com/data/vvuO3ImH/2a7323ca80849de0bcb50299e18acdf8bf394682.png",
-      "platform": "modrinth"
-    },
-    {
-      "name": "Custom Glow Enchantment Outline",
-      "url": "https://modrinth.com/mod/custom-glow-enchantment-outline",
-      "icon": "https://cdn.modrinth.com/data/Q2rI8IqW/9985bae09d087512dc64fa52a31e11ef85d2751e_96.webp",
       "platform": "modrinth"
     },
     {
@@ -173,6 +167,12 @@
       "platform": "modrinth"
     },
     {
+      "name": "Jacaranda - Enchantment Outlines",
+      "url": "https://modrinth.com/mod/jacaranda",
+      "icon": "https://cdn.modrinth.com/data/yLDE8hgv/34e0841e5324e5a30e4d68b6b093e7c7b5142052_96.webp",
+      "platform": "modrinth"
+    },
+    {
       "name": "Jade 🔍",
       "url": "https://modrinth.com/mod/jade",
       "icon": "https://cdn.modrinth.com/data/nvQzSEkH/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
@@ -257,19 +257,19 @@
       "name": "mochos_constructor-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_esenciales-0.28.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_esenciales-0.29.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_forja-0.4.2-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_forja-0.5.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_mapaweb-0.4.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_misiones-0.6.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_misiones-0.7.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_npcs-0.8.1-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_npcs-0.9.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_permisos-0.1.0-MC1.21.1-neoforge21.1.265"
@@ -281,7 +281,7 @@
       "name": "mochos_recursos-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_scripts-0.3.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_scripts-0.4.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_tablist-0.2.0-MC1.21.1-neoforge21.1.265"

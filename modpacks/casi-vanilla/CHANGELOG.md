@@ -1,3 +1,12 @@
+## 2.7.1
+
+- Actualizado **Mochos Esenciales** a 0.29.0: **paquetes de contenido** para instalar de una vez objetos, recetas, scripts, NPC y misiones; y portales de viaje más seguros, que no se abren sobre lava ni ante una caída.
+- Viene con el paquete **Martillos de minería**: el martillo de diamante pica un cuadrado de 3×3 y el de netherita un cubo de 3×3×3. Se forjan en la mesa de herrería con una plantilla.
+- Actualizados **Mochos Forja** a 0.5.0, **Mochos Scripts** a 0.4.0, **Mochos NPCs** a 0.9.0 y **Mochos Misiones** a 0.7.0.
+- **Jacaranda** sustituye a Custom Glow Enchantment Outline para los contornos de los objetos encantados.
+- **Jade** vuelve a mostrar los fluidos al apuntarlos.
+- Siguen siendo 99 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.7.0
 
 - Añadido **Mochos Permisos**: los administradores crean grupos con sus permisos y comandos, y prefijos con **chips** de colores (OWNER, ADMIN, VIP…) que se ven en el chat, la lista de jugadores y sobre la cabeza.
