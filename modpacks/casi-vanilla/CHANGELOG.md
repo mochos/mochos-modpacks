@@ -1,3 +1,12 @@
+## 2.7.0
+
+- Añadido **Mochos Permisos**: los administradores crean grupos con sus permisos y comandos, y prefijos con **chips** de colores (OWNER, ADMIN, VIP…) que se ven en el chat, la lista de jugadores y sobre la cabeza.
+- Actualizado **Mochos Esenciales** a 0.28.0: prefijos y sufijos en el chat, **claims del servidor**, enlaces y botones entre páginas de la ayuda, y cada jugador puede **ocultar las pestañas** que no usa.
+- Actualizado **Mochos Tablist** a 0.2.0: el nombre sobre la cabeza se puede diseñar con varias líneas (vida, ping…) y los chips de cada jugador.
+- Actualizado **Mochos NPCs** a 0.8.1.
+- Actualizados **Diorama** a 0.10.2 y **Curios** a 9.6.0.
+- Ahora son 99 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.6.10
 
 - Actualizado **Mochos Esenciales** a 0.27.0: **niebla de guerra** en los terrenos. Si el dueño la activa, quien no es del terreno lo ve tapado por nubes oscuras en el mapa y el minimapa.

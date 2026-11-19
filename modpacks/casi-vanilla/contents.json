@@ -1,5 +1,5 @@
 {
-  "version": "2.6.10",
+  "version": "2.7.0",
   "mods": [
     {
       "name": "[EMF] Entity Model Features",
@@ -257,7 +257,7 @@
       "name": "mochos_constructor-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_esenciales-0.27.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_esenciales-0.28.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_forja-0.4.2-MC1.21.1-neoforge21.1.265"
@@ -269,7 +269,10 @@
       "name": "mochos_misiones-0.6.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_npcs-0.8.0-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_npcs-0.8.1-MC1.21.1-neoforge21.1.265"
+    },
+    {
+      "name": "mochos_permisos-0.1.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_ranking-0.2.0-MC1.21.1-neoforge21.1.265"
@@ -281,7 +284,7 @@
       "name": "mochos_scripts-0.3.0-MC1.21.1-neoforge21.1.265"
     },
     {
-      "name": "mochos_tablist-0.1.1-MC1.21.1-neoforge21.1.265"
+      "name": "mochos_tablist-0.2.0-MC1.21.1-neoforge21.1.265"
     },
     {
       "name": "mochos_tareas-0.2.0-MC1.21.1-neoforge21.1.265"
