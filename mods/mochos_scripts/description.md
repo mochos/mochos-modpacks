@@ -21,7 +21,8 @@ comando /curar [<jugador>]:
 - **Ítems** con nombre y descripción de colores, inventarios, **sonidos** y **partículas**.
 - **Menús de cofre** con botones que ejecutan código al hacer clic.
 - **Cambiar ítems:** encantamientos, durabilidad y durabilidad máxima, irrompible, descripción, nbt y cualquier componente como en `/give` (`!componente` lo quita); y leerlos: durabilidad, nivel de un encantamiento, nbt y sus valores.
-- **Mochos Esenciales:** pagar y cobrar con su dinero, saldo, notificaciones, banco, grupos y terrenos reclamados.
+- **Romper bloques como una herramienta**, soltando lo que daría con Fortuna o Toque de seda, y comprobar si un jugador **puede romper** en un sitio según los terrenos.
+- **Mochos Esenciales:** pagar y cobrar con su dinero, saldo, notificaciones, banco, grupos y terrenos reclamados. Los scripts también viajan en los **paquetes de contenido**.
 - **Mochos Forja:** dar, quitar y reconocer sus **objetos guardados** por su marca invisible (aunque se gasten, se renombren o se encanten) y poner sus **modelos** a los ítems (uno de arma o herramienta convierte el ítem en esa herramienta).
 
 Más de 150 elementos, todos documentados con ejemplos.
@@ -58,7 +59,7 @@ Trae **once scripts de ejemplo** (deshabilitados) en `config/mochos_scripts/scri
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** (para la pestaña Scripts; los jugadores sin el addon ven igual los menús y mensajes) |
 
-Requiere **Mochos Esenciales 0.22.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Mochos Forja 0.4.0 o posterior** para usar sus objetos guardados y modelos.
+Requiere **Mochos Esenciales 0.29.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Mochos Forja 0.4.0 o posterior** para usar sus objetos guardados y modelos.
 
 - Scripts: `config/mochos_scripts/scripts/**/*.msk` (un `-` delante del nombre lo deshabilita).
 - Editor web: puerto **8124** (`config/mochos_scripts-common.toml`); cada enlace lleva un token que caduca.

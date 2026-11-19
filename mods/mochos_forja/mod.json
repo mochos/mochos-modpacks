@@ -32,13 +32,25 @@
     "images/218-forja-nbt-completo.webp",
     "images/219-forja-curios.webp",
     "images/220-forja-curios-por-jugador.webp",
-    "images/223-forja-icono-del-modelo.webp"
+    "images/223-forja-icono-del-modelo.webp",
+    "images/111-paquetes-modelo-en-la-mesa.webp"
   ],
   "tags": ["Addon", "Utilidad", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_forja-0.5.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.5.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-19",
+      "changelog": "Necesita Mochos Esenciales 0.29.0 o posterior.\n\n- **Paquetes de contenido** (Mochos Esenciales 0.29.0): modelos, objetos guardados y recetas viajan en los paquetes. Los modelos van con sus archivos y su uso (objeto, herramienta, prenda o colocable) y su número se ajusta al del servidor, así que los objetos guardados y los resultados de las recetas del paquete **muestran su modelo desde el primer momento**: en la mesa de herrería, en el libro de recetas y al darlos. Un modelo que ya existía conserva su número y al desinstalar vuelve con el que tenía.\n- Al crear un paquete, elegir un objeto añade su modelo y las recetas que lo fabrican.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.29.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_forja-0.4.2-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.4.2",

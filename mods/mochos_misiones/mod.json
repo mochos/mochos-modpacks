@@ -27,13 +27,25 @@
     "images/142-misiones-warden.webp",
     "images/190-misiones-capitulo-oculto.webp",
     "images/191-misiones-oculto-en-edicion.webp",
-    "images/189-misiones-ventana-npc.webp"
+    "images/189-misiones-ventana-npc.webp",
+    "images/113-muestras-entregar.webp"
   ],
   "tags": ["Addon", "Aventura", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_misiones-0.7.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.7.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-19",
+      "changelog": "Necesita Mochos Esenciales 0.29.0 o posterior.\n\n- **Paquetes de contenido** (Mochos Esenciales 0.29.0): los árboles de misiones (un capítulo con sus misiones y los iconos propios que usan) viajan en los paquetes. Instalar reemplaza el capítulo con el mismo id y el progreso de los jugadores se conserva; desinstalar lo quita. Un NPC que abre un árbol añade ese árbol al crear un paquete.\n- **Objetivos con datos del objeto:** «tener un objeto» puede pedir además unos datos (`custom_data`, en SNBT): `{muestra:\"minecraft:cow\"}` solo cuenta las jeringas con sangre de vaca. En el editor, botón «Con datos». Con «Se entregan», al completar la misión se quitan solo los objetos con esos datos.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.29.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_misiones-0.6.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.6.0",

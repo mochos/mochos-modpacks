@@ -29,6 +29,10 @@ Importa un proyecto de **Blockbench** (`.bbmodel`) o una **imagen PNG**: el jueg
 
 Cada modelo puede tener además un **icono de inventario**: una imagen PNG plana, como las armaduras, que se ve en los inventarios mientras el modelo se sigue viendo en la mano, el cuerpo y el mundo. El icono es parte del modelo: se cambia o se quita desde su engranaje y se borra con él.
 
+### Paquetes de contenido
+
+Con Mochos Esenciales 0.29.0, los modelos, los objetos guardados y las recetas viajan en un solo `.zip` y se instalan de una vez desde **Administración → Paquetes de contenido**. Los objetos y los resultados de las recetas muestran su modelo desde la mesa de crafteo, sin tenerlos en la mano, y cada modelo conserva su uso. Al crear un paquete, elegir un objeto añade su modelo y las recetas que lo fabrican.
+
 ### Recetas de todas las mesas
 
 En la pestaña **Recetas** están todas las recetas del juego, de datapacks y de otros mods, con filtros por mesa (crafteo, horno, alto horno, ahumador, fogata, cortapiedras, herrería y otras) y por estado, y un buscador.
@@ -61,7 +65,7 @@ Los objetos guardados se guardan, cargan y comparten como JSON desde **Administr
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.23.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Curios** para llevar las prendas cosméticas en sus ranuras y crear ranuras propias.
+Requiere **Mochos Esenciales 0.29.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Curios** para llevar las prendas cosméticas en sus ranuras y crear ranuras propias.
 
 Solo los administradores (op con el modo admin) pueden usar la Forja; el Vestuario es para todos los jugadores.
 

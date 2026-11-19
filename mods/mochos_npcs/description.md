@@ -45,6 +45,8 @@ En modo creativo, **mayús + clic derecho sobre un NPC del addon** (comerciantes
 
 ### Plantillas de NPCs
 
+Los NPC también viajan en los **paquetes de contenido** de Mochos Esenciales: aparecen delante del administrador al instalarlos y se quitan al desinstalar, también los que están lejos.
+
 Exporta cualquier NPC o entidad editada a **JSON** (con sus comercios, páginas y recompensas) y queda como plantilla en **Administración → NPCs**: créala delante de ti, copia su JSON o bórrala. Lo que importes desde un archivo o el portapapeles también se guarda. Trae **diez plantillas de ejemplo**: siete con los comercios de las tiendas de ejemplo de Mochos Esenciales (granjera, constructor, aventurera, decoradora, cambista, pescador y el Banco Central), la **Guía del servidor**, un diálogo que explica Mochos Esenciales y sus addons, **Rosa la cazarrecompensas**, con misiones aleatorias, y **Anselmo el aldeano**.
 
 ### Para el administrador
@@ -58,7 +60,7 @@ En **Administración → NPCs**: permitir comerciantes de jugadores, máximo por
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.28.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.29.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 

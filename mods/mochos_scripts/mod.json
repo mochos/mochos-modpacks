@@ -24,6 +24,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_scripts-0.4.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.4.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-19",
+      "changelog": "Necesita Mochos Esenciales 0.29.0 o posterior.\n\n- **Paquetes de contenido** (Mochos Esenciales 0.29.0): los scripts viajan en los paquetes y se cargan al instalarlos (si tienen errores se guardan igual y se avisa). Al crear un paquete, un NPC u otra cosa que use un comando de un script añade ese script.\n- **Romper bloques como una herramienta:** `romper el bloque en {_l} con ítem en la mano de jugador como jugador` suelta lo que daría ese bloque con esa herramienta (Fortuna, Toque de seda y la experiencia de las menas incluidas), con partículas y sonido.\n- **Terrenos:** la condición `jugador puede romper en {_l}` respeta los permisos de los terrenos (dueño, miembros, grupos, claims del servidor y admins).",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.29.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_scripts-0.3.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.3.0",
       "minecraft": ["1.21.1"],

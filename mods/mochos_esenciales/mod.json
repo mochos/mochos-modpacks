@@ -47,6 +47,7 @@
     "images/80-admin-comandos.webp",
     "images/72-admin-viajes-portales.webp",
     "images/82-admin-viajes-entidades.webp",
+    "images/112-portal-no-se-abre.webp",
     "images/70-portal-bloque.webp",
     "images/71-portal-editor.webp",
     "images/74-portal-shaders-bloque.webp",
@@ -69,6 +70,12 @@
     "images/102-niebla-de-guerra-pantalla-terrenos.webp",
     "images/103-niebla-de-guerra-configuracion.webp",
     "images/107-terrenos-claim-del-servidor.webp",
+    "images/109-paquetes-de-contenido.webp",
+    "images/108-paquetes-importar-resumen.webp",
+    "images/110-paquetes-crear-revisar.webp",
+    "images/111-paquetes-modelo-en-la-mesa.webp",
+    "images/114-martillo-suelta-al-suelo.webp",
+    "images/113-muestras-entregar.webp",
     "images/28-admin-difusion.webp",
     "images/33-anuncio-titulo-y-notificacion.webp",
     "images/30-admin-textos.webp",
@@ -92,6 +99,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.29.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.29.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-19",
+      "changelog": "- **Paquetes de contenido:** nueva sección **Administración → Paquetes de contenido**. Un paquete es un `.zip` con cosas hechas con los mods de Mochos (modelos, objetos guardados y recetas de Mochos Forja, scripts, NPC, árboles de misiones y datapacks) que se instala **de una vez, sin pasos a mano**.\n  - **Importar** desde el PC (hasta 64 MB) o desde `config/mochos/paquetes`. Antes de instalar se ve qué trae, qué **reemplaza** de lo que ya hay (cada cosa con un interruptor para conservar la tuya), los **mods que necesita** y un aviso si trae scripts o funciones. Los NPC aparecen delante del administrador.\n  - **Desinstalar** quita lo que instaló y **devuelve lo que había reemplazado**. Instalar otra versión del mismo paquete lo actualiza.\n  - **Crear paquete:** eliges lo que quieres compartir y el servidor **añade solo lo que eso necesita** (el modelo de un objeto, las recetas que lo fabrican, el script de un comando, el árbol que abre un NPC…). Se exporta un `.zip` con un `LEEME.txt` en español e inglés con los mods que necesita y cómo importarlo.\n- **Portales de viaje** más seguros: se abren siempre a 2 bloques delante y no se abren dentro de bloques, sobre lava o fuego ni ante una caída alta (dice por qué). Al aceptar un viaje, el portal de llegada se abre delante de quien acepta y se queda donde empezó aunque se mueva.\n- Para addons: `EsAddons.registerContentType` y `ClaimsApi.mayBreak`.\n- Addons actualizados para los paquetes: Mochos Forja 0.5.0, Mochos Scripts 0.4.0, Mochos NPCs 0.9.0 y Mochos Misiones 0.7.0.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "owSqgQ37", "name": "Diorama 0.10.2" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.28.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.28.0",
