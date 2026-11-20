@@ -28,13 +28,25 @@
     "images/190-misiones-capitulo-oculto.webp",
     "images/191-misiones-oculto-en-edicion.webp",
     "images/189-misiones-ventana-npc.webp",
-    "images/113-muestras-entregar.webp"
+    "images/113-muestras-entregar.webp",
+    "images/263-misiones-objetos-de-forja.webp"
   ],
   "tags": ["Addon", "Aventura", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_misiones-0.7.1-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.7.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-20",
+      "changelog": "Necesita Mochos Esenciales 0.29.0 o posterior.\n\n- Corregido: un objetivo de «tener un objeto» con datos (por ejemplo, las jeringas con sangre de un paquete de contenido) mostraba el objeto vanilla de base. Ahora se ve el objeto real: con la marca de un objeto guardado de Mochos Forja, ese objeto con su modelo. Lo mismo para las recompensas de objetos con componentes, en la ventana de misiones y en el editor.\n- Corregido: una recompensa de comando que da un objeto guardado (`forja dar {player} \"Farol del Ocaso\" 1`) muestra ese objeto con su modelo y su cantidad en lugar del bloque de comandos.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.29.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_misiones-0.7.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.7.0",
