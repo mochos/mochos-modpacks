@@ -1,3 +1,9 @@
+## 2.7.2
+
+- Actualizado **Mochos Misiones** a 0.7.1: los objetivos y las recompensas con objetos de la Forja (como las notas y el farol de una aventura) se ven con su modelo, no como el objeto de base.
+- Actualizado **Jacaranda** a 1.0.3.
+- Siguen siendo 99 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.7.1
 
 - Actualizado **Mochos Esenciales** a 0.29.0: **paquetes de contenido** para instalar de una vez objetos, recetas, scripts, NPC y misiones; y portales de viaje más seguros, que no se abren sobre lava ni ante una caída.
