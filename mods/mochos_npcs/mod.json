@@ -32,6 +32,8 @@
     "images/184-npcs-elegir-accion.webp",
     "images/185-npcs-elegir-pestana.webp",
     "images/188-npcs-dialogo-capacidades.webp",
+    "images/264-npcs-dialogo-enriquecido.webp",
+    "images/265-npcs-nombre-enriquecido.webp",
     "images/169-npcs-misiones-aleatorias.webp",
     "images/174-npcs-misiones-aceptadas.webp",
     "images/175-npcs-seguir-mision.webp",
@@ -55,6 +57,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_npcs-0.10.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.10.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-24",
+      "changelog": "Necesita Mochos Esenciales 0.31.0 o posterior.\n\n- **Texto enriquecido** (Mochos Esenciales 0.31.0): el **nombre** del NPC (sobre su cabeza y en la cabecera de sus ventanas: diálogo, misiones, experiencia, tienda y banco) y los **botones del diálogo** aceptan los efectos de Ember's Text API e Inline cuando el admin lo enciende. Sin los mods se ven sin las etiquetas.\n- Los dueños de comerciantes que no son admins solo guardan en el nombre los efectos que el admin abrió a los jugadores. En el editor de páginas, los botones muestran su texto tal cual.\n- Las misiones aleatorias y los mensajes guardan el nombre del NPC sin etiquetas.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.31.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_npcs-0.9.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.9.0",

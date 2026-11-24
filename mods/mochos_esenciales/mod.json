@@ -22,6 +22,7 @@
     "images/104-chat-prefijo-chip.webp",
     "images/117-texto-enriquecido-jugador-filtrado.webp",
     "images/118-texto-enriquecido-admin.webp",
+    "images/124-texto-enriquecido-titulos-y-chat.webp",
     "images/65-chat-tooltip-logro.webp",
     "images/09-viajes-warps-y-lugares.webp",
     "images/68-portal-viaje-contorno.webp",
@@ -103,6 +104,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.31.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.31.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-24",
+      "changelog": "- **Texto enriquecido en más sitios**, con el interruptor encendido (Administración → Chat → «Texto enriquecido»):\n  - **Mensajes del juego**: el chat que envían los comandos y los scripts, la **barra de acción** y los **títulos y subtítulos** dibujan los efectos de Ember's Text API, o quedan sin etiquetas si el jugador no tiene el mod.\n  - **Nombres sobre las entidades** (mobs con nombre, NPCs) y el título de la ventana del banco que abre un NPC.\n  - En el mundo (nombres, tablones, nametag) no se dibujan objetos ni entidades dentro del texto; el resto de efectos sí.\n  - Una etiqueta que se cierra en otro trozo del texto (por ejemplo, alrededor de un chip en un prefijo) ya no deja el cierre a la vista.\n- Para addons: mensajes grandes y animados (`EsAddons.showMessage`) y nuevas funciones para dibujar texto enriquecido.\n- Addons actualizados: Mochos NPCs 0.10.0, Mochos Scripts 0.5.0, Mochos Anuncios 0.6.0, Mochos Mapa Web 0.4.1 y Mochos Tablist 0.2.1.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "owSqgQ37", "name": "Diorama 0.10.2" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.30.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.30.0",

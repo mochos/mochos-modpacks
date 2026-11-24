@@ -13,6 +13,10 @@
 - **Anuncios del servidor:** los admins publican gratis, sin límites y hasta sin vencimiento, con un autor personalizado («📢 Equipo de eventos») o sin autor.
 - **Aprobación:** el admin puede pedir que los anuncios nuevos esperen su revisión en «Por aprobar», o solo los que traen una **imagen nueva**. Si los rechaza (con motivo opcional), se devuelve el dinero.
 
+### Texto enriquecido
+
+Con Ember's Text API o Inline y el texto enriquecido de Mochos Esenciales encendido, el título, el texto y el botón de viaje aceptan efectos: `<rainbow>Mercado nocturno</rainbow>`, `Hoy <wave>todo a mitad de precio</wave> [item:emerald]`. El servidor solo guarda los efectos que el admin abrió a los jugadores. En el tablón del mundo se ven los efectos pero no los objetos dentro del texto.
+
 ### El tablón en el mundo
 
 En creativo, en **Bloques funcionales**, está el bloque **Tablón de anuncios**. Ponlo en una pared, en el suelo o en el techo y muestra los anuncios en el mundo, con páginas que pasan solas. Se puede hacer clic derecho en cualquier parte del tablón (el que apuntas se marca con un borde blanco): los jugadores abren la pestaña Anuncios y un admin en creativo abre su editor, con los cambios en vivo:
@@ -34,7 +38,7 @@ Los ajustes se guardan, cargan y comparten como JSON desde **Administración →
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.26.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.31.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 

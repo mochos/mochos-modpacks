@@ -26,6 +26,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_tablist-0.2.1-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.2.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-24",
+      "changelog": "Necesita Mochos Esenciales 0.31.0 o posterior.\n\n- **Texto enriquecido** (Mochos Esenciales 0.31.0): en el nametag no se dibujan los objetos ni entidades dentro del texto (no se pueden dibujar bien en el mundo); los demás efectos sí. Las etiquetas que se abren en un trozo y se cierran en otro (alrededor de `{name}` o de un chip) ya no dejan el cierre a la vista.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.31.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_tablist-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",
       "minecraft": ["1.21.1"],

@@ -31,6 +31,10 @@ Un NPC con comercio en la **ventana de aldeano** tiene el aspecto que quieras (t
 
 Como los NPCs de Minecraft Bedrock, pero más personalizables: al hablar con ellos se abre una ventana con el **modelo del NPC al lado** y páginas con título, texto en **Markdown con imágenes** y hasta 12 **botones** con icono. Cada botón puede ir a otra página, cerrar, abrir otra **capacidad del NPC** (comercio, banco, experiencia, misiones), abrir una pestaña de Mochos Esenciales o de un addon (Economía, Viajes, Trabajos, Misiones…), viajar a un warp, abrir el banco, abrir un enlace o ejecutar un **comando** como el jugador o como el servidor; la acción se elige de una lista con buscador. Las páginas se editan en el juego con vista previa, y `{player}` y `{coins}` se rellenan solos.
 
+### Nombres y botones con efectos
+
+Con Ember's Text API o Inline y el texto enriquecido de Mochos Esenciales encendido, el **nombre del NPC** (sobre su cabeza y en la cabecera de sus ventanas) y los **botones del diálogo** aceptan efectos animados, igual que el título y el texto de las páginas: `<rainbow>Herrero</rainbow>`, `<wave>Adiós</wave>`, `[item:emerald] <grad colors=#FFD866,#FF6B6B>Comprar</grad>`. Sin los mods se ven sin etiquetas. Los dueños de comerciantes que no son admins solo usan los efectos que abra el admin.
+
 ### Misiones aleatorias
 
 Un NPC con **misiones aleatorias** ofrece a cada jugador un tablero que se renueva cada 30 minutos, con misiones de rareza **gris, verde, azul, morada o dorada** y **tiempo límite**: matar jugadores o **cazar a uno conectado** (se le avisa), matar criaturas, entregar objetos, ordeñar una champivaca, hacer crecer azaleas, ir a unas coordenadas, encontrar una estructura, fabricar, picar, pescar o criar. Las recompensas son monedas, experiencia y objetos: los que el admin pone en cada rareza (también de otros mods) o, si la deja vacía, objetos aleatorios. Las misiones aceptadas se pueden **seguir** en el panel de misiones de la pantalla, con su progreso y el tiempo que queda. Todo se edita desde el juego en **Administración → NPCs → Editar misiones aleatorias**: por tipo, activarlo, su probabilidad, cantidades, tiempo y lo que puede pedir (ids de cualquier mod, con buscador); por rareza, su probabilidad, escala, tiempo extra, ceitiles, experiencia y recompensas por defecto. Cada tipo, rareza o todo junto se puede **restablecer de fábrica**.
@@ -60,7 +64,7 @@ En **Administración → NPCs**: permitir comerciantes de jugadores, máximo por
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.29.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.31.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 

@@ -16,13 +16,26 @@
     "images/209-scripts-validar.webp",
     "images/206-scripts-menu-tienda.webp",
     "images/221-scripts-opciones-en-bloques.webp",
-    "images/222-scripts-objetos-guardados.webp"
+    "images/222-scripts-objetos-guardados.webp",
+    "images/266-scripts-mensaje-grande.webp",
+    "images/124-texto-enriquecido-titulos-y-chat.webp"
   ],
   "tags": ["Addon", "Administración", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_scripts-0.5.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.5.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-24",
+      "changelog": "Necesita Mochos Esenciales 0.31.0 o posterior.\n\n- **Mensajes grandes y animados**: nuevo efecto `mostrar mensaje grande \"<texto>\" [a <jugadores>] [durante <tiempo>]` (`send big message …`), con los efectos de Ember's Text API (`<typewriter>`, `<rainbow>`, `<wave>`, `<shake>`…) además de los colores propios. Sin el mod sale como un título normal. Por defecto dura 4 segundos.\n- **Texto enriquecido** (Mochos Esenciales 0.31.0): los mensajes, títulos y barras de acción de los scripts muestran los efectos de Ember's Text API cuando el admin lo enciende; sin el mod se ven sin las etiquetas.\n- Las etiquetas de color y formato propias se pueden cerrar: `<rojo>rojo</rojo> normal`. Antes el cierre se quedaba como texto.\n- En el evento de chat, el mensaje del jugador llega con solo los efectos que el admin abrió a los jugadores.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.31.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_scripts-0.4.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.4.0",

@@ -28,6 +28,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_mapaweb-0.4.1-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.4.1",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-24",
+      "changelog": "Necesita Mochos Esenciales 0.31.0 o posterior.\n\n- **Texto enriquecido** (Mochos Esenciales 0.31.0): el chat del mapa (también el de vanilla), los nombres de los terrenos y los de los waypoints se muestran sin las etiquetas de Ember's Text API e Inline.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.31.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_mapaweb-0.4.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.4.0",
       "minecraft": ["1.21.1"],

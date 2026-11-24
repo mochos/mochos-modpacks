@@ -27,6 +27,21 @@ comando /curar [<jugador>]:
 
 Más de 150 elementos, todos documentados con ejemplos.
 
+### Mensajes grandes y con efectos
+
+Con [Ember's Text API](https://www.curseforge.com/minecraft/mc-mods/embers-text-api), los mensajes, títulos y barras de acción de tus scripts aceptan sus efectos, y un efecto nuevo pone un **mensaje grande y animado** en la pantalla:
+
+```
+comando /evento:
+    permiso: op
+    ejecutar:
+        mostrar mensaje grande "<typewriter><rainbow>¡Empieza el evento!</rainbow></typewriter>" a todos los jugadores durante 6 segundos
+        mostrar título "<wave>&6Ronda 1</wave>" con subtítulo "<shake>¡Prepárate!</shake>" a todos los jugadores
+        enviar "<rojo>Rojo</rojo> normal y <rainbow>arcoíris</rainbow>" a jugador
+```
+
+Sin el mod, el mensaje grande sale como un título normal y los demás textos se ven sin las etiquetas.
+
 ### Pensado para no romperse
 
 - El mod **revisa cada script** al cargarlo y te dice la línea y la palabra exactas de cada error, con sugerencias («¿Quisiste decir…?»).
@@ -59,7 +74,7 @@ Trae **once scripts de ejemplo** (deshabilitados) en `config/mochos_scripts/scri
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** (para la pestaña Scripts; los jugadores sin el addon ven igual los menús y mensajes) |
 
-Requiere **Mochos Esenciales 0.29.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Mochos Forja 0.4.0 o posterior** para usar sus objetos guardados y modelos.
+Requiere **Mochos Esenciales 0.31.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Mochos Forja 0.4.0 o posterior** para usar sus objetos guardados y modelos.
 
 - Scripts: `config/mochos_scripts/scripts/**/*.msk` (un `-` delante del nombre lo deshabilita).
 - Editor web: puerto **8124** (`config/mochos_scripts-common.toml`); cada enlace lleva un token que caduca.

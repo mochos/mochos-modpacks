@@ -30,13 +30,26 @@
     "images/249-anuncios-por-aprobar-imagen.webp",
     "images/70-anuncios-aviso-nuevo-anuncio.webp",
     "images/69-anuncios-admin.webp",
-    "images/250-anuncios-admin-imagenes.webp"
+    "images/250-anuncios-admin-imagenes.webp",
+    "images/267-anuncios-texto-enriquecido.webp",
+    "images/268-anuncios-tablon-enriquecido.webp"
   ],
   "tags": ["Addon", "Economía", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_anuncios-0.6.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.6.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-24",
+      "changelog": "Necesita Mochos Esenciales 0.31.0 o posterior.\n\n- **Texto enriquecido** (Mochos Esenciales 0.31.0): del título, el texto y el botón de viaje de un jugador, el servidor guarda solo los efectos que el admin abrió a los jugadores (los admins y el permiso `mochos_esenciales.rich_text`, todos). El botón de viaje, el título del tablón y los avisos muestran los efectos. En el tablón del mundo no se dibujan los objetos dentro del texto (en la pestaña sí).\n- Más espacio para las etiquetas: el título admite hasta 160 caracteres, el texto 600 y el botón 80.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.31.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_anuncios-0.5.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.5.0",
