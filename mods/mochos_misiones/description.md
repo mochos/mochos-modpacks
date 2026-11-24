@@ -22,6 +22,10 @@ En **Administración → Misiones** se importan capítulos completos desde un ar
 
 Cada capítulo puede ser **público** (en la pestaña Misiones) u **oculto**: un capítulo oculto solo lo muestra un NPC de **Mochos NPCs** que lo tenga vinculado, en su propia ventana, y sus misiones cuentan para cada jugador desde que lo abre allí. Así un guía o un explorador puede tener sus propias misiones.
 
+### Edición avanzada (opcional)
+
+Para quien quiera más: enciende **Administración → Misiones → «Edición avanzada de los árboles»** y el editor añade **imágenes en el lienzo del árbol** (PNG, JPG o **GIF animado**, desde un archivo o una dirección web, con su tamaño), **misiones destacadas** más grandes y **mover las misiones a mano** arrastrándolas, con sus líneas siempre unidas. Viene apagada para que el editor siga igual de sencillo; si la apagas, lo hecho se sigue viendo. Las imágenes viajan en los paquetes de contenido. Títulos e historias aceptan el **texto enriquecido** de Ember's Text API e Inline cuando están instalados.
+
 ### Bloqueos de progresión (opcionales)
 
 Las misiones pueden impedir **craftear** un item, **usar** un item, **entrar a una dimensión** o **alejarse** del punto de aparición hasta completarlas. Vienen **apagados**: la campaña trae algunos sugeridos (el Nether hasta tener armadura de hierro, el End hasta los ojos de ender) y el admin los activa con un interruptor. Los jugadores en creativo no se bloquean.
@@ -44,7 +48,7 @@ Si **Mochos Trabajos** 0.2.0 o superior está instalado, las misiones pueden ped
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.29.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: Mochos Trabajos 0.2.0 o posterior.
+Requiere **Mochos Esenciales 0.30.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: Mochos Trabajos 0.2.0 o posterior.
 
 ### Otros addons de Mochos Esenciales
 

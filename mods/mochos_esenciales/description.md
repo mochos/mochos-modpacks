@@ -24,6 +24,10 @@ Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las 
 
 Instala de una vez aventuras, herramientas y mecánicas hechas con los mods de Mochos: un solo `.zip` con objetos, modelos y recetas de Mochos Forja, scripts, NPC, árboles de misiones y datapacks, desde **Administración → Paquetes de contenido**. Antes de instalar ves qué trae, qué reemplaza de lo tuyo (y puedes conservarlo) y si falta algún mod; los NPC aparecen delante de ti y los objetos muestran su modelo desde la mesa de crafteo. Desinstalar devuelve lo que había. ¿Hiciste algo genial? **Crea tu propio paquete**: eliges qué compartir, el mod añade lo que eso necesita y genera un `LEEME.txt` con los mods y las instrucciones.
 
+### Texto enriquecido (opcional)
+
+¿Tienes [Ember's Text API](https://www.curseforge.com/minecraft/mc-mods/embers-text-api) o [Inline](https://www.curseforge.com/minecraft/mc-mods/inline)? Las páginas de ayuda, los anuncios, los mensajes del admin, el chat y las misiones aceptan sus **efectos animados** (`<rainbow>`, `<wave>`, `<shake>`, `<neon>`…) y sus **gráficos dentro del texto** (`[item:diamond]`, `[entity:fox]`), mezclados con el Markdown. Ninguno es obligatorio: se enciende en **Administración → Chat** y, sin el mod, las etiquetas se quitan. Los jugadores solo usan los efectos que abras tú (el servidor quita el resto) y el permiso `mochos_esenciales.rich_text` lo permite todo. En el editor de ayuda, **Insertar → Texto enriquecido**.
+
 ### Permisos, prefijos y sufijos
 
 Mochos Esenciales usa la API de permisos de NeoForge: el permiso `mochos_esenciales.admin` decide quién administra. Sin gestor de permisos son los operadores, como siempre; con **[LuckPerms](https://luckperms.net/)** o el addon **Mochos Permisos** se puede dar a un grupo sin hacerlo operador.
@@ -88,7 +92,7 @@ Idiomas: **español** e **inglés**.
 
 ### Addons
 
-Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.29.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
+Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.30.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
 
 - **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, cómo se ve cada jugador (con su prefijo y sufijo) y un **nametag** diseñable sobre la cabeza.
 - **Mochos Permisos:** permisos y grupos al estilo LuckPerms con un editor en el juego: nodos de cualquier mod, comandos por grupo y prefijos y sufijos con **chips** diseñados en el chat, la lista de jugadores y el nametag.
@@ -113,6 +117,7 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 - **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0, 0.8.0, 0.8.1, 0.9.0, 0.10.0, 0.10.1 y 0.10.2. Con Diorama 0.9.0 en un servidor dedicado se usa su propio mapa explorado compartido, y el de Esenciales se pausa (se puede volver a activar en Administración → Módulos).
 - **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.
 - **[LuckPerms](https://luckperms.net/)** (opcional, servidor): decide quién administra (`mochos_esenciales.admin`) y los prefijos y sufijos (meta prefix/suffix), que pueden usar los chips de Mochos Permisos.
+- **[Ember's Text API](https://www.curseforge.com/minecraft/mc-mods/embers-text-api)** (opcional, servidor y clientes) e **[Inline](https://www.curseforge.com/minecraft/mc-mods/inline)** (opcional, clientes, necesita Cloth Config): efectos animados y gráficos dentro del texto en la ayuda, los anuncios, el chat y las misiones.
 
 ### Acerca de
 

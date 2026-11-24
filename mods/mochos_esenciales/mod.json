@@ -20,6 +20,8 @@
     "images/55-chat-chips.webp",
     "images/54-chat-chips-hud.webp",
     "images/104-chat-prefijo-chip.webp",
+    "images/117-texto-enriquecido-jugador-filtrado.webp",
+    "images/118-texto-enriquecido-admin.webp",
     "images/65-chat-tooltip-logro.webp",
     "images/09-viajes-warps-y-lugares.webp",
     "images/68-portal-viaje-contorno.webp",
@@ -41,6 +43,8 @@
     "images/85-ayuda-criaturas.webp",
     "images/87-ayuda-insertar-receta.webp",
     "images/105-ayuda-enlaces-y-botones.webp",
+    "images/115-texto-enriquecido-ayuda.webp",
+    "images/119-texto-enriquecido-sin-mods.webp",
     "images/21-configuracion.webp",
     "images/106-configuracion-ocultar-pestanas.webp",
     "images/23-admin-precios-y-esperas-de-viajes.webp",
@@ -99,6 +103,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.30.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.30.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-24",
+      "changelog": "- **Texto enriquecido (opcional) con Ember's Text API e Inline:** si el servidor tiene Ember's Text API (efectos animados como `<rainbow>`, `<wave>`, `<grad>`, `<shake>`, `<neon>`…) o los jugadores tienen Inline (gráficos dentro del texto como `[item:diamond]` o `[entity:fox]`), las páginas de ayuda, los anuncios, los mensajes del admin, los saludos de terrenos, el chat y los textos de Mochos Misiones los dibujan, mezclados con el Markdown. **Ninguno de los dos es obligatorio.**\n  - Se enciende en **Administración → Chat → «Texto enriquecido»** (apagado por defecto). Sin el mod, las etiquetas se quitan en vez de salir crudas.\n  - **Jugadores:** el servidor quita lo que no pueden usar. El admin elige qué grupos de efectos tienen (colores, efectos suaves, efectos fuertes, objetos y entidades); nunca `click`, `hover` ni `lang`, y como mucho 24 etiquetas por texto. Los admins y el permiso nuevo `mochos_esenciales.rich_text` pueden usarlo todo.\n  - **Insertar → Texto enriquecido** en el editor de ayuda, misiones y NPC, con vista previa.\n  - Las cajas de texto muestran el texto tal cual se escribe, con sus etiquetas, lo que además evita un fallo de Inline que congelaba el juego.\n- Addon actualizado: Mochos Misiones 0.8.0 (edición avanzada de los árboles y texto enriquecido).",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "owSqgQ37", "name": "Diorama 0.10.2" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.29.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.29.0",
