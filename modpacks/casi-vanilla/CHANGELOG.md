@@ -1,3 +1,12 @@
+## 2.8.0
+
+- Actualizado **Mochos Esenciales** a 0.32.0: **texto enriquecido** (colores, degradados y efectos) en más sitios y **mensajes directos de personajes**: los NPC y los scripts te escriben en una conversación propia del chat, que queda guardada.
+- Actualizado **Mochos Scripts** a 0.6.0: **paneles** para que los scripts muestren menús y fichas.
+- Actualizado **Mochos Misiones** a 0.8.0: **edición avanzada de los árboles**, con fondos dibujados, misiones destacadas o colocadas a mano.
+- Actualizados **Mochos NPCs** a 0.10.0, **Mochos Anuncios** a 0.6.0, **Mochos Mapa Web** a 0.4.1 y **Mochos Tablist** a 0.2.1.
+- Actualizados **Entity Culling** a 1.12.2, **GeckoLib** a 4.9.4, **Jacaranda** a 1.0.7 y **Mielon's The Sift** a 2.0.6.
+- Siguen siendo 99 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.7.2
 
 - Actualizado **Mochos Misiones** a 0.7.1: los objetivos y las recompensas con objetos de la Forja (como las notas y el farol de una aventura) se ven con su modelo, no como el objeto de base.
