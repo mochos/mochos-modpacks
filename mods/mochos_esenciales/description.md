@@ -40,7 +40,7 @@ Los administradores gestionan también a los jugadores **desconectados** (la lis
 
 ### Un chat nuevo
 
-Sustituye al chat de vanilla (**T**) y ocupa solo la esquina inferior izquierda. Pestañas **Global, Grupos y Directos** con sus no leídos, más una pestaña con una **campana** solo para las notificaciones y anuncios del juego, del mod y de los addons (Global queda para conversar), y cada mensaje marcado con un chip de color de su canal: al pasar el ratón cada una despliega sus conversaciones. Los directos se quitan de la lista sin perder el historial, que guarda el servidor. Mensajes con formato Markdown y enlaces clicables (al pasar el ratón se ven sus textos emergentes, como la descripción de los logros), notificaciones emergentes y sonido por tipo de chat. Las solicitudes de viaje y las invitaciones a grupos llegan al chat directo con botones **Aceptar / Rechazar**. **Tab** cambia de conversación. Al dormir se abre este chat con el botón «Salir de la cama». Los **comandos** se escriben en el mismo chat (también con la tecla `/`), con el autocompletado y las sugerencias de vanilla.
+Sustituye al chat de vanilla (**T**) y ocupa solo la esquina inferior izquierda. Pestañas **Global, Grupos y Directos** con sus no leídos, más una pestaña con una **campana** solo para las notificaciones y anuncios del juego, del mod y de los addons (Global queda para conversar), y cada mensaje marcado con un chip de color de su canal: al pasar el ratón cada una despliega sus conversaciones. Los directos se quitan de la lista sin perder el historial, que guarda el servidor. Mensajes con formato Markdown y enlaces clicables (al pasar el ratón se ven sus textos emergentes, como la descripción de los logros), notificaciones emergentes y sonido por tipo de chat. Las solicitudes de viaje y las invitaciones a grupos llegan al chat directo con botones **Aceptar / Rechazar**. **Tab** cambia de conversación. Al dormir se abre este chat con el botón «Salir de la cama». Los **comandos** se escriben en el mismo chat (también con la tecla `/`), con el autocompletado y las sugerencias de vanilla. Los **personajes** de los scripts y los paquetes de contenido (un NPC, una maestra…) también escriben por **Directos**, con un objeto como cara; sus conversaciones son de solo lectura.
 
 ### El Ceitil, una moneda de verdad
 
@@ -92,7 +92,7 @@ Idiomas: **español** e **inglés**.
 
 ### Addons
 
-Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.31.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
+Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.32.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
 
 - **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, cómo se ve cada jugador (con su prefijo y sufijo) y un **nametag** diseñable sobre la cabeza.
 - **Mochos Permisos:** permisos y grupos al estilo LuckPerms con un editor en el juego: nodos de cualquier mod, comandos por grupo y prefijos y sufijos con **chips** diseñados en el chat, la lista de jugadores y el nametag.

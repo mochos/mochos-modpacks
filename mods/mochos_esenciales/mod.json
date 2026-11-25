@@ -23,6 +23,7 @@
     "images/117-texto-enriquecido-jugador-filtrado.webp",
     "images/118-texto-enriquecido-admin.webp",
     "images/124-texto-enriquecido-titulos-y-chat.webp",
+    "images/125-mensajes-directos-personajes.webp",
     "images/65-chat-tooltip-logro.webp",
     "images/09-viajes-warps-y-lugares.webp",
     "images/68-portal-viaje-contorno.webp",
@@ -104,6 +105,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.32.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.32.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-25",
+      "changelog": "- **Mensajes directos de personajes:** los scripts (y otros addons) pueden escribir al jugador en el chat **como alguien con nombre** —un NPC, un personaje de un paquete de contenido—. El mensaje abre su conversación en **Directos**, con el **ítem que elija como cara**, se guarda en el historial y le llega al entrar si estaba desconectado. Admite colores y Markdown. **No se puede responder**: la caja de texto dice «Solo lectura».\n- Los remitentes que no son jugadores se guardan con el mundo; los mundos de antes cargan igual.\n- Para addons: `EsAddons.directMessage(uuid, remitente, icono, texto)`.\n- Addon actualizado: Mochos Scripts 0.6.0 (paneles con la interfaz de Mochos y mensajes directos).",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "owSqgQ37", "name": "Diorama 0.10.2" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.31.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.31.0",

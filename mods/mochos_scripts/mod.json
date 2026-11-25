@@ -18,13 +18,28 @@
     "images/221-scripts-opciones-en-bloques.webp",
     "images/222-scripts-objetos-guardados.webp",
     "images/266-scripts-mensaje-grande.webp",
-    "images/124-texto-enriquecido-titulos-y-chat.webp"
+    "images/124-texto-enriquecido-titulos-y-chat.webp",
+    "images/269-scripts-panel.webp",
+    "images/270-scripts-mensaje-directo.webp",
+    "images/271-scripts-panel-resonancia.webp",
+    "images/272-scripts-panel-ficha.webp"
   ],
   "tags": ["Addon", "Administración", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_scripts-0.6.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.6.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-25",
+      "changelog": "Necesita Mochos Esenciales 0.32.0 o posterior.\n\n- **Paneles con la interfaz de Mochos:** nueva sección `abrir panel \"<título>\" [de <ancho> de ancho] a <jugadores>:` (`open panel …`), una ventana con el estilo de Mochos Esenciales que se ajusta a la pantalla y se desplaza si es larga. Dentro: títulos, textos con colores y Markdown, imágenes, ítems con su descripción, rejillas de ítems, **barras de progreso**, caras de jugadores (también desconectados), **campos de texto**, separadores y **botones con texto e icono** que ejecutan su bloque al hacer clic; `en fila:` los pone lado a lado. Dentro de un botón, `valor del campo \"<nombre>\"` lee lo escrito.\n- **Mensajes directos:** `enviar mensaje directo \"<texto>\" a <jugadores> como \"<nombre>\" [con icono <ítem>]` escribe en el chat de Mochos Esenciales como un personaje (queda en el historial y llega aunque el jugador no esté). No se puede responder.\n- **Progreso de los jugadores en un archivo:** la opción `datos: <prefijo>` guarda las variables `{<prefijo>::...}` en `<script>.datos.yml`, agrupadas por jugador con su nombre; es solo para leer.\n- Nuevo evento `al caer un ítem al suelo` y, en él y en `al soltar un ítem`, `establecer ítem del evento a …` cambia el ítem que cae.\n- `jugador con uuid \"<uuid>\"` (también desconectado) y la condición `<jugador> está conectado`.\n- Corregido: `si {_a} es {_b}` entre dos variables daba siempre falso; ahora compara sus valores.\n- Corregido: los botones creados dentro de un bucle (en menús y paneles) guardan las variables locales de ese momento.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.32.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_scripts-0.5.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.5.0",

@@ -19,7 +19,8 @@ comando /curar [<jugador>]:
 - **Variables** que se guardan con el mundo, variables locales y **listas**, **funciones** reutilizables entre scripts, condiciones con `y`, `o` y `no`, y bucles.
 - **Mobs y entidades:** generar, nombrar, equipar, efectos de poción, salud, fuego, empujar, rayos y explosiones.
 - **Ítems** con nombre y descripción de colores, inventarios, **sonidos** y **partículas**.
-- **Menús de cofre** con botones que ejecutan código al hacer clic.
+- **Menús de cofre** con botones que ejecutan código al hacer clic, y **paneles** con la interfaz de Mochos (textos, imágenes, ítems, barras, campos y botones con icono).
+- **Mensajes directos** como un personaje y el **progreso de los jugadores en un archivo** `.datos.yml`.
 - **Cambiar ítems:** encantamientos, durabilidad y durabilidad máxima, irrompible, descripción, nbt y cualquier componente como en `/give` (`!componente` lo quita); y leerlos: durabilidad, nivel de un encantamiento, nbt y sus valores.
 - **Romper bloques como una herramienta**, soltando lo que daría con Fortuna o Toque de seda, y comprobar si un jugador **puede romper** en un sitio según los terrenos.
 - **Mochos Esenciales:** pagar y cobrar con su dinero, saldo, notificaciones, banco, grupos y terrenos reclamados. Los scripts también viajan en los **paquetes de contenido**.
@@ -41,6 +42,31 @@ comando /evento:
 ```
 
 Sin el mod, el mensaje grande sale como un título normal y los demás textos se ven sin las etiquetas.
+
+### Paneles con la interfaz de Mochos
+
+Además de los menús de cofre, tus scripts abren **ventanas con el estilo de Mochos Esenciales**: títulos, textos que se ajustan al ancho (con colores y Markdown), imágenes de internet o de la ayuda, ítems con su descripción, rejillas de ítems, **barras de progreso**, caras de jugadores (también desconectados), **campos de texto** y **botones con texto e icono** que ejecutan su bloque al hacer clic. `en fila:` los pone lado a lado; si el panel es largo, se desplaza.
+
+```
+comando /progreso:
+    ejecutar:
+        abrir panel "&6Gremio de exploradores" a jugador:
+            cara de jugador con texto "&fBienvenido, &e%nombre de jugador%"
+            barra {puntos::%uuid de jugador%} de 10 con texto "Rango de explorador" de color "naranja"
+            ítems 32 de bread, 4 de golden_apple, 1 de compass
+            campo "Tu lema" con valor "Siempre adelante"
+            en fila:
+                botón "Guardar" con icono writable_book:
+                    establecer {lema::%uuid de jugador%} a valor del campo "Tu lema"
+                botón "Cerrar" con icono barrier:
+                    cerrar el panel de jugador
+```
+
+### Mensajes de personajes y progreso en un archivo
+
+- `enviar mensaje directo "Te espero junto al faro." a jugador como "Maestra Ilvane" con icono amethyst_shard` escribe en el chat de Mochos Esenciales **como un personaje**: abre su conversación, queda en el historial y llega aunque el jugador esté desconectado.
+- La opción `datos: res` en `opciones:` guarda el progreso de los jugadores en **`<script>.datos.yml`**, junto al script, **agrupado por jugador** con su nombre: para leerlo sin entrar al juego.
+- `al caer un ítem al suelo` (soltado, al morir, de un bloque…) y `al soltar un ítem` pueden **cambiar el ítem que cae**.
 
 ### Pensado para no romperse
 
@@ -74,7 +100,7 @@ Trae **once scripts de ejemplo** (deshabilitados) en `config/mochos_scripts/scri
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** (para la pestaña Scripts; los jugadores sin el addon ven igual los menús y mensajes) |
 
-Requiere **Mochos Esenciales 0.31.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Mochos Forja 0.4.0 o posterior** para usar sus objetos guardados y modelos.
+Requiere **Mochos Esenciales 0.32.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Mochos Forja 0.4.0 o posterior** para usar sus objetos guardados y modelos.
 
 - Scripts: `config/mochos_scripts/scripts/**/*.msk` (un `-` delante del nombre lo deshabilita).
 - Editor web: puerto **8124** (`config/mochos_scripts-common.toml`); cada enlace lleva un token que caduca.
