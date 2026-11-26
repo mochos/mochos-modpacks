@@ -33,13 +33,25 @@
     "images/219-forja-curios.webp",
     "images/220-forja-curios-por-jugador.webp",
     "images/223-forja-icono-del-modelo.webp",
-    "images/111-paquetes-modelo-en-la-mesa.webp"
+    "images/111-paquetes-modelo-en-la-mesa.webp",
+    "images/273-forja-nombre-enriquecido.webp"
   ],
   "tags": ["Addon", "Utilidad", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_forja-0.6.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.6.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-26",
+      "changelog": "Necesita Mochos Esenciales 0.33.0 o posterior.\n\n- **Texto enriquecido** (Mochos Esenciales 0.33.0, con el interruptor del servidor encendido): el nombre y la descripción de los objetos admiten los efectos de Ember's Text API (`<rainbow>`, `<wave>`…). Se ven en la descripción emergente, sobre la barra rápida y en la Forja (cabecera, editor de nombre y descripción, lista de recetas). La búsqueda de recetas ignora las etiquetas.\n- Compatible con Curios API 9.6.1.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.33.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_forja-0.5.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.5.0",

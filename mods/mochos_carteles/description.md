@@ -2,7 +2,7 @@
 
 ### Qué muestra
 
-- **Texto con Markdown:** títulos, negrita, cursiva, listas, casillas, citas, código, tablas e imágenes de enlaces. Alineación, tamaño, color, sombra y un alto que se ajusta solo. Con o **sin fondo ni borde**, para textos flotantes.
+- **Texto con Markdown:** títulos, negrita, cursiva, listas, casillas, citas, código, tablas e imágenes de enlaces. Alineación, tamaño, color, sombra y un alto que se ajusta solo. Con o **sin fondo ni borde**, para textos flotantes. Con el texto enriquecido de Mochos Esenciales, también **efectos animados** (`<rainbow>`, `<wave>`, degradados…).
 - **Imágenes:** súbelas desde tu ordenador (PNG, JPG, GIF o BMP) o usa un enlace web. Enteras, rellenando el marco o estiradas.
 - **Modelos:** cualquier objeto o bloque de Minecraft, criaturas, o tus proyectos de **Blockbench** (`.bbmodel`, cubos y mallas con sus grupos y rotaciones), sin paquete de recursos. Las **texturas animadas** se animan como en Blockbench, a la velocidad que elijas.
 
@@ -31,7 +31,7 @@ Consigue el bloque **Cartel** en el inventario creativo (bloques funcionales u o
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.20.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.33.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 Los carteles se guardan con el mundo, y los archivos subidos en `<mundo>/mochos_carteles/media`.
 

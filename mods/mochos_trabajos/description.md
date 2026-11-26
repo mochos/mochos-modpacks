@@ -15,6 +15,8 @@ Minero, Leñador, Agricultor, Cazador, Pescador, Constructor, Herrero y Encantad
 - **Ranking** de jugadores e **historial** de los últimos 14 días con gráfico.
 - Ganancias junto a la mira mientras trabajas y sonido al subir de nivel (se pueden cambiar en Configuración).
 
+Con el texto enriquecido de Mochos Esenciales, el nombre y la descripción de cada trabajo aceptan **efectos animados** (`<rainbow>Minero</rainbow>`) y objetos dentro del texto.
+
 ### Juego limpio
 
 No se paga por romper bloques colocados por jugadores, por criaturas de generadores o huevos, ni en creativo. Repetir lo mismo en el mismo chunk paga cada vez menos. Hay un número máximo de trabajos y una espera para cambiar.
@@ -35,7 +37,7 @@ No se paga por romper bloques colocados por jugadores, por criaturas de generado
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.18.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.33.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 ### Otros addons de Mochos Esenciales
 

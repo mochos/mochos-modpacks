@@ -2,7 +2,7 @@
 
 ### Qué se puede personalizar
 
-- **Nombre y lore** con colores y formato (`&a`, `&#FF8800`, `&l`… y Markdown), con vista previa. Las líneas se reordenan, editan y quitan.
+- **Nombre y lore** con colores y formato (`&a`, `&#FF8800`, `&l`… y Markdown), con vista previa. Con el texto enriquecido de Mochos Esenciales, también efectos animados como `<rainbow>` o `<wave>`. Las líneas se reordenan, editan y quitan.
 - **Encantamientos:** cualquiera, en cualquier item, hasta nivel 255. También libros encantados.
 - **Pociones:** poción base, color del líquido y efectos con nivel, duración y partículas. Convierte cualquier item en poción, poción arrojadiza, persistente o flecha con efecto.
 - **Atributos:** daño, armadura, velocidad, vida, alcance…, con su operación y la ranura en la que funcionan.
@@ -65,7 +65,7 @@ Los objetos guardados se guardan, cargan y comparten como JSON desde **Administr
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.29.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Curios** para llevar las prendas cosméticas en sus ranuras y crear ranuras propias.
+Requiere **Mochos Esenciales 0.33.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Curios** para llevar las prendas cosméticas en sus ranuras y crear ranuras propias.
 
 Solo los administradores (op con el modo admin) pueden usar la Forja; el Vestuario es para todos los jugadores.
 

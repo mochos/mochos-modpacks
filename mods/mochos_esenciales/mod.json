@@ -24,6 +24,8 @@
     "images/118-texto-enriquecido-admin.webp",
     "images/124-texto-enriquecido-titulos-y-chat.webp",
     "images/125-mensajes-directos-personajes.webp",
+    "images/126-texto-enriquecido-objetos.webp",
+    "images/127-f3q-en-el-chat.webp",
     "images/65-chat-tooltip-logro.webp",
     "images/09-viajes-warps-y-lugares.webp",
     "images/68-portal-viaje-contorno.webp",
@@ -105,6 +107,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.33.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.33.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-26",
+      "changelog": "- **Texto enriquecido en más sitios:**\n  - **Nombres de objetos:** el nombre y la descripción de los objetos (los de Mochos Forja, los que dan los scripts o los renombrados) dibujan sus efectos en la descripción emergente y sobre la barra rápida. Lo que un jugador escribe en el **yunque** pasa por la misma lista de efectos permitidos que el chat.\n  - **Hogares, warps y terrenos:** sus nombres se ven con efectos en las pestañas de viajes y terrenos, y el servidor limpia lo que escriben los jugadores. Los límites suben para que quepan las etiquetas.\n  - Los efectos que cruzan un chip, un icono o el nombre de un prefijo, del tab o del nametag siguen después.\n  - **Nueva opción del jugador:** Ajustes → Chat → «Animaciones del texto enriquecido». Apagada, el texto queda quieto y conserva los colores y el formato.\n  - Un texto como `<3 te quiero>` ya no se borra del chat.\n- **Corregido:** F3+Q, F3+H, F3+G, las capturas de pantalla y demás mensajes que escribe el propio juego no salían en el chat de Mochos; ahora sí.\n- **Compatible con Diorama 0.11.0**, que es la que instala ahora el launcher, y con Curios API 9.6.1.\n- Para addons: abrir portales de viaje gratis, resaltar entidades solo para un jugador, leer y cambiar ranuras de Curios y mensajes grandes con posición, tamaño y fondo.\n- Addons actualizados: Mochos Scripts 0.7.0, Mochos Forja 0.6.0, Mochos Carteles 0.3.0, Mochos Trabajos 0.6.0, Mochos Tareas 0.3.0, Mochos Ranking 0.3.0 y Mochos Tablist 0.2.2.",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "NdN1l4hm", "name": "Diorama 0.11.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.32.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.32.0",

@@ -4,7 +4,7 @@ Abre el inventario y aparece una columna de pestañas a la izquierda. Todas las 
 
 ### Requisitos
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.10.2 junto con el mod.
+- **[Diorama](https://modrinth.com/mod/diorama-map)** 0.6.0 o posterior (cliente, opcional), para la pestaña **Mapa**. El launcher de Mochos instala Diorama 0.11.0 junto con el mod.
 
 > **No uses Diorama Addons: Claims ni Client Map con este mod:** los terrenos y el mapa ya vienen incluidos. Si los tenías, quítalos; tus terrenos y su configuración se conservan, y los grupos de mapa pasan a ser grupos de amigos.
 
@@ -26,7 +26,7 @@ Instala de una vez aventuras, herramientas y mecánicas hechas con los mods de M
 
 ### Texto enriquecido (opcional)
 
-¿Tienes [Ember's Text API](https://www.curseforge.com/minecraft/mc-mods/embers-text-api) o [Inline](https://www.curseforge.com/minecraft/mc-mods/inline)? Las páginas de ayuda, los anuncios, los mensajes del admin, el chat y las misiones aceptan sus **efectos animados** (`<rainbow>`, `<wave>`, `<shake>`, `<neon>`…) y sus **gráficos dentro del texto** (`[item:diamond]`, `[entity:fox]`), mezclados con el Markdown. También en los **mensajes, títulos y barras de acción** que envían los comandos y los scripts, y en los **nombres sobre las entidades**: `/tellraw @a "<rainbow>¡Evento en el spawn!</rainbow> [item:diamond]"` sale en arcoíris con el diamante dibujado. Ninguno es obligatorio: se enciende en **Administración → Chat** y, sin el mod, las etiquetas se quitan. Los jugadores solo usan los efectos que abras tú (el servidor quita el resto) y el permiso `mochos_esenciales.rich_text` lo permite todo. En el editor de ayuda, **Insertar → Texto enriquecido**.
+¿Tienes [Ember's Text API](https://www.curseforge.com/minecraft/mc-mods/embers-text-api) o [Inline](https://www.curseforge.com/minecraft/mc-mods/inline)? Las páginas de ayuda, los anuncios, los mensajes del admin, el chat y las misiones aceptan sus **efectos animados** (`<rainbow>`, `<wave>`, `<shake>`, `<neon>`…) y sus **gráficos dentro del texto** (`[item:diamond]`, `[entity:fox]`), mezclados con el Markdown. También en los **mensajes, títulos y barras de acción** que envían los comandos y los scripts, y en los **nombres sobre las entidades**: `/tellraw @a "<rainbow>¡Evento en el spawn!</rainbow> [item:diamond]"` sale en arcoíris con el diamante dibujado. Ninguno es obligatorio: se enciende en **Administración → Chat** y, sin el mod, las etiquetas se quitan. Los jugadores solo usan los efectos que abras tú (el servidor quita el resto) y el permiso `mochos_esenciales.rich_text` lo permite todo. En el editor de ayuda, **Insertar → Texto enriquecido**. Los **nombres y descripciones de los objetos** y los nombres de **hogares, warps y terrenos** también aceptan efectos, y cada jugador puede apagar las animaciones en sus Ajustes.
 
 ### Permisos, prefijos y sufijos
 
@@ -92,7 +92,7 @@ Idiomas: **español** e **inglés**.
 
 ### Addons
 
-Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.32.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
+Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan Mochos Esenciales (0.33.0 o posterior para los más nuevos): al instalar un addon, el launcher también instala o actualiza Mochos Esenciales si hace falta. El mod funciona igual sin ellos. Van en el servidor y en los clientes.
 
 - **Mochos Tablist:** editor de la lista de jugadores (Tab) en Administración → Tablist, con vista previa en vivo: fondo, borde, imagen, cabecera y pie con variables, cómo se ve cada jugador (con su prefijo y sufijo) y un **nametag** diseñable sobre la cabeza.
 - **Mochos Permisos:** permisos y grupos al estilo LuckPerms con un editor en el juego: nodos de cualquier mod, comandos por grupo y prefijos y sufijos con **chips** diseñados en el chat, la lista de jugadores y el nametag.
@@ -114,7 +114,7 @@ Mods opcionales que se instalan aparte, desde esta misma sección, y necesitan M
 
 ### Combina muy bien con
 
-- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0, 0.8.0, 0.8.1, 0.9.0, 0.10.0, 0.10.1 y 0.10.2. Con Diorama 0.9.0 en un servidor dedicado se usa su propio mapa explorado compartido, y el de Esenciales se pausa (se puede volver a activar en Administración → Módulos).
+- **[Diorama](https://modrinth.com/mod/diorama-map)** (opcional, cliente): la pestaña **Mapa** abre el mapa de Diorama con las pestañas encima, y el mapa muestra los terrenos, el mapa explorado compartido, los waypoints compartidos (públicos o por grupo) y los jugadores de tus grupos aunque estén lejos. Compatible con Diorama 0.6.0, 0.6.1, 0.7.0, 0.8.0, 0.8.1, 0.9.0, 0.10.0, 0.10.1, 0.10.2 y 0.11.0. Con Diorama 0.9.0 en un servidor dedicado se usa su propio mapa explorado compartido, y el de Esenciales se pausa (se puede volver a activar en Administración → Módulos).
 - **Diorama Addons: Web Map** (servidor): tus terrenos y el chat público en un mapa web en vivo.
 - **[LuckPerms](https://luckperms.net/)** (opcional, servidor): decide quién administra (`mochos_esenciales.admin`) y los prefijos y sufijos (meta prefix/suffix), que pueden usar los chips de Mochos Permisos.
 - **[Ember's Text API](https://www.curseforge.com/minecraft/mc-mods/embers-text-api)** (opcional, servidor y clientes) e **[Inline](https://www.curseforge.com/minecraft/mc-mods/inline)** (opcional, clientes, necesita Cloth Config): efectos animados y gráficos dentro del texto en la ayuda, los anuncios, el chat y las misiones.

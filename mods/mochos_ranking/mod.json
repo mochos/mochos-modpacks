@@ -22,6 +22,17 @@
   "offer": false,
   "builds": [
     {
+      "file": "builds/mochos_ranking-0.3.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.3.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-26",
+      "changelog": "Necesita Mochos Esenciales 0.33.0 o posterior.\n\n- **Texto enriquecido** (Mochos Esenciales 0.33.0, con el interruptor del servidor encendido): el título propio de los tablones y podios acepta efectos de Ember's Text API (`<rainbow>Top mineros</rainbow>`), también en el mundo (sin los objetos dentro del texto). Los rankings de Mochos Trabajos muestran los nombres de los trabajos con sus efectos y el buscador los encuentra sin las etiquetas.\n- El título de un tablón o podio admite hasta 64 caracteres (antes 40), para que quepan las etiquetas.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.33.0", "name": "Mochos Esenciales" }
+      ]
+    },
+    {
       "file": "builds/mochos_ranking-0.2.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.2.0",
       "minecraft": ["1.21.1"],

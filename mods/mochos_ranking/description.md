@@ -32,6 +32,8 @@ En creativo, en **Bloques funcionales**, están el **Tablón de ranking** y el *
 - **Editor:** un admin en creativo que haga clic derecho en cualquier parte de lo que dibujan elige estadística, periodo, título, tamaño, posición, escalones, tema, borde y color.
 - Los demás jugadores, con clic derecho, abren la pestaña en ese ranking.
 
+Con el texto enriquecido de Mochos Esenciales, el título de los tablones y podios acepta **efectos animados** (`<rainbow>Top mineros</rainbow>`), también en el mundo.
+
 ### Para el administrador
 
 En **Administración → Ranking**:
@@ -50,7 +52,7 @@ Los ajustes se guardan, cargan y comparten como JSON desde **Administración →
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** |
 
-Requiere **Mochos Esenciales 0.18.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcionales: **Mochos Trabajos 0.4.0** y **Mochos Misiones 0.2.0** o posteriores.
+Requiere **Mochos Esenciales 0.33.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcionales: **Mochos Trabajos 0.4.0** y **Mochos Misiones 0.2.0** o posteriores.
 
 ### Otros addons de Mochos Esenciales
 

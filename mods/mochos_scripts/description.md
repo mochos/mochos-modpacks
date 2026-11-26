@@ -41,7 +41,9 @@ comando /evento:
         enviar "<rojo>Rojo</rojo> normal y <rainbow>arcoíris</rainbow>" a jugador
 ```
 
-Sin el mod, el mensaje grande sale como un título normal y los demás textos se ven sin las etiquetas.
+El mensaje grande se puede poner arriba, en el centro o abajo, más grande y con fondo. Sin el mod, sale como un título normal y los demás textos se ven sin las etiquetas.
+
+Además, los scripts pueden **abrir portales de viaje** delante de un jugador, **hacer brillar** criaturas solo para él, leer y cambiar las **ranuras del inventario y de Curios**, reaccionar al **clic izquierdo en el aire** y dar el **nombre en español** de cualquier criatura.
 
 ### Paneles con la interfaz de Mochos
 
@@ -100,7 +102,7 @@ Trae **once scripts de ejemplo** (deshabilitados) en `config/mochos_scripts/scri
 | Servidor | **Obligatorio** |
 | Cliente | **Obligatorio** (para la pestaña Scripts; los jugadores sin el addon ven igual los menús y mensajes) |
 
-Requiere **Mochos Esenciales 0.32.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Mochos Forja 0.4.0 o posterior** para usar sus objetos guardados y modelos.
+Requiere **Mochos Esenciales 0.33.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**. Opcional: **Mochos Forja 0.4.0 o posterior** para usar sus objetos guardados y modelos.
 
 - Scripts: `config/mochos_scripts/scripts/**/*.msk` (un `-` delante del nombre lo deshabilita).
 - Editor web: puerto **8124** (`config/mochos_scripts-common.toml`); cada enlace lleva un token que caduca.

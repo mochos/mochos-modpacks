@@ -22,13 +22,25 @@
     "images/269-scripts-panel.webp",
     "images/270-scripts-mensaje-directo.webp",
     "images/271-scripts-panel-resonancia.webp",
-    "images/272-scripts-panel-ficha.webp"
+    "images/272-scripts-panel-ficha.webp",
+    "images/274-scripts-mensaje-grande-opciones.webp"
   ],
   "tags": ["Addon", "Administración", "Servidores"],
   "authors": ["lorspi"],
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_scripts-0.7.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.7.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-26",
+      "changelog": "Necesita Mochos Esenciales 0.33.0 o posterior.\n\n- **Mensaje grande con opciones:** `mostrar mensaje grande … [en posición \"arriba|centro|abajo\"] [de tamaño <n>] [con fondo \"<color>\"]`. Por defecto sigue igual.\n- Evento nuevo **`al hacer clic izquierdo en el aire [con <ítems>]`**.\n- **Portales:** `abrir portal a <ubicación> para <jugador> [durante <tiempo>] [con nombre <texto>]` abre un portal de viaje gratis delante del jugador; la condición `<jugador> puede abrir un portal` dice si cabe uno seguro.\n- **Brillo para un jugador:** `hacer brillar <entidades> para <jugadores> [durante <tiempo>]` resalta entidades solo para esos jugadores.\n- **Ranuras:** `ítem en ranura <n> de <jugador>` e `ítem en ranura de curios \"<tipo>\" [<n>] de <jugador>`, que se pueden cambiar o borrar, y `cantidad del ítem <ítem>`.\n- **Nombre en español** de una entidad o de un tipo de entidad («Vaca», «Gólem de nieve»…), aunque el servidor esté en inglés.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.33.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_scripts-0.6.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.6.0",
