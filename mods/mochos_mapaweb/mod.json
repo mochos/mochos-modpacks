@@ -18,6 +18,11 @@
     "images/213-mapaweb-cambio-de-dimension.webp",
     "images/164-mapaweb-skin-mochos.webp",
     "images/161-mapaweb-waypoint-publico.webp",
+    "images/275-mapaweb-warps.webp",
+    "images/276-mapaweb-cuenta-chats.webp",
+    "images/277-mapaweb-conversacion.webp",
+    "images/278-mapaweb-sesiones.webp",
+    "images/279-mapaweb-ajustes-entrar.webp",
     "images/158-mapaweb-admin.webp",
     "images/159-mapaweb-admin-capas.webp",
     "images/160-mapaweb-admin-dibujado.webp"
@@ -27,6 +32,17 @@
   "links": { "website": "https://mochos.xyz" },
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_mapaweb-0.5.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.5.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-28",
+      "changelog": "Necesita Mochos Esenciales 0.34.0 o posterior.\n\n- **Warps del servidor** en el mapa, con el icono que tienen en el juego, su nombre y su descripción, y una lista nueva para buscarlos y centrar el mapa en ellos. Se pueden ocultar en «Capas».\n- **Entrar con tu cuenta:** un jugador escribe `/mapaweb login` (o pulsa Ajustes → Mapa web → «Abrir el mapa web») y recibe un enlace de un solo uso que caduca en 10 minutos. Al abrirlo, el botón «Mi cuenta» le deja:\n  - leer y escribir el **chat global**, sus **chats de grupo** y sus **mensajes directos** (también los de personajes), con los mensajes nuevos al momento y un contador de no leídos;\n  - ver sus **sesiones abiertas**, cerrar cualquiera o todas las demás, **crear un enlace para otro navegador** y cerrar la sesión.\n  Lo que se escribe desde la web aparece en el juego marcado «(web)». Las sesiones duran 30 días desde su último uso y en el mundo solo se guardan sus huellas (hash).\n- Administración → Mapa web: «Warps del servidor» y una sección «Cuentas de jugadores» (permitir la entrada, dirección pública de los enlaces y días de sesión).\n- `/mapaweb` sin más da el enlace de entrada a los jugadores; los operadores siguen viendo el estado.",
+      "dependencies": [
+        { "source": "mochos", "project": "mochos_esenciales", "version": "0.34.0", "name": "Mochos Esenciales" }
+      ]
+    },
     {
       "file": "builds/mochos_mapaweb-0.4.1-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.4.1",

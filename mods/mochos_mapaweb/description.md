@@ -6,11 +6,16 @@
 - **Jugadores con su skin**: la subida con Mochos Apariencia, la skin de Mochos (la de Mochos Cédula), la de su cuenta o la skin por defecto. Solo salen quienes **comparten su posición en el mapa** (cada jugador lo elige en Configuración); los espectadores nunca.
 - **Waypoints públicos** del mapa de Mochos Esenciales, los de la dimensión que se ve, con buscador y clic para ir. Los waypoints de grupos nunca se publican.
 - Al **cambiar de dimensión**, si en la vista no hay nada explorado, el mapa se mueve solo al terreno descubierto más cercano.
+- **Warps del servidor** con el icono que tienen en el juego, su nombre y su descripción, y una lista para buscarlos y centrar el mapa en ellos.
 - **Terrenos** con su nombre y dueño (nunca miembros ni permisos).
 - **Niebla de guerra:** los terrenos cuyo dueño la activa en Mochos Esenciales se ven tapados por nubes oscuras, con unos chunks de margen. El servidor nunca envía lo que hay debajo, ni a los jugadores que están dentro.
 - **Chat global** (opcional, solo lectura) con entradas y salidas, y **lista de conectados**. Si el servidor usa el texto enriquecido de Mochos Esenciales, el chat, los terrenos y los waypoints salen limpios, sin etiquetas.
 
 La página tiene el aspecto de Mochos Esenciales, con una fuente normal para leer bien, y cada visitante elige qué capas ver. Añadir `?panel=players`, `waypoints`, `chat`, `layers` o `none` al enlace abre ese panel (o ninguno).
+
+### Entrar con tu cuenta
+
+Un jugador escribe `/mapaweb login` (o pulsa **Ajustes → Mapa web → «Abrir el mapa web»**) y recibe un enlace de un solo uso. Al abrirlo, el navegador queda con su cuenta y **«Mi cuenta»** le deja **leer y escribir** el chat global, sus chats de grupo y sus mensajes directos (también los de personajes), con los mensajes nuevos al momento. También ve sus **sesiones abiertas**, las cierra y crea un enlace para entrar desde otro navegador. Lo que escribe desde la web aparece en el juego marcado «(web)».
 
 ### Para el administrador
 
@@ -19,13 +24,15 @@ Todo se configura en **Administración → Mapa web**, sin tocar archivos:
 - La **dirección** del mapa, con botones para abrirla y copiarla.
 - **Servidor web**: encendido, puerto y dirección en la que escucha (se reinicia solo al cambiarlos).
 - **Página**: título (por defecto el MOTD), icono e idioma.
-- **Capas**: jugadores, lista de conectados, waypoints públicos, terrenos y chat.
+- **Capas**: jugadores, lista de conectados, waypoints públicos, warps, terrenos y chat.
+- **Cuentas de jugadores**: permitir la entrada, dirección pública de los enlaces (si publicas el mapa con tu dominio) y días de sesión.
 - **Dibujado**: estilo, descarga de texturas de Mojang, velocidad, niveles de alejamiento, terreno sin guardar, estado de la cola y «Volver a dibujar todo».
 
-| Comando (admins) | Qué hace |
+| Comando | Qué hace |
 |---|---|
-| `/mapaweb` | Estado del servidor web, del dibujado y de las capas |
-| `/mapaweb render [dimensión]` | Volver a dibujar todo |
+| `/mapaweb login` | Enlace de un solo uso para entrar en la web con tu cuenta (cualquier jugador) |
+| `/mapaweb` | Admins: estado del servidor web, del dibujado y de las capas (los jugadores reciben su enlace de entrada) |
+| `/mapaweb render [dimensión]` | Admins: volver a dibujar todo |
 | `/mapaweb clearcache` | Vaciar la caché de tiles |
 | `/mapaweb restart` · `/mapaweb reload` | Reiniciar el servidor web · releer la configuración |
 
@@ -36,7 +43,7 @@ Todo se configura en **Administración → Mapa web**, sin tocar archivos:
 | Servidor | **Obligatorio** |
 | Cliente | Opcional: solo los admins, para la sección de Administración. Los jugadores no lo necesitan. |
 
-Requiere **Mochos Esenciales 0.31.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
+Requiere **Mochos Esenciales 0.34.0 o posterior**: al instalar el addon desde el launcher también se instala, si no lo tienes. Minecraft **1.21.1** y **NeoForge 21.1.265 o superior**.
 
 Sustituye a **Diorama Addons: Web Map**: si están los dos instalados, Mochos Mapa Web avisa y no arranca su servidor web. La primera vez descarga de Mojang el jar del cliente de Minecraft (unos 27 MB) para leer las texturas. Abre el puerto del mapa (por defecto **8123**) en el firewall o en el panel de tu hosting.
 

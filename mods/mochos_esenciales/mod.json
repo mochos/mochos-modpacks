@@ -78,6 +78,7 @@
     "images/102-niebla-de-guerra-pantalla-terrenos.webp",
     "images/103-niebla-de-guerra-configuracion.webp",
     "images/107-terrenos-claim-del-servidor.webp",
+    "images/128-terrenos-reglas-de-zona.webp",
     "images/109-paquetes-de-contenido.webp",
     "images/108-paquetes-importar-resumen.webp",
     "images/110-paquetes-crear-revisar.webp",
@@ -107,6 +108,17 @@
   "featured": true,
   "offer": false,
   "builds": [
+    {
+      "file": "builds/mochos_esenciales-0.34.0-MC1.21.1-neoforge21.1.265.jar",
+      "version": "0.34.0",
+      "minecraft": ["1.21.1"],
+      "loader": { "type": "neoforge", "minVersion": "21.1.265" },
+      "date": "2026-11-28",
+      "changelog": "- **Reglas de zona en los terrenos del servidor:** el staff abre «Reglas de zona» en un claim del servidor y elige, con una explicación al pasar el ratón por cada opción:\n  - **Criaturas:** sin aparición de hostiles o de animales.\n  - **Acceso:** prohibir la entrada (quien no está exento es empujado de vuelta al borde, con un mensaje propio) y los teletransportes hacia dentro.\n  - **Jugadores:** sin daño por caída o sin ningún daño, sin hambre, regeneración, conservar el inventario al morir y permitir volar.\n  - **Control:** modo de juego obligatorio, comandos bloqueados, sin soltar ni recoger objetos, sin élitros y sin perlas de ender ni fruta coral.\n  - **Entorno:** sin nieve ni hielo, además del PvP, las explosiones, el fuego y el pisoteo de cultivos.\n  - **Ambiente** (solo lo ve quien está dentro): hora fija, clima, efectos de poción permanentes y música.\n  - **Exentos:** las restricciones no afectan al staff (salvo con «Aplicar también al staff») ni a los jugadores y grupos de la lista.\n- **Chat desde fuera del juego:** los mensajes que un jugador escribe en el mapa web (Mochos Mapa Web 0.5.0) llegan a grupos, mensajes directos y chat global con las mismas reglas que en el juego, marcados «(web)».\n- Para addons: recibir y enviar mensajes del chat en nombre de un jugador, sus conversaciones directas, los warps y la dirección con la que entró.\n- Addon actualizado: Mochos Mapa Web 0.5.0 (warps y entrar con tu cuenta para usar el chat desde el navegador).",
+      "dependencies": [
+        { "source": "modrinth", "project": "diorama-map", "version": "NdN1l4hm", "name": "Diorama 0.11.0" }
+      ]
+    },
     {
       "file": "builds/mochos_esenciales-0.33.0-MC1.21.1-neoforge21.1.265.jar",
       "version": "0.33.0",
