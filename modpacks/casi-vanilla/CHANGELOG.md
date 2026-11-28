@@ -1,3 +1,12 @@
+## 2.9.0
+
+- Actualizado **Mochos Esenciales** a 0.34.0: **reglas de zona** en los terrenos del servidor (sin monstruos, sin daño, sin hambre, vuelo, modo de juego, hora y clima propios…), **texto enriquecido** en los nombres de los objetos, hogares, warps y terrenos, una opción para apagar sus animaciones, y F3+Q vuelve a salir en el chat.
+- Actualizado **Mochos Mapa Web** a 0.5.0: los **warps** salen en el mapa, y entrando con tu cuenta puedes **leer y escribir el chat** (global, grupos y mensajes directos) desde el navegador.
+- Actualizado **Mochos Scripts** a 0.7.0: portales, brillo para un jugador y más opciones para los mensajes grandes.
+- Actualizados **Mochos Forja** a 0.6.0, **Mochos Carteles** a 0.3.0, **Mochos Trabajos** a 0.6.0, **Mochos Tareas** a 0.3.0, **Mochos Ranking** a 0.3.0 y **Mochos Tablist** a 0.2.2, con texto enriquecido.
+- Actualizados **Diorama** a 0.11.0, **Curios** a 9.6.1, **GeckoLib** a 4.9.5 y **ModernFix** a 5.28.0.
+- Siguen siendo 99 mods, 9 paquetes de recursos y 3 shaders.
+
 ## 2.8.0
 
 - Actualizado **Mochos Esenciales** a 0.32.0: **texto enriquecido** (colores, degradados y efectos) en más sitios y **mensajes directos de personajes**: los NPC y los scripts te escriben en una conversación propia del chat, que queda guardada.
